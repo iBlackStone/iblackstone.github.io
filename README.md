@@ -59,7 +59,7 @@ Alle diese Daten sind anonym. Wir wissen nicht, wer die Aktion genau durchführt
 すべてのデータは匿名です。誰がどのようなアクションを起こしたかわからないし、データはすべて AppCenter に保存される
 
 Confidentialité Conditions d'utilisation
-L'utilisation de cette application 《二进制迷笛》（BinaryMIDI） signifie que vous avez accepté les conditions ci-dessous.
+L'utilisation de cette application 《管家》（Steward） signifie que vous avez accepté les conditions ci-dessous.
 
 Que collectons-nous ?
 Nous ne collectons aucun contenu que vous avez créé.
