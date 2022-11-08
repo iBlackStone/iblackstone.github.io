@@ -29,6 +29,7 @@ All the data is anonymous. We don't know who takes the action exactly, and all o
 - 用户会在每个应用页面上花费多长时间。
 - 用户的行为。
 - 应用程序的崩溃信息。
+- 我们的产品集成友盟+SDK，友盟+SDK需要收集您的设备Mac地址、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/IP地址/GUID、SIM 卡 IMSI 信息）以提供统计分析服务，并通过地理位置校准报表数据准确性，提供基础反作弊能力。
 
 所有数据都是匿名的。 我们不知道具体是采集了谁的行为，所有采集的数据保存在 [AppCenter](https://appcenter.ms/)上
 
