@@ -1,6 +1,6 @@
 ### Privacy Usage Terms
 
-Using this app 《儿童趣味数学》（Steward） means you agreed with the terms below.
+Using this app 《儿童趣味数学》（MathGame） means you agreed with the terms below.
 
 ### What do we collect?
 
@@ -18,7 +18,7 @@ All the data is anonymous. We don't know who takes the action exactly, and all o
 
 ### 隐私使用条款
 
-使用此应用程序 《儿童趣味数学》（Steward））即表示您同意以下条款。
+使用此应用程序 《儿童趣味数学》（MathGame））即表示您同意以下条款。
 
 ### 我们收集什么？
 
@@ -28,7 +28,7 @@ All the data is anonymous. We don't know who takes the action exactly, and all o
 
 
 Datenschutz Nutzungsbestimmungen
-Die Nutzung dieser App 《儿童趣味数学》（Steward） bedeutet, dass Sie mit den nachstehenden Bedingungen einverstanden sind.
+Die Nutzung dieser App 《儿童趣味数学》（MathGame） bedeutet, dass Sie mit den nachstehenden Bedingungen einverstanden sind.
 
 - Was sammeln wir?
 - Wir sammeln keine von Ihnen erstellten Inhalte.
