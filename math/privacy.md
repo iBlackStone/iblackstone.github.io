@@ -22,14 +22,18 @@ Subscription Options:
 Professional Configurator (3 months)
 Professional Configurator (6 months)
 Professional Configurator (12 months)
+
 Subscription Prices:
 Professional Configurator (3 months): ¥12
 Professional Configurator (6 months): ¥18
 Professional Configurator (12 months): ¥28
+
 Payment:
 Payment will be charged to your iTunes account upon confirmation of purchase.
+
 Auto-Renewal:
 Your Apple iTunes account will be charged within 24 hours before the end of the current subscription period. Once the charge is successful, the subscription period will be extended by one subscription cycle.
+
 Canceling the Service:
 To manage your auto-renewing subscriptions, go to "Settings" on your iPhone, tap on "Apple ID, iCloud, etc." to enter your account page, and then click on [Subscriptions]. To cancel, simply turn off auto-renewal at least 24 hours before the end of the current billing period. No further charges will be incurred within 24 hours before the expiration date.
 
