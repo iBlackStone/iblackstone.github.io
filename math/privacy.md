@@ -18,6 +18,8 @@ All the data is anonymous. We don't know who takes the action exactly, and all o
 
 ### Subscription Service Description
 
+
+
 Subscription Options:
 Professional Configurator (3 months)
 Professional Configurator (6 months)
@@ -36,6 +38,9 @@ Your Apple iTunes account will be charged within 24 hours before the end of the 
 
 Canceling the Service:
 To manage your auto-renewing subscriptions, go to "Settings" on your iPhone, tap on "Apple ID, iCloud, etc." to enter your account page, and then click on [Subscriptions]. To cancel, simply turn off auto-renewal at least 24 hours before the end of the current billing period. No further charges will be incurred within 24 hours before the expiration date.
+
+===EULA===
+[standard Apple Terms of Use (EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
 
 ### 隐私使用条款
 
@@ -62,3 +67,5 @@ To manage your auto-renewing subscriptions, go to "Settings" on your iPhone, tap
 
 5.关闭服务：您可以在苹果手机“设置”进入点击“Apple账户、iCloud等”进入账户页面，点击【订阅】管理自动订阅服务，如需取消，每个计费周期结束前24小时关闭即可，到期前24小时内则不再扣费；
 
+===EULA===
+[标准Apple使用条款(EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
