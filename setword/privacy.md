@@ -1,75 +1,32 @@
 ### Privacy Usage Terms
 
-Using this app 《管家》（Steward） means you agreed with the terms below.
-
-### What do we collect?
-
-We do not collect any content you created.
-
-We only collect the usage info of app listed below:
-
-- App launch time.
-- How long would user spends on each app page.
-- The actions users had taken.
-- App's crash info.
-- Our products integrate with Umeng + SDK, which needs to collect your device Mac address, unique device identification code (IMEI/android ID/IDFA/OPENUDID/IP address/GUID, SIM card IMSI information) to provide statistical analysis services, and calibrate the accuracy of report data through geographic location to provide basic anti-cheating capabilities.
-
-All the data is anonymous. We don't know who takes the action exactly, and all of the data will be saved on [AppCenter](https://appcenter.ms/)
+===EULA===
+[standard Apple Terms of Use (EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
 
 ### 隐私使用条款
 
-使用此应用程序 《管家》（Steward））即表示您同意以下条款。
+使用此应用程序 《毛线管理工具》（LineManager））即表示您同意以下条款。
 
 ### 我们收集什么？
 
 我们不会收集您创建的任何内容。
 
-我们仅收集下列应用程序的使用信息：
+我们不会使用App访问任何网络，除了Apple必要的订阅。
 
-- 应用启动时间。
-- 用户会在每个应用页面上花费多长时间。
-- 用户的行为。
-- 应用程序的崩溃信息。
-- 我们的产品集成友盟+SDK，友盟+SDK需要收集您的设备Mac地址、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/IP地址/GUID、SIM 卡 IMSI 信息）以提供统计分析服务，并通过地理位置校准报表数据准确性，提供基础反作弊能力。
+### 订阅相关
 
-所有数据都是匿名的。 我们不知道具体是采集了谁的行为，所有采集的数据保存在 [AppCenter](https://appcenter.ms/)上
+【自动订阅服务说明】
+1.订阅服务：
+专业版（6个月）、专业版（12个月）
 
-Datenschutz Nutzungsbestimmungen
-Die Nutzung dieser App 《管家》（Steward） bedeutet, dass Sie mit den nachstehenden Bedingungen einverstanden sind.
+2.订阅价格：
+专业版（6个月为18元）、专业版（12个月为28元）
 
-- Was sammeln wir?
-- Wir sammeln keine von Ihnen erstellten Inhalte.
-- Wir erfassen nur die unten aufgeführten Nutzungsdaten der App:
+3.付款：用户确认购买并付款后计入iTunes账户
 
-App-Startzeit.
-Wie lange der Benutzer auf jeder Seite der App verweilt.
-Die Aktionen, die der Benutzer durchgeführt hat.
-Informationen über den Absturz der App.
-Alle diese Daten sind anonym. Wir wissen nicht, wer die Aktion genau durchführt, und alle Daten werden im AppCenter gespeichert.
+4.自动续费：苹果iTunes账户会在到期前24小时内扣费，扣费成功后订阅周期顺延一个订阅周期
 
-個人情報保護方針 利用規約
-本アプリ《管家》（Steward）のご利用にあたっては、以下の点にご同意の上、ご利用ください。を利用することは、以下の条件に同意したものとみなされます。
+5.关闭服务：您可以在苹果手机“设置”进入点击“Apple账户、iCloud等”进入账户页面，点击【订阅】管理自动订阅服务，如需取消，每个计费周期结束前24小时关闭即可，到期前24小时内则不再扣费；
 
-- 何を収集するのですか？
-- お客様が作成されたコンテンツは一切収集いたしません。
-- 収集するのは、以下のアプリの利用情報のみです。
-
-アプリの起動時間。
-アプリの起動時間。
-ユーザーが行った操作
-アプリのクラッシュ情報
-すべてのデータは匿名です。誰がどのようなアクションを起こしたかわからないし、データはすべて AppCenter に保存される
-
-Confidentialité Conditions d'utilisation
-L'utilisation de cette application 《二进制迷笛》（BinaryMIDI） signifie que vous avez accepté les conditions ci-dessous.
-
-Que collectons-nous ?
-Nous ne collectons aucun contenu que vous avez créé.
-
-Nous recueillons uniquement les informations d'utilisation de l'application énumérées ci-dessous :
-
-Temps de lancement de l'application.
-Combien de temps l'utilisateur passe sur chaque page de l'application.
-Les actions entreprises par les utilisateurs.
-Informations sur les pannes de l'application.
-Toutes ces données sont anonymes. Nous ne savons pas qui fait l'action exactement, et toutes les données seront sauvegardées sur AppCenter.
+===EULA===
+[标准Apple使用条款(EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
