@@ -1,3 +1,8 @@
+---
+layout: default
+title: "AppStore技术支持网址"
+---
+
 ### Privacy Usage Terms
 
 ===EULA===
