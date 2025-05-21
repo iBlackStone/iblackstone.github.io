@@ -1,29 +1,38 @@
 ---
 layout: default
-title: "AppStore Technical support website"
+title: "Version History"
 ---
 
-### Technical support
+### v1.1.1
 
-First and foremost, thank you for using our App. Should you encounter any issues or require assistance during your usage, please refer to the following information.:
+This version updates the core [data analysis module]
+- Added counter analysis module, weaving success rate and other indicators, at a glance;
+- The yarn editing page and the work editing page now support the automatic information saving function;
+- The work module supports generating and sharing long pictures;
 
+### v1.1.0
 
-### Frequently asked questions（FAQ）
+Based on user feedback, we have a new version again.
+- The counter supports memory ability, and the weaving can be seamlessly continued at any moment of entry;
+- The counter supports change modes, and complex diagrams can be easily handled;
+- The counter supports automation, and the efficiency and accuracy are correct;
+- Embedded search function in yarn list and work list;
+- iPad UI display optimization;
+- Other UI details and experience optimizations;
 
-1. How to subscribe to membership services？
+### v1.0.9
 
-Select the subscription option you need within the app and follow the prompts to complete the payment.
+Blockbuster upgrades
+- Added a new work module;
+- Added counters to support graphs, operation logs and various advanced functions;
+- Both the yarn list page and the work list page now support the search function;
+- Summary: Make every stitch traceable.
 
-2. How to cancel subscribe？
+### v1.0.8
+- Functional experience optimization;
+- Fix the bugs found;
 
-Go to your device's [Settings] - > [Your Apple ID] -> [Subscription Management] and select Cancel Subscription.
-
-3. Having trouble using the app that I can't solve?
-
-First of all, check the help documentation provided in the app, if the document does not contain the problem you are experiencing, please contact technical support through the following methods.
-
-**Email**： gao375976821@gmail.com
-
-
-===EULA===
-[标准Apple使用条款(EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+### v1.0.7
+What's new in this release is as follows:
+- Yarn publisher supports multi-image input and image preview tools;
+- Optimized the UI layout of the yarn list
