@@ -9,6 +9,9 @@ title: "Version History"
 - Change to a more formatted name based on the services currently provided by the App
 - The counter's stable mode will flash as a reminder when the set target is reached;
 - Counter change mode, when the pin change condition is met, the counting screen will flash as a reminder;
+- Optimized the data synchronization experience between devices, displaying the backup file name to avoid updating the wrong data package.
+- If there is a lot of yarn and work data, it will take a certain amount of time to upload and update, please be patient;
+
 
 ### v1.1.2
 
