@@ -5,6 +5,11 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.1.3 (renamed: WeaveHelper)
+- Change to a more formatted name based on the services currently provided by the App
+- The counter's stable mode will flash as a reminder when the set target is reached;
+- Counter change mode, when the pin change condition is met, the counting screen will flash as a reminder;
+
 ### v1.1.2
 
 What's new in this edition
