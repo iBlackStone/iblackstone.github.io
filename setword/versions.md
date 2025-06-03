@@ -1,10 +1,11 @@
+
 ---
 layout: default
 title: "版本更新记录"
 ---
 
-> 如果使用遇到问题，欢迎联系开发者提供技术支持
-![小红书支持](/assets/images/WechatIMG725.jpg)  
+#### 小红书技术支持
+![小红书技术支持](/assets/images/WechatIMG725.jpg)  
 
 
 ### 建议及时更新版本，享受更佳的用户体验。
