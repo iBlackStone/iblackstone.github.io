@@ -5,6 +5,20 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.1.6
+
+Yarn module optimization
+- Added a color picker to assist users in color selection;
+- Minimum system version downgraded to iOS14+;
+- Inventory analysis content extension;
+- Some other experience optimizations;
+
+### v1.1.5
+Yarn module upgrade
+- Added inventory analysis to the warehousing module;
+- Support for inventory charts in various dimensions;
+
+
 ### v1.1.4
 
 Version feature optimizations
