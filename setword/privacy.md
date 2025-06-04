@@ -31,7 +31,7 @@ title: "AppStore技术支持网址"
 1. 使用SDK名称：友盟+SDK
 2. 服务类型：统计分析。
 3. 收集个人信息类型：设备信息（IMEI/Mac/IDFA/OPENUDID/GUID/SIM卡IMSI/地理位置信息）
-4. 隐私权政策链接：https://www.umeng.com/page/policy
+4. [隐私权政策链接](https://www.umeng.com/page/policy)
 
 ===EULA===
 [标准Apple使用条款(EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
