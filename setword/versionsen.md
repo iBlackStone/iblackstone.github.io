@@ -5,6 +5,11 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.1.7
+- Analysis module experience optimization;
+- Synchronous function experience optimization;
+- Support longest Membership Option;
+
 ### v1.1.6
 
 Yarn module optimization
