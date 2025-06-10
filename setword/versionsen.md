@@ -5,6 +5,13 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.1.8
+The counter module experience is optimized
+
+- Photo illustrations are rendered in vectors to improve zoom clarity;
+- When the tab is fully rendered, the counting area and control area are updated to trigger an update;
+- Optimized the experience of re-rendering the display area when switching between tabs;
+
 ### v1.1.7
 - Analysis module experience optimization;
 - Synchronous function experience optimization;
