@@ -5,6 +5,13 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.1.9
+Functional expansion
+
+- Added a new tool area to facilitate the addition of various auxiliary tools in the future;
+- This time, the intelligent color collector is added, which can collect the color value of the target area;
+- The yarn publisher has also been extended with a color grabber;
+
 ### v1.1.8
 The counter module experience is optimized
 
