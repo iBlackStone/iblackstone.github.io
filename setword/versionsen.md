@@ -11,7 +11,7 @@ The counter is upgraded, and the diagram area and the counting area are linked
 - When the count row changes, the diagram automatically scrolls to the selected row;
 - Row markers are supported on the left side of the diagram area, and selecting them will link the diagram;
 - Diagram and line marker scrolling linkage;
-- Added the linkage settings page for setting the linkage relationship;
+- Added the linkage settings page for setting the linkage relationship; 
 
 ### v1.1.9
 Functional expansion
