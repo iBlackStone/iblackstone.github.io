@@ -5,13 +5,20 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.2.1
+New feature extensions
+
+- Yarn inventory increase calendar filtering module, support any time period
+- Refactored the Publisher Date Selection module and added a date picker;
+- The counter provides a control valve for the linkage function and can be closed as needed;
+
 ### v1.2.0
 The counter is upgraded, and the diagram area and the counting area are linked
 
 - When the count row changes, the diagram automatically scrolls to the selected row;
 - Row markers are supported on the left side of the diagram area, and selecting them will link the diagram;
 - Diagram and line marker scrolling linkage;
-- Added the linkage settings page for setting the linkage relationship; 
+- Added the linkage settings page for setting the linkage relationship;
 
 ### v1.1.9
 Functional expansion
