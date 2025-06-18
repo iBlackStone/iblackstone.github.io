@@ -5,6 +5,13 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.2.2
+New features
+
+- The work module supports calendar viewing;
+- Add dates and costs to the work publisher, which can be used for calendar display;
+- Added a shortcut for the recent date range in the calendar module;
+
 ### v1.2.1
 New feature extensions
 
