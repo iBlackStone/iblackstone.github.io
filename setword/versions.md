@@ -3,9 +3,6 @@ layout: default
 title: "版本更新记录"
 ---
 
-#### 小红书技术支持
-![小红书技术支持](/assets/images/WechatIMG725.jpg)  
-
 ### 建议及时更新版本，享受更佳的用户体验。
 
 ### v1.2.2

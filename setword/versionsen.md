@@ -5,6 +5,10 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.2.3~v1.2.4
+- Experience optimization
+- New support for additional languages
+
 ### v1.2.2
 New features
 
