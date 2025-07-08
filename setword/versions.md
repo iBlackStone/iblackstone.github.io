@@ -12,8 +12,6 @@ title: "版本更新记录"
 
 ![调色桶](/assets/images/bucket.png)
 
-<img src="/assets/images/bucket.png" width="%80">
-
 ### v1.2.5
 
 - 毛线管理模块新增余量监测模块，当毛线低于设定的阀值时，会在余量告急表内展示，用户可以选择补充库存或其他操作；
