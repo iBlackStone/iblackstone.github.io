@@ -12,6 +12,7 @@ title: "版本更新记录"
 
 ![调色桶](/assets/images/bucket.png)
 
+<img src="/assets/images/bucket.png" width="%80">
 
 ### v1.2.5
 
