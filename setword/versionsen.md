@@ -5,12 +5,12 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
-### v1.2.6 (Added Color Mixing Bucket Tool)
+### v1.2.6~1.3.0 (Added Color Mixing Bucket Tool)
 
 - The color mixing bucket supports blending pigments in different proportions and weights, enabling unlimited color creation;
 - Carefully mixed color buckets can be saved to local storage;
 
-![Color Bucket](/assets/images/bucket.png)
+![Color Bucket](/assets/images/bucket.png
 
 
 ### v1.2.5
