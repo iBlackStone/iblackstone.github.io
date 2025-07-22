@@ -5,12 +5,13 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
-### v1.3.1
+### v1.3.1 ~ 1.3.2
 
 This is a fun Pindou pixelated creation tool;
-- She supports color customization in all dimensions, from cells to canvas backgrounds, with any color you want;
-- She supports synchronized drawing in both horizontal and vertical directions, and mapping always creates surprising works.
+- Supports color customization in all dimensions, from cells to canvas backgrounds, with any color you want;
+- Supports synchronized drawing in both horizontal and vertical directions, and mapping always creates surprising works.
 - It supports the canvas to shift and shrink at will, and always exports based on the final position of the canvas.
+- Supports base image copying, pictures support cropping and other necessary operations;
 
 ### v1.2.6~1.3.0 (Added Color Mixing Bucket Tool)
 
