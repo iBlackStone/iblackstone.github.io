@@ -6,6 +6,8 @@ title: "Version History"
 ### It is recommended to update the version in time to enjoy a better user experience.
 
 ### v1.3.3 ~ 1.3.4
+> Version 1.3.4 optimizes the automatic drawing algorithm of canvas and the experience of grid-related usage. When the grid lines are hidden, the automatic drawing results can restore the base map better.
+
 - Reconstruction of the pixel work list, support preview images and update dates, and the loading efficiency is enough to support multiple complex works at the same time.
 - The canvas has been relaxed to reduce the scale limit;
 - Optimized the function of exporting high-definition PDF files, no matter how complex the work is, it can be enlarged to a larger size.
