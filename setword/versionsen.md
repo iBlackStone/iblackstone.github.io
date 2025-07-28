@@ -5,6 +5,15 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.3.3 ~ 1.3.4
+- Reconstruction of the pixel work list, support preview images and update dates, and the loading efficiency is enough to support multiple complex works at the same time.
+- The canvas has been relaxed to reduce the scale limit;
+- Optimized the function of exporting high-definition PDF files, no matter how complex the work is, it can be enlarged to a larger size.
+- Canvas correlation color values support hexadecimal color values with transparency (RRGGBBAA);
+- A series of other tool operation experience optimizations;
+
+PS: Considering that there are more and more auxiliary tools in the app, the complexity is also increasing, and it may get involved in illustration production tools in the future, which also means continuous investment in development costs and energy, and the price of related members will also be adjusted.
+
 ### v1.3.1 ~ 1.3.2
 
 This is a fun Pindou pixelated creation tool;
