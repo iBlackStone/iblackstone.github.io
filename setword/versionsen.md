@@ -5,7 +5,14 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
-PS: Considering that there are more and more auxiliary tools in the app, the complexity is also increasing, and it may get involved in illustration production tools in the future, which also means continuous investment in development costs and energy, and the price of related members will also be adjusted.
+### v1.3.5
+
+Daily updates
+- Pixel creation has released the size preset, and the number of rows can now be customized;
+- Image editor optimization to increase the size ratio of the original image;
+- Fixed the bug of abnormal export of pdf file format on iPad.
+- The work editor page on iPad has been changed to full-screen display;
+
 
 ### v1.3.3 ~ 1.3.4
 > Version 1.3.4 optimizes the automatic drawing algorithm of canvas and the experience of grid-related usage. When the grid lines are hidden, the automatic drawing results can restore the base map better.
