@@ -5,6 +5,18 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### 1.3.7 Counter Upgrade & Linkage Diagram Editing Module
+
+- UI experience upgrade, converge various control buttons for unified management;
+- Internal diagram styles can be started by importing illustrated works;
+- Linked diagram editing module to provide real illustration counting;
+- Provide a bootstrap experience similar to that of an old printer and various style configurations;
+- Customizable row counting mode for at-a-glance weaving progress;
+- Separate coordinate control keyboard, just add or subtract one touch;
+- Persistent pattern memory for seamless switching of creative weaving;
+- Quick input function, can parachute any column coordinates;
+- Editor color selection supports memory transparency;
+- Optimized the multi-select mode operation experience;
 
 ### v1.3.6
 
