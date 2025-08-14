@@ -5,6 +5,13 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### 1.3.8
+
+Daily Update  
+- Color picker now supports selecting colors from the palette.  
+- Improved experience for yarn and project images: now supports adding and deleting individual images.  
+- Korean language is now supported in this version.  
+
 ### 1.3.7 Counter Upgrade & Linkage Diagram Editing Module
 
 - UI experience upgrade, converge various control buttons for unified management;
