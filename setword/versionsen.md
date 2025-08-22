@@ -5,6 +5,8 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### Update Preview (Illustration Editor will soon support 500+ braided symbols)
+
 ### 1.3.8
 
 Daily Update  
