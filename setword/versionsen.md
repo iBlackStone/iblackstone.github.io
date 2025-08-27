@@ -5,7 +5,10 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
-### Update Preview (Illustration Editor will soon support 500+ braided symbols)
+### v1.4.0 Major Upgrade: Added 500+ Knitting Symbol Combinations 
+- New basic symbol table (3 major Dash types)  
+- Added custom symbol module with symbol customization  
+- Diagram editor now supports symbol library drawing
 
 ### 1.3.8
 
