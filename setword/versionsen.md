@@ -5,10 +5,12 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
-### v1.4.0 Major Upgrade: Added 500+ Knitting Symbol Combinations 
+### v1.4.0 Major Upgrade: Added 500+ Knitting Symbol Combinations
 - New basic symbol table (3 major Dash types)  
 - Added custom symbol module with symbol customization  
 - Diagram editor now supports symbol library drawing
+
+> Bug evasion. When the interaction of the symbol control area in the editor fails, click the [Symbol] button at the bottom to recover. It is expected to be repaired tomorrow.
 
 ### 1.3.8
 
