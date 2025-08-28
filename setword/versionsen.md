@@ -12,7 +12,7 @@ title: "Version History"
 
 > Bug evasion. When the interaction of the symbol control area in the editor fails, click the [Symbol] button at the bottom to recover. It is expected to be repaired tomorrow.
 
-![Symbol](/assets/images/symbol.png =300x)
+![Symbol](/assets/images/symbol.png){: width="300"}
 
 
 ### 1.3.8

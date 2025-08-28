@@ -13,7 +13,7 @@ title: "版本更新记录"
 
 > Bug规避，编辑器内当符号控制区交互失效时，再次点击底部[符号]按钮即可恢复，预计明日修复
 
-![Symbol](/assets/images/symbol.png =300x)
+![Symbol](/assets/images/symbol.png){: width="300"}
 
 
 ### 1.3.8
