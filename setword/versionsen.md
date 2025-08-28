@@ -76,7 +76,7 @@ This is a fun Pindou pixelated creation tool;
 - The color mixing bucket supports blending pigments in different proportions and weights, enabling unlimited color creation;
 - Carefully mixed color buckets can be saved to local storage;
 
-![Color Bucket](/assets/images/bucket.png
+![Color Bucket](/assets/images/bucket.png){: width="300"}
 
 
 ### v1.2.5

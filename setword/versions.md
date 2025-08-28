@@ -82,7 +82,7 @@ title: "版本更新记录"
 - 调色桶支持混合不同比例的颜料及重量，万色可调；
 - 用心调制出来的色桶支持本地存储；
 
-![调色桶](/assets/images/bucket.png)
+![调色桶](/assets/images/bucket.png){: width="300"}
 
 ### v1.2.5
 
