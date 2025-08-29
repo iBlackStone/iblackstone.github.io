@@ -5,6 +5,8 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+> We are very sorry that the decorative symbols have been resolved due to the function upgrade, and the fix version has been reviewed, so please wait patiently for the release of the new version.
+
 ### v1.4.0 Major Upgrade: Added 500+ Knitting Symbol Combinations
 - New basic symbol table (3 major Dash types)  
 - Added custom symbol module with symbol customization  
