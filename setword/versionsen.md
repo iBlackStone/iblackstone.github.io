@@ -5,6 +5,16 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.4.4
+
+- Editor gridline rows support custom bold intervals；
+
+![Symbol](/assets/images/setting1.png){: width="300"}
+
+- Editor floating coordinates support setting the starting position;
+
+![Symbol](/assets/images/setting2.png){: width="300"}
+
 ### v1.4.0~1.4.2 Major Upgrade: Added 500+ Knitting Symbol Combinations
 - New basic symbol table (3 major Dash types)  
 - Added custom symbol module with symbol customization  
