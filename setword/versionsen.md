@@ -5,6 +5,16 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+
+### Daily Updates v1.4.5 & 1.4.6
+
+- The editor supports batch copying, pasting, horizontal and vertical spreading, and area filling operations such as box selection, which doubles the efficiency of jacquard.
+
+![Symbol](/assets/images/rect.png){: width="300"}
+
+- Added a shared illustration section, continuously adding available jacquard illustrations, and updating Fair Isle jacquard in the next step;
+- Automatic drawing algorithm optimization;
+
 ### v1.4.4
 
 - Editor gridline rows support custom bold intervals；
