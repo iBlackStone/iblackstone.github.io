@@ -5,6 +5,9 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### Daily update v1.5.0
+- Added noise processing function in the editor multi-selection control area, supporting noise threshold processing and quick merging of color collections.
+- Remove the restricted permissions of the box selection function to fully use the relevant functions;
 
 ### Daily Updates v1.4.5 & 1.4.6
 
