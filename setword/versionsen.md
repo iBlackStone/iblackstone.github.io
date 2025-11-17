@@ -5,9 +5,11 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
-### Daily update v1.5.0
+### Daily update v1.5.0 & 1.5.1
 - Added noise processing function in the editor multi-selection control area, supporting noise threshold processing and quick merging of color collections.
 - Remove the restricted permissions of the box selection function to fully use the relevant functions;
+- The editor supports cross-work copying, which can easily break and reorganize different works.
+- - Add some shared works, as well as shareable upload channels;
 
 ### Daily Updates v1.4.5 & 1.4.6
 
