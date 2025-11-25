@@ -5,6 +5,12 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### Daily update v1.5.2 ~ 1.5.5, the symbol section has been revamped
+
+Compile a symbol manual
+- Divide all symbols according to stitches, basic stitches, stitches, stitches, subtractions, etc
+- Basic symbols and modifiers support trilingual details in Chinese, English and Japanese
+
 ### Daily update v1.5.0 & 1.5.1
 - Added noise processing function in the editor multi-selection control area, supporting noise threshold processing and quick merging of color collections.
 - Remove the restricted permissions of the box selection function to fully use the relevant functions;
