@@ -5,6 +5,19 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+
+### v1.5.7 & v1.5.8
+ Upgrade of the Knitting Works and Yarn Record sections;
+- When associating yarns used with works (knitting needles, crochet hooks), the consumed weight in grams and related price are automatically calculated.
+- Optimized the issue where entered numbers are replaced when scrolling up and down on the yarn detail page;
+- Added work-associated consumption to the yarn record section, automatically adding estimates of consumed weight and price;
+- The restrictions on viewing various categories on the yarn homepage will be removed soon;
+
+### v1.5.6 Counter Module Upgrade
+- Added a note function to the counting operation log for recording errors or tracing back;
+- Enhanced the color distinction of [+] and [-] operations in the log;
+
+
 ### Daily update v1.5.2 ~ 1.5.5, the symbol section has been revamped
 
 Compile a symbol manual
