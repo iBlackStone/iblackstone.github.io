@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: "小样模拟器"
