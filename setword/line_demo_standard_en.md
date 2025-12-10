@@ -1,58 +1,69 @@
-### 一、核心目标
-从编程角度实现「基于网格的棒针/钩针小样模拟器」，核心是**将毛线物理参数映射为网格的可视化参数**，并通过标准化公式完成“物理参数→编织密度→网格尺寸”的全链路计算，最终在App端渲染出与真实小样密度一致的网格。
+---
+layout: default
+title: "Swatch Simulator"
+---
 
-#### 核心技术链路
+## Reference Value
+
+### Data Reference Note
+The data provided is for reference only. Due to variations in knitters' tension and stitching patterns, the density of swatches may differ even when using the same yarn and needle size. Therefore, for hand knitting, it is recommended to first knit a swatch, wash and block it, then measure the actual density to determine the final number of stitches and rows for the project, avoiding deviations in the finished product size.
+
+### I. Core Objective
+From a programming perspective, implement a **grid-based knitting/crochet swatch simulator**, with the core goal of **mapping physical yarn parameters to visual grid parameters, where each stitch is mapped to a grid cell**.
+
+#### Core Technical Workflow
 ```
-输入参数（线径/支数/股数等）→ 计算标准编织密度（针数/行数/10cm）→ 换算10cm小样的网格行列数 → 适配棒针/钩针工艺的网格样式 → App端渲染网格
+Input Parameters (Yarn Diameter/Count/Ply, etc.) → Calculate Standard Gauge (Stitches/Rows per 10cm) → Convert to Grid Rows/Columns for 10cm Swatch → Adapt Grid Style to Knitting/Crochet Techniques → Render Grid on App
 ```
 
+### II. Basic Data Standards
+All calculation formulas are based on the following international/industry standards to ensure data accuracy:
 
-### 二、基础数据标准
-所有计算公式均基于以下国际/行业标准，确保数据准确性：
-| 标准编号                | 标准名称                          | 核心应用场景                     |
-| :---------------------- | :-------------------------------- | :------------------------------- |
-| ISO 2314:2010           | 纺织品 纱线支数的测定             | 支数与线径、长度的换算           |
-| ASTM D2253-19          | 针织物单位面积重量和密度的测试方法 | 编织密度（针数/行数）的计算基准  |
-| JIS L1096:2010          | 机织物及针织物的试验方法          | 棒针/钩针密度的行业参考范围      |
-| 国际羊毛局（IWTO）标准  | 羊毛纱线线径与股数的对应关系      | 股数对实际线径的修正             |
+| Standard Number         | Standard Name                                  | Core Application Scenario                          |
+| :---------------------- | :--------------------------------------------- | :------------------------------------------------- |
+| ISO 2314:2010           | Textiles - Determination of yarn count          | Conversion between yarn count, diameter, and length |
+| ASTM D2253-19           | Standard Test Method for Mass Per Unit Area and Density of Knitted Fabrics | Benchmark for calculating gauge (stitches/rows)     |
+| JIS L1096:2010          | Testing methods for woven and knitted fabrics   | Industry reference range for knitting/crochet gauge |
+| IWTO (International Wool Textile Organization) Standards | Correlation between wool yarn diameter and ply | Correction of actual diameter based on ply count   |
 
-### 三、编织密度计算（核心：针数/行数/10cm，ASTM D2253标准）
-编织密度（针数/10cm）是网格映射的核心，需结合「实际线径+工艺类型」计算，参考JIS L1096的密度区间：
-| 实际线径（mm） | 棒针密度（针数/10cm） | 钩针密度（针数/10cm） | 棒针行数/10cm | 钩针行数/10cm |
-| :------------- | :-------------------- | :-------------------- | :------------ | :------------ |
-| 0.2~0.3        | 27~32（细绒线）| 25~30                 | 23~26         | 18~21         |
-| 0.3~0.5        | 21~26（中细线）| 20~25                 | 19~22         | 15~18         |
-| 0.5~0.8        | 16~20（中粗线）| 15~20                 | 15~18         | 12~15         |
-| 0.8~1.2        | 12~15（粗线）| 10~15                 | 11~14         | 8~11          |
-| >1.2           | 7~11（超粗线）| 7~10                  | 7~10          | 5~8           |
+### III. Gauge Calculation (ASTM D2253 Standard)
+Gauge (stitches per 10cm) is the core of grid mapping, calculated based on **actual yarn diameter + craft type**, with reference to the density range specified in JIS L1096.
 
-**示例**：实际线径0.25mm（2股细绒线）→ 棒针密度=29针/10cm → 棒针行数=29×0.8=23.2行/10cm
+| Actual Yarn Diameter (mm) | Knitting Gauge (Stitches/10cm)       | Crochet Gauge (Stitches/10cm) | Knitting Rows/10cm | Crochet Rows/10cm |
+| :------------------------ | :----------------------------------- | :---------------------------- | :----------------- | :---------------- |
+| 0.2~0.3                   | 27~32 (Fine Yarn)                    | 25~30                         | 23~26              | 18~21             |
+| 0.3~0.5                   | 21~26 (Medium-Fine Yarn)             | 20~25                         | 19~22              | 15~18             |
+| 0.5~0.8                   | 16~20 (Worsted Yarn)                 | 15~20                         | 15~18              | 12~15             |
+| 0.8~1.2                   | 12~15 (Bulky Yarn)                   | 10~15                         | 11~14              | 8~11              |
+| >1.2                      | 7~11 (Super Bulky Yarn)              | 7~10                          | 7~10               | 5~8               |
 
-#### 1. 核心定义
-编织密度 = 规定尺寸（10cm）内的 **横向针数（Width Gauge）** / **纵向行数（Height Gauge）**  
-- 横向针数：10cm 宽度内的编织针数（决定作品宽度尺寸）；  
-- 纵向行数：10cm 高度内的编织行数（决定作品长度尺寸）。
+**Example**: Actual yarn diameter 0.25mm (2-ply fine yarn) → Knitting gauge = 29 stitches/10cm → Knitting rows = 29 × 0.8 = 23.2 rows/10cm
 
-#### 2. 标准测试步骤（APP 功能逻辑依据）
-ASTM D2253 要求通过「小样编织+标准化测量」确保准确性，步骤如下：
-1. **编织小样（Swatch）**：  
-   - 用实际项目的线线+织针，编织至少 15cm×15cm 的小样（避免边缘变形影响测量）；  
-   - 编织图案需与成品一致（平针、元宝针等不同针法密度差异极大）。
-2. **蒸汽定型（关键步骤）**：  
-   - 按线线材质（羊毛/棉/化纤）进行蒸汽熨烫（仅熏蒸，不按压拉扯）；  
-   - 自然晾干后再测量（未定型的小样会收缩，导致密度计算偏差）。
-3. **精准测量**：  
-   - 横向：在小样中心区域（避开边缘 2-3cm）测量 10cm，数清包含的针数（不足 1 针按小数计算，如 18.5 针）；  
-   - 纵向：同样在中心区域测量 10cm，数清包含的行数；  
-   - 重复测量 2-3 次，取平均值（提升准确性）。
-4. **计算结果**：  
-   示例：10cm 内横向 18 针、纵向 24 行 → 编织密度为「18 针 × 24 行 / 10cm」。
+#### 1. Core Definitions
+Gauge = **Width Gauge (Stitches per 10cm)** / **Height Gauge (Rows per 10cm)** within the specified dimension (10cm)  
+- Width Gauge: Number of stitches within 10cm width (determines the width of the finished product);  
+- Height Gauge: Number of rows within 10cm height (determines the length of the finished product).
 
-### 四、 棒针vs钩针网格差异化设计
-| 工艺类型 | 网格核心差异                                                                 | 可视化示例（文字描述）                          |
-| :------- | :-------------------------------------------------------------------------- | :---------------------------------------------- |
-| 棒针     | 单元格接近正方形（纵横比1:1.2），主网格线间距均匀，突出“平针编织”的规整感       | 145列×115行，单元格0.34cm×0.43cm，主网格线每29针（10cm）1条 |
-| 钩针     | 单元格略扁（纵横比1:1.4），主网格线纵向间距略宽，贴合“钩针线圈”的拉伸特性       | 125列×90行，单元格0.4cm×0.56cm，主网格线每25针（10cm）1条 |
+#### 2. Standard Test Procedures
+ASTM D2253 requires "swatch knitting + standardized measurement" to ensure accuracy, with the following steps:
+1. **Knit the Swatch**:  
+   - Use the actual yarn and needles for the project to knit a swatch of at least 15cm×15cm (to avoid edge deformation affecting measurement);  
+   - The stitch pattern must match the finished product (density varies significantly between different stitches such as stockinette stitch and brioche stitch).
+2. **Steam Blocking (Critical Step)**:  
+   - Steam iron the swatch according to the yarn material (wool/cotton/synthetic fiber) (steam only, no pressing or stretching);  
+   - Measure after natural drying (unblocked swatches may shrink, leading to gauge calculation errors).
+3. **Precise Measurement**:  
+   - Horizontal: Measure 10cm in the central area of the swatch (avoiding 2-3cm from the edges) and count the number of stitches (fractional stitches are allowed, e.g., 18.5 stitches);  
+   - Vertical: Measure 10cm in the same central area and count the number of rows;  
+   - Repeat measurement 2-3 times and take the average (to improve accuracy).
+4. **Calculate Results**:  
+   Example: 18 stitches horizontally and 24 rows vertically within 10cm → Gauge is "18 stitches × 24 rows / 10cm".
 
-### 五、数据参考说明
-数据仅为参考。因为编织者手劲松紧、编织花样差异，哪怕用同款毛线和针号，织出的小样密度也会不同。所以手工编织时，通常要先织出小样并经水洗定型后，再测量实际密度，以此来确定最终作品的针数和行数，避免成品尺寸偏差。
+### IV. Knitting vs. Crochet
+Secondary stitch categories are uniformly identified by "Short/Medium/Long".
+
+| Universal Stitch Grade | Knitting Correlation       | Crochet Correlation       | Core Density Feature       | Correction Factor |
+|:-----------------------|:---------------------------|:--------------------------|:---------------------------|:-----------------|
+| Short                  | Stockinette Stitch         | Single Crochet (SC)        | Most Compact (Baseline)    | 1.0              |
+| Medium                 | Reverse Stockinette Stitch | Half Double Crochet (HDC)  | Moderately Loose           | 0.85             |
+| Long                   | Brioche Stitch             | Double Crochet (DC)        | Extremely Loose            | 0.7              |
