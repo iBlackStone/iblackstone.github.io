@@ -85,14 +85,21 @@
             text-decoration: underline;
         }
 
-        /* ========== 新增表格样式（核心） ========== */
+        /* ========== 修正后的表格样式（核心） ========== */
+        /* 表格容器：解决移动端横向滚动问题 */
+        .table-container {
+            width: 100%;
+            overflow-x: auto; /* 仅容器滚动，表格保持原生布局 */
+            margin: 1.5em 0; /* 与上下内容保持间距 */
+            -webkit-overflow-scrolling: touch; /* 移动端顺滑滚动 */
+        }
+
         table {
             width: 100%;
             border-collapse: collapse; /* 合并边框，避免双线条 */
-            margin: 1.5em 0; /* 与上下内容保持间距 */
             font-size: inherit; /* 继承基础字号，适配响应式 */
-            overflow-x: auto; /* 移动端表格横向溢出时可滚动 */
-            display: block; /* 配合 overflow-x 实现移动端滚动 */
+            /* 移除 display: block; 恢复表格原生特性 */
+            min-width: 600px; /* 保证表格最小宽度，移动端触发滚动 */
         }
 
         /* 表头样式 */
@@ -102,6 +109,7 @@
             text-align: left;
             border: 1px solid var(--table-border-color);
             padding: var(--table-cell-padding);
+            white-space: nowrap; /* 表头文字不换行 */
         }
 
         /* 单元格样式 */
@@ -119,12 +127,14 @@
         /* 表格 hover 效果（可选，增强交互） */
         tr:hover {
             background-color: #f5f5f5;
+            transition: background-color 0.2s ease; /* 平滑过渡 */
         }
 
         /* 移动端表格优化：减小字号，保证内容不挤压 */
         @media screen and (max-width: 480px) {
             table {
                 font-size: 0.9em;
+                min-width: 400px; /* 适配移动端屏幕 */
             }
         }
     </style>
@@ -134,7 +144,14 @@
         <h1>{{ page.title | default: site.title }}</h1>
     </header>
     <main>
-        {{ content }}
+        <!-- 表格必须嵌套在容器中，才能正确触发横向滚动 -->
+        {% if content contains '<table>' %}
+            <div class="table-container">
+                {{ content }}
+            </div>
+        {% else %}
+            {{ content }}
+        {% endif %}
     </main>
 </body>
 </html>
