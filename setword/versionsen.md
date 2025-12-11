@@ -5,6 +5,10 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.5.9 & v1.6.0
+
+- Added tool yarn knitting sample simulator to obtain weave density with one click；
+> Knitting sample depends on a specific yarn, so its entry is on the yarn details page;
 
 ### v1.5.7 & v1.5.8
  Upgrade of the Knitting Works and Yarn Record sections;
