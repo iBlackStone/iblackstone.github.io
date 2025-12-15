@@ -5,6 +5,11 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.6.1
+Daily updates (user feedback optimization)
+- Canvas resizing is now supported in the Stick Editor;
+- A third type of text illustration has been added to the counter, with adjustable fonts.
+
 ### v1.5.9 & v1.6.0
 
 - Added tool yarn knitting sample simulator to obtain weave density with one click；
