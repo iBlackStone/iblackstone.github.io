@@ -5,6 +5,12 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.6.2 ~ 1.6.5 (If you don't like the data item summary format provided by the developer?) ）
+
+- The yarn section, weaving work section, and illustration section have unified support for file customization management, and users can summarize data items in their favorite way;
+- To support some users' demands for high-frequency canvas operation, provide external unified style settings and prompt blocking options;
+- Illustration editor exports high-definition vector images, and supports setting the title and description of the exported file.
+
 ### v1.6.1
 Daily updates (user feedback optimization)
 - Canvas resizing is now supported in the Stick Editor;
