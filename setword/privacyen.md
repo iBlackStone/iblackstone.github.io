@@ -44,7 +44,12 @@ Our products are integrated with Umeng + SDK, which needs to collect your device
 4. Types of Personal Information Collected: Device information (Android ID/IDFA/OAID/OpenUDID/GUID; Optional - IMEI/IMSI/ICCID), network information, location information (optional), app list (optional)
 5. [Privacy Policy Link](https://www.umeng.com/page/policy)
 
-
+#### Performance monitoring
+1. SDK name: Alliance Application Performance Monitoring SDK
+2. Purpose of use: Provide APP performance monitoring services
+3. Operator: Youmeng Tongxin (Beijing) Technology Co., Ltd
+4. Type of personal information collected: device information (Android ID/IDFA/OAID/OpenUDID/GUID; Optional - IMEI/IMSI/ICCID), Network Information, Location Information (Optional)
+5. [Privacy Policy Link](https://www.umeng.com/page/policy)
 
 ===EULA===
 [标准Apple使用条款(EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)

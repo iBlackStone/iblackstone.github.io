@@ -43,6 +43,13 @@ title: "AppStore技术支持网址"
 4. 收集个人信息类型：设备信息（Android ID/IDFA/OAID/OpenUDID/GUID；可选-IMEI/IMSI/ICCID）、网络信息、位置信息（可选）、应用列表（可选）
 5. [隐私权政策链接](https://www.umeng.com/page/policy)
 
+#### 性能监控
+1. SDK名称：友盟应用性能监控SDK
+2. 使用目的：提供APP应用性能监控服务
+3. 运营方：友盟同欣（北京）科技有限公司
+4. 收集个人信息类型：设备信息（Android ID/IDFA/OAID/OpenUDID/GUID；可选-IMEI/IMSI/ICCID）、网络信息、位置信息（可选）
+5. [隐私权政策链接](https://www.umeng.com/page/policy)
+
 
 ===EULA===
 [标准Apple使用条款(EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
