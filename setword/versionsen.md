@@ -5,6 +5,11 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.6.7 blockbuster update
+- The crochet drawing tool is launched
+
+> This is the first version, and it will be gradually iterated and upgraded according to the actual experience
+
 ### v1.6.2 ~ 1.6.5 (If you don't like the data item summary format provided by the developer?) ）
 
 - The yarn section, weaving work section, and illustration section have unified support for file customization management, and users can summarize data items in their favorite way;
