@@ -5,9 +5,8 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
-> 意见反馈通道异常已修复，有需求的用户可反馈。
 
-### v1.6.7 blockbuster update & 1.6.8
+### v1.6.7 ~ 1.7.0
 - The crochet drawing tool is launched
 - Editor adds 70+ crochet symbols
 
