@@ -5,6 +5,9 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.7.1 ~ 1.7.2
+- The stick pin diagram starts supporting shortcut templates
+![Symbol](/assets/images/template.png){: width="320"}
 
 ### v1.6.7 ~ 1.7.0
 - The crochet drawing tool is launched
