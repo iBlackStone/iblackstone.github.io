@@ -50,6 +50,11 @@ title: "AppStore技术支持网址"
 4. 收集个人信息类型：设备信息（Android ID/IDFA/OAID/OpenUDID/GUID；可选-IMEI/IMSI/ICCID）、网络信息、位置信息（可选）
 5. [隐私权政策链接](https://www.umeng.com/page/policy)
 
+#### 广告投放
+1. SDK名称：友盟SDK
+2. 服务类型：第三方广告投放
+3. 收集个人信息类型：设备信息（IMEI/MAC/Android ID/IDFA/OpenUDID/GUID/SIM卡IMSI）
+4. [隐私权政策链接](https://www.umeng.com/page/policy)
 
 ===EULA===
 [标准Apple使用条款(EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
