@@ -5,6 +5,8 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+> 意见反馈或报bug时，如需人工介入，请务必填写能联系上您的信息，祝您生活愉快！
+
 ### v1.7.5
 - To support the eye health of some users, dark mode has been supported.
 
