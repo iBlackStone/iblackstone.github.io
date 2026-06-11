@@ -7,6 +7,17 @@ title: "Version History"
 
 > 意见反馈或报bug时，如需人工介入，请务必填写能联系上您的信息，祝您生活愉快！
 
+
+### v1.8.3 & 1.8.4
+What's New
+- Optimized automatic drawing effects, adding monochrome and multiple drawing styles with real-time preview.
+- Refactored canvas element management, supporting categorization by fill color and stitch type.
+- Added batch selection, fill color replacement, symbol color replacement, and deletion operations.
+- Optimized the user experience for undo, redo, and canvas control tools.
+- Improved image tooltips, pop-up layouts, and multi-language support.
+- Fixed issues with image switching, transparency display, and pop-up scrolling.
+- Optimized drawing performance and operational stability for various pixel canvas sizes.
+
 ### v1.7.5
 - To support the eye health of some users, dark mode has been supported.
 
