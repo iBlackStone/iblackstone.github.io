@@ -7,6 +7,27 @@ title: "Version History"
 
 > 意见反馈或报bug时，如需人工介入，请务必填写能联系上您的信息，祝您生活愉快！
 
+### v1.8.5
+棒针工具
+- The selected grid stays firmly in place when zooming and panning the canvas, no more drifting with the screen.
+- The selection handles now automatically snap to the cell edges, featuring a fixed size and turning red when touched for more precise operation.
+- Removed the selection flashing timer, significantly reducing phone heating and battery drain when leaving the selection active.
+- When copying and flooding multi-stitch symbols, the system will automatically preserve the original content if the end space is insufficient, never cutting symbols short.
+- Continuous flooding operations now support one-click undo, allowing you to revert to the original state with a single tap instead of clicking dozens of times.
+- Multi-grid long symbols can now be fully selected by clicking any single cell, supporting one-click replacement while maintaining the original color.
+
+钩针工具
+- The canvas now zooms with the midpoint between your two fingers as the center, making zooming and panning much more responsive without getting lost.
+- A new horizontal and vertical crosshair guide appears when moving symbols to help you perfectly align every element with ease.
+- The bounding box and handles remain at a fixed size, turning red when held to provide clear touch feedback.
+- Added an automatic mode where clicking a blank space creates a new item and clicking an element enters editing directly, eliminating the hassle of constantly switching tools.
+- Supports long-pressing or clicking the bottom button for multi-selection, allowing selected symbols to be grouped with one click.
+- Grouped symbols can be moved, rotated, scaled, and copied as a whole, and double-clicking allows you to edit individual members within the group.
+- Layout settings for circles or rectangles now feature new adjustments for direction (forward/reverse), orientation (inward/outward/vertical), and start point customization.
+
+其他
+- Prompt texts are fully synchronized in Simplified Chinese, English, Japanese, Korean, and French for seamless multi-language switching.
+- Perfectly compatible with historical projects; old charts can be opened and edited normally after upgrading with zero impact on data safety.
 
 ### v1.8.3 & 1.8.4
 What's New
