@@ -7,6 +7,11 @@ title: "Version History"
 
 > 意见反馈或报bug时，如需人工介入，请务必填写能联系上您的信息，祝您生活愉快！
 
+### v1.8.7
+* Brand New Page Layout: We have adjusted the overall visuals and structure, moving high-frequency tools to the homepage so your favorite features are now just one tap away;
+* Deep Optimization for iOS 26: Fully adapted for the latest system to ensure a seamless experience, urgently fixing an issue where page redirection fails when exporting on iPad;
+* Subtle Experience Upgrades: Optimized multiple underlying performance and interaction details to make your daily use even smoother.
+
 ### v1.8.6
 * Expanded multilingual knitting symbol library with stitch guides
 * Added region cutting, selection details, and unified export
