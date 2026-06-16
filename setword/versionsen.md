@@ -7,6 +7,13 @@ title: "Version History"
 
 > 意见反馈或报bug时，如需人工介入，请务必填写能联系上您的信息，祝您生活愉快！
 
+### v1.8.6
+* Expanded multilingual knitting symbol library with stitch guides
+* Added region cutting, selection details, and unified export
+* Added color and stitch legends, author, and copyright options
+* Added continuous viewing for multi-page PDFs
+* Improved custom crochet symbols, dark mode, and stability
+
 ### v1.8.5
 棒针工具
 - The selected grid stays firmly in place when zooming and panning the canvas, no more drifting with the screen.
