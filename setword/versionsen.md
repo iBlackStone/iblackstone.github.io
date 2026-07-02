@@ -7,6 +7,10 @@ title: "Version History"
 
 > 意见反馈或报bug时，如需人工介入，请务必填写能联系上您的信息，祝您生活愉快！
 
+### v1.8.9 ~ 1.9.1
+* A brand-new desktop mode is now available!
+* The experience in the “Threaded Discussions” section has been improved.
+
 ### v1.8.8 The woven notes section has started to support it
 * Fixed the tabbar bug on iPad where the tabbar would not disappear
 
