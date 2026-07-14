@@ -2,6 +2,21 @@
 
 Knitting Notes lets you import and read PDF patterns, then add rulers, text, images, information pins, brush strokes, and counters. Adding page elements or drawing does not directly modify the original PDF.
 
+## Quick Navigation
+
+- [Create and Open a Project](#create-and-open-a-project)
+- [Editor Layout](#editor-layout)
+- [Bottom Toolbar](#bottom-toolbar)
+- [Pages and Labels](#pages-and-labels)
+- [Add Page Components](#add-page-components)
+- [Chart Grid Calibration](#chart-grid-segmentation)
+- [Edit and Lock Components](#edit-page-components)
+- [Brushes and Eraser](#brushes-and-eraser)
+- [Counters](#counters)
+- [Elements](#elements)
+- [Save and Multiple Devices](#save-undo-and-restore)
+- [Frequently Asked Questions](#frequently-asked-questions)
+
 ## Create and Open a Project
 
 1. Open Tools and select **Knitting Notes**.
@@ -18,6 +33,7 @@ Free users can create up to one Knitting Notes project. Deleting a project canno
 - **Close**: Return to the project list and save the current reading state.
 - **Undo**: Undo the latest supported brush or component operation.
 - **Redo**: Restore the operation that was just undone.
+- **User Guide**: Tap `?` to open this help page at any time.
 - **More**: Rename, save, or delete the current project.
 
 ### Show or Hide Toolbars
@@ -87,6 +103,23 @@ An information pin appears as a fixed-size `i` icon. Tap it to read the note. Do
 
 A chart link connects the PDF to an existing knitting chart in the app. Once linked, it can show a thumbnail and open the related knitting chart directly.
 
+<a id="chart-grid-segmentation"></a>
+#### Chart Grid Calibration
+
+Chart Grid Calibration turns a pixel chart or knitting chart already printed in a PDF into a reusable grid source with row and column information.
+
+1. Choose **Chart Grid** from Components, then tap the chart area to place the frame.
+2. Drag the empty area inside the frame to position it. Use the outer handles to resize or rotate it.
+3. The horizontal guide starts at the top and the vertical guide starts at the left. Move each guide and adjust its thickness until both guide edges match two neighboring grid lines.
+4. Tap **Align** to snap both axes to their nearest complete period. Near-exact adjustments also snap automatically and provide haptic feedback.
+5. Red means the grid still needs attention. A confirmed frame and grid turn green and show **Aligned**. Moving, resizing, or rotating the frame requires alignment again.
+6. **Lock Frame** protects only the outer frame while keeping both guides editable. The later **Lock** action locks the entire component.
+7. **Preview Grid Image** checks the extracted result without creating a knitting project.
+8. **Create Counter Chart** creates and binds one knitting chart. Later the same entry opens or synchronizes that chart instead of creating a new copy each time.
+9. **More** switches between calibration guides and the full grid, and changes row or column reading direction. An unselected component keeps a small grid marker; double-tap a linked one to open its chart.
+
+The current version generates cells and a reference image from your calibrated grid. It does not yet recognize stitch symbols automatically. Preview the result and verify all edges, row and column counts, and reading directions before use.
+
 ## Edit Page Components
 
 Tap a component to show its dashed selection frame, handles, and floating controls. Available actions depend on the component type:
@@ -106,6 +139,7 @@ Not every component supports every action. For example, images cannot stretch in
 
 - When locked, the floating toolbar collapses to a single **Unlock** button.
 - A locked ruler can still be moved, but it cannot be resized, scaled, rotated, or restyled.
+- **Lock Frame** on a chart grid only prevents accidental outer-frame changes; the internal guides stay editable. Use the regular **Lock** action to freeze the whole component.
 - Locked text, images, information pins, chart links, and other components cannot be moved or edited.
 - Tap **Unlock** to restore the full controls and handles.
 
@@ -196,4 +230,3 @@ The choose-then-place workflow adds the component exactly where it is needed and
 ### Why do some features show a membership prompt?
 
 The free version supports basic import, reading, and limited usage. Advanced actions such as adding page components or creating more brush presets require membership.
-
