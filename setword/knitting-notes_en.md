@@ -1,4 +1,6 @@
-# Knitting Notes Help
+---
+title: Knitting Notes Help
+---
 
 Knitting Notes lets you import and read PDF patterns, then add rulers, text, images, information pins, brush strokes, and counters. Adding page elements or drawing does not directly modify the original PDF.
 

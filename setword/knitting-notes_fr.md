@@ -1,4 +1,6 @@
-# Aide des notes de tricot
+---
+title: Aide des notes de tricot
+---
 
 Les notes de tricot permettent d’importer et de lire des modèles PDF, puis d’ajouter des règles, du texte, des images, des repères d’information, des tracés et des compteurs. L’ajout d’éléments ou de dessins ne modifie pas directement le PDF d’origine.
 
