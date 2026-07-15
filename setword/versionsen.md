@@ -7,6 +7,13 @@ title: "Version History"
 
 > 意见反馈或报bug时，如需人工介入，请务必填写能联系上您的信息，祝您生活愉快！
 
+### v1.9.2~1.9.4
+- Added a built-in tutorial project for learning projects, counters, charts, and Project Notes.
+- Added complete project package import and export, including yarn, charts, PDFs, and images.
+- Improved image-assisted knitting chart creation and PDF grid calibration.
+- Enhanced knitting, crochet, counter, and Project Notes workflows with multilingual guides.
+- Fixed multiple import, display, and stability issues.
+
 ### v1.8.9 ~ 1.9.1
 * A brand-new desktop mode is now available!
 * The experience in the “Threaded Discussions” section has been improved.
