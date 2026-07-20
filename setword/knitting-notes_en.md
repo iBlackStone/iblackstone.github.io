@@ -120,7 +120,7 @@ Chart Grid Calibration turns a pixel chart or knitting chart already printed in 
 8. **Create Counter Chart** creates and binds one knitting chart. Later the same entry opens or synchronizes that chart instead of creating a new copy each time.
 9. **More** switches between calibration guides and the full grid, and changes row or column reading direction. An unselected component keeps a small grid marker; double-tap a linked one to open its chart.
 
-The current version generates cells and a reference image from your calibrated grid. It does not yet recognize stitch symbols automatically. Preview the result and verify all edges, row and column counts, and reading directions before use.
+After opening the knitting editor, switch between **Pixel** and **Symbol Drawing**. Pixel drawing samples the calibrated cell colors and lets you adjust, merge, split, or ignore color groups in **Confirm Drawing Plan**. Symbol Drawing groups each cell image and opens **Confirm Symbols**, where you can compare the source crop, stitch, and cell background. PDF legend text and previously confirmed symbols are used as recognition clues, and user corrections are remembered. Both paths create a temporary preview first; tap **Apply to Canvas** only after checking it. Verify all edges, row and column counts, and reading directions before use.
 
 ## Edit Page Components
 

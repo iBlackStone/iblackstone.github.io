@@ -89,6 +89,8 @@ Deux méthodes existent pour partir d’une image :
 
 Prévisualisez avant d’appliquer afin de ne pas remplacer le canevas existant par erreur. Une grille peut être liée au compteur d’un projet et suivre le rang actuel.
 
+Le dessin en couleurs propose les plans **Naturel**, **Blocs simplifiés** et **Monochrome**. Une image standard peut utiliser l’aperçu rapide ou ouvrir **Confirmer le plan de dessin** pour modifier les réglages et les groupes de couleurs. Une grille pixelisée prélève d’abord la couleur de chaque cellule calibrée. Vous pouvez recolorer, localiser, fusionner, séparer ou ignorer un groupe. Le dessin de symboles affiche les résultats classés et permet de corriger le point et le fond de cellule. Chaque méthode crée d’abord un aperçu et ne modifie le projet qu’après **Appliquer au canevas**.
+
 <a id="crochet-chart"></a>
 ## Diagrammes de crochet
 

@@ -120,7 +120,7 @@ Le calibrage transforme un diagramme pixelisé ou un diagramme de tricot déjà 
 8. **Créer un diagramme compteur** crée et associe un seul diagramme de tricot. Par la suite, la même entrée ouvre ou synchronise ce diagramme au lieu de créer une nouvelle copie.
 9. **Plus** permet d’afficher les bandes de calibrage ou toute la grille et de régler le sens de lecture des lignes et colonnes. Un petit repère reste visible lorsque le composant n’est pas sélectionné ; touchez deux fois un composant associé pour ouvrir son diagramme.
 
-La version actuelle génère les cellules et une image de référence à partir de la grille calibrée. Elle ne reconnaît pas encore automatiquement les symboles de points. Vérifiez dans l’aperçu les quatre bords, le nombre de lignes et de colonnes et les sens de lecture avant utilisation.
+Dans l’éditeur de tricot, choisissez **Pixels** ou **Dessin de symboles**. Le mode Pixels prélève les couleurs des cellules calibrées et permet d’ajuster, fusionner, séparer ou ignorer les groupes dans **Confirmer le plan de dessin**. Le dessin de symboles classe les images cellule par cellule et ouvre **Confirmer les symboles** pour comparer l’extrait d’origine, le point et la couleur de fond. Le texte de la légende PDF et les symboles déjà confirmés servent d’indices ; les corrections sont mémorisées. Les deux modes créent d’abord un aperçu temporaire : touchez **Appliquer au canevas** après vérification. Contrôlez aussi les quatre bords, les nombres de lignes et colonnes et les sens de lecture.
 
 ## Modifier les composants
 

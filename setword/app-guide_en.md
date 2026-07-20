@@ -143,6 +143,8 @@ The image workspace has two separate paths:
 
 Grid charts can adjust canvas cells, chart scale, and position. Preview before applying so existing canvas content is not replaced unexpectedly.
 
+Color drawing offers **Natural**, **Simplified Blocks**, and **Monochrome** plans. A regular image can use quick preview or open **Confirm Drawing Plan** to edit settings and color groups; a grid pixel chart samples each calibrated cell before confirmation. You can recolor, locate, merge, split, or ignore groups. Symbol drawing shows grouped recognition results and lets you correct the stitch and cell background. Every path creates a preview first and changes the project only after **Apply to Canvas**.
+
 ### Counter mode and export
 
 Link a chart to a project counter to display the current position on a larger canvas and follow rows. Export options include images and editable project files; use project files for continued editing and images for sharing or printing.
