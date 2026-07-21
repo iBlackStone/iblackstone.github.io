@@ -5,7 +5,10 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
-> 意见反馈或报bug时，如需人工介入，请务必填写能联系上您的信息，祝您生活愉快！
+### v1.9.5~1.9.6
+- The crochet tool now supports the creation of very long illustrated designs (thousands of lines), such as scarves, and provides quick positioning and navigation;
+- The crochet tool includes an automatic symbol drawing function;
+- The settings module has been upgraded to support multiple data backup options;
 
 ### v1.9.2~1.9.4
 - Added a built-in tutorial project for learning projects, counters, charts, and Project Notes.
