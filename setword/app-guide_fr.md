@@ -91,6 +91,8 @@ Prévisualisez avant d’appliquer afin de ne pas remplacer le canevas existant 
 
 Le dessin en couleurs propose les plans **Naturel**, **Blocs simplifiés** et **Monochrome**. Une image standard peut utiliser l’aperçu rapide ou ouvrir **Confirmer le plan de dessin** pour modifier les réglages et les groupes de couleurs. Une grille pixelisée prélève d’abord la couleur de chaque cellule calibrée. Vous pouvez recolorer, localiser, fusionner, séparer ou ignorer un groupe. Le dessin de symboles affiche les résultats classés et permet de corriger le point et le fond de cellule. Chaque méthode crée d’abord un aperçu et ne modifie le projet qu’après **Appliquer au canevas**.
 
+Les modifications sont enregistrées silencieusement environ 5 secondes après l’arrêt des opérations. Pendant une édition continue, un point de sauvegarde est créé au plus tard toutes les 30 secondes. Le passage de l’app en arrière-plan enregistre immédiatement le travail ; « Fermer » attend la fin de l’enregistrement puis revient directement à l’écran précédent. Le bouton « Enregistrer » reste disponible pour une sauvegarde manuelle immédiate.
+
 <a id="crochet-chart"></a>
 ## Diagrammes de crochet
 
@@ -102,6 +104,16 @@ L’éditeur de crochet utilise un canevas libre.
 - Distribuez des symboles le long d’une ligne ou d’une courbe et réglez direction, espacement et point de départ.
 - Utilisez le remplissage rapide, les dimensions par défaut, les compteurs et les guides.
 - Enregistrez et exportez le diagramme.
+
+### Conseils d’édition
+
+- Recherchez un symbole par nom, abréviation ou mot-clé. Les symboles récemment choisis apparaissent en priorité dans « Utilisés ».
+- Les réglages du projet définissent l’épaisseur de trait et la taille par défaut des nouveaux symboles. Les mailles en l’air de début 2 à 6 disposent d’une poignée de courbure.
+- La gestion des calques affiche récursivement les éléments des groupes ordinaires. Vous pouvez développer ou réduire un groupe, localiser un élément, modifier sa visibilité ou le verrouiller.
+- En mode de sélection multiple, touchez un élément pour l’ajouter ou le retirer ; un nouveau rectangle remplace la sélection actuelle. Faites glisser un élément sélectionné pour déplacer toute la sélection sans créer de groupe, puis touchez une zone vide pour quitter ce mode.
+- L’alignement intelligent est activé par défaut. Pendant le déplacement, le réticule central suit toujours l’élément ; son centre peut s’aligner sur le centre visible du canevas, et ses bords visuels ou son centre sur d’autres éléments visibles. Un alignement réussi affiche un guide renforcé et produit un léger retour haptique. Désactivez l’alignement dans Réglages > Aides à l’édition tout en conservant le réticule central.
+- Les modifications sont enregistrées silencieusement environ 5 secondes après l’arrêt des opérations. Pendant une édition continue, un point de sauvegarde est créé au plus tard toutes les 30 secondes. Le passage de l’app en arrière-plan enregistre immédiatement le travail ; « Fermer » attend la fin de l’enregistrement puis revient directement à l’écran précédent. Le bouton « Enregistrer » reste disponible pour une sauvegarde manuelle immédiate.
+- L’exportation prend en charge PNG/PDF, la résolution, les marges et l’arrière-plan, avec titre, notes, légende des symboles, auteur et copyright facultatifs.
 
 Les formats tricot et crochet utilisent des modèles de données différents. Utilisez l’éditeur correspondant pour créer ou importer un fichier.
 

@@ -5,6 +5,19 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.9.7
+Crochet Pattern Editor
+
+* Supports auto-save to prevent data loss;
+* Added 50+ new crochet symbols;
+* Other UI details and interaction experience optimizations.
+
+Knitting Pattern Editor
+
+* Supports rendering large scarf charts with over 1,000 rows;
+* Canvas positioning support for extra-long pattern charts;
+* Supports auto-save to prevent accidental loss of drafting progress;
+
 ### v1.9.5~1.9.6
 - The crochet tool now supports the creation of very long illustrated designs (thousands of lines), such as scarves, and provides quick positioning and navigation;
 - The crochet tool includes an automatic symbol drawing function;
