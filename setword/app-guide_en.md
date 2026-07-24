@@ -151,7 +151,7 @@ Link a chart to a project counter to display the current position on a larger ca
 
 ### Saving
 
-- Edits are saved silently about 5 seconds after you stop. During continuous editing, a safety checkpoint is written at least every 30 seconds. Moving the app to the background saves immediately, while Close waits for the save to finish and then returns. The top Save button remains available for an immediate manual save.
+- Timed autosaves are disabled while you edit so saving cannot interrupt canvas interactions. Changes are saved when the app moves to the background, when you open Export, or when you tap Close; Close waits for the save to finish before returning. The top Save button remains available for an immediate manual save.
 
 <a id="crochet-chart"></a>
 ## Crochet charts
@@ -173,7 +173,7 @@ The crochet editor uses a free canvas and is not restricted to the knitting grid
 - Layer management shows regular group members recursively. Expand or collapse a group, locate elements, toggle visibility, or lock them.
 - In multi-select mode, tap elements to add or remove them, or draw a new selection box to replace the current selection. Drag any selected element to move the selection together without creating a group, and tap empty canvas to exit multi-select.
 - Smart Snapping is on by default. The center crosshair always follows the element while dragging; its center can snap to the visible canvas center, and its visual edges or center can align with other visible elements. A successful snap shows a highlighted guide and gives one light haptic response. Turn snapping off under Settings > Editing Aids while keeping the center crosshair.
-- Edits are saved silently about 5 seconds after you stop. During continuous editing, a safety checkpoint is written at least every 30 seconds. Moving the app to the background saves immediately, while Close waits for the save to finish and then returns. The top Save button remains available for an immediate manual save.
+- Timed autosaves are disabled while you edit so saving cannot interrupt canvas interactions. Changes are saved when the app moves to the background, when you open Export, or when you tap Close; Close waits for the save to finish before returning. The top Save button remains available for an immediate manual save.
 - Export supports PNG/PDF, resolution, margins, and background options, plus optional title, notes, symbol legend, author, and copyright information.
 
 Knitting and crochet editors use different data and coordinate models. Create and import files with the matching editor.

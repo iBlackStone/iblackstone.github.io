@@ -5,6 +5,14 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v1.9.8
+User Feedback Optimizations
+
+* Fixed lag issues during chart drawing;
+* Upgraded the multi-task knitting project module in the Row Counter;
+* Upgraded the built-in chart module in the Row Counter;
+* Other interaction experience optimizations;
+
 ### v1.9.7
 Crochet Pattern Editor
 
