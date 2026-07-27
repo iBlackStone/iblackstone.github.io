@@ -1,8 +1,8 @@
 ---
-title: Guide d’utilisation de Line
+title: Guide d’utilisation de Tricot & Crochet
 ---
 
-Line permet de gérer les fils, d’organiser les projets, de suivre l’avancement, de créer des grilles de tricot ou de crochet et de lire des patrons PDF dans les Notes de projet. Chaque outil peut être utilisé seul ou lié au même projet.
+Tricot & Crochet permet de gérer les fils, d’organiser les projets, de suivre l’avancement, de créer des grilles de tricot ou de crochet et de lire des patrons PDF dans les Notes de projet. Chaque outil peut être utilisé seul ou lié au même projet.
 
 ## Navigation rapide
 
@@ -12,6 +12,7 @@ Line permet de gérer les fils, d’organiser les projets, de suivre l’avancem
 - [Espace projets](#project-workspace)
 - [Compteur de tricot](#counter)
 - [Grilles de tricot](#knitting-chart)
+- [Opérations de zone des grilles de tricot](#knitting-chart-area-operations)
 - [Diagrammes de crochet](#crochet-chart)
 - [Notes de projet](#knitting-notes)
 - [Autres outils](#other-tools)
@@ -29,7 +30,7 @@ Line permet de gérer les fils, d’organiser les projets, de suivre l’avancem
 4. Ajoutez des compteurs, des grilles de tricot, des diagrammes de crochet ou des Notes de projet.
 5. Reprenez ensuite le travail depuis la carte du projet actuel sur l’accueil.
 
-Lorsque la bibliothèque de projets est vide, Line installe une seule fois un projet tutoriel intégré. Cette installation ne demande pas d’abonnement et ne consomme pas le projet personnel gratuit. Si vous le supprimez, il ne sera pas recréé continuellement.
+Lorsque la bibliothèque de projets est vide, Tricot & Crochet installe une seule fois un projet tutoriel intégré. Cette installation ne demande pas d’abonnement et ne consomme pas le projet personnel gratuit. Si vous le supprimez, il ne sera pas recréé continuellement.
 
 <a id="main-navigation"></a>
 ## Navigation principale
@@ -44,7 +45,7 @@ Lorsque la bibliothèque de projets est vide, Line installe une seule fois un pr
 
 - Enregistrez le nom, la marque, la fibre, la couleur, la construction, le nombre de brins, le titrage, le poids, la longueur, le prix et le stock.
 - Ajoutez plusieurs photos et des informations d’achat ou d’utilisation.
-- Avec suffisamment de caractéristiques, Line peut calculer la masse linéique, le diamètre, la taille d’aiguille conseillée et la longueur.
+- Avec suffisamment de caractéristiques, Tricot & Crochet peut calculer la masse linéique, le diamètre, la taille d’aiguille conseillée et la longueur.
 - Liez un fil à un projet et notez la quantité réellement utilisée.
 - Utilisez la recherche multicritère, les groupes, les alertes de stock et le calendrier.
 
@@ -81,6 +82,22 @@ L’éditeur enregistre couleurs et symboles dans des cellules. Il convient aux 
 - Dessinez, colorez, effacez, annulez et rétablissez.
 - Utilisez une sélection de zone pour copier, couper, coller, remplacer et répéter.
 - Enregistrez couleurs, modèles et symboles personnalisés.
+
+<a id="knitting-chart-area-operations"></a>
+### Opérations de zone
+
+Touchez « Opérations de zone » dans la barre inférieure, puis faites glisser la sélection ou l’une de ses quatre poignées pour définir la zone. Copier, Couper et Coller servent à réutiliser le même contenu. Les commandes de « Plus d’opérations » — transformations, copie miroir, Mosaïque 2D, Répétition miroir alternée, Répétition en demi-chute et Enregistrer comme motif — utilisent directement la sélection actuelle : aucune copie préalable n’est nécessaire et le presse-papiers existant reste inchangé.
+
+- **Transformation** : retournez horizontalement ou verticalement, tournez de 180°, ou créez une copie miroir à gauche ou à droite. Lorsque « Convertir les points lors du miroir » est activé, les diminutions, augmentations et torsades orientées sont remplacées par leurs points miroir correspondants. Les points neutres, personnels ou sans correspondance restent inchangés.
+- **Répétition** : « Mosaïque 2D » répète la zone vers la droite et vers le bas jusqu’aux bords du canevas. « Répétition miroir alternée » alterne horizontalement le motif original et son miroir. « Répétition en demi-chute » décale les 2e, 4e, 6e colonnes de motifs de la moitié de la hauteur sélectionnée ; cette hauteur doit donc être paire.
+- **Motifs et autres projets** : « Enregistrer comme motif » ajoute la sélection à Mes motifs pour la réutiliser sur un autre canevas. La copie entre projets utilise un presse-papiers partagé distinct.
+- **Bords et annulation** : un point couvrant plusieurs cellules doit être entièrement sélectionné. S’il ne tient pas complètement au bord du canevas, aucune partie incomplète n’est écrite. Chaque commande de zone correspond à une seule étape d’annulation.
+
+Exemples :
+
+1. Sélectionnez un motif de 4 × 4 puis « Mosaïque 2D » pour le répéter depuis le coin supérieur gauche de la sélection jusqu’au coin inférieur droit du canevas.
+2. Sélectionnez un motif de 6 rangs puis « Répétition en demi-chute » : les 2e, 4e, 6e colonnes sont décalées de 3 rangs.
+3. Sélectionnez un motif avec des diminutions ou torsades orientées, activez la conversion des points et choisissez « Répétition miroir alternée » pour alterner à la fois la forme et l’orientation des points.
 
 Deux méthodes existent pour partir d’une image :
 

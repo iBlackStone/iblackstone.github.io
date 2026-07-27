@@ -1,8 +1,8 @@
 ---
-title: Line App User Guide
+title: Knit & Crochet User Guide
 ---
 
-Line helps you organize yarn, manage knitting projects, track progress, design knitting and crochet charts, and read PDF pattern notes. Each tool works independently and can also be attached to the same project.
+Knit & Crochet helps you organize yarn, manage knitting projects, track progress, design knitting and crochet charts, and read PDF pattern notes. Each tool works independently and can also be attached to the same project.
 
 ## Quick navigation
 
@@ -12,6 +12,7 @@ Line helps you organize yarn, manage knitting projects, track progress, design k
 - [Project workspace](#project-workspace)
 - [Knitting counter](#counter)
 - [Knitting charts](#knitting-chart)
+- [Knitting chart area operations](#knitting-chart-area-operations)
 - [Crochet charts](#crochet-chart)
 - [Project Notes](#knitting-notes)
 - [Other tools](#other-tools)
@@ -29,7 +30,7 @@ Line helps you organize yarn, manage knitting projects, track progress, design k
 4. Add counters and link knitting charts, crochet charts, or Project Notes.
 5. Return to the current-project card on Home whenever you want to continue.
 
-When the local project library is empty, Line installs one bundled tutorial project. This installation does not require membership and does not use the free personal-project allowance. If you delete it, Line will not recreate it repeatedly.
+When the local project library is empty, Knit & Crochet installs one bundled tutorial project. This installation does not require membership and does not use the free personal-project allowance. If you delete it, Knit & Crochet will not recreate it repeatedly.
 
 <a id="main-navigation"></a>
 ## Main navigation
@@ -57,7 +58,7 @@ Settings contains appearance, language, membership, data sync, release notes, fe
 
 - Record name, brand, fiber, color, construction, ply, yarn count, weight, length, price, and stock.
 - Attach multiple photos and keep purchasing or usage details.
-- When enough specifications are available, Line can calculate values such as linear density, diameter, recommended needle size, and length.
+- When enough specifications are available, Knit & Crochet can calculate values such as linear density, diameter, recommended needle size, and length.
 - Link yarn to projects and record the amount used by each project.
 
 ### Find and organize yarn
@@ -133,6 +134,22 @@ The knitting chart editor stores colors and stitch symbols in grid cells. It is 
 - Draw symbols, fill colors, erase, undo, and redo.
 - Use area selection for copy, cut, paste, fill, replace, and repeated placement.
 - Save reusable colors, templates, and custom symbols.
+
+<a id="knitting-chart-area-operations"></a>
+### Area operations
+
+Tap **Area Operations** in the bottom toolbar, then drag the selection or its four edge handles to set the range. Copy, Cut, and Paste are useful when you want to reuse the same clipboard content. Commands under **More Operations**—transforms, mirror copy, 2D Tile, Alternating Mirror, Half-Drop Repeat, and Save as Pattern—use the current selection directly, so you do not need to copy first and your existing clipboard remains unchanged.
+
+- **Transform**: flip horizontally or vertically, rotate 180°, or create a mirrored copy on either side. With **Mirror Stitch Symbols** enabled, directional decreases, increases, and cables are changed to their matching mirrored stitches. Neutral, custom, and unmapped stitches remain unchanged.
+- **Repeat**: **2D Tile** repeats the selection to the right and down to the canvas edges. **Alternating Mirror** alternates the original and horizontally mirrored motifs across columns. **Half-Drop Repeat** shifts the 2nd, 4th, 6th, and later alternating motif columns down by half the selection height, so the selected height must be even.
+- **Patterns and other projects**: **Save as Pattern** stores the selection in My Patterns for reuse on another canvas. Cross-project copy uses a separate shared clipboard.
+- **Edges and undo**: multi-cell stitches must be fully selected, and an incomplete stitch is not written when it cannot fit at a canvas edge. Each area command creates one undo step.
+
+Examples:
+
+1. Select a 4 × 4 motif and choose **2D Tile** to fill continuously from the selection’s top-left corner toward the canvas bottom-right.
+2. Select a 6-row motif and choose **Half-Drop Repeat**. The 2nd, 4th, 6th, and later alternating columns are shifted down by 3 rows.
+3. Select a motif with left- and right-leaning decreases or cables, enable **Mirror Stitch Symbols**, and choose **Alternating Mirror** to alternate both the motif geometry and stitch direction.
 
 ### Create from an image
 
@@ -247,7 +264,7 @@ Make sure you used a current backup package that includes assets and allowed upl
 
 ### Why does the tutorial not return after I delete it?
 
-The tutorial is installed only during the first empty-library check. Deleting it means it is no longer needed, so Line does not recreate it.
+The tutorial is installed only during the first empty-library check. Deleting it means it is no longer needed, so Knit & Crochet does not recreate it.
 
 ### Why does a button open the membership page?
 
