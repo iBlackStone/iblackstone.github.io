@@ -5,6 +5,13 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+
+### v1.9.9
+Optimized Based on User Feedback
+* iPad now supports switching between portrait and landscape modes;
+* Upgraded Knitting Pattern Editor with convenient area selection and editing tools;
+* Other UI and user interaction experience optimizations;
+
 ### v1.9.8
 User Feedback Optimizations
 
