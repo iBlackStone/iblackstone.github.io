@@ -142,6 +142,7 @@ Tap **Area Operations** in the bottom toolbar, then drag the selection or its fo
 
 - **Transform**: flip horizontally or vertically, rotate 180°, or create a mirrored copy on either side. With **Mirror Stitch Symbols** enabled, directional decreases, increases, and cables are changed to their matching mirrored stitches. Neutral, custom, and unmapped stitches remain unchanged.
 - **Repeat**: **2D Tile** repeats the selection to the right and down to the canvas edges. **Alternating Mirror** alternates the original and horizontally mirrored motifs across columns. **Half-Drop Repeat** shifts the 2nd, 4th, 6th, and later alternating motif columns down by half the selection height, so the selected height must be even.
+- **Area editing**: **Blank Cell Stitches** affects only cells in the current selection that do not yet contain a stitch and preserves their backgrounds. With chart rules, flat knitting fills right-side rows with knit stitches and wrong-side rows with purl stitches; knitting in the round fills every row with knit stitches. You can instead choose one single-cell stitch and symbol color. Existing stitches, **No Stitch**, and cells occupied by multi-cell stitches are not replaced.
 - **Patterns and other projects**: **Save as Pattern** stores the selection in My Patterns for reuse on another canvas. Cross-project copy uses a separate shared clipboard.
 - **Edges and undo**: multi-cell stitches must be fully selected, and an incomplete stitch is not written when it cannot fit at a canvas edge. Each area command creates one undo step.
 
@@ -150,6 +151,7 @@ Examples:
 1. Select a 4 × 4 motif and choose **2D Tile** to fill continuously from the selection’s top-left corner toward the canvas bottom-right.
 2. Select a 6-row motif and choose **Half-Drop Repeat**. The 2nd, 4th, 6th, and later alternating columns are shifted down by 3 rows.
 3. Select a motif with left- and right-leaning decreases or cables, enable **Mirror Stitch Symbols**, and choose **Alternating Mirror** to alternate both the motif geometry and stitch direction.
+4. Select the part of a chart where blank squares represent base stitches, choose **Blank Cell Stitches**, review the rule and affected count, then fill everything in one undoable command.
 
 ### Create from an image
 
@@ -164,7 +166,13 @@ Color drawing offers **Natural**, **Simplified Blocks**, and **Monochrome** plan
 
 ### Counter mode and export
 
-Link a chart to a project counter to display the current position on a larger canvas and follow rows. Export options include images and editable project files; use project files for continued editing and images for sharing or printing.
+Link a chart to a project counter to display the current position on a larger canvas and follow rows. In the chart editor’s own counter mode, enable **Show Current Row Stitches** in common settings to display consecutive stitch runs in actual knitting order, including stitch color, cell background, and direction.
+
+- Flat knitting reads odd rows from right to left and even rows from left to right. Knitting in the round reads every row from right to left. The project’s **Knitting Method** setting controls this behavior.
+- Hiding row markers also hides the current-row strip. When column markers are enabled, the current column is the preferred position; otherwise the strip remembers its reading position.
+- Adjacent cells merge only when stitch, symbol color, and background match. Ordinary blank cells break a run. **No Stitch** represents no worked stitch, so it is neither displayed nor counted and does not split matching stitches on its two sides.
+
+Export options include images and editable project files; use project files for continued editing and images for sharing or printing.
 
 ### Saving
 

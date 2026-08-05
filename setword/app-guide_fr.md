@@ -90,6 +90,7 @@ Touchez « Opérations de zone » dans la barre inférieure, puis faites glisser
 
 - **Transformation** : retournez horizontalement ou verticalement, tournez de 180°, ou créez une copie miroir à gauche ou à droite. Lorsque « Convertir les points lors du miroir » est activé, les diminutions, augmentations et torsades orientées sont remplacées par leurs points miroir correspondants. Les points neutres, personnels ou sans correspondance restent inchangés.
 - **Répétition** : « Mosaïque 2D » répète la zone vers la droite et vers le bas jusqu’aux bords du canevas. « Répétition miroir alternée » alterne horizontalement le motif original et son miroir. « Répétition en demi-chute » décale les 2e, 4e, 6e colonnes de motifs de la moitié de la hauteur sélectionnée ; cette hauteur doit donc être paire.
+- **Modification de zone** : « Points des cases vides » ne traite que les cellules sans point dans la sélection actuelle et conserve leur fond. Avec la règle du diagramme, le tricot aller-retour remplit les rangs endroit en mailles endroit et les rangs envers en mailles envers ; le tricot circulaire remplit tous les rangs en mailles endroit. Vous pouvez aussi choisir un point sur une case et sa couleur. Les points existants, « Sans maille » et les cellules occupées par un point multicase ne sont pas remplacés.
 - **Motifs et autres projets** : « Enregistrer comme motif » ajoute la sélection à Mes motifs pour la réutiliser sur un autre canevas. La copie entre projets utilise un presse-papiers partagé distinct.
 - **Bords et annulation** : un point couvrant plusieurs cellules doit être entièrement sélectionné. S’il ne tient pas complètement au bord du canevas, aucune partie incomplète n’est écrite. Chaque commande de zone correspond à une seule étape d’annulation.
 
@@ -98,6 +99,7 @@ Exemples :
 1. Sélectionnez un motif de 4 × 4 puis « Mosaïque 2D » pour le répéter depuis le coin supérieur gauche de la sélection jusqu’au coin inférieur droit du canevas.
 2. Sélectionnez un motif de 6 rangs puis « Répétition en demi-chute » : les 2e, 4e, 6e colonnes sont décalées de 3 rangs.
 3. Sélectionnez un motif avec des diminutions ou torsades orientées, activez la conversion des points et choisissez « Répétition miroir alternée » pour alterner à la fois la forme et l’orientation des points.
+4. Sélectionnez la zone où les cases vides représentent des points de base, ouvrez « Points des cases vides », vérifiez la règle et le nombre concerné, puis remplissez-les en une seule commande annulable.
 
 Deux méthodes existent pour partir d’une image :
 
@@ -107,6 +109,10 @@ Deux méthodes existent pour partir d’une image :
 Prévisualisez avant d’appliquer afin de ne pas remplacer le canevas existant par erreur. Une grille peut être liée au compteur d’un projet et suivre le rang actuel.
 
 Le dessin en couleurs propose les plans **Naturel**, **Blocs simplifiés** et **Monochrome**. Une image standard peut utiliser l’aperçu rapide ou ouvrir **Confirmer le plan de dessin** pour modifier les réglages et les groupes de couleurs. Une grille pixelisée prélève d’abord la couleur de chaque cellule calibrée. Vous pouvez recolorer, localiser, fusionner, séparer ou ignorer un groupe. Le dessin de symboles affiche les résultats classés et permet de corriger le point et le fond de cellule. Chaque méthode crée d’abord un aperçu et ne modifie le projet qu’après **Appliquer au canevas**.
+
+### Mode compteur
+
+Activez « Afficher les points du rang actuel » dans les réglages communs pour voir les segments consécutifs du rang, la couleur du symbole, le fond de cellule et le sens, dans l’ordre réel de tricot. En aller-retour, les rangs impairs se lisent de droite à gauche et les rangs pairs de gauche à droite ; en circulaire, tous les rangs se lisent de droite à gauche. Masquer le repère de rang masque aussi cette zone. Si le repère de colonne est actif, la colonne actuelle est prioritaire ; sinon la dernière position de lecture est mémorisée. Les cellules adjacentes ne sont regroupées que si le point, la couleur du symbole et le fond correspondent. « Sans maille » n’est ni affiché ni compté et ne sépare pas deux segments identiques.
 
 Les sauvegardes programmées sont désactivées pendant la modification afin de ne pas interrompre les interactions avec le canevas. Les changements sont enregistrés lorsque l’app passe en arrière-plan, à l’ouverture de l’exportation ou lorsque vous touchez « Fermer » ; « Fermer » attend la fin de l’enregistrement avant de revenir. Le bouton « Enregistrer » reste disponible pour une sauvegarde manuelle immédiate.
 
