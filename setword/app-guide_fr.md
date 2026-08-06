@@ -180,7 +180,7 @@ La consultation de base et l’utilisation des contenus existants restent dispon
 <a id="settings-help"></a>
 ## Réglages et aide
 
-Les Réglages donnent accès au thème, aux cinq langues, à l’historique des versions, aux avis, à ce guide, à la politique de confidentialité et aux conditions d’utilisation. Les principaux éditeurs prennent en charge les modes clair et sombre.
+Les Réglages donnent accès au thème, aux cinq langues, à l’historique des versions, aux avis, à ce guide, à la politique de confidentialité et aux conditions d’utilisation. Les principaux éditeurs prennent en charge les modes clair et sombre ; utilisez l’icône soleil/lune en haut à droite des Réglages pour basculer rapidement, ou choisissez le mode depuis la page Apparence.
 
 <a id="faq"></a>
 ## Questions fréquentes

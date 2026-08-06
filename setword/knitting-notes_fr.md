@@ -42,6 +42,8 @@ Les utilisateurs gratuits peuvent créer un seul projet de notes de tricot. La s
 
 Touchez une zone vide du PDF pour masquer les barres supérieure et inférieure et agrandir la zone de lecture. Utilisez les petits boutons au bord de l’écran pour les afficher de nouveau.
 
+Avec le thème sombre, la zone de lecture réduit par défaut la luminosité des pages blanches. Les barres d’outils supérieure et inférieure restent noires, et les couleurs d’origine du PDF ne sont pas inversées. Pour retrouver la luminosité d’origine, désactivez **Réduire la luminosité du PDF** dans le menu Plus en haut à droite.
+
 ### Gestes de lecture
 
 - Glissement à un doigt : parcourt le PDF.

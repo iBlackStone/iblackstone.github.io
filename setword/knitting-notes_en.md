@@ -42,6 +42,8 @@ Free users can create up to one Knitting Notes project. Deleting a project canno
 
 Tap an empty area of the PDF to hide the top and bottom toolbars and gain more reading space. Use the small buttons at the screen edges to show them again.
 
+In the dark theme, the PDF reading area reduces the brightness of white pages by default. The top and bottom toolbars remain black, and the PDF's original colors are not inverted. To view the original brightness, turn off **Reduce PDF Brightness** from the top-right More menu.
+
 ### Basic Reading Gestures
 
 - Swipe with one finger to browse the PDF.

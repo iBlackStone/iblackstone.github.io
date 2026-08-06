@@ -252,7 +252,7 @@ After changing devices or reinstalling the app, open the membership page in Sett
 <a id="settings-help"></a>
 ## Settings and help
 
-- **Appearance**: switch themes; major editors support both light and dark mode.
+- **Appearance**: major editors support light and dark mode. Use the sun/moon button in the top-right of Settings for a quick toggle, or open Appearance to select a mode.
 - **Language**: Simplified Chinese, English, Japanese, Korean, and French.
 - **Release notes**: review important changes in published versions.
 - **Feedback**: send a problem report, suggestion, and screenshots.
