@@ -5,6 +5,10 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v2.0.0 (Major Update)
+* The works section is now integrated with the Ravelry website, allowing for quick and free access to illustrated patterns.
+* Brand-new details on crochet and knitting stitch symbols, along with instructional videos to help you avoid making mistakes.
+* The crochet editor has been updated with a new round-trip function and a loop counting mode.
 
 ### v1.9.9
 Optimized Based on User Feedback

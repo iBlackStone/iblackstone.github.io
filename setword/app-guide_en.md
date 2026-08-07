@@ -56,10 +56,12 @@ Settings contains appearance, language, membership, data sync, release notes, fe
 
 ### Create and edit records
 
-- Record name, brand, fiber, color, construction, ply, yarn count, weight, length, price, and stock.
+- Choose hand-knitting yarn or cone yarn at the top of the specification card for every new or edited record. You can switch directly between them; the matching fields update without immediately erasing values entered for the other mode.
+- For hand-knitting yarn, enter the number of balls or skeins, weight and length per package, and a per-package or total price. For cone yarn, enter cone count, per-cone or total weight, Nm count, ply, and price mode.
+- The specification card previews total weight, total length, and purchase total. Incomplete specifications can still be saved.
 - Attach multiple photos and keep purchasing or usage details.
-- When enough specifications are available, Knit & Crochet can calculate values such as linear density, diameter, recommended needle size, and length.
-- Link yarn to projects and record the amount used by each project.
+- Cone yarn keeps the Nm, ply, and fiber-density calculations for linear density, diameter, needle size, and length. Hand-knitting yarn uses its package weight and length directly and is not converted back into yarn count.
+- Link yarn to projects. Both categories record project usage in grams for cost estimates; when hand-knitting yarn has complete weight and length data, used length is also estimated proportionally.
 
 ### Find and organize yarn
 

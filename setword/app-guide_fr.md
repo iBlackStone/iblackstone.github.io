@@ -43,10 +43,12 @@ Lorsque la bibliothèque de projets est vide, Tricot & Crochet installe une seul
 <a id="yarn-library"></a>
 ## Bibliothèque de fils
 
-- Enregistrez le nom, la marque, la fibre, la couleur, la construction, le nombre de brins, le titrage, le poids, la longueur, le prix et le stock.
+- Pour chaque fil créé ou modifié, choisissez « fil à tricoter main » ou « fil sur cône » en haut de la fiche des caractéristiques. Vous pouvez basculer directement entre les deux sans effacer immédiatement les valeurs de l’autre mode.
+- Pour le fil main, saisissez le nombre de pelotes ou d’écheveaux, le poids, la longueur et le prix par unité. Pour le fil sur cône, saisissez le nombre de cônes, le poids par cône ou total, le titrage Nm, le nombre de brins et le mode de prix.
+- La fiche récapitule immédiatement le poids total, la longueur totale et le prix d’achat total. Les informations déjà saisies restent enregistrables même si la fiche est incomplète.
 - Ajoutez plusieurs photos et des informations d’achat ou d’utilisation.
-- Avec suffisamment de caractéristiques, Tricot & Crochet peut calculer la masse linéique, le diamètre, la taille d’aiguille conseillée et la longueur.
-- Liez un fil à un projet et notez la quantité réellement utilisée.
+- Pour le fil sur cône, le titre Nm, le nombre de brins et la densité de fibre alimentent les calculs de masse linéique, diamètre, aiguille et longueur. Le fil main utilise directement le poids et la longueur de l’emballage, sans conversion inverse en titrage.
+- Liez un fil à un projet. Les deux catégories enregistrent l’utilisation en grammes pour estimer le coût ; si le poids et la longueur du fil main sont complets, la longueur utilisée est aussi estimée proportionnellement.
 - Utilisez la recherche multicritère, les groupes, les alertes de stock et le calendrier.
 
 ### Simulateur d’échantillon
