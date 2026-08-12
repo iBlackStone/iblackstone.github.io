@@ -36,7 +36,8 @@ Lorsque la bibliothèque de projets est vide, Tricot & Crochet installe une seul
 ## Navigation principale
 
 - **Accueil** : affiche le projet actuel et la prochaine action, puis classe les projets par états — préparation, en cours, terminé ou abandonné.
-- **Fils** : création, recherche, groupes, stock et calendrier des fils.
+  Le démarrage rapide regroupe Ravelry, les Notes de projet, le tricot, le crochet, les fils, les projets, les points et l’aide. Le module Projets ouvre directement les fichiers, l’ordre des sections, l’import d’un paquet, la création et l’import Ravelry. L’aide rassemble les guides de l’app, des grilles de tricot et de crochet, des Notes de projet, du compteur et du simulateur d’échantillon, ainsi que les retours. Les autres modules continuent d’afficher leurs accès dans le groupe arrondi en dessous ; la flèche supérieure indique le module actif. Sélectionnez-le à nouveau ou utilisez « Réduire » pour masquer le groupe.
+- **Fils** : le gestionnaire de stock résume le nombre de fils, le poids restant connu, les stocks faibles et les fiches à compléter, puis permet de parcourir la liste par dossier, recherche et filtre.
 - **Outils** : grilles, diagrammes, compteurs, Notes de projet, couleurs, symboles et calculateurs.
 - **Réglages** : apparence, langue, abonnement, synchronisation, historique des versions, avis, confidentialité et aide.
 
@@ -46,10 +47,18 @@ Lorsque la bibliothèque de projets est vide, Tricot & Crochet installe une seul
 - Pour chaque fil créé ou modifié, choisissez « fil à tricoter main » ou « fil sur cône » en haut de la fiche des caractéristiques. Vous pouvez basculer directement entre les deux sans effacer immédiatement les valeurs de l’autre mode.
 - Pour le fil main, saisissez le nombre de pelotes ou d’écheveaux, le poids, la longueur et le prix par unité. Pour le fil sur cône, saisissez le nombre de cônes, le poids par cône ou total, le titrage Nm, le nombre de brins et le mode de prix.
 - La fiche récapitule immédiatement le poids total, la longueur totale et le prix d’achat total. Les informations déjà saisies restent enregistrables même si la fiche est incomplète.
+- Un prix par pelote, écheveau ou cône est converti en total d’achat. Pour une ancienne fiche ne contenant qu’un seul prix, l’app demande de confirmer sa signification au lieu de la deviner. Elle n’entre dans le montant confirmé, le coût consommé et la valeur du stock restant qu’après le choix explicite du prix unitaire ou total.
 - Ajoutez plusieurs photos et des informations d’achat ou d’utilisation.
-- Pour le fil sur cône, le titre Nm, le nombre de brins et la densité de fibre alimentent les calculs de masse linéique, diamètre, aiguille et longueur. Le fil main utilise directement le poids et la longueur de l’emballage, sans conversion inverse en titrage.
+- La fiche du fil ouvre des pages séparées pour le produit, la matière et la grosseur. Vous pouvez enregistrer la marque, la gamme, le coloris, son numéro, le bain de teinture, la catégorie de grosseur et le WPI. La carte de couleur regroupe la saisie Hex, l’extraction depuis la première photo et la sélection manuelle. Le résumé affiche au plus deux informations produit et seulement la première fibre ; un texte long garde une taille lisible et est tronqué à la fin. Une matière unique sans proportion est clairement affichée à 100 %, et un nouveau composant peut compléter la proportion restante connue. La page Matière estime la masse volumique des fibres depuis les composants et proportions connus, avec une valeur prédéfinie ou personnalisée. Le bouton d’information à côté de la densité affiche les valeurs typiques, plages et règles réellement utilisées. La grosseur ne remplace ni poids, ni longueur, ni titrage Nm.
+- L’analyse des caractéristiques convertit le poids et la longueur d’un fil main en longueur pour 100 g, masse linéique, Nm et longueur restante ; pour un cône, elle calcule masse linéique et longueur depuis Nm et le nombre de brins. La grosseur fournit aussi des plages courantes d’aiguilles, de crochets et d’échantillon jersey. La masse volumique sert uniquement à estimer un « diamètre solide équivalent », pas le diamètre réel incluant gonflant, torsion et air. Le simulateur d’échantillon reste un outil de tricot séparé.
 - Liez un fil à un projet. Les deux catégories enregistrent l’utilisation en grammes pour estimer le coût ; si le poids et la longueur du fil main sont complets, la longueur utilisée est aussi estimée proportionnellement.
-- Utilisez la recherche multicritère, les groupes, les alertes de stock et le calendrier.
+- Les cartes de la bibliothèque affichent uniquement le nom, la catégorie, la caractéristique principale et le stock restant. Lors du choix d’un fil pour un projet, la dernière ligne indique l’utilisation et le coût estimé de ce projet.
+- Dans la bibliothèque normale, balayez une carte vers la gauche pour la déplacer, la copier ou la supprimer. Déplacer ouvre le sélecteur de dossier recherchable en demi-feuille. Après la copie, utilisez l’action temporaire « Modifier la copie » pour poursuivre les changements. Le menu de la fiche permet aussi de copier puis de modifier immédiatement la copie. Celle-ci conserve toutes les informations et photos, mais démarre comme un nouveau stock sans reprendre les projets ni l’utilisation du fil d’origine. Le balayage depuis le bord gauche de la fiche applique les mêmes règles d’enregistrement automatique que le bouton Retour.
+- Le champ Dossier de la fiche permet de déplacer un fil ou de créer un dossier. Ce changement suit les mêmes règles d’enregistrement automatique que les autres modifications.
+- Le choix du dossier s’ouvre dans une demi-feuille consultable et recherchable, même avec beaucoup de dossiers. Une nouvelle fiche totalement inchangée se ferme sans créer d’enregistrement vide.
+- « Tout » et « Non classé » sont fixes et ne peuvent être ni renommés ni supprimés. Les dossiers personnels peuvent être créés, renommés, supprimés et réorganisés par glisser-déposer. Supprimer un dossier déplace seulement ses fils vers « Non classé ».
+- Sous la recherche, une ligne affiche toujours le filtre courant, le tri et le nombre de résultats. Le filtre propose fil main, fil sur cône, stock faible ou stock non renseigné.
+- Pour trier, choisissez d’abord Nom, Date, Stock ou Prix, puis l’ordre détaillé. Le tri couvre le nom, la création, la modification, le stock restant connu, le total d’achat confirmé et le coût pour 100 g. Les fiches sans prix confirmé ou sans poids suffisant restent en fin de liste. Dans la gestion des dossiers, maintenez un dossier personnel pour le réorganiser.
 
 ### Simulateur d’échantillon
 
@@ -61,6 +70,8 @@ Ouvrez-le depuis la fiche d’un fil. Saisissez le nombre de mailles, de rangs, 
 Un projet peut contenir le type d’ouvrage, son état et sa couverture, les fils et quantités, plusieurs compteurs, des Notes de projet, des grilles de tricot, des diagrammes de crochet et les techniques utilisées.
 
 L’accueil privilégie les projets récemment modifiés. Ouvrez un projet pour continuer le compteur principal ou accéder aux matériaux, grilles, notes et techniques. Changer l’état ne supprime aucun contenu.
+
+Sous la recherche, chaque page d’état affiche toujours les filtres, le tri et le nombre de résultats. Combinez tricot／crochet, catégorie d’ouvrage, source locale／Ravelry, échéance sous sept jours／en retard, ainsi que les tailles et formes d’outil principal réellement utilisées. Chaque état mémorise ses choix. Triez par nom, modification, création, début, date cible, date de fin ou progression ; les projets sans la date choisie restent en fin de liste.
 
 Les membres peuvent exporter un projet avec ses fils, compteurs, grilles, PDF, images et relations dans un fichier `.lineopus`. L’importation crée une copie indépendante et n’écrase pas un projet portant le même nom.
 
@@ -172,7 +183,7 @@ L’envoi et le téléchargement iCloud des Réglages constituent une sauvegarde
 - `.lineopus` : un projet complet et ses ressources liées.
 - `.pxproj` et formats associés : grille de tricot modifiable.
 - PDF／images : sources des Notes de projet ou résultats à partager.
-- CSV : transfert en lot des fiches de fils.
+- CSV fils V2 : l’exportation groupée crée un dossier contenant un manifeste de version, la table principale des fils, les tables des compositions et des images, ainsi que les fichiers image. Les en-têtes combinent le libellé localisé et un ID de champ stable, ce qui permet l’édition et l’importation entre langues. Tous les fichiers sont validés avant toute écriture. Les anciens `line_list.csv` ne sont plus pris en charge.
 
 <a id="membership"></a>
 ## Abonnement
@@ -202,3 +213,8 @@ Il est installé une seule fois lors de la première vérification d’une bibli
 ### Comment signaler un problème ?
 
 Ouvrez Réglages → Avis. Indiquez les étapes, le résultat attendu et le résultat obtenu ; ajoutez une capture d’écran pour un problème d’affichage.
+## Dossiers des projets et diagrammes
+
+Les projets, les grilles de tricot, les grilles de crochet et les notes de tricot disposent chacun de leurs propres dossiers. Ouvrez la page Fichiers séparée depuis l’entrée de gestion existante, puis utilisez sa barre supérieure pour choisir Tous, Non classé ou un dossier personnel. Les listes, filtres d’état et entrées d’origine restent inchangés.
+
+Le bouton de gestion à droite permet de créer, renommer, supprimer, rechercher et réordonner les dossiers. Supprimer un dossier déplace son contenu vers Non classé sans supprimer les projets ni les grilles. Recherchez par nom ou résumé ; sous la recherche, une ligne affiche toujours le dossier courant, le tri et le nombre de résultats. Touchez le tri pour modifier l’ordre. Balayez une cellule de fichier vers la gauche, ou effectuez un appui long sur iPad, pour la déplacer ou la supprimer définitivement ; la suppression définitive demande confirmation. La page Fichiers mémorise le dernier dossier et le tri. Le dossier se modifie dans la fiche de l’élément ; pour une note de tricot, utilisez le menu en haut à droite.

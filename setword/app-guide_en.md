@@ -39,9 +39,11 @@ When the local project library is empty, Knit & Crochet installs one bundled tut
 
 Home is the project workspace. The header shows the current project and its next action. The project list can be filtered by states such as All, In Progress, Preparing, Completed, and Abandoned.
 
+Quick Start groups destinations under Ravelry, Project Notes, Knitting, Crochet, Yarn, Projects, Stitches, and Help. Select Projects to open Files, section ordering, project-package import, new project, or Ravelry import directly. Help collects the app guide, knitting chart guide, crochet chart guide, Project Notes guide, knitting counter guide, swatch simulator, and feedback. Other modules continue to reveal their destinations in the rounded group below; the top pointer marks the active module. Select it again or use Collapse to hide the group.
+
 ### Yarn
 
-The Yarn tab stores your material library. Create and search records, browse groups, track stock, and review yarn activity in the calendar.
+The Yarn tab is an inventory manager. Its header summarizes yarn count, known remaining weight, low stock, and records that need inventory details. Browse the library by folder, search, and inventory filters.
 
 ### Tools
 
@@ -59,14 +61,21 @@ Settings contains appearance, language, membership, data sync, release notes, fe
 - Choose hand-knitting yarn or cone yarn at the top of the specification card for every new or edited record. You can switch directly between them; the matching fields update without immediately erasing values entered for the other mode.
 - For hand-knitting yarn, enter the number of balls or skeins, weight and length per package, and a per-package or total price. For cone yarn, enter cone count, per-cone or total weight, Nm count, ply, and price mode.
 - The specification card previews total weight, total length, and purchase total. Incomplete specifications can still be saved.
+- The specification card normalizes a per-ball, per-skein, or per-cone price into a purchase total. A legacy record with only one price is marked as needing confirmation instead of being guessed. It joins confirmed purchase, consumed cost, and remaining stock value statistics only after you explicitly choose per-package or total pricing.
 - Attach multiple photos and keep purchasing or usage details.
-- Cone yarn keeps the Nm, ply, and fiber-density calculations for linear density, diameter, needle size, and length. Hand-knitting yarn uses its package weight and length directly and is not converted back into yarn count.
+- Yarn details opens separate editors for product details, material and fiber content, and yarn weight. You can record a brand, product line, colorway, color number, dye lot, weight category, and WPI. The color card combines Hex entry, color extraction from the first photo, and manual selection. The detail summary shows at most two product fields and only the first fiber item; long text keeps a readable size and truncates at the end. A single material with no ratio is shown explicitly as 100%, and a new component can fill the known remainder. The material page estimates fiber density from known components and ratios, with preset and custom overrides. Use the information button beside density to view the exact typical values, ranges, and calculation rules used by the app. Yarn weight is descriptive and never overwrites weight, length, or Nm count.
+- Specification Analysis converts a hand-knitting yarn’s package weight and length into length per 100 g, linear density, Nm, and remaining length; for cone yarn it derives linear density and length from Nm and ply. Yarn weight adds common needle, hook, and stockinette-gauge ranges. Fiber density is used only for a clearly labeled equivalent-solid-diameter estimate, not the real diameter including loft, twist, and air. The swatch simulator remains a separate Knitting Tool.
 - Link yarn to projects. Both categories record project usage in grams for cost estimates; when hand-knitting yarn has complete weight and length data, used length is also estimated proportionally.
+- Yarn library cards show only the name, category, primary specification, and remaining inventory. When choosing yarn for a project, the last line shows usage and estimated cost for that project.
+- Swipe left on a card in the regular yarn library to move, copy, or delete it. Move opens the searchable half-sheet folder picker. After copying, use the brief Edit Copy action to continue changing the new record. Copy is also available from the detail menu, where you can edit the copy immediately. A copy keeps the full record and photos but starts as new stock without the original yarn's project links or usage. Swiping from the left edge of the detail page follows the same autosave rules as the back button.
+- Use Folder in yarn details to move a record or create a folder. Folder changes follow the same autosave rules as other edits.
+- Folder selection uses a searchable, scrollable half sheet, so large folder libraries remain manageable. A completely unchanged new-yarn page closes without creating an empty record.
 
 ### Find and organize yarn
 
-- Filter the library with multiple search conditions.
-- Browse groups based on name, fiber, color, form, and other stored fields.
+- All and Uncategorized are fixed destinations and cannot be renamed or deleted. Create, rename, delete, and drag to reorder personal folders. Deleting a folder only moves its yarn to Uncategorized.
+- Below search, a persistent row shows the current filter, current sort, and result count. Tap Filter for hand-knitting yarn, cone yarn, low stock, or missing inventory.
+- Tap Sort, choose Name, Time, Inventory, or Price, then choose the detailed direction. Sorting supports name, creation date, modification date, known remaining stock, confirmed purchase total, and cost per 100g. Records without a confirmed price or sufficient weight stay at the end. In folder management, touch and hold a personal folder to reorder it.
 - Use stock alerts to find yarn that is running low.
 - Use the yarn calendar to review added and usage records.
 
@@ -90,6 +99,8 @@ A project can store:
 ### Continue working
 
 Home prioritizes recently updated projects. Open a project to continue its main counter or enter its materials, charts, notes, and techniques.
+
+Below search, each status page always shows its current filters, sort, and result count. Combine knitting or crochet, project category, local or Ravelry source, due-within-seven-days or overdue schedule, and the main-tool sizes and forms actually used by projects. Each status page remembers its own choices. Sort by name, update, creation, start, target or completion date, or progress; projects missing the chosen date stay at the end.
 
 ### Project status
 
@@ -240,7 +251,7 @@ Upload and download in Settings operates as a full-library backup. Current backu
 - `.lineopus`: one complete project and its linked resources.
 - `.pxproj` or knitting-project formats: editable knitting charts.
 - PDF/images: sources for Project Notes or sharing output.
-- CSV: batch transfer for yarn records.
+- Yarn CSV V2: batch export creates a folder containing a version manifest, yarn table, component table, image table, and image files. Headers include both localized names and stable field IDs, so packages can be edited and imported across languages. Import validates the complete package before writing any records. Legacy `line_list.csv` files are no longer supported.
 
 A complete project package is not a replacement for a full-library backup, and a full backup is not intended for sharing one project.
 
@@ -283,3 +294,8 @@ The action is a member feature or its free allowance has been reached. Existing 
 ### How should I report a problem?
 
 Open Settings → Feedback. Include the steps, expected result, actual result, and a screenshot for visual or layout issues.
+## Folders for projects and charts
+
+Projects, knitting charts, crochet charts, and knitting notes each have their own folders. Open the separate Files page from the existing file-management entry, then swipe its top folder strip to switch between All, Unfiled, and your folders. The original lists, project-state filters, and entry points remain unchanged.
+
+Use the management button on the right to create, rename, delete, search, or reorder folders. Deleting a folder moves its items to Unfiled and never deletes the projects or charts. Search file names or summaries; the row below search always shows the current folder, sorting, and result count, and its sorting control changes the order. Swipe a file row left, or long-press it on iPad, to move or permanently delete it; permanent deletion asks for confirmation. The Files page remembers its last folder and sorting. Change a folder from item details; knitting notes use the top-right menu.
