@@ -5,6 +5,14 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v2.0.1
+Release Notes
+
+* File indexing system added to each section;
+* Homepage quick access redesigned;
+* Newly designed yarn inventory section;
+* Other feature and experience optimizations;
+
 ### v2.0.0 (Major Update)
 * The works section is now integrated with the Ravelry website, allowing for quick and free access to illustrated patterns.
 * Brand-new details on crochet and knitting stitch symbols, along with instructional videos to help you avoid making mistakes.
