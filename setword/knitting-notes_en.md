@@ -15,6 +15,7 @@ Knitting Notes lets you import and read PDF patterns, then add rulers, text, ima
 - [Edit and Lock Components](#edit-page-components)
 - [Brushes and Eraser](#brushes-and-eraser)
 - [Counters](#counters)
+- [Time spent](#time-spent)
 - [Elements](#elements)
 - [Save and Multiple Devices](#save-undo-and-restore)
 - [Frequently Asked Questions](#frequently-asked-questions)
@@ -61,6 +62,7 @@ In the dark theme, the PDF reading area reduces the brightness of white pages by
 | Brush | Select a brush and draw on the current PDF page |
 | Eraser | Erase brush strokes |
 | Counter | Show or hide project counters |
+| Timer | Manually track time spent in this session |
 | More | Open Elements, Default Color, Brush Manager, and Ruler Manager |
 
 ## Pages and Labels
@@ -158,6 +160,10 @@ Select a brush from **Brush** and draw on the current page.
 - Delete components using their floating Delete button or Elements.
 
 Adding new brush presets requires membership. Default and existing brushes remain usable.
+
+## Time spent
+
+The bottom Timer is separate from row Counters. After you start it manually, dismissing the sheet keeps it running; leaving Project Notes or sending the app to the background stops and saves it. Notes opened from a project assign the session to that project, while standalone notes keep a note-only history.
 
 ## Counters
 

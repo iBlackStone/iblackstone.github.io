@@ -11,6 +11,7 @@ Knit & Crochet helps you organize yarn, manage knitting projects, track progress
 - [Yarn library](#yarn-library)
 - [Project workspace](#project-workspace)
 - [Knitting counter](#counter)
+- [Smart Pattern Drafting](#pattern-drafting)
 - [Knitting charts](#knitting-chart)
 - [Knitting chart area operations](#knitting-chart-area-operations)
 - [Crochet charts](#crochet-chart)
@@ -60,12 +61,13 @@ Settings contains appearance, language, membership, data sync, release notes, fe
 
 - Choose hand-knitting yarn or cone yarn at the top of the specification card for every new or edited record. You can switch directly between them; the matching fields update without immediately erasing values entered for the other mode.
 - For hand-knitting yarn, enter the number of balls or skeins, weight and length per package, and a per-package or total price. For cone yarn, enter cone count, per-cone or total weight, Nm count, ply, and price mode.
+- Cone-yarn total length is calculated from total weight, Nm, and ply by default. If Nm is unavailable or the actual length differs, enter the total length directly. A manual value takes priority; clear it to restore automatic calculation.
 - The specification card previews total weight, total length, and purchase total. Incomplete specifications can still be saved.
 - The specification card normalizes a per-ball, per-skein, or per-cone price into a purchase total. A legacy record with only one price is marked as needing confirmation instead of being guessed. It joins confirmed purchase, consumed cost, and remaining stock value statistics only after you explicitly choose per-package or total pricing.
 - Attach multiple photos and keep purchasing or usage details.
 - Yarn details opens separate editors for product details, material and fiber content, and yarn weight. You can record a brand, product line, colorway, color number, dye lot, weight category, and WPI. The color card combines Hex entry, color extraction from the first photo, and manual selection. The detail summary shows at most two product fields and only the first fiber item; long text keeps a readable size and truncates at the end. A single material with no ratio is shown explicitly as 100%, and a new component can fill the known remainder. The material page estimates fiber density from known components and ratios, with preset and custom overrides. Use the information button beside density to view the exact typical values, ranges, and calculation rules used by the app. Yarn weight is descriptive and never overwrites weight, length, or Nm count.
-- Specification Analysis converts a hand-knitting yarn’s package weight and length into length per 100 g, linear density, Nm, and remaining length; for cone yarn it derives linear density and length from Nm and ply. Yarn weight adds common needle, hook, and stockinette-gauge ranges. Fiber density is used only for a clearly labeled equivalent-solid-diameter estimate, not the real diameter including loft, twist, and air. The swatch simulator remains a separate Knitting Tool.
-- Link yarn to projects. Both categories record project usage in grams for cost estimates; when hand-knitting yarn has complete weight and length data, used length is also estimated proportionally.
+- Specification Analysis converts a hand-knitting yarn’s package weight and length into length per 100 g, linear density, Nm, and remaining length. For cone yarn it prioritizes a manual total length, otherwise calculating from Nm and ply; weight plus total length can also derive linear density and Nm when the count is unavailable. Yarn weight adds common needle, hook, and stockinette-gauge ranges. Fiber density is used only for a clearly labeled equivalent-solid-diameter estimate, not the real diameter including loft, twist, and air. The swatch simulator remains a separate Knitting Tool.
+- Link yarn to projects. Both categories record project usage in grams for cost estimates. When total weight and total length are both available, used and remaining length are estimated proportionally for either category.
 - Yarn library cards show only the name, category, primary specification, and remaining inventory. When choosing yarn for a project, the last line shows usage and estimated cost for that project.
 - Swipe left on a card in the regular yarn library to move, copy, or delete it. Move opens the searchable half-sheet folder picker. After copying, use the brief Edit Copy action to continue changing the new record. Copy is also available from the detail menu, where you can edit the copy immediately. A copy keeps the full record and photos but starts as new stock without the original yarn's project links or usage. Swiping from the left edge of the detail page follows the same autosave rules as the back button.
 - Use Folder in yarn details to move a record or create a folder. Folder changes follow the same autosave rules as other edits.
@@ -98,7 +100,7 @@ A project can store:
 
 ### Continue working
 
-Home prioritizes recently updated projects. Open a project to continue its main counter or enter its materials, charts, notes, and techniques.
+Home prioritizes recently updated projects. Project cards use a square 1:1 cover with the title at the bottom of the image; status, main counter, and progress remain below, and the layout adapts to light or dark appearance and iPad orientation. Open a project to continue its main counter or enter its materials, charts, notes, and techniques.
 
 Below search, each status page always shows its current filters, sort, and result count. Combine knitting or crochet, project category, local or Ravelry source, due-within-seven-days or overdue schedule, and the main-tool sizes and forms actually used by projects. Each status page remembers its own choices. Sort by name, update, creation, start, target or completion date, or progress; projects missing the chosen date stay at the end.
 
@@ -111,6 +113,12 @@ Projects can be Preparing, In Progress, Completed, or Abandoned. Changing status
 Members can export a project together with linked yarn, counters, charts, PDFs, images, and resource relationships as one `.lineopus` file. Import creates an independent copy and does not overwrite an existing project with the same name.
 
 <a id="counter"></a>
+### Time spent
+
+The knitting counter, project notes, knitting chart editor, and crochet chart editor each include a Timer entry. Start it manually. Dismissing the timer sheet does not stop it, while leaving the module or sending the app to the background stops and saves the session. Only one timer can run at a time; starting another ends the previous session first.
+
+When a module is opened from a project, the session is assigned to that project automatically. A resource opened on its own keeps a resource-only history and is not assigned retroactively. In project details, Notes & Time shows the total, module breakdown, and recent sessions; swipe a session to delete an incorrect record. Completed sessions are included in `.lineopus` exports.
+
 ## Knitting counter
 
 The counter can be used as a standalone tool or as the main progress tracker inside a project.
@@ -135,8 +143,23 @@ Each counter supports three display modes:
 - **Project Notes**: link a PDF or image note in read-only mode and remember the counter's current page.
 - **Text instructions**: save written steps and adjust text size.
 
+<a id="pattern-drafting"></a>
+## Smart Pattern Drafting
+
+Open **Tools > Pattern Drafting** to create or continue a pattern and manage people separately. The project home Quick Start area also offers Pattern actions for creating, listing, and managing people. A pattern can also be linked from **Project Resources > Pattern Drafting** inside a project.
+
+Creation now begins by choosing a pattern strategy. Built-ins include a basic vest, a complete drop-shoulder long-sleeve pullover, and blank custom pieces. The pullover generates front, back, left and right sleeves plus neckline, hem, cuff, and assembly information. You can create centimeter geometry without gauge, then add stitches and rows per 10 cm from an actual swatch to generate count candidates.
+
+**My Pattern Strategies** creates restricted copies of built-ins. You can change name, version, dimensions, and a compatible round/V-neck component, then import or export `.linepatternstrategy`. Packages cannot run scripts or network code and are validated for size, schema, knowledge version, construction graph, and registered factory. Existing projects retain their creation snapshot; upgrades create a copy. CloudKit submission and sharing are not included in this release.
+
+The editor follows the knitting/crochet editors with black top controls, a two-row bottom dock, and a fully black workspace with distinct 1 cm and 5 cm grid lines. Pan empty canvas with one finger, pinch around the gesture center, or double-tap to fit the current piece. The `0.125x–12x` canvas redraws geometry and text from mathematical coordinates instead of scaling a bitmap. Interactive swipe-back is disabled inside the editor; use Close. Long-press a tool for its full description.
+
+The first bottom row contains Undo, Redo, Front, Back, Piece, All, and Fit; the second contains Edit, Design, Dimensions, cm Grid, Stitch Grid, Staircase, and Steps. Complete pullovers can switch among body and sleeve pieces. The top plan shortcut and canvas summary open editable candidates; without gauge the project remains explicitly centimeter-only. Design settings replace compatible round/V-neck components transactionally and regenerate only after Save. Rounding, curves, slope shaping, neckline pickup, and assembly remain candidate or manual work and cannot yet publish to the counter. Arbitrary Bezier nodes, other sleeve/yoke families, and knitting/crochet chart placement are not available. People, measurements, strategies, and projects remain on this device and are not exported in `.lineopus`.
+
 <a id="knitting-chart"></a>
 ## Knitting charts
+
+Free users can create up to 3 knitting charts. After reaching 3, creating or importing another chart requires a subscription; existing charts remain available to open and edit. The existing membership rule for large knitting canvases is unchanged.
 
 The knitting chart editor stores colors and stitch symbols in grid cells. It is suitable for stitch charts, stranded colorwork, cross-stitch, and pixel art.
 
@@ -194,6 +217,8 @@ Export options include images and editable project files; use project files for 
 <a id="crochet-chart"></a>
 ## Crochet charts
 
+Free users can create up to 3 crochet charts. After reaching 3, creating or importing another chart requires a subscription, while existing charts remain available to open and edit.
+
 The crochet editor uses a free canvas and is not restricted to the knitting grid.
 
 - Create a canvas and configure its background and size.
@@ -235,7 +260,7 @@ Project Notes has its own detailed guide. Select “Project Notes” in the help
 
 - **Color tools**: sample colors from images, create palettes, and save color records.
 - **Symbol libraries**: browse and search knitting or crochet symbols and maintain personal symbols or notes.
-- **Body measurements**: record measurements for garment projects and preview basic stitch/row conversions.
+- **Pattern Drafting**: use a standard form for people and body measurements, generate a basic vest, and confirm theoretical stitch/row counts.
 - **Calculators**: assist with gauge, length, weight, and size calculations.
 - **Calendars and alerts**: review yarn/project records and configure stock-related reminders.
 

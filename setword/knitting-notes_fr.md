@@ -15,6 +15,7 @@ Les notes de tricot permettent d’importer et de lire des modèles PDF, puis d�
 - [Modifier et verrouiller les composants](#modifier-les-composants)
 - [Pinceaux et gomme](#pinceaux-et-gomme)
 - [Compteurs](#compteurs)
+- [Temps consacré](#temps-consacré)
 - [Gestion des éléments](#gestion-des-éléments)
 - [Enregistrement et appareils multiples](#enregistrement-annulation-et-restauration)
 - [Questions fréquentes](#questions-fréquentes)
@@ -61,6 +62,7 @@ Avec le thème sombre, la zone de lecture réduit par défaut la luminosité des
 | Pinceau | Choisit un pinceau et dessine sur la page actuelle |
 | Gomme | Efface les tracés du pinceau |
 | Compteurs | Affiche ou masque les compteurs du projet |
+| Chronomètre | Enregistre manuellement le temps de cette session |
 | Plus | Ouvre les éléments, la couleur par défaut et la gestion des pinceaux ou des règles |
 
 ## Pages et étiquettes
@@ -158,6 +160,10 @@ Choisissez un préréglage dans **Pinceau**, puis dessinez sur la page actuelle.
 - Supprimez un composant avec son bouton Supprimer ou dans la gestion des éléments.
 
 La création de nouveaux pinceaux est réservée aux membres. Les pinceaux par défaut et existants restent utilisables.
+
+## Temps consacré
+
+Le Chronomètre de la barre inférieure est indépendant des compteurs de rangs. Après son démarrage manuel, fermer la feuille ne l’arrête pas ; quitter les Notes de projet ou passer l’App en arrière-plan l’arrête et l’enregistre. Une note ouverte depuis un projet lui attribue la session, tandis qu’une note autonome conserve son propre historique.
 
 ## Compteurs
 

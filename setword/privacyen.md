@@ -5,8 +5,8 @@ title: "Knit & Crochet Privacy Policy"
 
 # Knit & Crochet Privacy Policy
 
-**Last updated: August 5, 2026**<br>
-**Effective date: August 5, 2026**
+**Last updated: August 17, 2026**<br>
+**Effective date: August 17, 2026**
 
 Thank you for using Knit & Crochet (the “App”). This Privacy Policy explains how the App handles information and how you can manage related data and permissions. Please read it before using the App.
 
@@ -20,10 +20,13 @@ The following content that you create or import is generally stored in the App s
 
 - yarn records, projects, counters, progress, project dates, and notes;
 - knitting charts, crochet charts, pixel charts, and their editing data;
+- names, body-measurement snapshots, target garment measurements, gauge, and pattern projects created in Smart Pattern Drafting;
 - photos, PDFs, imported files, and export records that you select;
 - App settings, cached entitlement information, and feature state.
 
 Creating or editing this local content does not automatically upload it to the developer. Uninstalling the App will generally remove local data from the device, but existing iCloud backups must be deleted separately in the App or through Apple's iCloud management tools.
+
+Smart Pattern Drafting V1 uses a separate local database. People, body measurements, and pattern data are not included in the current iCloud database backup or exported in `.lineopus` packages. If pattern sync or archiving is added later, the relevant disclosure and user choices will be updated before it is enabled.
 
 ### 1.2 iCloud backup and file selection
 

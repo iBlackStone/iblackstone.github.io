@@ -11,6 +11,7 @@ Tricot & Crochet permet de gérer les fils, d’organiser les projets, de suivre
 - [Bibliothèque de fils](#yarn-library)
 - [Espace projets](#project-workspace)
 - [Compteur de tricot](#counter)
+- [Création intelligente de patron](#pattern-drafting)
 - [Grilles de tricot](#knitting-chart)
 - [Opérations de zone des grilles de tricot](#knitting-chart-area-operations)
 - [Diagrammes de crochet](#crochet-chart)
@@ -46,12 +47,13 @@ Lorsque la bibliothèque de projets est vide, Tricot & Crochet installe une seul
 
 - Pour chaque fil créé ou modifié, choisissez « fil à tricoter main » ou « fil sur cône » en haut de la fiche des caractéristiques. Vous pouvez basculer directement entre les deux sans effacer immédiatement les valeurs de l’autre mode.
 - Pour le fil main, saisissez le nombre de pelotes ou d’écheveaux, le poids, la longueur et le prix par unité. Pour le fil sur cône, saisissez le nombre de cônes, le poids par cône ou total, le titrage Nm, le nombre de brins et le mode de prix.
+- La longueur totale d’un fil sur cône est calculée par défaut depuis le poids total, le titrage Nm et le nombre de brins. Si le titrage est inconnu ou si la longueur réelle diffère, saisissez directement la longueur totale. La valeur manuelle est prioritaire ; effacez-la pour rétablir le calcul automatique.
 - La fiche récapitule immédiatement le poids total, la longueur totale et le prix d’achat total. Les informations déjà saisies restent enregistrables même si la fiche est incomplète.
 - Un prix par pelote, écheveau ou cône est converti en total d’achat. Pour une ancienne fiche ne contenant qu’un seul prix, l’app demande de confirmer sa signification au lieu de la deviner. Elle n’entre dans le montant confirmé, le coût consommé et la valeur du stock restant qu’après le choix explicite du prix unitaire ou total.
 - Ajoutez plusieurs photos et des informations d’achat ou d’utilisation.
 - La fiche du fil ouvre des pages séparées pour le produit, la matière et la grosseur. Vous pouvez enregistrer la marque, la gamme, le coloris, son numéro, le bain de teinture, la catégorie de grosseur et le WPI. La carte de couleur regroupe la saisie Hex, l’extraction depuis la première photo et la sélection manuelle. Le résumé affiche au plus deux informations produit et seulement la première fibre ; un texte long garde une taille lisible et est tronqué à la fin. Une matière unique sans proportion est clairement affichée à 100 %, et un nouveau composant peut compléter la proportion restante connue. La page Matière estime la masse volumique des fibres depuis les composants et proportions connus, avec une valeur prédéfinie ou personnalisée. Le bouton d’information à côté de la densité affiche les valeurs typiques, plages et règles réellement utilisées. La grosseur ne remplace ni poids, ni longueur, ni titrage Nm.
-- L’analyse des caractéristiques convertit le poids et la longueur d’un fil main en longueur pour 100 g, masse linéique, Nm et longueur restante ; pour un cône, elle calcule masse linéique et longueur depuis Nm et le nombre de brins. La grosseur fournit aussi des plages courantes d’aiguilles, de crochets et d’échantillon jersey. La masse volumique sert uniquement à estimer un « diamètre solide équivalent », pas le diamètre réel incluant gonflant, torsion et air. Le simulateur d’échantillon reste un outil de tricot séparé.
-- Liez un fil à un projet. Les deux catégories enregistrent l’utilisation en grammes pour estimer le coût ; si le poids et la longueur du fil main sont complets, la longueur utilisée est aussi estimée proportionnellement.
+- L’analyse des caractéristiques convertit le poids et la longueur d’un fil main en longueur pour 100 g, masse linéique, Nm et longueur restante. Pour un cône, elle donne priorité à la longueur totale manuelle, sinon elle calcule depuis Nm et le nombre de brins ; le poids et la longueur totale permettent aussi de retrouver la masse linéique et le Nm sans titrage. La grosseur fournit aussi des plages courantes d’aiguilles, de crochets et d’échantillon jersey. La masse volumique sert uniquement à estimer un « diamètre solide équivalent », pas le diamètre réel incluant gonflant, torsion et air. Le simulateur d’échantillon reste un outil de tricot séparé.
+- Liez un fil à un projet. Les deux catégories enregistrent l’utilisation en grammes pour estimer le coût. Quand le poids total et la longueur totale sont disponibles, la longueur utilisée et restante est estimée proportionnellement pour les deux catégories.
 - Les cartes de la bibliothèque affichent uniquement le nom, la catégorie, la caractéristique principale et le stock restant. Lors du choix d’un fil pour un projet, la dernière ligne indique l’utilisation et le coût estimé de ce projet.
 - Dans la bibliothèque normale, balayez une carte vers la gauche pour la déplacer, la copier ou la supprimer. Déplacer ouvre le sélecteur de dossier recherchable en demi-feuille. Après la copie, utilisez l’action temporaire « Modifier la copie » pour poursuivre les changements. Le menu de la fiche permet aussi de copier puis de modifier immédiatement la copie. Celle-ci conserve toutes les informations et photos, mais démarre comme un nouveau stock sans reprendre les projets ni l’utilisation du fil d’origine. Le balayage depuis le bord gauche de la fiche applique les mêmes règles d’enregistrement automatique que le bouton Retour.
 - Le champ Dossier de la fiche permet de déplacer un fil ou de créer un dossier. Ce changement suit les mêmes règles d’enregistrement automatique que les autres modifications.
@@ -69,13 +71,19 @@ Ouvrez-le depuis la fiche d’un fil. Saisissez le nombre de mailles, de rangs, 
 
 Un projet peut contenir le type d’ouvrage, son état et sa couverture, les fils et quantités, plusieurs compteurs, des Notes de projet, des grilles de tricot, des diagrammes de crochet et les techniques utilisées.
 
-L’accueil privilégie les projets récemment modifiés. Ouvrez un projet pour continuer le compteur principal ou accéder aux matériaux, grilles, notes et techniques. Changer l’état ne supprime aucun contenu.
+L’accueil privilégie les projets récemment modifiés. Les cartes utilisent une couverture carrée 1:1, avec le titre au bas de l’image ; l’état, le compteur principal et la progression restent dessous, et la mise en page s’adapte aux apparences claire ou sombre ainsi qu’à l’orientation de l’iPad. Ouvrez un projet pour continuer le compteur principal ou accéder aux matériaux, grilles, notes et techniques. Changer l’état ne supprime aucun contenu.
 
 Sous la recherche, chaque page d’état affiche toujours les filtres, le tri et le nombre de résultats. Combinez tricot／crochet, catégorie d’ouvrage, source locale／Ravelry, échéance sous sept jours／en retard, ainsi que les tailles et formes d’outil principal réellement utilisées. Chaque état mémorise ses choix. Triez par nom, modification, création, début, date cible, date de fin ou progression ; les projets sans la date choisie restent en fin de liste.
 
 Les membres peuvent exporter un projet avec ses fils, compteurs, grilles, PDF, images et relations dans un fichier `.lineopus`. L’importation crée une copie indépendante et n’écrase pas un projet portant le même nom.
 
 <a id="counter"></a>
+### Temps consacré
+
+Le compteur de tricot, les notes de projet et les éditeurs de grilles tricot et crochet proposent une entrée Chronomètre. Le démarrage est manuel. Fermer la feuille ne l’arrête pas ; quitter le module ou passer l’App en arrière-plan arrête et enregistre la session. Un seul chronomètre peut fonctionner à la fois : en démarrer un autre termine d’abord la session précédente.
+
+Lorsqu’un module est ouvert depuis un projet, la session lui est attribuée automatiquement. L’historique d’une ressource ouverte seule reste indépendant et n’est pas rattaché rétroactivement. Dans les détails du projet, Notes et temps affiche le total, la répartition par module et les sessions récentes ; faites glisser une session pour supprimer une erreur. Les sessions terminées sont incluses dans l’export `.lineopus`.
+
 ## Compteur de tricot
 
 - Comptez les rangs／tours et les mailles ensemble, ou utilisez un compteur à valeur unique.
@@ -85,8 +93,23 @@ Les membres peuvent exporter un projet avec ses fils, compteurs, grilles, PDF, i
 - Choisissez entre une grille de tricot, des Notes de projet en lecture seule ou des instructions textuelles.
 - Les journaux d’actions alimentent l’analyse du projet.
 
+<a id="pattern-drafting"></a>
+## Création intelligente de patron
+
+Ouvrez **Outils > Création de patron** pour créer ou reprendre un patron et gérer séparément les personnes. Le démarrage rapide de l’accueil des projets propose aussi la création, la liste et les personnes. Vous pouvez également lier un patron depuis **Ressources du projet > Création de patron**.
+
+La création commence par le choix d’une stratégie. Les stratégies intégrées comprennent un gilet de base, un pull complet à manches longues et épaules tombantes, et des pièces personnalisées vierges. Le pull produit devant, dos, manches gauche et droite, ainsi que les informations d’encolure, bordures et assemblages. Sans échantillon, vous pouvez enregistrer la géométrie en centimètres puis ajouter mailles et rangs par 10 cm plus tard.
+
+**Mes stratégies de patron** crée des copies limitées des stratégies intégrées. Vous pouvez modifier nom, version, dimensions et composant d’encolure ronde/V compatible, puis importer ou exporter `.linepatternstrategy`. Aucun script ni code réseau n’est exécuté ; taille, schema, version de connaissances, graphe et fabrique sont validés. Les projets existants gardent leur instantané et une mise à niveau crée une copie. Le partage CloudKit n’est pas inclus dans cette version.
+
+L’éditeur reprend les éditeurs de tricot et de crochet : commandes supérieures noires, deux rangées d’outils en bas et espace de travail entièrement noir, avec des lignes distinctes pour les grilles de 1 et 5 cm. Déplacez le fond avec un doigt, pincez autour du centre du geste et touchez deux fois pour ajuster la pièce active. Entre `0.125x–12x`, les contours et les textes sont redessinés depuis les coordonnées mathématiques, et non agrandis comme une image. Le retour par glissement est désactivé dans l’éditeur ; utilisez Fermer. Un appui long décrit chaque outil.
+
+La première rangée conserve Annuler, Rétablir, Devant, Dos, Pièce, Tout et Ajuster ; la seconde conserve Modifier, Patron, Dimensions, Grille cm, Grille mailles-rangs, Paliers et Étapes. Un pull complet permet de passer du corps aux manches gauche et droite. Sans échantillon, le projet reste clairement un patron en centimètres. Arrondis, courbes, augmentations de pente, relevages et assemblages restent des candidats ou confirmations manuelles et ne peuvent pas encore être publiés vers le compteur. Les nœuds Bezier libres, autres familles de manches/empiècements et le placement de grilles restent indisponibles. Personnes, mesures, stratégies et patrons restent sur cet appareil.
+
 <a id="knitting-chart"></a>
 ## Grilles de tricot
+
+Les utilisateurs gratuits peuvent créer jusqu’à 3 grilles de tricot. Une fois cette limite atteinte, la création ou l’importation d’une nouvelle grille nécessite un abonnement ; les grilles existantes restent accessibles et modifiables. La règle d’abonnement existante pour les grandes grilles ne change pas.
 
 L’éditeur enregistre couleurs et symboles dans des cellules. Il convient aux diagrammes de points, au jacquard, au point de croix et au pixel art.
 
@@ -132,6 +155,8 @@ Les sauvegardes programmées sont désactivées pendant la modification afin de 
 <a id="crochet-chart"></a>
 ## Diagrammes de crochet
 
+Les utilisateurs gratuits peuvent créer jusqu’à 3 diagrammes de crochet. Une fois cette limite atteinte, la création ou l’importation d’un nouveau diagramme nécessite un abonnement ; les diagrammes existants restent accessibles et modifiables.
+
 L’éditeur de crochet utilise un canevas libre.
 
 - Utilisez la bibliothèque multilingue de symboles ou vos symboles personnalisés.
@@ -171,7 +196,7 @@ Une documentation détaillée est disponible via « Notes de projet » dans le c
 
 - **Couleurs** : prélevez des couleurs sur une image, créez des palettes et conservez les résultats.
 - **Bibliothèques de symboles** : recherchez les symboles de tricot ou crochet et gérez vos symboles et notes.
-- **Mensurations** : notez les mesures utiles aux vêtements et prévisualisez les conversions de mailles et rangs.
+- **Création de patron** : saisissez la personne et ses mesures dans un formulaire, générez un gilet simple et confirmez les comptes théoriques.
 - **Calculateurs** : aide pour l’échantillon, la longueur, le poids et les dimensions.
 - **Calendriers et alertes** : consultez l’activité des fils/projets et configurez des rappels de stock.
 
