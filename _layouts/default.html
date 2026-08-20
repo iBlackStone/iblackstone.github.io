@@ -170,9 +170,11 @@
     </style>
 </head>
 <body>
+    {% unless page.hide_page_title %}
     <header>
         <h1>{{ page.title | default: site.title }}</h1>
     </header>
+    {% endunless %}
     <main>
         <div class="content-wrapper">
             {{ content }}
