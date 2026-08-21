@@ -1,8 +1,7 @@
 ---
 title: Remerciements
+hide_page_title: true
 ---
-
-# Remerciements
 
 Tricot & Crochet s’est amélioré grâce à vos suggestions, vos tests et vos encouragements. Merci à toutes les personnes qui utilisent l’application, signalent des problèmes, partagent leurs idées et accompagnent chaque amélioration.
 

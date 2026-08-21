@@ -1,3 +1,7 @@
+---
+title: Acknowledgments
+hide_page_title: true
+---
 
 Knit & Crochet has grown through real suggestions, testing, and encouragement. Thank you to everyone who uses the app, reports problems, shares ideas, and gives each improvement time to mature.
 
