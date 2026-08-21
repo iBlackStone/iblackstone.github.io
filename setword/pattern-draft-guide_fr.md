@@ -5,7 +5,7 @@ hide_page_title: true
 
 **Navigation rapide**
 
-- [Créer](#create) · [Canevas](#canvas) · [Outils](#tools) · [Mailles et rangs](#counts) · [Preuves](#evidence)
+- [Créer](#create) · [Canevas](#canvas) · [Outils](#tools) · [Mailles et rangs](#counts) · [Version gratuite et abonnement](#membership) · [Preuves](#evidence)
 
 <a id="create"></a>
 ## Créer
@@ -17,9 +17,9 @@ Dessin libre, stratégie et modèle personnel créent le même type de projet. V
 
 L’espace de travail noir utilise des coordonnées en centimètres. Le mode Nœuds permet Ligne/Bézier, poignées carrées, Angle/Lisse, ouverture/fermeture et suppression sûre des nœuds non initiaux.
 
-Après avoir choisi une personne, un patron de base cyan en pointillés s’affiche avec les guides disponibles de poitrine et de taille. Ce calque indépendant ne participe pas au calcul des mailles et se règle dans Calques > Patron de base.
+Après avoir choisi une personne, la Référence corporelle cyan compare largeur du corps, largeur du vêtement et aisance. Le Patron de base doré affiche devant, dos et manche avec encolures, épaules, emmanchures, tête de manche, lignes poitrine/taille/hanches, pointes de poitrine et cotes en centimètres. Référence corporelle, Patron de base et Pièces du vêtement se règlent séparément ; masquez les pièces pour examiner uniquement le patron de base. Les mesures manquantes et transformations non confirmées restent candidates/unknown sans être devinées.
 
-Les tailles publiques femme, homme et enfant/adolescent peuvent préremplir une fiche, puis chaque mesure reste modifiable et conserve sa source. Patron de base et aisance sépare l’aisance par zone des corrections de tracé telles que la remontée d’épaule, l’extension d’épaule et la profondeur d’emmanchure.
+Cinq profils supprimables « Référence femme » XS à XL sont fournis ; les tailles publiques restent disponibles. Carrure dos, écart et hauteur de poitrine, tour de coude et longueur de manche alimentent le patron de base formel. Chaque mesure reste modifiable et conserve sa source.
 
 <a id="tools"></a>
 ## Outils
@@ -36,6 +36,13 @@ La carte du plan en haut à gauche commence sur une seule ligne et conserve le c
 Saisissez les deux jauges mesurées pour créer des candidats. Le Plan permet de modifier les opérations rang par rang et la notation `2-1-3`.
 
 Le plan suit le composant sélectionné : le corps affiche son façonnage, les manches le leur, tandis que bandes, tubes et formes libres n’affichent que leur montage, leur total de rangs et leur façonnage latéral.
+
+<a id="membership"></a>
+## Version gratuite et abonnement
+
+La version gratuite peut conserver deux projets de patron à la fois ; supprimer un patron libère un emplacement. Même lorsque la limite est atteinte, les patrons existants restent consultables, modifiables, enregistrables et supprimables. Le dessin libre et les outils essentiels — référence corporelle, patron de base formel, aisance, échantillon, mesures, courbes, nœuds et plans de mailles — restent gratuits.
+
+Le pull de base à épaules tombantes est la stratégie gratuite. Les stratégies avancées, Mes modèles, plusieurs préréglages, la création de stratégies et le transfert de paquets nécessitent un abonnement. La préparation de la génération reste gratuite ; l’abonnement ne sera vérifié que lorsqu’une action future créera réellement une tâche de compteur, une grille de tricot, un diagramme de crochet ou une estimation de fil.
 
 <a id="evidence"></a>
 ## Preuves

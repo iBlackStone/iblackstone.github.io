@@ -42,6 +42,8 @@ Home is the project workspace. The header shows the current project and its next
 
 Quick Start groups destinations under Ravelry, Project Notes, Knitting, Crochet, Yarn, Projects, Stitches, and Help. Select Projects to open Files, section ordering, project-package import, new project, or Ravelry import directly. Help collects the app guide, knitting chart guide, crochet chart guide, Project Notes guide, knitting counter guide, swatch simulator, and feedback. Knitting, Crochet, and Project Notes also place their matching help entry at the end of their own module; the corresponding Tools categories do the same, while categories without an existing guide show no empty help entry. Other modules continue to reveal their destinations in the rounded group below; the top pointer marks the active module. Select it again or use Collapse to hide the group.
 
+An in-progress project card shows a resource shortcut menu in its upper-right corner when it has linked Project Notes, pattern drafts, knitting charts, or crochet charts. Project Notes appear as direct actions first; pattern drafts, knitting charts, and crochet charts remain grouped in collapsed submenus. Select a resource name to open it.
+
 ### Yarn
 
 The Yarn tab is an inventory manager. Its header summarizes yarn count, known remaining weight, low stock, and records that need inventory details. Browse the library by folder, search, and inventory filters.
@@ -52,7 +54,7 @@ Tools contains knitting charts, crochet charts, counters, Project Notes, color t
 
 ### Settings
 
-Settings contains appearance, language, membership, data sync, release notes, feedback, privacy information, and this help center.
+Settings contains appearance, language, membership, data sync, release notes, feedback, privacy information, this help center, and About. The Acknowledgments item in About opens the page for the current language.
 
 <a id="yarn-library"></a>
 ## Yarn library
@@ -167,6 +169,7 @@ The knitting chart editor stores colors and stitch symbols in grid cells. It is 
 
 - Configure rows, columns, cell size, and reading direction.
 - Choose stitches from the system or custom symbol library.
+- A custom symbol can be built from symbols, text, or an image. Images support Fit Entire Image or Fill and Crop, and are orientation-normalized and compressed before saving.
 - Draw symbols, fill colors, erase, undo, and redo.
 - Use area selection for copy, cut, paste, fill, replace, and repeated placement.
 - Save reusable colors, templates, and custom symbols.
@@ -179,7 +182,7 @@ Tap **Area Operations** in the bottom toolbar, then drag the selection or its fo
 - **Transform**: flip horizontally or vertically, rotate 180°, or create a mirrored copy on either side. With **Mirror Stitch Symbols** enabled, directional decreases, increases, and cables are changed to their matching mirrored stitches. Neutral, custom, and unmapped stitches remain unchanged.
 - **Repeat**: **2D Tile** repeats the selection to the right and down to the canvas edges. **Alternating Mirror** alternates the original and horizontally mirrored motifs across columns. **Half-Drop Repeat** shifts the 2nd, 4th, 6th, and later alternating motif columns down by half the selection height, so the selected height must be even.
 - **Area editing**: **Blank Cell Stitches** affects only cells in the current selection that do not yet contain a stitch and preserves their backgrounds. With chart rules, flat knitting fills right-side rows with knit stitches and wrong-side rows with purl stitches; knitting in the round fills every row with knit stitches. You can instead choose one single-cell stitch and symbol color. Existing stitches, **No Stitch**, and cells occupied by multi-cell stitches are not replaced.
-- **Patterns and other projects**: **Save as Pattern** stores the selection in My Patterns for reuse on another canvas. Cross-project copy uses a separate shared clipboard.
+- **Patterns and other projects**: **Save as Pattern** stores the selection in My Patterns for reuse on another canvas. Cross-project copy uses a separate shared clipboard. In My Patterns, touch and hold a pattern to move it to another category or delete it.
 - **Edges and undo**: multi-cell stitches must be fully selected, and an incomplete stitch is not written when it cannot fit at a canvas edge. Each area command creates one undo step.
 
 Examples:
@@ -260,7 +263,7 @@ Project Notes has its own detailed guide. Select “Project Notes” in the help
 
 - **Color tools**: sample colors from images, create palettes, and save color records.
 - **Symbol libraries**: browse and search knitting or crochet symbols and maintain personal symbols or notes.
-- **Pattern Drafting**: use a standard form for people and body measurements, generate a basic vest, and confirm theoretical stitch/row counts.
+- **Pattern Drafting**: store people and measurements, start from built-in female references or public standards, and inspect body reference, formal body block, and garment pieces separately.
 - **Calculators**: assist with gauge, length, weight, and size calculations.
 - **Calendars and alerts**: review yarn/project records and configure stock-related reminders.
 

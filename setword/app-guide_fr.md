@@ -38,9 +38,10 @@ Lorsque la bibliothèque de projets est vide, Tricot & Crochet installe une seul
 
 - **Accueil** : affiche le projet actuel et la prochaine action, puis classe les projets par états — préparation, en cours, terminé ou abandonné.
   Le démarrage rapide regroupe Ravelry, les Notes de projet, le tricot, le crochet, les fils, les projets, les points et l’aide. Le module Projets ouvre directement les fichiers, l’ordre des sections, l’import d’un paquet, la création et l’import Ravelry. L’aide rassemble les guides de l’app, des grilles de tricot et de crochet, des Notes de projet, du compteur et du simulateur d’échantillon, ainsi que les retours. Le tricot, le crochet et les Notes de projet affichent aussi leur aide correspondante à la fin de leur propre module, tout comme les catégories associées dans Outils ; aucune entrée vide n’est ajoutée lorsqu’aucun guide n’existe. Les autres modules continuent d’afficher leurs accès dans le groupe arrondi en dessous ; la flèche supérieure indique le module actif. Sélectionnez-le à nouveau ou utilisez « Réduire » pour masquer le groupe.
+  Lorsqu’un projet en cours est associé à des Notes de projet, un patron, une grille de tricot ou un diagramme au crochet, un menu de ressources apparaît dans l’angle supérieur droit de sa carte. Les Notes de projet sont proposées directement en premier ; les patrons et les grilles de tricot ou de crochet restent regroupés dans des sous-menus repliés. Sélectionnez le nom d’une ressource pour l’ouvrir.
 - **Fils** : le gestionnaire de stock résume le nombre de fils, le poids restant connu, les stocks faibles et les fiches à compléter, puis permet de parcourir la liste par dossier, recherche et filtre.
 - **Outils** : grilles, diagrammes, compteurs, Notes de projet, couleurs, symboles et calculateurs.
-- **Réglages** : apparence, langue, abonnement, synchronisation, historique des versions, avis, confidentialité et aide.
+- **Réglages** : apparence, langue, abonnement, synchronisation, historique des versions, avis, confidentialité, aide et informations sur l’application. La rubrique « Remerciements » ouvre la page dans la langue actuelle.
 
 <a id="yarn-library"></a>
 ## Bibliothèque de fils
@@ -115,6 +116,7 @@ L’éditeur enregistre couleurs et symboles dans des cellules. Il convient aux 
 
 - Réglez les lignes, colonnes, dimensions de cellule et sens de lecture.
 - Sélectionnez les symboles système ou personnels.
+- Un symbole personnalisé peut combiner des symboles, du texte ou une image. Pour une image, choisissez l’affichage complet ou le remplissage recadré ; son orientation est normalisée et elle est compressée avant l’enregistrement.
 - Dessinez, colorez, effacez, annulez et rétablissez.
 - Utilisez une sélection de zone pour copier, couper, coller, remplacer et répéter.
 - Enregistrez couleurs, modèles et symboles personnalisés.
@@ -127,7 +129,7 @@ Touchez « Opérations de zone » dans la barre inférieure, puis faites glisser
 - **Transformation** : retournez horizontalement ou verticalement, tournez de 180°, ou créez une copie miroir à gauche ou à droite. Lorsque « Convertir les points lors du miroir » est activé, les diminutions, augmentations et torsades orientées sont remplacées par leurs points miroir correspondants. Les points neutres, personnels ou sans correspondance restent inchangés.
 - **Répétition** : « Mosaïque 2D » répète la zone vers la droite et vers le bas jusqu’aux bords du canevas. « Répétition miroir alternée » alterne horizontalement le motif original et son miroir. « Répétition en demi-chute » décale les 2e, 4e, 6e colonnes de motifs de la moitié de la hauteur sélectionnée ; cette hauteur doit donc être paire.
 - **Modification de zone** : « Points des cases vides » ne traite que les cellules sans point dans la sélection actuelle et conserve leur fond. Avec la règle du diagramme, le tricot aller-retour remplit les rangs endroit en mailles endroit et les rangs envers en mailles envers ; le tricot circulaire remplit tous les rangs en mailles endroit. Vous pouvez aussi choisir un point sur une case et sa couleur. Les points existants, « Sans maille » et les cellules occupées par un point multicase ne sont pas remplacés.
-- **Motifs et autres projets** : « Enregistrer comme motif » ajoute la sélection à Mes motifs pour la réutiliser sur un autre canevas. La copie entre projets utilise un presse-papiers partagé distinct.
+- **Motifs et autres projets** : « Enregistrer comme motif » ajoute la sélection à Mes motifs pour la réutiliser sur un autre canevas. La copie entre projets utilise un presse-papiers partagé distinct. Dans Mes motifs, touchez longuement un motif pour le déplacer vers une autre catégorie ou le supprimer.
 - **Bords et annulation** : un point couvrant plusieurs cellules doit être entièrement sélectionné. S’il ne tient pas complètement au bord du canevas, aucune partie incomplète n’est écrite. Chaque commande de zone correspond à une seule étape d’annulation.
 
 Exemples :
@@ -196,7 +198,7 @@ Une documentation détaillée est disponible via « Notes de projet » dans le c
 
 - **Couleurs** : prélevez des couleurs sur une image, créez des palettes et conservez les résultats.
 - **Bibliothèques de symboles** : recherchez les symboles de tricot ou crochet et gérez vos symboles et notes.
-- **Création de patron** : saisissez la personne et ses mesures dans un formulaire, générez un gilet simple et confirmez les comptes théoriques.
+- **Création de patron** : enregistrez personnes et mesures, partez de références femme ou de normes publiques, puis examinez séparément référence corporelle, patron de base formel et pièces du vêtement.
 - **Calculateurs** : aide pour l’échantillon, la longueur, le poids et les dimensions.
 - **Calendriers et alertes** : consultez l’activité des fils/projets et configurez des rappels de stock.
 

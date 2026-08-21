@@ -11,6 +11,7 @@ Release Notes
 * File indexing system added to each section;
 * Homepage quick access redesigned;
 * Newly designed yarn inventory section;
+* Knitting custom symbols can now use images with Fit Entire Image or Fill and Crop display modes;
 * Other feature and experience optimizations;
 
 ### v2.0.0 (Major Update)

@@ -5,21 +5,21 @@ hide_page_title: true
 
 **Quick navigation**
 
-- [Create](#create) · [Canvas](#canvas) · [Tools](#tools) · [Stitch plan](#counts) · [Evidence](#evidence)
+- [Create](#create) · [Canvas](#canvas) · [Tools](#tools) · [Stitch plan](#counts) · [Membership](#membership) · [Evidence](#evidence)
 
 <a id="create"></a>
 ## Create
 
-Pattern Design includes New, Records, My Templates, Presets, Gauge Library, People, and Common Settings. Free Draw, Strategy, and Template all create the same project type. Built-ins include a basic vest, a drop-shoulder pullover, and a fitted set-in-sleeve pullover. The set-in sleeve cap remains a candidate that needs review.
+Pattern Design includes New, Records, My Templates, Presets, Gauge Library, People, and Common Settings. Free Draw, Strategy, and Template all create the same project type. Built-ins include a basic vest, a drop-shoulder pullover, and a fitted set-in-sleeve pullover. Formal front, back, and sleeve blocks are now generated; block-to-garment transformation, sleeve installation, and pickup rules still need review.
 
 <a id="canvas"></a>
 ## Canvas
 
 The workspace is black and uses centimeter coordinates. Node mode selects an orange node, converts Line/Bezier, exposes square handles, applies Corner/Smooth, opens or closes the path, and safely deletes non-start nodes.
 
-After selecting a person, a cyan dashed body block and any available chest and waist guides are shown by default. This independent reference never participates in stitch calculations and can be toggled under Layers > Body Block.
+After selecting a person, the cyan dashed Body Reference compares body width, garment width, and ease. The gold Body Block draws front, back, and sleeve blocks with necklines, shoulders, armholes, sleeve cap, bust/waist/hip lines, bust points, and centimeter labels. Body Reference, Body Block, and Garment Pieces are independent layer toggles; hide Garment Pieces to inspect the block alone. Missing measurements and unconfirmed garment transformations remain candidate/unknown instead of being guessed.
 
-Public women, men, and child/youth size rows can prefill a person, after which every measurement remains editable and keeps its own source. Body Block & Ease separates regional ease from drafting adjustments such as shoulder raise, shoulder extension, and armhole-depth correction. Common Settings controls whether new projects show the body block.
+Five deletable Female Reference profiles (XS–XL) are installed as quick starts; public women, men, and child/youth sizes remain available. Back shoulder width, bust-point spacing/drop, elbow circumference, and sleeve length feed the formal block. Every measurement remains editable and keeps its own source.
 
 <a id="tools"></a>
 ## Tools
@@ -36,6 +36,13 @@ The plan card at the upper left starts as one line and keeps the current compone
 Enter both measured swatch gauges to generate stitch and row candidates. Plan opens detailed row operations and notation such as `2-1-3`; editing the notation rebuilds the matching detailed steps.
 
 Plan content follows the selected component: body pieces show body shaping, sleeves show sleeve shaping, while bands, tubes, and freeform pieces show only their own cast-on, total rows, and side shaping.
+
+<a id="membership"></a>
+## Free version and membership
+
+The free version can keep two pattern projects at a time. Deleting one frees a slot, while existing projects always remain openable, editable, savable, and deletable. Free Draw and essential drafting tools—including Body Reference, formal Body Block, ease, gauge, dimensions, curves, nodes, and stitch plans—remain available.
+
+The Basic Drop-Shoulder Pullover is the free strategy. Fitted and future advanced strategies, My Templates, multiple presets, custom strategy authoring, and strategy-package transfer require membership. Generation Prep remains free; membership is checked only when a future action actually creates a counter task, knitting chart, crochet chart, or yarn estimate.
 
 <a id="evidence"></a>
 ## Evidence and connections
