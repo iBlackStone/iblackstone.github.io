@@ -1,16 +1,9 @@
----
-title: Acknowledgments
----
-
-# Acknowledgments
 
 Knit & Crochet has grown through real suggestions, testing, and encouragement. Thank you to everyone who uses the app, reports problems, shares ideas, and gives each improvement time to mature.
 
 ## Special acknowledgment
 
-If you use Xiaohongshu and enjoy knitting or crochet, come and connect with us there.
-
-Special thanks to the Xiaohongshu knitting creator **家织婆A-Lin** ([@家织婆A-Lin🥕🌿](https://xhslink.cn/m/9nVeG2bAthU)). Their posts have received 87,000 likes and saves on Xiaohongshu. If you also enjoy knitting or crochet, [visit their profile](https://xhslink.cn/m/9nVeG2bAthU) and connect with this thoughtful and dedicated maker.
+Special thanks to the Xiaohongshu knitting creator **家织婆A-Lin** ([@家织婆A-Lin🥕🌿](https://xhslink.cn/m/9nVeG2bAthU)). If you use Xiaohongshu and enjoy knitting or crochet, [visit their profile](https://xhslink.cn/m/9nVeG2bAthU) to connect.
 
 Many important parts of Knit & Crochet were born and grew through their long-term, hands-on help. They did more than suggest an idea: they tested it in real use, shared careful feedback, and helped refine it. From asking whether a feature was truly needed, to considering how it could feel easier to use, and how knitting knowledge could be expressed more accurately, each conversation brought the app closer to real crafting workflows.
 
