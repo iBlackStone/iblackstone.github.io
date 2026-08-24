@@ -42,9 +42,11 @@ Plan content follows the selected component: body pieces show body shaping, slee
 
 The free version can keep two pattern projects at a time. Deleting one frees a slot, while existing projects always remain openable, editable, savable, and deletable. Free Draw and essential drafting tools—including Body Reference, formal Body Block, ease, gauge, dimensions, curves, nodes, and stitch plans—remain available.
 
-The Basic Drop-Shoulder Pullover is the free strategy. Fitted and future advanced strategies, My Templates, multiple presets, custom strategy authoring, and strategy-package transfer require membership. Generation Prep remains free; membership is checked only when a future action actually creates a counter task, knitting chart, crochet chart, or yarn estimate.
+The Basic Drop-Shoulder Pullover is the free strategy. Fitted and future advanced strategies, My Templates, multiple presets, custom strategy authoring, and strategy-package transfer require membership. Generation Prep remains free; membership is checked only when you actually create a knitting chart. Counter, crochet, and yarn outputs will follow the same rule.
 
 <a id="evidence"></a>
 ## Evidence and connections
 
-`confirmed` has explicit support, `candidate` needs review, and `unknown` means knowledge is insufficient. Generation & Links now offers counter tasks, knitting charts, crochet charts, and yarn estimates. Each opens Generation Prep with the source draft, destination project, and a readiness check. Drafts opened from a project inherit that project; standalone drafts can choose one. Green items are ready, orange items need review, and red items are required. This version saves the preparation plan but does not create target data yet.
+`confirmed` has explicit support, `candidate` needs review, and `unknown` means knowledge is insufficient. Generation & Links offers counter tasks, knitting charts, crochet charts, and yarn estimates. Each opens Generation Prep with the source draft, destination project, and a readiness check. Drafts opened from a project inherit that project; standalone drafts can choose one. Green items are ready, orange items need review, and red items are required.
+
+The knitting path currently creates one piece at a time. Open Chart Stitches to choose the front, back, or sleeve; set flat/round working, Row 1 side and direction, and the right-side and wrong-side stitches. If the plan still needs review, tap Stitch & Row Plan in the checklist to edit and confirm that piece directly. Candidate plans can be previewed only. After confirmation, Create and Open Knitting Chart makes an editable chart and links it to the selected project. Counter, crochet, and yarn outputs still save preparation only.

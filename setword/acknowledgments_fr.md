@@ -1,13 +1,12 @@
----
-title: Remerciements
-hide_page_title: true
----
+
 
 Tricot & Crochet s’est amélioré grâce à vos suggestions, vos tests et vos encouragements. Merci à toutes les personnes qui utilisent l’application, signalent des problèmes, partagent leurs idées et accompagnent chaque amélioration.
 
 ## Remerciement particulier
 
-Nous remercions tout particulièrement la créatrice de tricot sur Xiaohongshu **家织婆A-Lin** ([@家织婆A-Lin🥕🌿](https://xhslink.cn/m/9nVeG2bAthU)). Si vous utilisez Xiaohongshu et aimez le tricot ou le crochet, [visitez son profil](https://xhslink.cn/m/9nVeG2bAthU) pour échanger.
+Si vous utilisez Xiaohongshu et aimez le tricot ou le crochet, venez échanger avec nous.
+
+Nous remercions tout particulièrement la créatrice de tricot sur Xiaohongshu **家织婆A-Lin** ([@家织婆A-Lin🥕🌿](https://xhslink.cn/m/9nVeG2bAthU)). Ses publications ont reçu 87 000 mentions « J’aime » et enregistrements sur Xiaohongshu. Si vous aimez aussi le tricot ou le crochet, [visitez son profil](https://xhslink.cn/m/9nVeG2bAthU) et échangez avec cette créatrice attentive et passionnée.
 
 De nombreuses fonctions importantes de Tricot & Crochet sont nées et ont grandi grâce à son aide concrète et suivie. Elle ne s’est pas contentée de proposer des idées : elle les a vérifiées en situation réelle, a partagé des retours précis et a participé aux améliorations. Chaque échange — sur l’utilité d’une fonction, la simplicité d’une action ou la meilleure façon d’exprimer les connaissances du tricot — a rapproché l’application des usages réels.
 
