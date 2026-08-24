@@ -42,7 +42,7 @@ Home is the project workspace. The header shows the current project and its next
 
 Quick Start groups destinations under Ravelry, Project Notes, Knitting, Crochet, Yarn, Projects, Stitches, and Help. Select Projects to open Files, section ordering, project-package import, new project, or Ravelry import directly. Help collects the app guide, knitting chart guide, crochet chart guide, Project Notes guide, knitting counter guide, swatch simulator, and feedback. Knitting, Crochet, and Project Notes also place their matching help entry at the end of their own module; the corresponding Tools categories do the same, while categories without an existing guide show no empty help entry. Other modules continue to reveal their destinations in the rounded group below; the top pointer marks the active module. Select it again or use Collapse to hide the group.
 
-An in-progress project card shows a resource shortcut menu in its upper-right corner when it has linked Project Notes, pattern drafts, knitting charts, or crochet charts. Project Notes appear as direct actions first; pattern drafts, knitting charts, and crochet charts remain grouped in collapsed submenus. Select a resource name to open it.
+Only on Home's In Progress state tab, a project card shows a resource shortcut menu in its upper-right corner when it has linked Project Notes, pattern drafts, knitting charts, or crochet charts. The All and other state tabs do not show this shortcut. Project Notes appear as direct actions first; pattern drafts, knitting charts, and crochet charts remain grouped in collapsed submenus. Select a resource name to open it.
 
 ### Yarn
 
