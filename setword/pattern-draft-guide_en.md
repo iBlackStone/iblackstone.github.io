@@ -10,7 +10,7 @@ hide_page_title: true
 <a id="create"></a>
 ## Create
 
-Pattern Design includes New, Records, My Templates, Presets, Gauge Library, People, and Common Settings. Free Draw, Strategy, and Template all create the same project type. Built-ins include a basic vest, a drop-shoulder pullover, and a fitted set-in-sleeve pullover. Formal front, back, and sleeve blocks are now generated; block-to-garment transformation, sleeve installation, and pickup rules still need review.
+Pattern Design includes New, File Management, Records, My Templates, Presets, Gauge Library, People, and Common Settings. Free Draw, Strategy, and Template all create the same project type. File Management is the recommended entry for finding and organizing patterns; Records keeps the classic list. Linking an existing Pattern Draft to a project uses the file selector. Built-ins include a basic vest, drop shoulder, fitted set-in sleeve, raglan, cardigan, round yoke, square yoke, and bias knit. Garment dimensions are derived from the body block with traceable ease and drafting adjustments. Full raglan/yoke shaping, diagonal gauge, sleeve-installation ease, and pickup rules still need review or input.
 
 <a id="canvas"></a>
 ## Canvas
@@ -29,6 +29,8 @@ The active lower-row mode has an orange selection border and changes the upper r
 Add keeps Flat, Tube, Band, and Freeform pieces visible. Text, info pins, reference images, guides, manual dimensions, callouts, and chart areas are grouped in an upward Auxiliary palette; reference images can come from Camera, Files, or Photos. Geometry keeps Nodes, Add Node, and Exact Size visible, while Segment, Node Type, and Outline open grouped palettes. Mirror appears only in Pieces. Palette items support touch-and-hold help and the palette closes when you tap outside. The unified inspector manages name, position, size, color, layer order, lock state, boundaries, features, relations, and auxiliary objects.
 
 The plan card at the upper left starts as one line and keeps the current component, cast-on count, total rows, and candidate status visible. Missing gauge or warnings remain visible. Tap the card to expand or collapse it; the editor remembers your choice. Use Plan at the top for complete row details.
+
+Choose Place Knitting Chart from the auxiliary tools to map an existing chart into the selected piece using the current gauge. The chart is clipped to the piece and can be dragged; the inspector asks you to synchronize it when the source chart or gauge changes.
 
 <a id="counts"></a>
 ## Dimensions and stitch plan
@@ -50,3 +52,5 @@ The Basic Drop-Shoulder Pullover is the free strategy. Fitted and future advance
 `confirmed` has explicit support, `candidate` needs review, and `unknown` means knowledge is insufficient. Generation & Links offers counter tasks, knitting charts, crochet charts, and yarn estimates. Each opens Generation Prep with the source draft, destination project, and a readiness check. Drafts opened from a project inherit that project; standalone drafts can choose one. Green items are ready, orange items need review, and red items are required.
 
 The knitting path currently creates one piece at a time. Open Chart Stitches to choose the front, back, or sleeve; set flat/round working, Row 1 side and direction, and the right-side and wrong-side stitches. If the plan still needs review, tap Stitch & Row Plan in the checklist to edit and confirm that piece directly. Candidate plans can be previewed only. After confirmation, Create and Open Knitting Chart makes an editable chart and links it to the selected project. Counter, crochet, and yarn outputs still save preparation only.
+
+A placed chart can be set to Merge into Output or Reference Only. Merging requires a synchronized source at 1:1 scale, and its non-empty cells replace the generated default stitches. To continue a motif across front/back, sleeves, or a seam, choose the exact boundary on each piece in Structure and enable Continue across Seams. Assemble previews the relative positions and edge-length status; only matched boundaries continue automatically, while candidate or incomplete joins remain for review.

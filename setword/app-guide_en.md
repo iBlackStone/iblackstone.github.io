@@ -40,7 +40,9 @@ When the local project library is empty, Knit & Crochet installs one bundled tut
 
 Home is the project workspace. The header shows the current project and its next action. The project list can be filtered by states such as All, In Progress, Preparing, Completed, and Abandoned.
 
-Quick Start groups destinations under Ravelry, Project Notes, Knitting, Crochet, Yarn, Projects, Stitches, and Help. Select Projects to open Files, section ordering, project-package import, new project, or Ravelry import directly. Help collects the app guide, knitting chart guide, crochet chart guide, Project Notes guide, knitting counter guide, swatch simulator, and feedback. Knitting, Crochet, and Project Notes also place their matching help entry at the end of their own module; the corresponding Tools categories do the same, while categories without an existing guide show no empty help entry. Other modules continue to reveal their destinations in the rounded group below; the top pointer marks the active module. Select it again or use Collapse to hide the group.
+When Ravelry is connected, the Home header may show large free-pattern recommendations based on projects stored on this device. Swipe or wait for the next image. Tap to choose Preview Image, View Ravelry Details, or Download and Import. The current-project card remains the fallback when Ravelry is disconnected, unavailable, or has no suitable result.
+
+Quick Start groups destinations under Ravelry, Pattern Drafting, Project Notes, Knitting, Crochet, Yarn, Projects, Stitches, and Help. Pattern Drafting, Project Notes, Knitting, and Crochet place Files immediately after New or Import, keep supporting tools in the middle, and move the classic List to the end. Help collects the app guide, knitting chart guide, crochet chart guide, Project Notes guide, Pattern Drafting guide, knitting counter guide, swatch simulator, and feedback; the matching guide is also available inside each supported module. Modules scroll horizontally and reveal their actions in the rounded group below; the top pointer marks the active module. Select it again or use Collapse to hide the group.
 
 Only on Home's In Progress state tab, a project card shows a resource shortcut menu in its upper-right corner when it has linked Project Notes, pattern drafts, knitting charts, or crochet charts. The All and other state tabs do not show this shortcut. Project Notes appear as direct actions first; pattern drafts, knitting charts, and crochet charts remain grouped in collapsed submenus. Select a resource name to open it.
 
@@ -102,7 +104,7 @@ A project can store:
 
 ### Continue working
 
-Home prioritizes recently updated projects. Project cards use a landscape 4:3 cover with the title at the bottom of the image; status, main counter, and progress remain below, and the layout adapts to light or dark appearance and iPad orientation. Open a project to continue its main counter or enter its materials, charts, notes, and techniques.
+Home prioritizes recently updated projects. Project cards use a square 1:1 cover that fills the card; the title, status, and progress are grouped inside a dark gradient overlay at the bottom of the image. The layout adapts to light or dark appearance and iPad orientation. Open a project to continue its main counter or enter its materials, charts, notes, and techniques.
 
 Below search, each status page always shows its current filters, sort, and result count. Combine knitting or crochet, project category, local or Ravelry source, due-within-seven-days or overdue schedule, and the main-tool sizes and forms actually used by projects. Each status page remembers its own choices. Sort by name, update, creation, start, target or completion date, or progress; projects missing the chosen date stay at the end.
 
@@ -148,7 +150,7 @@ Each counter supports three display modes:
 <a id="pattern-drafting"></a>
 ## Smart Pattern Drafting
 
-Open **Tools > Pattern Drafting** to create or continue a pattern and manage people separately. The project home Quick Start area also offers Pattern actions for creating, listing, and managing people. A pattern can also be linked from **Project Resources > Pattern Drafting** inside a project.
+Open **Tools > Pattern Drafting** to create or continue a pattern and manage people separately. The project home Quick Start area offers New Pattern, Pattern Files, People, the Pattern Guide, and supporting tools, with the classic pattern list kept last. A pattern can also be linked from **Project Resources > Pattern Drafting** inside a project.
 
 Creation now begins by choosing a pattern strategy. Built-ins include a basic vest, a complete drop-shoulder long-sleeve pullover, and blank custom pieces. The pullover generates front, back, left and right sleeves plus neckline, hem, cuff, and assembly information. You can create centimeter geometry without gauge, then add stitches and rows per 10 cm from an actual swatch to generate count candidates.
 
@@ -182,6 +184,7 @@ Tap **Area Operations** in the bottom toolbar, then drag the selection or its fo
 - **Transform**: flip horizontally or vertically, rotate 180°, or create a mirrored copy on either side. With **Mirror Stitch Symbols** enabled, directional decreases, increases, and cables are changed to their matching mirrored stitches. Neutral, custom, and unmapped stitches remain unchanged.
 - **Repeat**: **2D Tile** repeats the selection to the right and down to the canvas edges. **Alternating Mirror** alternates the original and horizontally mirrored motifs across columns. **Half-Drop Repeat** shifts the 2nd, 4th, 6th, and later alternating motif columns down by half the selection height, so the selected height must be even.
 - **Area editing**: **Blank Cell Stitches** affects only cells in the current selection that do not yet contain a stitch and preserves their backgrounds. With chart rules, flat knitting fills right-side rows with knit stitches and wrong-side rows with purl stitches; knitting in the round fills every row with knit stitches. You can instead choose one single-cell stitch and symbol color. Existing stitches, **No Stitch**, and cells occupied by multi-cell stitches are not replaced.
+- **Drawing mirror integration**: when **Left/Right Mirror** or **Up/Down Mirror** is enabled in the editor, canvas-changing area commands—including Cut, Paste, transforms, repeats, and area edits—also synchronize their final result to the opposite side of the full canvas. The original operation wins where the two ranges overlap, and the whole command still takes one undo step. **Mirror Stitch Symbols** remains a separate option for horizontal area transforms.
 - **Patterns and other projects**: **Save as Pattern** stores the selection in My Patterns for reuse on another canvas. Cross-project copy uses a separate shared clipboard. In My Patterns, touch and hold a pattern to move it to another category or delete it.
 - **Edges and undo**: multi-cell stitches must be fully selected, and an incomplete stitch is not written when it cannot fit at a canvas edge. Each area command creates one undo step.
 
@@ -324,6 +327,6 @@ The action is a member feature or its free allowance has been reached. Existing 
 Open Settings → Feedback. Include the steps, expected result, actual result, and a screenshot for visual or layout issues.
 ## Folders for projects and charts
 
-Projects, knitting charts, crochet charts, and knitting notes each have their own folders. Open the separate Files page from the existing file-management entry, then swipe its top folder strip to switch between All, Unfiled, and your folders. The original lists, project-state filters, and entry points remain unchanged.
+Projects, Pattern Drafts, knitting charts, crochet charts, and knitting notes each have their own folders. Pattern Draft, crochet, and knitting-note tools keep a dedicated File Management entry as the recommended way to find, organize, and manage content; Records remains available as a secondary classic list. Linking an existing resource to a project, or choosing existing material inside a counter, knitting note, or Pattern Draft, opens the matching file selector. Selection mode keeps folders, search, and sorting, but hides move, delete, and folder-management actions.
 
 Use the management button on the right to create, rename, delete, search, or reorder folders. Deleting a folder moves its items to Unfiled and never deletes the projects or charts. Search file names or summaries; the row below search always shows the current folder, sorting, and result count, and its sorting control changes the order. Swipe a file row left, or long-press it on iPad, to move or permanently delete it; permanent deletion asks for confirmation. The Files page remembers its last folder and sorting. Change a folder from item details; knitting notes use the top-right menu.
