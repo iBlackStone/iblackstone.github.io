@@ -5,6 +5,11 @@ title: "Version History"
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+### v2.0.4
+What's New
+- Added the Discover section with handpicked patterns to inspire your next project
+- Other improvements and bug fixes
+
 ### v2.0.2
 - Added and improved pattern design features for easier creation and editing.
 - Improved the experience of knitting charts and other features.

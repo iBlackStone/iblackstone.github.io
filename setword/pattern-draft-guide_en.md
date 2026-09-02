@@ -10,7 +10,7 @@ hide_page_title: true
 <a id="create"></a>
 ## Create
 
-Pattern Design includes New, File Management, Records, My Templates, Presets, Gauge Library, People, and Common Settings. Free Draw, Strategy, and Template all create the same project type. File Management is the recommended entry for finding and organizing patterns; Records keeps the classic list. Linking an existing Pattern Draft to a project uses the file selector. Built-ins include a basic vest, drop shoulder, fitted set-in sleeve, raglan, cardigan, round yoke, square yoke, and bias knit. Garment dimensions are derived from the body block with traceable ease and drafting adjustments. Full raglan/yoke shaping, diagonal gauge, sleeve-installation ease, and pickup rules still need review or input.
+Pattern Design includes New, File Management, Records, My Templates, Presets, Gauge Library, People, and Common Settings. New first asks for knitting or crochet, then offers Free Draw, Strategy, or Template. All three create the same project type. Common Settings only provide defaults for future projects; Current Pattern Settings edit the open project. File Management is the recommended entry for finding and organizing patterns; Records keeps the classic list. Linking an existing Pattern Draft to a project uses the file selector. Built-ins include a basic vest, drop shoulder, fitted set-in sleeve, raglan, cardigan, round yoke, square yoke, and bias knit. Garment dimensions are derived from the body block with traceable ease and drafting adjustments. Full raglan/yoke shaping, diagonal gauge, sleeve-installation ease, and pickup rules still need review or input.
 
 <a id="canvas"></a>
 ## Canvas

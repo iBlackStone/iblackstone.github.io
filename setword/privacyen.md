@@ -5,8 +5,8 @@ title: "Knit & Crochet Privacy Policy"
 
 # Knit & Crochet Privacy Policy
 
-**Last updated: August 17, 2026**<br>
-**Effective date: August 17, 2026**
+**Last updated: September 2, 2026**<br>
+**Effective date: September 2, 2026**
 
 Thank you for using Knit & Crochet (the “App”). This Privacy Policy explains how the App handles information and how you can manage related data and permissions. Please read it before using the App.
 
@@ -46,6 +46,12 @@ When you intentionally submit feedback, the App sends the following to the devel
 - a randomly generated identifier used to distinguish the record.
 
 This information is used to respond to requests, diagnose problems, and improve the product. It is not displayed as public content. Do not include passwords, Ravelry tokens, payment card numbers, or other unnecessary sensitive information in feedback.
+
+### 1.4 Discover community submissions
+
+When you intentionally submit a local project for Discover review, the App shows a public preview and resource selection before uploading through the Apple CloudKit public database. The submission can include the title, public display name, craft, summary, up to six project photos, and the Project Notes, knitting charts, and crochet charts that you explicitly select. A knitting or crochet chart referenced by a selected note may also be included when needed to keep that note usable, and it is listed in the selection interface.
+
+Counters, yarn inventory, private progress, pattern drafts, database identifiers, and resources you did not select are excluded from the public package. Membership is required to send the submission for review. After administrator approval, the selected content is displayed to all Discover users and can be imported as a new local copy. The pending submission and package are also stored in the CloudKit public database, so do not submit personal information or content that you do not want to make public or do not have the right to share. The review result and optional rejection reason are stored in CloudKit for the submitter to view. Contact us using the details below to request removal or deletion of submitted content.
 
 ## 2. Ravelry Features
 
@@ -120,7 +126,7 @@ The App may communicate with the following services to provide the functions des
 
 | Service | Purpose | Policy |
 |---|---|---|
-| Apple iCloud / CloudKit / App Store / APNs | Backup, feedback, purchase validation, and system notifications | [Apple Privacy Policy](https://www.apple.com/legal/privacy/) |
+| Apple iCloud / CloudKit / App Store / APNs | Backup, feedback, Discover submissions and public content, purchase validation, and system notifications | [Apple Privacy Policy](https://www.apple.com/legal/privacy/) |
 | Umeng+ | Usage analytics, performance diagnostics, and push notifications | [Umeng Privacy Policy](https://www.umeng.com/page/policy) |
 | Ravelry | OAuth, Projects/Library, search, images, and PDFs | [Ravelry Privacy Policy](https://www.ravelry.com/about/privacy) |
 | YouTube | Official web player when you choose to open a learning video | [Google Privacy Policy](https://policies.google.com/privacy) |
@@ -133,6 +139,7 @@ When you open a Ravelry source page, YouTube video, help page, or another extern
 - iCloud backups: until you delete them in the App or through Apple's iCloud management tools;
 - Ravelry authorization tokens: until they expire, you disconnect Ravelry, or the system clears Keychain data;
 - imported Ravelry content: until you delete the related local project, PDF, photo, or source information;
+- Discover submissions, reviews, and published public content: for as long as needed to review, display, handle removal requests, and operate the service; you may contact us to request deletion;
 - feedback: for as long as needed to handle support requests, diagnose problems, and improve the product; you may contact us to request deletion;
 - analytics, diagnostics, push, and purchase records: for the periods determined by Umeng or Apple under their policies and applicable law.
 
@@ -150,9 +157,10 @@ You can:
 - disconnect Ravelry in Settings and manage your account or authorization through Ravelry;
 - manage camera, photo, notification, and tracking permissions in iOS Settings;
 - choose not to submit feedback, connect Ravelry, or create iCloud backups;
+- choose not to submit a local project for review and deselect any photo, note, or chart that you do not want to make public before submission;
 - contact us to request access, correction, or deletion of feedback that you intentionally submitted to the developer.
 
-To locate a feedback record, we may ask for its submission time, contact information, or other necessary details. Do not email passwords, tokens, full receipts, or payment card information. For data independently controlled by Apple, Umeng, Ravelry, or Google, use the account, privacy, or deletion tools provided by that company.
+To locate a feedback or Discover submission record, we may ask for its submission time, public title, contact information, or other necessary details. Do not email passwords, tokens, full receipts, or payment card information. For data independently controlled by Apple, Umeng, Ravelry, or Google, use the account, privacy, or deletion tools provided by that company.
 
 ## 10. Children
 

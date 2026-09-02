@@ -40,9 +40,15 @@ When the local project library is empty, Knit & Crochet installs one bundled tut
 
 Home is the project workspace. The header shows the current project and its next action. The project list can be filtered by states such as All, In Progress, Preparing, Completed, and Abandoned.
 
-When Ravelry is connected, the Home header may show large free-pattern recommendations based on projects stored on this device. Swipe or wait for the next image. Tap to choose Preview Image, View Ravelry Details, or Download and Import. The current-project card remains the fallback when Ravelry is disconnected, unavailable, or has no suitable result.
+The Home header first shows card-carousel recommendations curated by an administrator for all users. Swipe or wait for the next image, then tap to preview it, view its Ravelry details, or import it. If no curated set is active, a connected Ravelry account can still provide free-pattern recommendations based on projects stored on this device. The current-project card remains the final fallback when recommendations are unavailable or have no suitable result.
 
 Quick Start groups destinations under Ravelry, Pattern Drafting, Project Notes, Knitting, Crochet, Yarn, Projects, Stitches, and Help. Pattern Drafting, Project Notes, Knitting, and Crochet place Files immediately after New or Import, keep supporting tools in the middle, and move the classic List to the end. Help collects the app guide, knitting chart guide, crochet chart guide, Project Notes guide, Pattern Drafting guide, knitting counter guide, swatch simulator, and feedback; the matching guide is also available inside each supported module. Modules scroll horizontally and reveal their actions in the rounded group below; the top pointer marks the active module. Select it again or use Collapse to hide the group.
+
+### Discover
+
+Discover presents curated Ravelry patterns and approved community projects. Browse highlights in the banner and three featured recommendations, switch channels for more projects, and pull down to refresh. Tap an image for more photos, or open a card to view public details, favorite it, or like it. Ravelry items can open their source or be imported. Community projects can be imported as new local copies together with the photos, Project Notes, knitting charts, and crochet charts that the publisher explicitly selected.
+
+Use Discover's upper-right More menu to open Favorites, Likes, and My Submissions, or choose a local project to publish. The editor lists public fields and shareable resources; the first selected photo becomes the cover and up to six photos can be included. A final card preview appears before submission. The publishing entry is available to everyone, while sending a project for review requires membership. It appears in a selected channel only after administrator approval. Selected content is uploaded to the public CloudKit database; counters, yarn inventory, private progress, and pattern drafts are excluded. Browsing Discover does not require Ravelry authorization; the existing connection flow is used only for Ravelry account content or Ravelry imports.
 
 Only on Home's In Progress state tab, a project card shows a resource shortcut menu in its upper-right corner when it has linked Project Notes, pattern drafts, knitting charts, or crochet charts. The All and other state tabs do not show this shortcut. Project Notes appear as direct actions first; pattern drafts, knitting charts, and crochet charts remain grouped in collapsed submenus. Select a resource name to open it.
 
@@ -302,6 +308,7 @@ After changing devices or reinstalling the app, open the membership page in Sett
 - **Feedback**: send a problem report, suggestion, and screenshots.
 - **App Features Guide**: opens this page; Quick navigation jumps directly to a module.
 - **Privacy Policy and Terms**: review privacy and service information.
+- **Diagnostic Information**: under Settings → About, retrieve the CloudKit User ID only when needed. The ID is masked by default and can be shown or copied explicitly; the app does not upload, save, or log it automatically.
 
 <a id="faq"></a>
 ## FAQ
