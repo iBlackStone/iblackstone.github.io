@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Version History"
+lang: en
 ---
 
 ### It is recommended to update the version in time to enjoy a better user experience.

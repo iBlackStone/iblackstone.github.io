@@ -1,5 +1,6 @@
 ---
 title: 감사의 말
+lang: ko
 hide_page_title: true
 ---
 

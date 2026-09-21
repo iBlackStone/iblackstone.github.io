@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "小样模拟器"
+lang: zh-Hans
 ---
 
 ## 参考价值

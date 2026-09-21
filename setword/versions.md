@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "版本更新记录"
+lang: zh-Hans
 ---
 
 ### 建议及时更新版本，享受更佳的用户体验。

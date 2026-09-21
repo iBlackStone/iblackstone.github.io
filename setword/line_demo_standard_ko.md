@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "스왓 시뮬레이터"
+lang: ko
 ---
 
 ## 참고 가치

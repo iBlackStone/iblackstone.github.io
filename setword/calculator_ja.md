@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "編み物カウンター使用方法"
+lang: ja
 ---
 
 ## 概要

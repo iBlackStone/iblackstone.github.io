@@ -1,5 +1,6 @@
 ---
 title: 致谢
+lang: zh-Hans
 hide_page_title: true
 ---
 

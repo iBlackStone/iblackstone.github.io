@@ -1,5 +1,6 @@
 ---
 title: Guide de l’éditeur de patrons
+lang: fr
 hide_page_title: true
 ---
 

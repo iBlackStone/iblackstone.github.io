@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Swatch Simulator"
+lang: en
 ---
 
 ## Reference Value

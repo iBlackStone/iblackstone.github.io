@@ -1,5 +1,6 @@
 ---
 title: Guide d’utilisation de Tricot & Crochet
+lang: fr
 ---
 
 Tricot & Crochet permet de gérer les fils, d’organiser les projets, de suivre l’avancement, de créer des grilles de tricot ou de crochet et de lire des patrons PDF dans les Notes de projet. Chaque outil peut être utilisé seul ou lié au même projet.
@@ -155,7 +156,7 @@ Le dessin en couleurs propose les plans **Naturel**, **Blocs simplifiés** et **
 
 ### Mode compteur
 
-Activez « Afficher les points du rang actuel » dans les réglages communs pour voir les segments consécutifs du rang, la couleur du symbole, le fond de cellule et le sens, dans l’ordre réel de tricot. En aller-retour, les rangs impairs se lisent de droite à gauche et les rangs pairs de gauche à droite ; en circulaire, tous les rangs se lisent de droite à gauche. Masquer le repère de rang masque aussi cette zone. Si le repère de colonne est actif, la colonne actuelle est prioritaire ; sinon la dernière position de lecture est mémorisée. Les cellules adjacentes ne sont regroupées que si le point, la couleur du symbole et le fond correspondent. « Sans maille » n’est ni affiché ni compté et ne sépare pas deux segments identiques.
+Activez « Afficher les points du rang actuel » dans les réglages communs pour voir les segments consécutifs du rang, la couleur du symbole, le fond de cellule et le sens, dans l’ordre réel de tricot. En aller-retour, les rangs impairs se lisent de droite à gauche et les rangs pairs de gauche à droite ; en circulaire, tous les rangs se lisent de droite à gauche. Masquer le repère de rang masque aussi cette zone. Si le repère de colonne est actif, la colonne actuelle est prioritaire ; sinon la dernière position de lecture est mémorisée. Les cellules adjacentes ne sont regroupées que si le point, la couleur du symbole et le fond correspondent. « Sans maille » n’est ni affiché ni compté et ne sépare pas deux segments identiques. « Définition des cases vides » ignore les cases vides par défaut, mais peut leur associer tout symbole pris en charge par l’app. Chaque grille peut suivre le réglage général, ignorer explicitement les cases vides ou choisir son propre symbole. Ce choix modifie uniquement la lecture du rang actuel et n’écrit rien dans la grille. Les points issus de cases vides sont libellés « Nom du point (cases vides) » et comptés séparément des points dessinés dans la grille.
 
 Les sauvegardes programmées sont désactivées pendant la modification afin de ne pas interrompre les interactions avec le canevas. Les changements sont enregistrés lorsque l’app passe en arrière-plan, à l’ouverture de l’exportation ou lorsque vous touchez « Fermer » ; « Fermer » attend la fin de l’enregistrement avant de revenir. Le bouton « Enregistrer » reste disponible pour une sauvegarde manuelle immédiate.
 

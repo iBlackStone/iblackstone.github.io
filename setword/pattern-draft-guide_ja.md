@@ -1,5 +1,6 @@
 ---
 title: 製図エディタの使い方
+lang: ja
 hide_page_title: true
 ---
 

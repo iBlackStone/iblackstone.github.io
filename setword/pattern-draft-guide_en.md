@@ -1,5 +1,6 @@
 ---
 title: Smart Pattern Editor Guide
+lang: en
 hide_page_title: true
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: 謝辞
+lang: ja
 hide_page_title: true
 ---
 

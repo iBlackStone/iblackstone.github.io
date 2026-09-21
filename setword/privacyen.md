@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Knit & Crochet Privacy Policy"
+lang: en
 ---
 
 # Knit & Crochet Privacy Policy

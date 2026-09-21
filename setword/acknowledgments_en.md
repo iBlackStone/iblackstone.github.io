@@ -1,5 +1,6 @@
 ---
 title: Acknowledgments
+lang: en
 hide_page_title: true
 ---
 

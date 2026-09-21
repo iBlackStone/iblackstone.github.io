@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "编织计数器使用技巧"
+lang: zh-Hans
 ---
 
 ## 概述

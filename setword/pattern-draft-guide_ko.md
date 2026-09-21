@@ -1,5 +1,6 @@
 ---
 title: 패턴 편집기 사용 설명
+lang: ko
 hide_page_title: true
 ---
 

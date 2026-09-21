@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "スワッチシミュレーター"
+lang: ja
 ---
 
 ## 参考価値

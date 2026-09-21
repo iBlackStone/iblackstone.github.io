@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Knitting Counter Usage Guide"
+lang: en
 ---
 
 ## Overview

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "편성 카운터 사용 방법"
+lang: ko
 ---
 
 ## 개요

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "编织助手隐私政策"
+lang: zh-Hans
 ---
 
 # 编织助手隐私政策

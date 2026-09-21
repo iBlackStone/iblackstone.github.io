@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "AppStore技术支持网址"
+lang: en
 ---
 
 ### 技术支持

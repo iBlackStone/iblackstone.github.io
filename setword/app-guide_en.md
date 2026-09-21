@@ -1,5 +1,6 @@
 ---
 title: Knit & Crochet User Guide
+lang: en
 ---
 
 Knit & Crochet helps you organize yarn, manage knitting projects, track progress, design knitting and crochet charts, and read PDF pattern notes. Each tool works independently and can also be attached to the same project.
@@ -218,7 +219,8 @@ Link a chart to a project counter to display the current position on a larger ca
 
 - Flat knitting reads odd rows from right to left and even rows from left to right. Knitting in the round reads every row from right to left. The project’s **Knitting Method** setting controls this behavior.
 - Hiding row markers also hides the current-row strip. When column markers are enabled, the current column is the preferred position; otherwise the strip remembers its reading position.
-- Adjacent cells merge only when stitch, symbol color, and background match. Ordinary blank cells break a run. **No Stitch** represents no worked stitch, so it is neither displayed nor counted and does not split matching stitches on its two sides.
+- Adjacent cells merge only when stitch, symbol color, and background match. Blank cells break a run when their meaning is set to Ignore. **No Stitch** represents no worked stitch, so it is neither displayed nor counted and does not split matching stitches on its two sides.
+- **Blank Cell Meaning** ignores blank cells by default or maps each one to any symbol already supported by the app. A chart can follow the general setting, explicitly ignore blanks, or choose its own symbol. This changes only the current-row reading and never writes symbols into the chart. Mapped stitches are labeled “Stitch Name (Blank Cells)” and counted separately from stitches drawn on the chart.
 
 Export options include images and editable project files; use project files for continued editing and images for sharing or printing.
 

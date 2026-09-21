@@ -1,5 +1,6 @@
 ---
 title: 智能版型编辑器使用说明
+lang: zh-Hans
 hide_page_title: true
 ---
 
