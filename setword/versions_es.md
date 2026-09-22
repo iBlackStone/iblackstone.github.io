@@ -6,10 +6,10 @@ lang: es
 
 ### Se recomienda actualizar la versión a tiempo para disfrutar de una mejor experiencia de usuario.
 
-### v2.0.4
-Qué hay de nuevo
-- Se agregó la sección Descubrir con patrones cuidadosamente seleccionados para inspirar su próximo proyecto.
-- Otras mejoras y correcciones de errores
+### v2.0.4–v2.0.8
+- Los detalles del hilo ahora admiten una vista de muestra simulada en 3D, que seguirá mejorándose.
+- El editor de punto integra ahora simulación 3D y representa en tiempo real la forma 3D de la prenda terminada; se añadirán progresivamente más puntos compatibles.
+- El editor de punto incorpora modos de conteo mejorados y más operaciones rápidas de área para agilizar el trabajo.
 
 ### v2.0.2
 - Se agregaron y mejoraron funciones de diseño de patrones para facilitar la creación y edición.

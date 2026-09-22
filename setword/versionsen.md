@@ -6,10 +6,10 @@ lang: en
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
-### v2.0.4
-What's New
-- Added the Discover section with handpicked patterns to inspire your next project
-- Other improvements and bug fixes
+### v2.0.4–v2.0.8
+- Yarn details now support a 3D simulated swatch view, with ongoing improvements to follow.
+- The knitting editor now includes 3D simulation and renders the 3D shape of the finished piece in real time; support for more related stitches will be added progressively.
+- The knitting editor has upgraded counting modes and more quick area operations to speed up your workflow.
 
 ### v2.0.2
 - Added and improved pattern design features for easier creation and editing.

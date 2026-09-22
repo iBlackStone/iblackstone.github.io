@@ -11,13 +11,11 @@ lang: de
 
 
 
-### V2.0.4
+### v2.0.4–v2.0.8
 
-Was ist neu
-
-- Der Abschnitt "Entdecken" mit handverlesenen Mustern hinzugefügt, um Ihr nächstes Projekt zu inspirieren
-
-- Weitere Verbesserungen und Fehlerbehebungen
+- Die Garndetails unterstützen jetzt eine 3D-Simulation der Maschenprobe; weitere Verbesserungen folgen fortlaufend.
+- Der Strickeditor enthält jetzt eine 3D-Simulation und rendert die 3D-Form des fertigen Stücks in Echtzeit; weitere passende Maschen werden schrittweise unterstützt.
+- Der Strickeditor bietet verbesserte Zählmodi und weitere schnelle Bereichsoperationen für einen effizienteren Arbeitsablauf.
 
 
 
@@ -671,5 +669,4 @@ Garnmodul-Upgrade
 
 
 > Andere Versionsaktualisierungen können auf der AppStore-App-Homepage eingesehen werden.
-
 
