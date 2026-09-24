@@ -44,6 +44,7 @@ Home is the project workspace. The header shows the current project and its next
 The Home header first shows card-carousel recommendations curated by an administrator for all users. Swipe or wait for the next image, then tap to preview it, view its Ravelry details, or import it. If no curated set is active, a connected Ravelry account can still provide free-pattern recommendations based on projects stored on this device. The current-project card remains the final fallback when recommendations are unavailable or have no suitable result.
 
 Quick Start groups destinations under Ravelry, Pattern Drafting, Project Notes, Knitting, Crochet, Yarn, Projects, Stitches, and Help. Pattern Drafting, Project Notes, Knitting, and Crochet place Files immediately after New or Import, keep supporting tools in the middle, and move the classic List to the end. Help collects the app guide, knitting chart guide, crochet chart guide, Project Notes guide, Pattern Drafting guide, knitting counter guide, swatch simulator, and feedback; the matching guide is also available inside each supported module. Modules scroll horizontally and reveal their actions in the rounded group below; the top pointer marks the active module. Select it again or use Collapse to hide the group.
+Knitting also offers 3D Sim and Recent 3D for simulation setup and recently successful combinations.
 
 ### Discover
 
