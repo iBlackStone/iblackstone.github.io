@@ -6,10 +6,19 @@ lang: en
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
-### v2.0.4–v2.0.8
+- Improved home project loading with background data preparation and fewer repeated reads; added loading feedback and retry on failure while preserving filters, sorting and quick actions.
+- Added orange pull-to-refresh on Home to update local projects and resource relationships while preserving the current filters and sorting.
+- The crochet editor adds area operations for batch recoloring and symbol replacement, group rotation, alignment and equal spacing, with single-step undo. Equal spacing now expands into other canvas space when needed while preserving alignment on the other axis. Horizontal and vertical flips and mirror copies to the left, right, up and down are supported; text and numbers remain readable. Clearer entry points for crochet Multi-Select and Area Actions, with an updated Group icon and long-press guidance. Adds horizontal/vertical repeats with count and spacing, circular/sector repeats, whole-selection scaling and uniform stitch size. A single group can switch explicitly between the whole group and its members while keeping the group intact. Fixes unresponsive Apply and Cancel buttons in area-operation parameter panels.
+- The crochet editor now supports curvature editing for hdc, dc, tr, dtr, and ttr, plus hdc blo, dc blo, FPhdc, BPhdc, FPdc, BPdc, FPtr, and BPtr symbols, with matching selection bounds and export.
 - Yarn details now support a 3D simulated swatch view, with ongoing improvements to follow.
 - The knitting editor now includes 3D simulation and renders the 3D shape of the finished piece in real time; support for more related stitches will be added progressively.
 - The knitting editor has upgraded counting modes and more quick area operations to speed up your workflow.
+- Optimized screen drawing for large knitting charts to reduce unnecessary drawing and temporary objects while retaining existing editing and full-chart export workflows.
+- Fixed a potential crash in the home recommendation action menu while preserving automatic card rotation after the menu closes.
+- Fixed potential crashes and incorrect numeric displays in project, counter, pattern and chart screens in some languages.
+
+- 2026-10-10: Added V3 complete backups with the separate Smart Pattern Draft database, chart assets, people and measurements, recovery drafts, output preparation, and strategy purchase records; `.lineopus` remains limited to project-linked pattern/output/recovery data and required strategy dependencies, without the full pattern library or purchased entitlements.
+- Added a separate Automatic Backup outside the manual quota for free and member users; on the first foreground activation and after each return to the foreground, a serial background queue starts after about three seconds, while a background transition only continues an already-running task and cancels it when the allowed time expires; each device completes at most one successful update per local calendar day and exposes save time, sync state, and Emergency Rollback. The local package remains available if iCloud upload fails; the cloud copy uses one shared `AutomaticBackupV1` slot.
 
 ### v2.0.2
 - Added and improved pattern design features for easier creation and editing.

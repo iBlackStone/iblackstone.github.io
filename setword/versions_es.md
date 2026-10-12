@@ -6,10 +6,19 @@ lang: es
 
 ### Se recomienda actualizar la versión a tiempo para disfrutar de una mejor experiencia de usuario.
 
-### v2.0.4–v2.0.8
+- Se ha mejorado la carga de proyectos en Inicio con preparación de datos en segundo plano y menos lecturas repetidas. Se añaden indicaciones de carga y reintentos en caso de error, conservando filtros, ordenación y acciones rápidas.
+- Inicio incorpora actualización al deslizar hacia abajo con una animación naranja para proyectos locales y asociaciones de recursos, conservando los filtros y el orden actuales.
+- El editor de ganchillo añade operaciones de área para cambiar colores y sustituir símbolos en lote, girar, alinear y distribuir elementos, con un solo paso de deshacer. El espaciado uniforme se amplía ahora por el lienzo cuando es necesario y conserva la alineación en el otro eje. Se admiten volteos horizontales y verticales y copias de espejo en las cuatro direcciones; los textos y números siguen siendo legibles. Acceso más claro a la selección múltiple y las acciones de área de ganchillo; también se actualizan el icono de grupo y las indicaciones de pulsación prolongada. Añade repeticiones horizontales/verticales con cantidad y separación, repeticiones circulares/en sector, escala de toda la selección y tamaño uniforme de los puntos. Un grupo individual permite elegir entre el grupo completo y sus miembros, conservando la agrupación. Corrige los botones Aplicar y Cancelar que no respondían en los paneles de parámetros de las operaciones de área.
+- El editor de ganchillo ahora permite editar la curvatura de los símbolos hdc, dc, tr, dtr y ttr, además de hdc blo, dc blo, FPhdc, BPhdc, FPdc, BPdc, FPtr y BPtr, con límites de selección y exportación coherentes.
 - Los detalles del hilo ahora admiten una vista de muestra simulada en 3D, que seguirá mejorándose.
 - El editor de punto integra ahora simulación 3D y representa en tiempo real la forma 3D de la prenda terminada; se añadirán progresivamente más puntos compatibles.
 - El editor de punto incorpora modos de conteo mejorados y más operaciones rápidas de área para agilizar el trabajo.
+- Se optimizó el dibujo en pantalla de los gráficos de punto grandes para reducir las operaciones innecesarias y los objetos temporales, conservando los procesos de edición y exportación del gráfico completo.
+- Se corrigió un posible cierre inesperado en el menú de acciones de las recomendaciones de inicio, manteniendo la rotación automática de las tarjetas al cerrar el menú.
+- Se corrigieron posibles cierres inesperados y errores en los valores mostrados en las pantallas de proyectos, contadores, patrones y gráficos en algunos idiomas.
+
+- 2026-10-10: se añadieron copias de seguridad completas V3 con la base de datos independiente de diseño inteligente, recursos de gráficos, personas y medidas, borradores de recuperación, preparación de salidas y registros de compra de estrategias; `.lineopus` se limita a los datos de patrones/salidas/recuperación vinculados al proyecto y a las dependencias de estrategia necesarias, sin incluir toda la biblioteca ni los derechos adquiridos.
+- Se añadió una copia de seguridad automática de emergencia independiente de la cuota manual, disponible para usuarios gratuitos y miembros; en la primera entrada en primer plano y después de cada regreso al primer plano, la cola serie en segundo plano comienza tras unos tres segundos, mientras que el cambio a segundo plano solo continúa una tarea ya iniciada y la cancela si se agota el tiempo permitido; cada dispositivo completa como máximo una actualización correcta por día natural local y muestra la hora, el estado de sincronización y la restauración de emergencia. El paquete local se conserva si falla la carga a iCloud; la copia automática en la nube usa el espacio lógico compartido `AutomaticBackupV1`.
 
 ### v2.0.2
 - Se agregaron y mejoraron funciones de diseño de patrones para facilitar la creación y edición.

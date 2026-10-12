@@ -27,7 +27,7 @@ The following content that you create or import is generally stored in the App s
 
 Creating or editing this local content does not automatically upload it to the developer. Uninstalling the App will generally remove local data from the device, but existing iCloud backups must be deleted separately in the App or through Apple's iCloud management tools.
 
-Smart Pattern Drafting V1 uses a separate local database. People, body measurements, and pattern data are not included in the current iCloud database backup or exported in `.lineopus` packages. If pattern sync or archiving is added later, the relevant disclosure and user choices will be updated before it is enabled.
+Smart Pattern Drafting continues to use a separate local database. Complete backups, including the daily automatic backup, include that database and its people, body measurements, pattern projects, recovery drafts, output preparation, and strategy purchase records. The automatic package starts after about three seconds on the first foreground activation and each return to the foreground, on a serial background queue. A background transition only continues an already-started task; expiration keeps the previous package for a retry after the next foreground return. It can complete at most one successful update per device-local calendar day and may store a cloud copy in Apple iCloud. Manual iCloud backups remain user initiated. A `.lineopus` package carries only the pattern links and required strategy dependencies associated with a specific project; it does not carry the full pattern library or purchased entitlements.
 
 ### 1.2 iCloud backup and file selection
 

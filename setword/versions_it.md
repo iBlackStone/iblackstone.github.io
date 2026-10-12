@@ -6,10 +6,19 @@ lang: it
 
 ### Si consiglia di aggiornare la versione in tempo per godere di una migliore esperienza utente.
 
-### V2.0.4–v2.0.8
+- Migliorato il caricamento dei progetti nella schermata iniziale con preparazione dei dati in background e meno letture ripetute. Aggiunte indicazioni di caricamento e la possibilità di riprovare in caso di errore, mantenendo filtri, ordinamento e azioni rapide.
+- Aggiunto l'aggiornamento trascinando verso il basso nella schermata Home, con animazione arancione, per i progetti locali e le associazioni delle risorse; filtri e ordinamento restano invariati.
+- L’editor uncinetto aggiunge operazioni di area per cambiare colore e sostituire simboli in blocco, ruotare, allineare e distribuire gli elementi, con annullamento in un solo passo. La spaziatura uniforme si espande ora sulla tela quando necessario, mantenendo l’allineamento sull’altro asse. Sono supportati i capovolgimenti orizzontali e verticali e le copie speculari nelle quattro direzioni; testi e numeri restano leggibili. Accessi più chiari alla selezione multipla e alle azioni di area all’uncinetto; aggiornate anche l’icona del gruppo e le istruzioni sulla pressione prolungata. Aggiunge ripetizioni orizzontali/verticali con numero e distanza, ripetizioni circolari/a settore, ridimensionamento dell’intera selezione e dimensioni uniformi dei punti. Per un singolo gruppo si può scegliere esplicitamente tra l’intero gruppo e i suoi membri, mantenendo il raggruppamento. Corregge i pulsanti Applica e Annulla che non rispondevano nei pannelli dei parametri delle operazioni di area.
+- L’editor all’uncinetto ora supporta la modifica della curvatura dei simboli hdc, dc, tr, dtr e ttr, oltre a hdc blo, dc blo, FPhdc, BPhdc, FPdc, BPdc, FPtr e BPtr, con limiti di selezione ed esportazione coerenti.
 - I dettagli del filato ora supportano una vista del campione simulata 3D, con miglioramenti in corso a seguire.
 - L'editor di maglieria ora include la simulazione 3D e rende la forma 3D del pezzo finito in tempo reale; il supporto per punti più correlati verrà aggiunto progressivamente.
 - L'editor di maglieria ha aggiornato le modalità di conteggio e le operazioni di area più veloci per accelerare il flusso di lavoro.
+- Ottimizzato il disegno a schermo degli schemi di maglia di grandi dimensioni per ridurre le operazioni superflue e gli oggetti temporanei, mantenendo le procedure di modifica ed esportazione dello schema completo.
+- Risolto un possibile arresto anomalo nel menu delle azioni dei suggerimenti in home, mantenendo la rotazione automatica delle schede dopo la chiusura del menu.
+- Corretti possibili arresti anomali e valori numerici errati nelle schermate di progetti, contatori, modelli e schemi in alcune lingue.
+
+- 2026-10-10: aggiunti backup completi V3 con il database separato di Smart Pattern Drafting, le risorse dei grafici, persone e misure, bozze di recupero, preparazione dell’output e record degli acquisti delle strategie; `.lineopus` resta limitato ai dati di modello/output/recupero collegati al progetto e alle dipendenze di strategia necessarie, senza l’intera libreria o i diritti acquistati.
+- Aggiunto un backup automatico di emergenza separato dalla quota manuale, disponibile per utenti gratuiti e membri; al primo ingresso in primo piano e dopo ogni ritorno in primo piano, la coda seriale in background inizia dopo circa tre secondi, mentre il passaggio in background prosegue solo un'attività già iniziata e la annulla allo scadere del tempo consentito; ogni dispositivo completa al massimo un aggiornamento riuscito per giorno solare locale e mostra ora di salvataggio, stato di sincronizzazione e ripristino di emergenza. Il pacchetto locale resta disponibile se il caricamento iCloud fallisce; la copia automatica cloud usa lo slot condiviso `AutomaticBackupV1`.
 
 ### V2.0.2
 - Funzionalità di progettazione del modello aggiunte e migliorate per una più facile creazione e modifica.

@@ -16,6 +16,7 @@ Knit & Crochet helps you organize yarn, manage knitting projects, track progress
 - [Knitting charts](#knitting-chart)
 - [Knitting chart area operations](#knitting-chart-area-operations)
 - [Crochet charts](#crochet-chart)
+- [Crochet area operations](#crochet-area-operations)
 - [Project Notes](#knitting-notes)
 - [Other tools](#other-tools)
 - [Import, export, and sync](#data-transfer)
@@ -40,6 +41,8 @@ When the local project library is empty, Knit & Crochet installs one bundled tut
 ### Home
 
 Home is the project workspace. The header shows the current project and its next action. The project list can be filtered by states such as All, In Progress, Preparing, Completed, and Abandoned.
+
+Pull down on Home to refresh local projects and resource relationships without making a network request, while keeping the current filters and sorting.
 
 The Home header first shows card-carousel recommendations curated by an administrator for all users. Swipe or wait for the next image, then tap to preview it, view its Ravelry details, or import it. If no curated set is active, a connected Ravelry account can still provide free-pattern recommendations based on projects stored on this device. The current-project card remains the final fallback when recommendations are unavailable or have no suitable result.
 
@@ -166,7 +169,7 @@ Creation now begins by choosing a pattern strategy. Built-ins include a basic ve
 
 The editor follows the knitting/crochet editors with black top controls, a two-row bottom dock, and a fully black workspace with distinct 1 cm and 5 cm grid lines. Pan empty canvas with one finger, pinch around the gesture center, or double-tap to fit the current piece. The `0.125x–12x` canvas redraws geometry and text from mathematical coordinates instead of scaling a bitmap. Interactive swipe-back is disabled inside the editor; use Close. Long-press a tool for its full description.
 
-The first bottom row contains Undo, Redo, Front, Back, Piece, All, and Fit; the second contains Edit, Design, Dimensions, cm Grid, Stitch Grid, Staircase, and Steps. Complete pullovers can switch among body and sleeve pieces. The top plan shortcut and canvas summary open editable candidates; without gauge the project remains explicitly centimeter-only. Design settings replace compatible round/V-neck components transactionally and regenerate only after Save. Rounding, curves, slope shaping, neckline pickup, and assembly remain candidate or manual work and cannot yet publish to the counter. Arbitrary Bezier nodes, other sleeve/yoke families, and knitting/crochet chart placement are not available. People, measurements, strategies, and projects remain on this device and are not exported in `.lineopus`.
+The first bottom row contains Undo, Redo, Front, Back, Piece, All, and Fit; the second contains Edit, Design, Dimensions, cm Grid, Stitch Grid, Staircase, and Steps. Complete pullovers can switch among body and sleeve pieces. The top plan shortcut and canvas summary open editable candidates; without gauge the project remains explicitly centimeter-only. Design settings replace compatible round/V-neck components transactionally and regenerate only after Save. Rounding, curves, slope shaping, neckline pickup, and assembly remain candidate or manual work and cannot yet publish to the counter. Arbitrary Bezier nodes, other sleeve/yoke families, and knitting/crochet chart placement are not available. People, body measurements, strategies, and pattern data remain in the separate local pattern database and are included in the complete local/iCloud backup. A `.lineopus` package carries only project-linked pattern/output/recovery data and required strategy dependencies; it does not include the full pattern library or purchased entitlements.
 
 <a id="knitting-chart"></a>
 ## Knitting charts
@@ -247,7 +250,7 @@ The crochet editor uses a free canvas and is not restricted to the knitting grid
 ### Editing tips
 
 - Search the symbol library by name, abbreviation, or keyword. Recently selected symbols appear first under Used.
-- Project settings control the line width and default size of newly added symbols. Turning-chain symbols 2–6 include a curvature handle for bending.
+- Project settings control the line width and default size of newly added symbols. Turning-chain symbols 2–6, as well as the hdc, dc, tr, dtr, and ttr symbols, include a curvature handle for bending. The same handle also supports hdc blo and dc blo (back loop only), plus FPhdc, BPhdc, FPdc, BPdc, FPtr, and BPtr (front/back post stitches).
 - Layer management shows regular group members recursively. Expand or collapse a group, locate elements, toggle visibility, or lock them.
 - In multi-select mode, tap elements to add or remove them, or draw a new selection box to replace the current selection. Drag any selected element to move the selection together without creating a group, and tap empty canvas to exit multi-select.
 - Smart Snapping is on by default. The center crosshair always follows the element while dragging; its center can snap to the visible canvas center, and its visual edges or center can align with other visible elements. A successful snap shows a highlighted guide and gives one light haptic response. Turn snapping off under Settings > Editing Aids while keeping the center crosshair.
@@ -255,6 +258,35 @@ The crochet editor uses a free canvas and is not restricted to the knitting grid
 - Export supports PNG/PDF, resolution, margins, and background options, plus optional title, notes, symbol legend, author, and copyright information.
 
 Knitting and crochet editors use different data and coordinate models. Create and import files with the matching editor.
+
+<a id="crochet-area-operations"></a>
+### Crochet area operations
+
+Enter Multi-select, tap or drag to select elements, then open Area Actions. Cancel, Copy, Delete and Group remain available. The panel opens as a half-sheet on iPhone and a popover on iPad.
+
+The bottom “Multi-Select” button and the “Area Actions” button shown after selection have visible text labels. Group uses a stacked-squares icon. Long-press a tool to see its purpose and requirements.
+
+Horizontal and vertical flips happen in place. Mirror Copy keeps the original, creates a reflected copy just outside the corresponding edge, selects the copy, and uses one undo step for the whole operation. Stitch identities stay unchanged; text and numbers move without mirroring their glyphs so they remain readable.
+
+On the custom symbol creation page, the mirrored copy is added to the same creation container, and the container remains selected.
+
+**Group scope**: The second text button, “Area Actions”, in the group editing toolbar opens Area Actions directly; Ungroup remains a later action. When multiple top-level objects are selected, operations apply to the selection as a whole. When one group is selected, “Entire group” is the default: geometric operations (repeat layouts and scaling as a whole) apply to the whole group. Switch explicitly to “Group members” to align, distribute evenly, or edit the content of visible, unlocked direct members in bulk (including recoloring group stitches, replacing group stitches, and unifying group stitch size). The operation preserves the group container; unified stitch height preserves proportions and keeps each stitch center in place. A nested group is treated as one member. Editing a custom group symbol changes only the current canvas instance; it does not automatically change the library template. Copies of members stay in the current group. When editing a nested group on its own, whole-group copies stay in its original parent group, and the current group remains selected.
+
+**Repeat layout**: Choose “Horizontal repeat” or “Vertical repeat”, then enter “Total copies (including original)” and “Pattern spacing”. The total includes the original pattern, and spacing is measured between the visible edges of two patterns. The original stays in place, while copies may use other canvas space.
+
+**Circular / fan repeat**: Tap the canvas to set the center. The radius is calculated from the original pattern’s position and can be adjusted in the panel. When the radius changes, the first copy (the original pattern) and all copies use the new radius; if the center overlaps the pattern center, the layout starts from the right by default, and the radius is prefilled from the estimated pattern bounds. The total includes the original; 360° is a full circle with evenly distributed copies and no repeated end position. A fan includes both endpoints, with the original as the first copy. Choose clockwise or counterclockwise, then choose whether to rotate with the angle or keep the orientation.
+
+**Size**: Scaling as a whole changes both stitch sizes and the distances between them. Unifying stitch height preserves proportions and keeps each stitch center in place.
+
+Canceling or returning leaves the canvas unchanged; tap “Apply” to commit the operation. Each application creates at most one undo step, and an unchanged operation adds no history entry.
+
+**Rotation and alignment**: rotate left or right by 90°, or by 180°, around the selection bounds center; positions and symbol orientations rotate together. With at least two elements, align left, horizontal center, right, top, vertical center or bottom. Bounds include rotations, curves and visible group members. Groups transform together, including their locked members.
+
+**Spacing**: select at least three elements to make the visible horizontal or vertical gaps equal. Keep the existing span when it is sufficient; when elements overlap or the span is too small, automatically expand into other canvas space around the original selection center. Equal spacing takes priority, with no need to move the end elements manually. Positions on the other axis stay unchanged, preserving any prior alignment. Pan with two fingers to view the expanded area.
+
+**Symbol editing**: recolor or replace crochet symbols recursively within the selection, skipping hidden or locked branches. Shapes and text outside custom symbols, and all images, are excluded from recoloring and replacement. Groups and paths retain their structure; with multiple top-level objects selected, custom symbols are replaced as atomic symbols. When one group is selected, switch to “Group members” to edit group stitches while preserving the current custom group container. Replacement preserves position, size, rotation, annotations and layer order. Built-in symbols inherit the previous color, line width and opacity; custom symbols retain the new template’s internal colors and line styles. Existing built-in curvature is retained only when the old and new curve styles are compatible.
+
+Each actual change takes one Undo or Redo. Canceling a picker and unchanged operations add no undo step. Results are saved with the project and use the existing PNG/PDF export.
 
 <a id="knitting-notes"></a>
 ## Project Notes
@@ -284,11 +316,17 @@ Project Notes has its own detailed guide. Select “Project Notes” in the help
 
 ### iCloud data sync
 
-Upload and download in Settings operates as a full-library backup. Current backup packages include the database and required PDF/image assets. Download replaces local data with the cloud backup; it is not a record-by-record merge. Check the device and backup time before restoring.
+Upload and download in Settings operates as a full-library backup. A complete backup includes `kv.db`, PDF/image assets, the separate `pattern_draft_v3.db`, `PatternDraftV2.*` settings, and user/imported pattern strategies. People, body measurements, recovery drafts, output preparation, and strategy purchase records are included in that complete package. Download replaces local data with the cloud backup; it is not a record-by-record merge. Check the device and backup time before restoring.
+
+Backup Center also provides one Automatic Backup package per device. It is available to both free and member users and does not use the manual quota. On the first foreground activation and after each return to the foreground, the app waits about three seconds and then asks a background thread to create and validate a temporary complete package. Moving to the background only gives an already-running task the system's allowed background time; it does not start a new package there. If that time expires, the attempt is cancelled and the previous package is kept for a retry after the next foreground return. The device can complete at most one successful update per local calendar day. The local package does not require iCloud. The iCloud copy uses one shared logical slot under `AutomaticBackupV1`; an upload failure does not replace the local package or the previous cloud copy.
+
+The Automatic Backup card shows the local save time, source device, and sync state, and provides Emergency Rollback. Rollback replaces current data and asks for confirmation first; after a successful restore, close and reopen the app. A damaged current database does not block recovery when the automatic package is valid. Automatic Backup does not represent every app setting and is not guaranteed to finish on every background transition.
 
 ### File types
 
-- `.lineopus`: one complete project and its linked resources.
+- `.lineopus`: one project and its linked resources; it may include the pattern, output chain, recovery draft, and required strategy dependencies associated with that project, but not the full pattern library or purchased entitlements.
+Use the same app version on both devices when using a complete V3 backup. Older app versions can read only `kv.db` and `PDFAssets/`, cannot restore Pattern Draft data, and reject V2 `.lineopus` packages.
+
 - `.pxproj` or knitting-project formats: editable knitting charts.
 - PDF/images: sources for Project Notes or sharing output.
 - Yarn CSV V2: batch export creates a folder containing a version manifest, yarn table, component table, image table, and image files. Headers include both localized names and stable field IDs, so packages can be edited and imported across languages. Import validates the complete package before writing any records. Legacy `line_list.csv` files are no longer supported.

@@ -16,6 +16,7 @@ Knit & Crochet ti aiuta a organizzare il filato, gestire progetti di lavoro a ma
 - [Knitting charts](#knitting-chart)
 - [Knitting chart area operations](#knitting-chart-area-operations)
 - [Crochet charts](#crochet-chart)
+- [Operazioni sull’area all’uncinetto](#crochet-area-operations)
 - [Project Notes](#knitting-notes)
 - [Other tools](#other-tools)
 - [Import, export, and sync](#data-transfer)
@@ -40,6 +41,8 @@ Quando la libreria del progetto locale è vuota, Knit & Crochet installa un prog
 ### Casa
 
 La casa è lo spazio di lavoro del progetto. L'intestazione mostra il progetto in corso e la sua prossima azione. L'elenco dei progetti può essere filtrato in base a stati come Tutto, In corso, Preparazione, Completato e Abbandonato.
+
+Nella schermata Home, tira verso il basso per aggiornare i progetti locali e le associazioni delle risorse senza effettuare richieste di rete, mantenendo i filtri e l'ordinamento correnti.
 
 Quando Ravelry è collegato, l'intestazione Home può mostrare grandi raccomandazioni a pattern libero in base ai progetti memorizzati su questo dispositivo. Scorri o attendi l'immagine successiva. Tocca per scegliere Anteprima immagine, Visualizza dettagli Ravelry o Importa. La scheda del progetto corrente rimane il fallback quando Ravelry è disconnesso, non disponibile o non ha un risultato adatto.
 
@@ -166,7 +169,7 @@ V1 supporta un gilet di base lavorato a maglia con geometria giro o scollo a V e
 
 L'editor segue gli editor di maglieria/uncinetto con controlli superiori neri, un dock inferiore a due file e uno spazio di lavoro completamente nero con linee di griglia distinte di 1 cm e 5 cm. Pan tela vuota con un dito, pizzicare intorno al centro del gesto o toccare due volte per adattarsi al pezzo corrente. La tela `0.125x–12x` ridisegna geometria e testo da coordinate matematiche invece di ridimensionare una bitmap. Il swipe-back interattivo è disabilitato all'interno dell'editor; usa Chiudi. Premi a lungo uno strumento per la sua descrizione completa.
 
-Il dock inferiore non passa più tra Sfoglia, Dimensioni e Conteggi. La sua prima riga contiene permanentemente Annulla, Rido, Anteriore, Indietro, Tutto e Adatta; la seconda contiene permanentemente Modifica, Disegno, Dimensioni, Cm Griglia, Griglia Punti, Scala e Passi. Il panoramica e lo zoom funzionano sempre. Abilita Modifica per esporre le maniglie semantiche per petto, lunghezza, spalla, giromanica, larghezza del collo e profondità del collo. Trascina la maniglia della spalla a diamante orizzontalmente per la larghezza della spalla e verticalmente per la caduta della spalla, o premila a lungo per inserire entrambi i valori. Le dimensioni aggiungono progressivamente scollatura, spalla, giromanica, sezione dritta, numero approssimativo di punti/righe e lunghezze di curva ad alto zoom. Apri il piano dalla scorciatoia in alto o dal riepilogo della tela: Conferma, Aggiungi passaggio e Ripristina candidato sono visibili nella parte superiore della prima schermata, mentre le modifiche alla riga e lo scorrimento per eliminare aggiornano immediatamente la scala e le etichette e cancellano la conferma precedente. Le impostazioni di progettazione espongono anche il girocollo/V, la caduta della spalla, l'arrotondamento, l'intervallo di campionamento, la diminuzione massima e le scelte di tenuta centrale. La modellatura delle spalle e altri risultati discreti rimangono chiaramente etichettati come candidati ingegneristici piuttosto che regole universali approvate, quindi devi confermarli; non possono ancora essere pubblicati sul bancone. L'editing arbitrario del nodo di Bezier, le maniche, altre scollature e il posizionamento della tabella a maglia/uncinetto non sono ancora disponibili. Persone, misure del corpo e dati del modello rimangono su questo dispositivo: non sono inclusi nell'attuale sincronizzazione del database iCloud o esportati nei pacchetti `.lineopus`.
+Il dock inferiore non passa più tra Sfoglia, Dimensioni e Conteggi. La sua prima riga contiene permanentemente Annulla, Rido, Anteriore, Indietro, Tutto e Adatta; la seconda contiene permanentemente Modifica, Disegno, Dimensioni, Cm Griglia, Griglia Punti, Scala e Passi. Il panoramica e lo zoom funzionano sempre. Abilita Modifica per esporre le maniglie semantiche per petto, lunghezza, spalla, giromanica, larghezza del collo e profondità del collo. Trascina la maniglia della spalla a diamante orizzontalmente per la larghezza della spalla e verticalmente per la caduta della spalla, o premila a lungo per inserire entrambi i valori. Le dimensioni aggiungono progressivamente scollatura, spalla, giromanica, sezione dritta, numero approssimativo di punti/righe e lunghezze di curva ad alto zoom. Apri il piano dalla scorciatoia in alto o dal riepilogo della tela: Conferma, Aggiungi passaggio e Ripristina candidato sono visibili nella parte superiore della prima schermata, mentre le modifiche alla riga e lo scorrimento per eliminare aggiornano immediatamente la scala e le etichette e cancellano la conferma precedente. Le impostazioni di progettazione espongono anche il girocollo/V, la caduta della spalla, l'arrotondamento, l'intervallo di campionamento, la diminuzione massima e le scelte di tenuta centrale. La modellatura delle spalle e altri risultati discreti rimangono chiaramente etichettati come candidati ingegneristici piuttosto che regole universali approvate, quindi devi confermarli; non possono ancora essere pubblicati sul bancone. L'editing arbitrario del nodo di Bezier, le maniche, altre scollature e il posizionamento della tabella a maglia/uncinetto non sono ancora disponibili. Persone, misure del corpo e dati del modello rimangono nel database locale separato dei modelli e sono inclusi nel backup locale/iCloud completo. Un pacchetto `.lineopus` include solo il modello, la catena di output, la bozza di recupero e le dipendenze di strategia necessarie associate a quel progetto; non include l'intera libreria dei modelli né i diritti acquistati.
 
 <a id="knitting-chart"></a>
 ## Grafici di lavoro a maglia
@@ -247,7 +250,7 @@ L'editor all'uncinetto utilizza una tela libera e non è limitato alla griglia d
 ### Suggerimenti per la modifica
 
 - Cerca nella libreria di simboli per nome, abbreviazione o parola chiave. I simboli selezionati di recente appaiono per primi sotto Usato.
-- Le impostazioni del progetto controllano la larghezza della linea e la dimensione predefinita dei simboli appena aggiunti. I simboli della catena di tornitura 2–6 includono una maniglia di curvatura per la flessione.
+- Le impostazioni del progetto controllano la larghezza della linea e la dimensione predefinita dei simboli appena aggiunti. I simboli della catena di tornitura 2–6 e i simboli hdc, dc, tr, dtr e ttr dispongono di una maniglia di curvatura per la flessione. La stessa maniglia supporta anche hdc blo e dc blo (solo nell’asola posteriore), oltre a FPhdc, BPhdc, FPdc, BPdc, FPtr e BPtr (punti in rilievo davanti/dietro).
 - La gestione dei livelli mostra i membri regolari del gruppo in modo ricorsivo. Espandi o comprimi un gruppo, individua elementi, attiva la visibilità o bloccali.
 - In modalità di selezione multipla, tocca gli elementi per aggiungerli o rimuoverli o disegnare una nuova casella di selezione per sostituire la selezione corrente. Trascina qualsiasi elemento selezionato per spostare la selezione insieme senza creare un gruppo e tocca la tela vuota per uscire dalla selezione multipla.
 - Smart Snapping è acceso per impostazione predefinita. Il mirino centrale segue sempre l'elemento durante il trascinamento; il suo centro può scattare al centro della tela visibile e i suoi bordi visivi o il centro possono allinearsi con altri elementi visibili. Uno scatto riuscito mostra una guida evidenziata e dà una risposta tattile leggera. Disattiva lo scatto in Impostazioni > Ausili di modifica mantenendo il mirino centrale.
@@ -255,6 +258,35 @@ L'editor all'uncinetto utilizza una tela libera e non è limitato alla griglia d
 - L'esportazione supporta PNG/PDF, risoluzione, margini e opzioni di sfondo, oltre a titolo opzionale, note, legenda dei simboli, autore e informazioni sul copyright.
 
 Gli editori di maglieria e uncinetto utilizzano dati e modelli di coordinate diversi. Crea e importa file con l'editor corrispondente.
+
+<a id="crochet-area-operations"></a>
+### Operazioni sull’area all’uncinetto
+
+Attiva la selezione multipla, tocca gli elementi o trascina una zona, poi apri Azioni di area. Annulla, Copia, Elimina e Raggruppa restano disponibili. Il pannello occupa metà schermo su iPhone e un popover su iPad.
+
+Il pulsante «Selezione multipla» in basso e «Azioni di area» dopo la selezione mostrano il testo. Gruppo usa un’icona di quadrati sovrapposti. Tieni premuto uno strumento per vederne lo scopo e le condizioni d’uso.
+
+Il capovolgimento orizzontale e verticale avviene sul posto, senza duplicare il contenuto. La copia speculare mantiene l’originale, crea una copia riflessa oltre il bordo corrispondente e seleziona la copia; l’intera operazione usa un solo annullamento. L’identità dei punti resta invariata; testi e numeri cambiano solo posizione e non vengono capovolti, così rimangono leggibili.
+
+Nella pagina di creazione dei simboli personalizzati, la copia speculare viene aggiunta allo stesso contenitore di creazione, che rimane selezionato.
+
+**Ambito dei gruppi**: il secondo pulsante testuale «Azioni di area» nella barra degli strumenti di modifica del gruppo apre direttamente le azioni di area; «Separa» resta un’azione successiva. Con più oggetti di primo livello selezionati, le operazioni si applicano all’intera selezione. Con un solo gruppo selezionato, «Intero gruppo» è l’impostazione predefinita: le operazioni geometriche (disposizioni ripetute e ridimensionamento globale) agiscono sull’intero gruppo. Passa esplicitamente a «Membri del gruppo» per allineare, distribuire con spazi uguali o modificare in blocco il contenuto dei membri diretti visibili e non bloccati (inclusi cambio colore, sostituzione e uniformazione della dimensione dei punti del gruppo). Il contenitore del gruppo viene mantenuto dopo l’operazione; uniformare l’altezza dei punti conserva le proporzioni e la posizione centrale di ogni punto. Un sottogruppo viene trattato come un solo membro. La modifica di un simbolo di gruppo personalizzato cambia solo l’istanza attuale sulla tela e non modifica automaticamente il modello nella libreria. Le copie dei membri restano nel gruppo corrente. Quando si modifica singolarmente un gruppo annidato, le copie dell’intero gruppo restano nel gruppo padre originale e il gruppo corrente rimane selezionato.
+
+**Disposizione ripetuta**: scegli «Ripetizione orizzontale» o «Ripetizione verticale», quindi inserisci «Numero totale di copie (originale incluso)» e «Spaziatura del motivo». Il totale include il motivo originale e la spaziatura viene calcolata tra i bordi visibili di due motivi. L’originale resta al suo posto e le copie possono usare altro spazio sulla tela.
+
+**Ripetizione circolare / a ventaglio**: tocca la tela per impostare il centro. Il raggio viene calcolato dalla posizione del motivo originale e può essere regolato nel pannello. Quando cambi il raggio, la prima copia (il motivo originale) e tutte le copie usano il nuovo raggio; se il centro coincide con il centro del motivo, la disposizione parte da destra per impostazione predefinita e il raggio viene precompilato usando l’estensione stimata del motivo. Il totale include l’originale; 360° formano un cerchio completo, con copie distribuite uniformemente senza ripetere la posizione finale. Un ventaglio include entrambi gli estremi e l’originale è la prima copia. Scegli il senso orario o antiorario, poi se ruotare con l’angolo o mantenere l’orientamento.
+
+**Dimensioni**: il ridimensionamento globale modifica sia la dimensione dei punti sia le distanze tra loro. Uniformare l’altezza dei punti mantiene le proporzioni e la posizione centrale di ogni punto.
+
+Annullare o tornare indietro non modifica la tela; tocca «Applica» per confermare l’operazione. Ogni applicazione crea al massimo un passaggio di annullamento e un’operazione senza modifiche non aggiunge cronologia.
+
+**Rotazione e allineamento**: ruota di 90° a sinistra o a destra, oppure di 180°, attorno al centro della selezione. Posizioni e orientamenti ruotano insieme. Con almeno due elementi puoi allineare a sinistra, al centro orizzontale, a destra, in alto, al centro verticale o in basso. Il contorno include rotazioni, curve e membri visibili dei gruppi. I gruppi si spostano interamente, compresi i membri bloccati.
+
+**Spaziatura**: seleziona almeno tre elementi per rendere uguali gli spazi visibili in orizzontale o verticale. Se l’intervallo attuale è sufficiente, viene mantenuto; se è troppo stretto o gli elementi si sovrappongono, la disposizione si espande automaticamente sulla tela attorno al centro originale della selezione. La spaziatura uniforme ha la priorità, senza dover allontanare manualmente le estremità. Le posizioni sull’altro asse restano invariate, preservando l’allineamento già applicato. Sposta la tela con due dita per vedere l’area estesa.
+
+**Simboli**: cambia colore o sostituisci i simboli all’uncinetto nella selezione in modo ricorsivo, saltando i rami nascosti o bloccati. Forme e testi esterni ai simboli personalizzati, e tutte le immagini, sono esclusi dalla modifica del colore e dalla sostituzione. Gruppi e percorsi mantengono la struttura; con più oggetti di primo livello selezionati, i simboli personalizzati vengono sostituiti come simboli atomici. Con un solo gruppo selezionato, passa ai membri del gruppo per modificare i punti del gruppo mantenendo il contenitore del gruppo personalizzato corrente. Sono conservati posizione, dimensioni, rotazione, annotazioni e ordine dei livelli. I simboli integrati ereditano colore, spessore e opacità precedenti; quelli personalizzati mantengono i colori e gli stili delle linee del nuovo modello. La curvatura dei simboli integrati resta solo se gli stili sono compatibili.
+
+Ogni modifica effettiva richiede un solo Annulla o Ripeti. Annullare un selettore o un’operazione senza modifiche non aggiunge passaggi. I risultati sono salvati con il progetto e usano l’esportazione PNG/PDF esistente.
 
 <a id="knitting-notes"></a>
 ## Note del progetto
@@ -284,11 +316,17 @@ Project Notes ha una propria guida dettagliata. Seleziona "Note di progetto" nel
 
 ### Sincronizzazione dei dati iCloud
 
-Carica e scarica in Impostazioni funziona come un backup completo della libreria. Gli attuali pacchetti di backup includono il database e le risorse PDF/immagine richieste. Download sostituisce i dati locali con il backup cloud; non è un'unione record per record. Controlla il dispositivo e il tempo di backup prima del ripristino.
+Carica e scarica in Impostazioni funziona come un backup completo della libreria. Un backup completo include `kv.db`, le risorse PDF/immagine, il database separato `pattern_draft_v3.db`, le impostazioni `PatternDraftV2.*` e le strategie di modello create dall'utente o importate. Include anche persone, misure del corpo, bozze di recupero, preparazione dell'output e record degli acquisti delle strategie. Il download sostituisce i dati locali con il backup cloud; non è un'unione record per record. Controlla il dispositivo e l'ora del backup prima del ripristino.
+
+Il Centro backup offre anche un pacchetto di backup automatico che non consuma la quota manuale. È disponibile sia agli utenti gratuiti sia agli abbonati. Al primo ingresso in primo piano e dopo ogni ritorno in primo piano, l'app attende circa tre secondi e poi chiede alla coda seriale in background di creare e convalidare un pacchetto completo temporaneo. Il passaggio in background concede solo al lavoro già iniziato il tempo consentito dal sistema e non avvia un nuovo pacchetto. Se il tempo scade, il tentativo viene annullato, il pacchetto precedente viene conservato e il nuovo tentativo avviene al successivo ritorno in primo piano. È possibile completare al massimo un aggiornamento riuscito per giorno solare locale del dispositivo. Il pacchetto locale non richiede iCloud. La copia iCloud usa un unico slot logico condiviso in `AutomaticBackupV1`; un errore di caricamento non sostituisce il pacchetto locale né la precedente copia cloud.
+
+La scheda del backup automatico mostra l'ora di salvataggio locale, il dispositivo di origine e lo stato di sincronizzazione e offre «Ripristino di emergenza». Il ripristino sostituisce i dati attuali e richiede conferma; dopo un ripristino riuscito chiudi e riapri l'app. Un database attuale danneggiato non blocca il recupero se il pacchetto automatico è valido. Il backup automatico non rappresenta tutte le impostazioni dell'app e non è garantito a ogni passaggio in background.
 
 ### Tipi di file
 
-- `.lineopus`: un progetto completo e le sue risorse collegate.
+- `.lineopus`: un progetto e le sue risorse collegate; può includere il modello, la catena di output, la bozza di recupero e le dipendenze di strategia necessarie associate a quel progetto, ma non l'intera libreria dei modelli né i diritti acquistati.
+Per usare un backup completo V3, aggiorna entrambi i dispositivi alla stessa versione dell'app. Le versioni precedenti leggono solo `kv.db` e `PDFAssets/`, non possono ripristinare i dati di progettazione del modello e rifiutano i pacchetti `.lineopus` V2.
+
 - `.pxproj` o formati di progetto di lavoro a maglia: grafici di lavoro a maglia modificabili.
 - PDF/immagini: fonti per le note del progetto o l'output di condivisione.
 - Yarn CSV V2: l'esportazione batch crea una cartella contenente un manifesto di versione, una tabella di filato, una tabella dei componenti, una tabella di immagini e file di immagini. Le intestazioni includono sia nomi localizzati che ID di campo stabili, quindi i pacchetti possono essere modificati e importati in tutte le lingue. L'importazione convalida il pacchetto completo prima di scrivere qualsiasi record. I file legacy `line_list.csv` non sono più supportati.

@@ -11,13 +11,22 @@ lang: de
 
 
 
-### v2.0.4–v2.0.8
+- Das Laden der Projekte auf der Startseite wurde durch Datenaufbereitung im Hintergrund und weniger wiederholte Lesevorgänge verbessert. Ladehinweise und erneute Versuche bei Fehlern wurden ergänzt; Filter, Sortierung und Schnellaktionen bleiben erhalten.
+- Die Startseite bietet eine orangefarbene Aktualisierung durch Herunterziehen für lokale Projekte und Ressourcenverknüpfungen; die aktuellen Filter und die Sortierung bleiben erhalten.
+- Der Häkeleditor bietet Bereichsaktionen zum gemeinsamen Umfärben, Ersetzen, Drehen, Ausrichten und gleichmäßigen Verteilen mit einem einzigen Rückgängig-Schritt. Bei Bedarf wird die gleichmäßige Verteilung auf der Zeichenfläche erweitert; die Ausrichtung auf der anderen Achse bleibt erhalten. Horizontales und vertikales Spiegeln sowie Spiegelkopien in alle vier Richtungen werden unterstützt; Texte und Nummern bleiben lesbar. Klarere Einstiege in Mehrfachauswahl und Flächenaktionen beim Häkeln; Gruppensymbol und Hinweise zum Gedrückthalten wurden ebenfalls aktualisiert. Neu sind horizontale/vertikale Wiederholungen mit Anzahl und Abstand, Kreis-/Sektorwiederholungen, die Skalierung der gesamten Auswahl und eine einheitliche Maschengröße. Bei einer einzelnen Gruppe lässt sich ausdrücklich zwischen der gesamten Gruppe und ihren Mitgliedern wechseln; die Gruppe bleibt erhalten. Behebt nicht reagierende Schaltflächen „Anwenden“ und „Abbrechen“ in den Parameterfenstern der Bereichsaktionen.
+- Der Häkeleditor unterstützt jetzt die Krümmungsbearbeitung für hdc, dc, tr, dtr und ttr sowie hdc blo, dc blo, FPhdc, BPhdc, FPdc, BPdc, FPtr und BPtr mit passenden Auswahlgrenzen und Export.
 
 - Die Garndetails unterstützen jetzt eine 3D-Simulation der Maschenprobe; weitere Verbesserungen folgen fortlaufend.
 - Der Strickeditor enthält jetzt eine 3D-Simulation und rendert die 3D-Form des fertigen Stücks in Echtzeit; weitere passende Maschen werden schrittweise unterstützt.
 - Der Strickeditor bietet verbesserte Zählmodi und weitere schnelle Bereichsoperationen für einen effizienteren Arbeitsablauf.
+- Die Bildschirmdarstellung großer Strickdiagramme wurde optimiert, um unnötige Zeichenoperationen und temporäre Objekte zu reduzieren. Die bisherigen Abläufe zum Bearbeiten und Exportieren des vollständigen Diagramms bleiben erhalten.
+- Ein möglicher Absturz im Aktionsmenü der Empfehlungen auf der Startseite wurde behoben. Nach dem Schließen des Menüs wechseln die Karten weiterhin automatisch.
+- Potenzielle Abstürze und fehlerhafte Zahlenanzeigen auf Projekt-, Zähler-, Schnittmuster- und Diagrammseiten wurden für einige Sprachen behoben.
 
 
+
+- 2026-10-10: V3-Voll-Backups enthalten jetzt die separate Smart-Pattern-Datenbank, Diagramm-Assets, Personen und Körpermaße, Wiederherstellungsentwürfe, Ausgabevorbereitung und Strategie-Kaufdatensätze; `.lineopus` bleibt auf projektbezogene Muster-/Ausgabe-/Wiederherstellungsdaten und erforderliche Strategieabhängigkeiten beschränkt und enthält weder die gesamte Pattern-Bibliothek noch erworbene Berechtigungen.
+- Ein automatisches Notfall-Backup außerhalb des manuellen Kontingents steht kostenlosen und Mitgliedskonten zur Verfügung; beim ersten Eintritt in den Vordergrund und nach jeder Rückkehr startet die serielle Hintergrundwarteschlange nach etwa drei Sekunden, während ein Wechsel in den Hintergrund nur eine bereits laufende Aufgabe fortsetzt und sie bei Ablauf der erlaubten Zeit abbricht; jedes Gerät führt höchstens eine erfolgreiche Aktualisierung pro lokalem Kalendertag durch und zeigt Speicherzeit, Synchronisierungsstatus und Notfall-Rollback an. Bei einem fehlgeschlagenen iCloud-Upload bleibt das lokale Paket erhalten; die automatische Cloud-Kopie verwendet den gemeinsamen Slot `AutomaticBackupV1`.
 
 ### V2.0.2
 

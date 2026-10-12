@@ -16,6 +16,7 @@ Tricot & Crochet permet de gérer les fils, d’organiser les projets, de suivre
 - [Grilles de tricot](#knitting-chart)
 - [Opérations de zone des grilles de tricot](#knitting-chart-area-operations)
 - [Diagrammes de crochet](#crochet-chart)
+- [Opérations de zone au crochet](#crochet-area-operations)
 - [Notes de projet](#knitting-notes)
 - [Autres outils](#other-tools)
 - [Importation, exportation et synchronisation](#data-transfer)
@@ -38,6 +39,7 @@ Lorsque la bibliothèque de projets est vide, Tricot & Crochet installe une seul
 ## Navigation principale
 
 - **Accueil** : affiche le projet actuel et la prochaine action, puis classe les projets par états — préparation, en cours, terminé ou abandonné.
+  Tirez vers le bas sur l’accueil pour actualiser les projets locaux et leurs associations de ressources sans effectuer de requête réseau, tout en conservant les filtres et le tri actuels.
   L’en-tête affiche en priorité un carrousel de recommandations configurées par un administrateur pour tous les utilisateurs. Balayez ou attendez le défilement automatique, puis touchez un modèle pour choisir entre l’aperçu, les détails Ravelry ou l’importation. Sans sélection éditoriale active, une connexion Ravelry peut encore fournir des modèles gratuits selon les projets enregistrés sur cet appareil. La carte du projet actuel reste le dernier recours en cas d’indisponibilité ou sans résultat adapté.
   Le démarrage rapide regroupe Ravelry, les patrons, les Notes de projet, le tricot, le crochet, les fils, les projets, les points et l’aide. Pour les patrons, les notes, le tricot et le crochet, Fichiers vient juste après Nouveau ou Importer, les outils complémentaires restent au milieu et la liste classique passe en dernier. L’aide rassemble les guides de l’app, des grilles de tricot et de crochet, des Notes de projet, des patrons, du compteur et du simulateur d’échantillon, ainsi que les retours ; chaque module pris en charge donne aussi accès à son guide. Les modules défilent horizontalement et affichent leurs accès dans le groupe arrondi en dessous. Sélectionnez le module actif à nouveau ou utilisez « Réduire » pour masquer le groupe.
   Le tricot propose aussi « Simu 3D » et « Récents » pour régler une simulation ou reprendre une combinaison récemment réussie.
@@ -111,7 +113,7 @@ La création commence par le choix d’une stratégie. Les stratégies intégré
 
 L’éditeur reprend les éditeurs de tricot et de crochet : commandes supérieures noires, deux rangées d’outils en bas et espace de travail entièrement noir, avec des lignes distinctes pour les grilles de 1 et 5 cm. Déplacez le fond avec un doigt, pincez autour du centre du geste et touchez deux fois pour ajuster la pièce active. Entre `0.125x–12x`, les contours et les textes sont redessinés depuis les coordonnées mathématiques, et non agrandis comme une image. Le retour par glissement est désactivé dans l’éditeur ; utilisez Fermer. Un appui long décrit chaque outil.
 
-La première rangée conserve Annuler, Rétablir, Devant, Dos, Pièce, Tout et Ajuster ; la seconde conserve Modifier, Patron, Dimensions, Grille cm, Grille mailles-rangs, Paliers et Étapes. Un pull complet permet de passer du corps aux manches gauche et droite. Sans échantillon, le projet reste clairement un patron en centimètres. Arrondis, courbes, augmentations de pente, relevages et assemblages restent des candidats ou confirmations manuelles et ne peuvent pas encore être publiés vers le compteur. Les nœuds Bezier libres, autres familles de manches/empiècements et le placement de grilles restent indisponibles. Personnes, mesures, stratégies et patrons restent sur cet appareil.
+La première rangée conserve Annuler, Rétablir, Devant, Dos, Pièce, Tout et Ajuster ; la seconde conserve Modifier, Patron, Dimensions, Grille cm, Grille mailles-rangs, Paliers et Étapes. Un pull complet permet de passer du corps aux manches gauche et droite. Sans échantillon, le projet reste clairement un patron en centimètres. Arrondis, courbes, augmentations de pente, relevages et assemblages restent des candidats ou confirmations manuelles et ne peuvent pas encore être publiés vers le compteur. Les nœuds Bezier libres, autres familles de manches/empiècements et le placement de grilles restent indisponibles. Les personnes, mesures corporelles, stratégies et patrons restent dans la base de données distincte de l’appareil et sont inclus dans la sauvegarde locale/iCloud complète. Un paquet `.lineopus` ne contient que le patron, la chaîne de sorties, le brouillon de récupération et les dépendances de stratégie nécessaires associés à ce projet ; il n’inclut ni toute la bibliothèque de patrons ni les droits achetés.
 
 <a id="knitting-chart"></a>
 ## Grilles de tricot
@@ -178,7 +180,7 @@ L’éditeur de crochet utilise un canevas libre.
 ### Conseils d’édition
 
 - Recherchez un symbole par nom, abréviation ou mot-clé. Les symboles récemment choisis apparaissent en priorité dans « Utilisés ».
-- Les réglages du projet définissent l’épaisseur de trait et la taille par défaut des nouveaux symboles. Les mailles en l’air de début 2 à 6 disposent d’une poignée de courbure.
+- Les réglages du projet définissent l’épaisseur de trait et la taille par défaut des nouveaux symboles. Les mailles en l’air de début 2 à 6, ainsi que les symboles hdc, dc, tr, dtr et ttr, disposent d’une poignée de courbure. La même poignée prend aussi en charge hdc blo et dc blo (brin arrière seulement), ainsi que FPhdc, BPhdc, FPdc, BPdc, FPtr et BPtr (mailles en relief avant/arrière).
 - La gestion des calques affiche récursivement les éléments des groupes ordinaires. Vous pouvez développer ou réduire un groupe, localiser un élément, modifier sa visibilité ou le verrouiller.
 - En mode de sélection multiple, touchez un élément pour l’ajouter ou le retirer ; un nouveau rectangle remplace la sélection actuelle. Faites glisser un élément sélectionné pour déplacer toute la sélection sans créer de groupe, puis touchez une zone vide pour quitter ce mode.
 - L’alignement intelligent est activé par défaut. Pendant le déplacement, le réticule central suit toujours l’élément ; son centre peut s’aligner sur le centre visible du canevas, et ses bords visuels ou son centre sur d’autres éléments visibles. Un alignement réussi affiche un guide renforcé et produit un léger retour haptique. Désactivez l’alignement dans Réglages > Aides à l’édition tout en conservant le réticule central.
@@ -186,6 +188,35 @@ L’éditeur de crochet utilise un canevas libre.
 - L’exportation prend en charge PNG/PDF, la résolution, les marges et l’arrière-plan, avec titre, notes, légende des symboles, auteur et copyright facultatifs.
 
 Les formats tricot et crochet utilisent des modèles de données différents. Utilisez l’éditeur correspondant pour créer ou importer un fichier.
+
+<a id="crochet-area-operations"></a>
+### Opérations de zone au crochet
+
+Passez en sélection multiple, touchez les éléments ou tracez une zone, puis ouvrez Actions de zone. Annuler, Copier, Supprimer et Grouper restent disponibles. Le panneau occupe la moitié de l’écran sur iPhone et une fenêtre contextuelle sur iPad.
+
+Le bouton « Sélection multiple » en bas et le bouton « Actions de zone » après la sélection affichent leur libellé. Grouper utilise une icône de carrés superposés. Maintenez un outil enfoncé pour voir son utilité et ses conditions d’utilisation.
+
+Les retournements horizontal et vertical s’effectuent sur place, sans copier le contenu. La copie miroir conserve l’original, crée une copie retournée à l’extérieur du bord correspondant et sélectionne cette copie ; toute l’opération tient en une seule annulation. L’identité des points est conservée ; les textes et numéros changent seulement de position, sans retourner leurs caractères, pour rester lisibles.
+
+Sur la page de création de symboles personnalisés, la copie miroir est ajoutée au même conteneur de création, qui reste sélectionné.
+
+**Portée des groupes** : le deuxième bouton texte « Actions de zone » de la barre d’outils d’édition d’un groupe ouvre directement les actions de zone ; « Dissocier » reste une action ultérieure. Avec plusieurs objets de premier niveau sélectionnés, les opérations s’appliquent à l’ensemble de la sélection. Avec un seul groupe, « Groupe entier » est sélectionné par défaut : les opérations géométriques (dispositions répétées et mise à l’échelle globale) s’appliquent au groupe. Passez explicitement à « Membres du groupe » pour aligner, espacer uniformément ou modifier le contenu en lot des membres directs visibles et non verrouillés (y compris recolorer, remplacer et uniformiser la taille des points du groupe). Le conteneur du groupe est conservé après l’opération ; uniformiser la hauteur des points conserve leurs proportions et la position centrale de chacun. Un sous-groupe compte comme un seul membre. La modification d’un symbole de groupe personnalisé ne touche que l’instance actuelle sur la toile ; elle ne modifie pas automatiquement le modèle de la bibliothèque. Les copies des membres restent dans le groupe actuel. Lors de la modification individuelle d’un groupe imbriqué, les copies du groupe entier restent dans son groupe parent d’origine et le groupe actuel reste sélectionné.
+
+**Disposition répétée** : choisissez « Répétition horizontale » ou « Répétition verticale », puis saisissez le « Nombre total de copies (original inclus) » et l’« Espacement du motif ». Le total inclut le motif original et l’espacement est calculé entre les bords visibles de deux motifs. L’original reste en place et les copies peuvent utiliser un autre espace de la toile.
+
+**Répétition circulaire / en éventail** : touchez la toile pour définir le centre. Le rayon est calculé à partir de la position du motif original et peut être ajusté dans le panneau. Lorsque le rayon change, la première copie (le motif original) et toutes les copies utilisent le nouveau rayon ; si le centre chevauche le centre du motif, la disposition commence à droite par défaut et le rayon est prérempli à partir de l’étendue estimée du motif. Le total inclut l’original ; 360° forme un cercle complet, avec des copies réparties régulièrement sans répéter la position finale. Un éventail inclut les deux extrémités, l’original étant la première copie. Choisissez le sens horaire ou antihoraire, puis si les copies doivent pivoter avec l’angle ou conserver leur orientation.
+
+**Taille** : la mise à l’échelle globale modifie à la fois la taille des points et les distances entre eux. L’uniformisation de la hauteur des points conserve leurs proportions et la position centrale de chacun.
+
+Annuler ou revenir en arrière ne modifie pas la toile ; touchez « Appliquer » pour valider l’opération. Chaque application crée au plus une étape d’annulation et une opération sans changement n’ajoute aucun historique.
+
+**Rotation et alignement** : tournez de 90° à gauche ou à droite, ou de 180°, autour du centre de la sélection. Les positions et orientations tournent ensemble. À partir de deux éléments, alignez à gauche, au centre horizontal, à droite, en haut, au centre vertical ou en bas. Les limites incluent rotations, courbes et membres visibles des groupes. Un groupe se déplace en entier, y compris ses membres verrouillés.
+
+**Espacement** : sélectionnez au moins trois éléments pour égaliser les espaces visibles horizontalement ou verticalement. L’étendue actuelle est conservée si elle suffit ; si elle est trop petite ou si les éléments se chevauchent, la disposition s’étend automatiquement sur le canevas autour du centre initial de la sélection. L’espacement égal est prioritaire, sans déplacer manuellement les extrémités. Les positions sur l’autre axe restent inchangées, ce qui préserve l’alignement déjà effectué. Déplacez le canevas avec deux doigts pour voir la zone étendue.
+
+**Symboles** : changez la couleur ou remplacez les symboles de crochet dans la sélection, en parcourant les groupes et en ignorant les branches masquées ou verrouillées. Les formes et textes hors des symboles personnalisés, ainsi que toutes les images, sont exclus des changements de couleur et des remplacements. La structure des groupes et chemins reste intacte. Avec plusieurs objets de premier niveau sélectionnés, les symboles personnalisés sont remplacés comme des symboles atomiques ; avec un seul groupe sélectionné, passez à ses membres pour modifier les points du groupe tout en conservant son conteneur personnalisé actuel. Position, taille, rotation, annotations et ordre des calques sont conservés. Les symboles intégrés reprennent la couleur, l’épaisseur et l’opacité précédentes ; les symboles personnalisés gardent les couleurs et styles de lignes du nouveau modèle. La courbure des symboles intégrés est reprise uniquement si les styles sont compatibles.
+
+Chaque modification effective correspond à une seule annulation ou restauration. Annuler un sélecteur ou effectuer une opération sans changement n’ajoute aucune étape. Les résultats sont enregistrés avec le projet et utilisent l’export PNG/PDF existant.
 
 <a id="knitting-notes"></a>
 ## Notes de projet
@@ -212,9 +243,15 @@ Une documentation détaillée est disponible via « Notes de projet » dans le c
 <a id="data-transfer"></a>
 ## Importation, exportation et synchronisation
 
-L’envoi et le téléchargement iCloud des Réglages constituent une sauvegarde complète. Le paquet actuel contient la base de données et les fichiers PDF/images nécessaires. Un téléchargement remplace les données locales par la sauvegarde distante ; ce n’est pas une fusion élément par élément.
+L’envoi et le téléchargement iCloud des Réglages constituent une sauvegarde complète. Une sauvegarde complète contient `kv.db`, les ressources PDF/images, la base distincte `pattern_draft_v3.db`, les réglages `PatternDraftV2.*` et les stratégies de patron utilisateur ou importées. Les personnes, mesures corporelles, brouillons de récupération, préparations de sortie et achats de stratégies sont aussi inclus dans ce paquet complet. Un téléchargement remplace les données locales par la sauvegarde distante ; ce n’est pas une fusion élément par élément.
 
-- `.lineopus` : un projet complet et ses ressources liées.
+Le Centre de sauvegarde propose aussi une sauvegarde automatique qui ne consomme pas les emplacements manuels. Elle est disponible pour les utilisateurs gratuits comme pour les abonnés. Lors de la première entrée au premier plan puis à chaque retour au premier plan, l’app attend environ trois secondes avant de demander à la file série en arrière-plan de créer et valider un paquet complet temporaire. Le passage en arrière-plan donne seulement au travail déjà commencé le temps d’exécution autorisé par le système ; il ne lance pas un nouveau paquet. Si ce temps expire, la tentative est annulée, l’ancien paquet est conservé et l’essai reprend au prochain retour au premier plan. Une seule mise à jour réussie est possible par jour calendaire local de l’appareil. Le paquet local ne dépend pas d’iCloud. La copie iCloud utilise un emplacement logique partagé sous `AutomaticBackupV1` ; un échec d’envoi ne remplace ni le paquet local ni l’ancienne copie cloud.
+
+La carte de sauvegarde automatique affiche l’heure de conservation locale, l’appareil source et l’état de synchronisation, et propose « Retour d’urgence ». Ce retour remplace les données actuelles et demande une confirmation ; après une restauration réussie, fermez puis rouvrez l’app. Une base actuelle endommagée ne bloque pas la récupération si le paquet automatique est valide. La sauvegarde automatique ne représente pas tous les réglages de l’app et n’est pas garantie à chaque passage en arrière-plan.
+
+- `.lineopus` : un projet et ses ressources liées ; il peut contenir le patron, la chaîne de sorties, le brouillon de récupération et les dépendances de stratégie nécessaires associés à ce projet, mais pas toute la bibliothèque de patrons ni les droits achetés.
+Pour utiliser une sauvegarde complète V3, mettez les deux appareils sur la même version de l’app. Les anciennes versions ne lisent que `kv.db` et `PDFAssets/`, ne peuvent pas restaurer les données de création de patron et refusent les paquets `.lineopus` V2.
+
 - `.pxproj` et formats associés : grille de tricot modifiable.
 - PDF／images : sources des Notes de projet ou résultats à partager.
 - CSV fils V2 : l’exportation groupée crée un dossier contenant un manifeste de version, la table principale des fils, les tables des compositions et des images, ainsi que les fichiers image. Les en-têtes combinent le libellé localisé et un ID de champ stable, ce qui permet l’édition et l’importation entre langues. Tous les fichiers sont validés avant toute écriture. Les anciens `line_list.csv` ne sont plus pris en charge.
