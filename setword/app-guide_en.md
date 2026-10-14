@@ -320,6 +320,8 @@ Upload and download in Settings operates as a full-library backup. A complete ba
 
 Backup Center also provides one Automatic Backup package per device. It is available to both free and member users and does not use the manual quota. On the first foreground activation and after each return to the foreground, the app waits about three seconds and then asks a background thread to create and validate a temporary complete package. Moving to the background only gives an already-running task the system's allowed background time; it does not start a new package there. If that time expires, the attempt is cancelled and the previous package is kept for a retry after the next foreground return. The device can complete at most one successful update per local calendar day. The local package does not require iCloud. The iCloud copy uses one shared logical slot under `AutomaticBackupV1`; an upload failure does not replace the local package or the previous cloud copy.
 
+If an automatic backup update fails, the reason is shown and the app makes up to two more attempts during the current foreground session, about 30 seconds apart. An existing valid package remains available for rollback. Manual backups are fully validated again after being committed, before the previous package is replaced.
+
 The Automatic Backup card shows the local save time, source device, and sync state, and provides Emergency Rollback. Rollback replaces current data and asks for confirmation first; after a successful restore, close and reopen the app. A damaged current database does not block recovery when the automatic package is valid. Automatic Backup does not represent every app setting and is not guaranteed to finish on every background transition.
 
 ### File types

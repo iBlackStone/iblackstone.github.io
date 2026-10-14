@@ -9,8 +9,10 @@ lang: de
 
 ### Es wird empfohlen, die Version rechtzeitig zu aktualisieren, um eine bessere Benutzererfahrung zu genießen.
 
+### v2.0.3 ~ v2.1.1
 
-
+- 2026-10-13: Sicherungsprüfung und Aufbewahrung automatischer Pakete korrigiert. Manuelle Pakete werden nach dem Speichern erneut geprüft, bevor das vorherige Paket ersetzt wird. Leere Ressourcenordner und ältere SQLite-Schnappschüsse bleiben kompatibel; Fehler automatischer Sicherungen zeigen ihre Ursache und führen zu begrenzten Wiederholungen im Vordergrund.
+- 2026-10-13: Der Zeitpunkt und die Wiederholungsversuche der Tracking-Berechtigungsabfrage beim ersten Start wurden verbessert. Die Benachrichtigungsberechtigung wird abgefragt, sobald der Status der Tracking-Berechtigung feststeht.
 - Das Laden der Projekte auf der Startseite wurde durch Datenaufbereitung im Hintergrund und weniger wiederholte Lesevorgänge verbessert. Ladehinweise und erneute Versuche bei Fehlern wurden ergänzt; Filter, Sortierung und Schnellaktionen bleiben erhalten.
 - Die Startseite bietet eine orangefarbene Aktualisierung durch Herunterziehen für lokale Projekte und Ressourcenverknüpfungen; die aktuellen Filter und die Sortierung bleiben erhalten.
 - Der Häkeleditor bietet Bereichsaktionen zum gemeinsamen Umfärben, Ersetzen, Drehen, Ausrichten und gleichmäßigen Verteilen mit einem einzigen Rückgängig-Schritt. Bei Bedarf wird die gleichmäßige Verteilung auf der Zeichenfläche erweitert; die Ausrichtung auf der anderen Achse bleibt erhalten. Horizontales und vertikales Spiegeln sowie Spiegelkopien in alle vier Richtungen werden unterstützt; Texte und Nummern bleiben lesbar. Klarere Einstiege in Mehrfachauswahl und Flächenaktionen beim Häkeln; Gruppensymbol und Hinweise zum Gedrückthalten wurden ebenfalls aktualisiert. Neu sind horizontale/vertikale Wiederholungen mit Anzahl und Abstand, Kreis-/Sektorwiederholungen, die Skalierung der gesamten Auswahl und eine einheitliche Maschengröße. Bei einer einzelnen Gruppe lässt sich ausdrücklich zwischen der gesamten Gruppe und ihren Mitgliedern wechseln; die Gruppe bleibt erhalten. Behebt nicht reagierende Schaltflächen „Anwenden“ und „Abbrechen“ in den Parameterfenstern der Bereichsaktionen.
@@ -678,4 +680,3 @@ Garnmodul-Upgrade
 
 
 > Andere Versionsaktualisierungen können auf der AppStore-App-Homepage eingesehen werden.
-

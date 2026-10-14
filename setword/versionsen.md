@@ -6,6 +6,8 @@ lang: en
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
+- 2026-10-13: Corrected backup validation and automatic package retention. Manual packages are revalidated after being saved, before replacing the previous package. Empty asset directories and older SQLite snapshots remain compatible; automatic backup failures show their cause and retry a limited number of times in the foreground.
+- 2026-10-13: Improved the timing and retry of the tracking permission prompt at first launch. Notification authorization continues after the tracking permission status is determined.
 - Improved home project loading with background data preparation and fewer repeated reads; added loading feedback and retry on failure while preserving filters, sorting and quick actions.
 - Added orange pull-to-refresh on Home to update local projects and resource relationships while preserving the current filters and sorting.
 - The crochet editor adds area operations for batch recoloring and symbol replacement, group rotation, alignment and equal spacing, with single-step undo. Equal spacing now expands into other canvas space when needed while preserving alignment on the other axis. Horizontal and vertical flips and mirror copies to the left, right, up and down are supported; text and numbers remain readable. Clearer entry points for crochet Multi-Select and Area Actions, with an updated Group icon and long-press guidance. Adds horizontal/vertical repeats with count and spacing, circular/sector repeats, whole-selection scaling and uniform stitch size. A single group can switch explicitly between the whole group and its members while keeping the group intact. Fixes unresponsive Apply and Cancel buttons in area-operation parameter panels.
