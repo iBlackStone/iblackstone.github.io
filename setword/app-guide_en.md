@@ -9,6 +9,7 @@ Knit & Crochet helps you organize yarn, manage knitting projects, track progress
 
 - [Getting started](#getting-started)
 - [Main navigation](#main-navigation)
+- [Display and navigation on iPad and iPhone Duo](#display-navigation)
 - [Yarn library](#yarn-library)
 - [Project workspace](#project-workspace)
 - [Knitting counter](#counter)
@@ -68,6 +69,17 @@ Tools contains knitting charts, crochet charts, counters, Project Notes, color t
 ### Settings
 
 Settings contains appearance, language, membership, data sync, release notes, feedback, privacy information, this help center, and About. The Acknowledgments item in About opens the page for the current language.
+
+<a id="display-navigation"></a>
+## Display and navigation on iPad and iPhone Duo
+
+iPad supports portrait and landscape. iPhone Duo keeps the phone layout on its outer display and adjusts the layout to the available space when unfolded. You can continue the current page and task when rotating, opening, or closing the device.
+
+- Pages with top navigation: when the system shows a sidebar, the same page actions, such as Back, New, and Save, are also available at the side. Text actions may appear in the system More menu.
+- Unfolded portrait with horizontal system bars: use the existing top navigation.
+- Knitting, crochet, and pattern editors, along with the PDF reader, keep their own toolbars and controls.
+
+Top and side controls follow the same saving and validation rules. Navigation on other iPhones and iPad works as before.
 
 <a id="yarn-library"></a>
 ## Yarn library

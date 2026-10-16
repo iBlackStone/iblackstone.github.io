@@ -9,6 +9,7 @@ Knit & Crochet te ayuda a organizar hilos, gestionar proyectos de tejido, realiz
 
 - [Getting started](#getting-started)
 - [Main navigation](#main-navigation)
+- [Pantalla y navegación en iPad y iPhone Duo](#display-navigation)
 - [Yarn library](#yarn-library)
 - [Project workspace](#project-workspace)
 - [Knitting counter](#counter)
@@ -70,6 +71,17 @@ Las herramientas contienen tablas de tejido, tablas de crochet, contadores, nota
 ### Ajustes
 
 La configuración contiene apariencia, idioma, membresía, sincronización de datos, notas de la versión, comentarios, información de privacidad, este centro de ayuda y Acerca de. El elemento Agradecimientos en Acerca de abre la página del idioma actual.
+
+<a id="display-navigation"></a>
+## Pantalla y navegación en iPad y iPhone Duo
+
+iPad admite las orientaciones vertical y horizontal. iPhone Duo conserva la distribución del teléfono en su pantalla exterior y adapta los elementos al espacio disponible al desplegarlo. Puedes continuar con la página y la tarea actuales al girar, abrir o cerrar el dispositivo.
+
+- En las páginas con navegación superior, cuando el sistema muestra una barra lateral, las mismas acciones, como Atrás, Nuevo y Guardar, también están disponibles en el lateral. Las acciones de texto pueden aparecer en el menú Más del sistema.
+- En vertical con el dispositivo desplegado, cuando las barras del sistema son horizontales, utiliza la navegación superior habitual.
+- Los editores de punto, ganchillo y patrones, junto con el lector PDF, conservan sus propias barras de herramientas y controles.
+
+Los controles superiores y laterales siguen las mismas reglas de guardado y validación. La navegación en los demás iPhone y en iPad sigue igual.
 
 <a id="yarn-library"></a>
 ## biblioteca de hilos

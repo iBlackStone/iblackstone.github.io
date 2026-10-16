@@ -9,6 +9,7 @@ Knit & Crochet hilft Ihnen, Garne zu organisieren, Strickprojekte zu verwalten, 
 
 - [Getting started](#getting-started)
 - [Main navigation](#main-navigation)
+- [Anzeige und Navigation auf iPad und iPhone Duo](#display-navigation)
 - [Yarn library](#yarn-library)
 - [Project workspace](#project-workspace)
 - [Knitting counter](#counter)
@@ -70,6 +71,17 @@ Werkzeuge enthält Strickdiagramme, Häkeldiagramme, Zähler, Projektnotizen, Fa
 ### Einstellungen
 
 Einstellungen enthält Darstellung, Sprache, Mitgliedschaft, Datensynchronisierung, Versionshinweise, Feedback, Datenschutzinformationen, dieses Hilfezentrum und Info. Das Bestätigungselement in "Über" öffnet die Seite für die aktuelle Sprache.
+
+<a id="display-navigation"></a>
+## Anzeige und Navigation auf iPad und iPhone Duo
+
+Das iPad unterstützt Hoch- und Querformat. Das iPhone Duo behält auf dem Außendisplay das Smartphone-Layout bei und passt die Anordnung nach dem Aufklappen an den verfügbaren Platz an. Beim Drehen, Öffnen oder Schließen des Geräts können Sie die aktuelle Seite und Aufgabe fortsetzen.
+
+- Auf Seiten mit Navigation am oberen Rand sind dieselben Aktionen, etwa Zurück, Neu und Speichern, auch seitlich verfügbar, wenn das System eine Seitenleiste anzeigt. Textaktionen können im Systemmenü Mehr erscheinen.
+- Im aufgeklappten Hochformat mit horizontalen Systemleisten verwenden Sie die bisherige Navigation am oberen Rand.
+- Strick-, Häkel- und Schnittmustereditoren sowie der PDF-Reader behalten ihre eigenen Werkzeugleisten und Bedienelemente.
+
+Die Bedienelemente oben und an der Seite folgen denselben Speicher- und Prüfregeln. Die Navigation auf anderen iPhones und dem iPad bleibt unverändert.
 
 <a id="yarn-library"></a>
 ## Garnbibliothek

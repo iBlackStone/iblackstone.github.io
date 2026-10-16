@@ -9,6 +9,7 @@ Tricot & Crochet permet de gérer les fils, d’organiser les projets, de suivre
 
 - [Bien démarrer](#getting-started)
 - [Navigation principale](#main-navigation)
+- [Affichage et navigation sur iPad et iPhone Duo](#display-navigation)
 - [Bibliothèque de fils](#yarn-library)
 - [Espace projets](#project-workspace)
 - [Compteur de tricot](#counter)
@@ -50,6 +51,17 @@ Lorsque la bibliothèque de projets est vide, Tricot & Crochet installe une seul
 - **Fils** : le gestionnaire de stock résume le nombre de fils, le poids restant connu, les stocks faibles et les fiches à compléter, puis permet de parcourir la liste par dossier, recherche et filtre.
 - **Outils** : grilles, diagrammes, compteurs, Notes de projet, couleurs, symboles et calculateurs.
 - **Réglages** : apparence, langue, abonnement, synchronisation, historique des versions, avis, confidentialité, aide et informations sur l’application. La rubrique « Remerciements » ouvre la page dans la langue actuelle.
+
+<a id="display-navigation"></a>
+## Affichage et navigation sur iPad et iPhone Duo
+
+L’iPad prend en charge les orientations portrait et paysage. L’iPhone Duo conserve la présentation du téléphone sur son écran externe et adapte la disposition à l’espace disponible lorsqu’il est déplié. Vous pouvez poursuivre la page et la tâche en cours en faisant pivoter, en ouvrant ou en refermant l’appareil.
+
+- Sur les pages avec navigation en haut, lorsque le système affiche une barre latérale, les mêmes actions, comme Retour, Nouveau et Enregistrer, sont aussi accessibles sur le côté. Les actions textuelles peuvent figurer dans le menu système Plus.
+- En portrait déplié, lorsque les barres système sont horizontales, utilisez la navigation habituelle en haut.
+- Les éditeurs de tricot, de crochet et de patrons, ainsi que le lecteur PDF, conservent leurs propres barres d’outils et commandes.
+
+Les commandes du haut et du côté suivent les mêmes règles d’enregistrement et de validation. La navigation sur les autres iPhone et sur iPad reste inchangée.
 
 <a id="yarn-library"></a>
 ## Bibliothèque de fils
