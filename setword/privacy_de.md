@@ -74,9 +74,9 @@ Innerhalb der von Ihnen erteilten Berechtigungen kann die App auf Folgendes zugr
 
 Standardzugriff und PDF-Download-Zugriff können unterschiedliche Autorisierungsbereiche verwenden. Zugriffstoken, Aktualisierungstoken, Autorisierungsbereiche und Ihr Benutzername werden im iOS-Schlüsselbund gespeichert, um Sie angemeldet zu halten und die Autorisierung zu aktualisieren.
 
-### 2.2 Kostenlose Muster und Ihre Bibliothek
+### 2.2 Anleitungssuche und Bibliothek
 
-Die kostenlose Mustersuche sendet die Schlüsselwort-, Handwerks-, Kategorie-, Sprach- und Sortierfilter an Ravelry. Suchergebnisse gewähren an sich keine Downloadrechte. Bei einem kostenlosen Muster, das von Ravelry gehostet wird, fügt die App es erst nach der ausdrücklichen Bestätigung zu Ihrer Ravelry-Bibliothek hinzu. Jeder nachfolgende lokale Projekt- oder PDF-Import unterliegt weiterhin Ihren Entscheidungen und den Berechtigungsregeln der App. Die App umgeht nicht die Ravelry-Zugriffskontrollen oder Scrape-Dateien, die auf der externen Website eines Designers gehostet werden.
+Die Suche sendet Suchbegriffe und Filter für kostenlos/kostenpflichtig, Technik, Kategorie, Sprache und Sortierung an Ravelry. Suchergebnisse gewähren keine Downloadrechte. Eine kostenlose Ravelry-PDF wird erst nach Ihrer Bestätigung zur Bibliothek hinzugefügt; lokale Importe unterliegen weiterhin den Nutzungsrechten der App. Käufe tätigen Sie selbst auf der offiziellen Seite. Gekaufte Anleitungen mit Downloadrecht lassen sich weiterhin aus der Bibliothek importieren. Die App umgeht keine Zugriffskontrollen und sammelt keine externen Dateien. Favoriten speichern nur öffentliche Zusammenfassungen lokal und können in der bestehenden Sicherung und Wiederherstellung der gesamten Datenbank enthalten sein; sie werden nicht in Ihre Ravelry-Favoriten geschrieben. Auch angewandte Filter für Designer, Merkmale, Nadelstärken, Garnstärke und Garnbedarf werden an Ravelry gesendet.
 
 ### 2.3 Lokale Speicherung und Trennung
 

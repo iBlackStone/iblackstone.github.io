@@ -74,9 +74,9 @@ Within the permissions you grant, the App may access:
 
 Standard access and PDF download access may use different authorization scopes. Access tokens, refresh tokens, authorization scopes, and your username are stored in the iOS Keychain to keep you signed in and refresh authorization.
 
-### 2.2 Free patterns and your Library
+### 2.2 Pattern search and your Library
 
-Free-pattern search sends the keyword, craft, category, language, and sort filters to Ravelry. Search results do not by themselves grant download rights. For a free pattern hosted by Ravelry, the App adds it to your Ravelry Library only after you explicitly confirm. Any subsequent local project or PDF import remains subject to your choices and the App's entitlement rules. The App does not bypass Ravelry access controls or scrape files hosted on a designer's external website.
+Pattern search sends your keyword, free/paid, craft, category, language, and sort filters to Ravelry. Search results do not grant download rights. A free hosted PDF is added to your Library only after your confirmation, and local imports remain subject to the app’s entitlements. You can view the official source of a paid pattern and make any purchase yourself on Ravelry; purchased patterns with download access can still be imported from Library. The app does not bypass access controls or scrape external files. Favorites store only public pattern summary snapshots locally and may be included in the existing whole-database backup and restore; they are not written to your Ravelry favorites. Applied designer, pattern attribute, needle/hook size, yarn weight, and yarn amount filters are also sent to Ravelry.
 
 ### 2.3 Local storage and disconnection
 
