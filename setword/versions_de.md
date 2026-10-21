@@ -5,6 +5,8 @@ title: "Versionsverlauf"
 lang: de
 ---
 
+- 2026-10-16: Die Ravelry-Suche umfasst alle Anleitungen mit Filtern für kostenlos/kostenpflichtig. Favoriten lassen sich im Suchmenü speichern und über die Ravelry-Gruppe der Startseite gemeinsam mit Discover öffnen. Kostenpflichtige Anleitungen verlinken zur offiziellen Quelle; gekaufte Anleitungen mit Downloadrecht bleiben aus der Bibliothek importierbar. Neue Filter für Designer, 13 Merkmale, Nadelstärken, Standardgarnstärken und Garnbedarf in Metern/Yards; einzeln entfernbar und bei der Seitennavigation kombiniert. Rabatte stehen auf der offiziellen Seite. Große Anwenden-Schaltfläche unter Filter zurücksetzen, ständiger Favoriteneinstieg oben links in Entdecken und Ravelry-Filter direkt aus den Favoriten mit Aktualisierung bei Rückkehr. Das Suchmenü zeigt einen kurzen Downloadstatus und Favoriten an erster Stelle; ausführliche Hinweise bleiben in den Details oder der Importbestätigung. Die untere Anwenden-Schaltfläche auf der Filterseite reagiert wieder.
+
 
 
 ### Es wird empfohlen, die Version rechtzeitig zu aktualisieren, um eine bessere Benutzererfahrung zu genießen.
@@ -20,6 +22,7 @@ lang: de
 
 - Die Garndetails unterstützen jetzt eine 3D-Simulation der Maschenprobe; weitere Verbesserungen folgen fortlaufend.
 - Der Strickeditor enthält jetzt eine 3D-Simulation und rendert die 3D-Form des fertigen Stücks in Echtzeit; weitere passende Maschen werden schrittweise unterstützt.
+- Die 3D-Stricksimulation bietet eine optionale Strukturvorschau für glatt rechts, glatt links und einige einfache Zöpfe mit weiten Abständen. Die Simulation nach Maschenprobe bleibt verfügbar; ursprüngliche Werte bleiben erhalten, der Garnverbrauch wird nicht geschätzt. Geprüfte linke und rechte Abnahmen aus zwei rechten oder linken Maschen werden ebenfalls unterstützt. Abnahmen aus drei Maschen werden weiterhin abgelehnt. Die Vorschau kann auch Zöpfe aus zwei Gruppen rechter und linker Maschen (RPC/LPC) versuchen und passt die Abstände an den tatsächlichen Garndurchmesser an. Ein Moduswechsel prüft den ursprünglichen Auswahlbereich erneut; bei fehlgeschlagener Geometrieprüfung wird keine Vorschau erzeugt. Breite Zopfgruppen können lockerer dargestellt werden; die Abmessungen der Vorschau entsprechen nicht der tatsächlichen Maschenprobe. Die Strukturvorschau kann eine einzelne integrierte Standardkreuzung 1/1, 2/2, 3/3 oder 4/4 RPC/LPC in einer Rückreihe versuchen und behält die Hin- und Rückreihenfolge des ursprünglichen Diagramms bei. Auch zwei benachbarte 1/1-Kreuzungen oder zwei 1/1-Kreuzungen mit einer normalen Reihe dazwischen können versucht werden. Andere Kombinationen können bei der Geometrieprüfung weiterhin abgelehnt werden.
 - Der Strickeditor bietet verbesserte Zählmodi und weitere schnelle Bereichsoperationen für einen effizienteren Arbeitsablauf.
 - Die Bildschirmdarstellung großer Strickdiagramme wurde optimiert, um unnötige Zeichenoperationen und temporäre Objekte zu reduzieren. Die bisherigen Abläufe zum Bearbeiten und Exportieren des vollständigen Diagramms bleiben erhalten.
 - Ein möglicher Absturz im Aktionsmenü der Empfehlungen auf der Startseite wurde behoben. Nach dem Schließen des Menüs wechseln die Karten weiterhin automatisch.

@@ -4,6 +4,8 @@ title: "Version History"
 lang: en
 ---
 
+- 2026-10-16: Ravelry search now includes all patterns with free/paid filters. Save favorites from the search menu and open the shared Discover favorites from Home’s Ravelry group. Paid patterns link to their official source; purchased patterns with download access remain importable from Library. New filters cover designer, 13 pattern attributes, needle/hook size, standard yarn weights, and yarn amount ranges in meters/yards, with individual removal and combined pagination. Check discounts on the official page. A large Apply button is added below Reset Filters, Discover has a permanent top-left favorites shortcut, and favorites can open Ravelry filters and refresh on return. Pattern search menus show a short download status with Favorite/Remove Favorite first; full guidance remains in the details or import confirmation. Fixed the bottom Apply button not responding on the filter page.
+
 ### It is recommended to update the version in time to enjoy a better user experience.
 
 - 2026-10-13: Corrected backup validation and automatic package retention. Manual packages are revalidated after being saved, before replacing the previous package. Empty asset directories and older SQLite snapshots remain compatible; automatic backup failures show their cause and retry a limited number of times in the foreground.
@@ -14,6 +16,7 @@ lang: en
 - The crochet editor now supports curvature editing for hdc, dc, tr, dtr, and ttr, plus hdc blo, dc blo, FPhdc, BPhdc, FPdc, BPdc, FPtr, and BPtr symbols, with matching selection bounds and export.
 - Yarn details now support a 3D simulated swatch view, with ongoing improvements to follow.
 - The knitting editor now includes 3D simulation and renders the 3D shape of the finished piece in real time; support for more related stitches will be added progressively.
+- Knitting 3D adds an optional Structure preview mode, using loose spacing to show loops in stockinette, reverse stockinette, and some regular cables. Gauge-based simulation remains available; original gauge is preserved and yarn usage is not estimated. Verified left/right knit and purl two-stitch decreases are also supported. Three-stitch decreases are rejected. Structure preview can also attempt two-group knit/purl cables (RPC/LPC), with spacing adjusted to the actual yarn diameter. Switching modes rechecks the original selected region; failed geometry checks block the preview. Wide cable groups may use looser spacing; preview dimensions do not represent the actual gauge. Structure preview can attempt a single built-in standard 1/1, 2/2, 3/3 or 4/4 RPC/LPC on a wrong-side row while preserving the original chart’s row-side sequence. It can also attempt two adjacent 1/1 crossings, or two 1/1 crossings separated by one ordinary row. Other combinations may still be rejected by geometry checks.
 - The knitting editor has upgraded counting modes and more quick area operations to speed up your workflow.
 - Optimized screen drawing for large knitting charts to reduce unnecessary drawing and temporary objects while retaining existing editing and full-chart export workflows.
 - Fixed a potential crash in the home recommendation action menu while preserving automatic card rotation after the menu closes.

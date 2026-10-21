@@ -74,9 +74,9 @@ All'interno delle autorizzazioni che concedi, l'App può accedere a:
 
 L'accesso standard e l'accesso al download PDF possono utilizzare ambiti di autorizzazione diversi. Token di accesso, token di aggiornamento, ambiti di autorizzazione e il tuo nome utente sono memorizzati nel portachiavi iOS per mantenerti connesso e aggiornare l'autorizzazione.
 
-### 2.2 Modelli gratuiti e la tua libreria
+### 2.2 Ricerca di modelli e libreria
 
-La ricerca a pattern libero invia la parola chiave, l'artigianato, la categoria, la lingua e i filtri di ordinamento a Ravelry. I risultati di ricerca non concedono di per sé diritti di download. Per un modello gratuito ospitato da Ravelry, l'app lo aggiunge alla tua libreria Ravelry solo dopo aver confermato esplicitamente. Qualsiasi successivo progetto locale o importazione di PDF rimane soggetto alle tue scelte e alle regole di autorizzazione dell'app. L'app non bypassa i controlli di accesso di Ravelry o i file di scraping ospitati sul sito web esterno di un designer.
+La ricerca invia a Ravelry parole chiave e filtri gratuito/a pagamento, tecnica, categoria, lingua e ordinamento. I risultati non concedono diritti di download. Un PDF gratuito ospitato su Ravelry viene aggiunto alla libreria solo dopo conferma; l’importazione locale resta soggetta ai diritti dell’app. Gli acquisti sono effettuati dall’utente sulla pagina ufficiale. I modelli acquistati con diritto di download restano importabili dalla libreria. L’app non aggira i controlli di accesso né raccoglie file esterni. I preferiti conservano solo riepiloghi pubblici dei modelli sul dispositivo e possono essere inclusi nel backup e ripristino esistenti dell’intero database; non vengono scritti nei preferiti Ravelry. Anche i filtri applicati per designer, attributi, misura di ferri o uncinetto, spessore e metraggio del filato vengono inviati a Ravelry.
 
 ### 2.3 Archiviazione e disconnessione locali
 

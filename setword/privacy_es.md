@@ -74,9 +74,9 @@ Dentro de los permisos que usted otorgue, la Aplicación podrá acceder a:
 
 El acceso estándar y el acceso de descarga de PDF pueden utilizar diferentes alcances de autorización. Los tokens de acceso, los tokens de actualización, los alcances de autorización y su nombre de usuario se almacenan en el llavero de iOS para mantener su sesión iniciada y actualizar la autorización.
 
-### 2.2 Patrones gratuitos y tu biblioteca
+### 2.2 Búsqueda de patrones y biblioteca
 
-La búsqueda de patrones gratuitos envía los filtros de palabras clave, especialidad, categoría, idioma y clasificación a Ravelry. Los resultados de la búsqueda no otorgan por sí solos derechos de descarga. Para un patrón gratuito alojado por Ravelry, la aplicación lo agrega a su biblioteca de Ravelry solo después de que usted lo confirme explícitamente. Cualquier proyecto local posterior o importación de PDF permanece sujeto a sus elecciones y a las reglas de derechos de la aplicación. La aplicación no elude los controles de acceso de Ravelry ni los archivos scrape alojados en el sitio web externo de un diseñador.
+La búsqueda envía a Ravelry palabras clave y filtros gratis/de pago, técnica, categoría, idioma y orden. Los resultados no conceden derechos de descarga. Un PDF gratuito alojado en Ravelry solo se añade a la biblioteca tras tu confirmación; la importación local sigue sujeta a los derechos de la app. Cualquier compra la realiza el usuario en la página oficial. Los patrones comprados con permiso de descarga siguen pudiéndose importar desde la biblioteca. La app no elude controles de acceso ni recopila archivos externos. Los favoritos solo guardan resúmenes públicos de patrones en el dispositivo, que pueden incluirse en la copia y restauración existentes de toda la base de datos; no se escriben en los favoritos de Ravelry. Los filtros aplicados de diseñador, atributos, tamaño de agujas o ganchillo, grosor y metraje también se envían a Ravelry.
 
 ### 2.3 Almacenamiento local y desconexión
 
