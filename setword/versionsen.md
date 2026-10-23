@@ -4,26 +4,26 @@ title: "Version History"
 lang: en
 ---
 
-- 2026-10-16: Ravelry search now includes all patterns with free/paid filters. Save favorites from the search menu and open the shared Discover favorites from Home’s Ravelry group. Paid patterns link to their official source; purchased patterns with download access remain importable from Library. New filters cover designer, 13 pattern attributes, needle/hook size, standard yarn weights, and yarn amount ranges in meters/yards, with individual removal and combined pagination. Check discounts on the official page. A large Apply button is added below Reset Filters, Discover has a permanent top-left favorites shortcut, and favorites can open Ravelry filters and refresh on return. Pattern search menus show a short download status with Favorite/Remove Favorite first; full guidance remains in the details or import confirmation. Fixed the bottom Apply button not responding on the filter page.
 
 ### It is recommended to update the version in time to enjoy a better user experience.
 
-- 2026-10-13: Corrected backup validation and automatic package retention. Manual packages are revalidated after being saved, before replacing the previous package. Empty asset directories and older SQLite snapshots remain compatible; automatic backup failures show their cause and retry a limited number of times in the foreground.
-- 2026-10-13: Improved the timing and retry of the tracking permission prompt at first launch. Notification authorization continues after the tracking permission status is determined.
-- Improved home project loading with background data preparation and fewer repeated reads; added loading feedback and retry on failure while preserving filters, sorting and quick actions.
-- Added orange pull-to-refresh on Home to update local projects and resource relationships while preserving the current filters and sorting.
-- The crochet editor adds area operations for batch recoloring and symbol replacement, group rotation, alignment and equal spacing, with single-step undo. Equal spacing now expands into other canvas space when needed while preserving alignment on the other axis. Horizontal and vertical flips and mirror copies to the left, right, up and down are supported; text and numbers remain readable. Clearer entry points for crochet Multi-Select and Area Actions, with an updated Group icon and long-press guidance. Adds horizontal/vertical repeats with count and spacing, circular/sector repeats, whole-selection scaling and uniform stitch size. A single group can switch explicitly between the whole group and its members while keeping the group intact. Fixes unresponsive Apply and Cancel buttons in area-operation parameter panels.
-- The crochet editor now supports curvature editing for hdc, dc, tr, dtr, and ttr, plus hdc blo, dc blo, FPhdc, BPhdc, FPdc, BPdc, FPtr, and BPtr symbols, with matching selection bounds and export.
-- Yarn details now support a 3D simulated swatch view, with ongoing improvements to follow.
-- The knitting editor now includes 3D simulation and renders the 3D shape of the finished piece in real time; support for more related stitches will be added progressively.
-- Knitting 3D adds an optional Structure preview mode, using loose spacing to show loops in stockinette, reverse stockinette, and some regular cables. Gauge-based simulation remains available; original gauge is preserved and yarn usage is not estimated. Verified left/right knit and purl two-stitch decreases are also supported. Three-stitch decreases are rejected. Structure preview can also attempt two-group knit/purl cables (RPC/LPC), with spacing adjusted to the actual yarn diameter. Switching modes rechecks the original selected region; failed geometry checks block the preview. Wide cable groups may use looser spacing; preview dimensions do not represent the actual gauge. Structure preview can attempt a single built-in standard 1/1, 2/2, 3/3 or 4/4 RPC/LPC on a wrong-side row while preserving the original chart’s row-side sequence. It can also attempt two adjacent 1/1 crossings, or two 1/1 crossings separated by one ordinary row. Other combinations may still be rejected by geometry checks.
-- The knitting editor has upgraded counting modes and more quick area operations to speed up your workflow.
-- Optimized screen drawing for large knitting charts to reduce unnecessary drawing and temporary objects while retaining existing editing and full-chart export workflows.
-- Fixed a potential crash in the home recommendation action menu while preserving automatic card rotation after the menu closes.
-- Fixed potential crashes and incorrect numeric displays in project, counter, pattern and chart screens in some languages.
+### v2.1.3 (Recent Version)
 
-- 2026-10-10: Added V3 complete backups with the separate Smart Pattern Draft database, chart assets, people and measurements, recovery drafts, output preparation, and strategy purchase records; `.lineopus` remains limited to project-linked pattern/output/recovery data and required strategy dependencies, without the full pattern library or purchased entitlements.
-- Added a separate Automatic Backup outside the manual quota for free and member users; on the first foreground activation and after each return to the foreground, a serial background queue starts after about three seconds, while a background transition only continues an already-running task and cancels it when the allowed time expires; each device completes at most one successful update per local calendar day and exposes save time, sync state, and Emergency Rollback. The local package remains available if iCloud upload fails; the cloud copy uses one shared `AutomaticBackupV1` slot.
+- New automatic data backup function added.
+- Compatibility with iPhone Duo devices improved.
+
+Hoop needle section (upgraded based on user feedback)
+- Multiple long-needle patterns now support curvature stretching;
+- Easy operation in multi-selection areas, and ability to duplicate similar needle patterns;
+- User experience improvements for other hoop needle patterns;
+- 3D simulation capabilities are being developed – stay tuned.
+
+Crochet section
+- 3D rendering capabilities continue to improve; hundreds of needle patterns are gradually being integrated with 3D rendering;
+- Upgraded rendering algorithms for large-scale patterns.
+
+Pattern section
+- Once 3D rendering capabilities for crochet patterns reach the desired level, patterns will start to support 3D human fitting effects.
 
 ### v2.0.2
 - Added and improved pattern design features for easier creation and editing.
