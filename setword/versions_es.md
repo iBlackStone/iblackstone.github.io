@@ -4,6 +4,10 @@ title: "Historial de versiones"
 lang: es
 ---
 
+### Recomendamos mantener la aplicación actualizada para disfrutar de una mejor experiencia.
+
+> Para sugerir nuevas funciones, contacta con el desarrollador en Xiaohongshu desde la parte inferior de la página de comentarios.
+
 ### v2.1.5
 
 - Diseño de patrones completamente renovado, con más libertad para crear. ¡Pruébalo!
@@ -11,10 +15,6 @@ lang: es
 - Los proyectos de la página de inicio ahora se cargan mucho más rápido.
 - Se muestran los precios de los grupos de hilos, según los comentarios de los usuarios.
 - Otras mejoras en la experiencia de interacción.
-
-### Recomendamos mantener la aplicación actualizada para disfrutar de una mejor experiencia.
-
-> Para sugerir nuevas funciones, contacta con el desarrollador en Xiaohongshu desde la parte inferior de la página de comentarios.
 
 ### v2.1.3 (Versión reciente)
 

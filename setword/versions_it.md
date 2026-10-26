@@ -4,6 +4,10 @@ title: "Cronologia delle versioni"
 lang: it
 ---
 
+### Si consiglia di mantenere l’app aggiornata per una migliore esperienza d’uso.
+
+> Per suggerire nuove funzionalità, contatta lo sviluppatore su Xiaohongshu dal fondo della pagina dei feedback.
+
 ### v2.1.5
 
 - Progettazione dei cartamodelli completamente rinnovata, con più libertà creativa. Provala!
@@ -11,10 +15,6 @@ lang: it
 - I progetti nella pagina iniziale ora si caricano molto più velocemente.
 - Aggiunta la visualizzazione dei prezzi per i gruppi di filati, in base ai suggerimenti degli utenti.
 - Altri miglioramenti dell’esperienza di interazione.
-
-### Si consiglia di mantenere l’app aggiornata per una migliore esperienza d’uso.
-
-> Per suggerire nuove funzionalità, contatta lo sviluppatore su Xiaohongshu dal fondo della pagina dei feedback.
 
 ### v2.1.3 (Versione recente)
 

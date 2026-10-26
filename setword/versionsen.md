@@ -4,6 +4,10 @@ title: "Version History"
 lang: en
 ---
 
+### We recommend keeping the app updated for a better experience.
+
+> For feature suggestions, visit the bottom of the feedback page to contact the developer on Xiaohongshu.
+
 ### v2.1.5
 
 - Completely redesigned pattern drafting with greater freedom to design — give it a try.
@@ -11,10 +15,6 @@ lang: en
 - Projects on the home page now load much faster.
 - Added price displays for yarn groups based on user feedback.
 - Other user interaction improvements.
-
-### We recommend keeping the app updated for a better experience.
-
-> For feature suggestions, visit the bottom of the feedback page to contact the developer on Xiaohongshu.
 
 ### v2.1.3 (Recent Version)
 

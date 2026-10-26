@@ -5,6 +5,10 @@ title: "Versionsverlauf"
 lang: de
 ---
 
+### Wir empfehlen, die App aktuell zu halten, um ein besseres Nutzungserlebnis zu genießen.
+
+> Für Funktionsvorschläge können Sie den Entwickler über Xiaohongshu am Ende der Feedback-Seite kontaktieren.
+
 ### v2.1.5
 
 - Komplett überarbeitete Schnittmustergestaltung mit mehr Freiheit beim Entwerfen – probieren Sie es aus.
@@ -12,10 +16,6 @@ lang: de
 - Projekte auf der Startseite werden jetzt deutlich schneller geladen.
 - Auf Wunsch der Nutzer werden Preise für Garngruppen angezeigt.
 - Weitere Verbesserungen der Bedienung.
-
-### Wir empfehlen, die App aktuell zu halten, um ein besseres Nutzungserlebnis zu genießen.
-
-> Für Funktionsvorschläge können Sie den Entwickler über Xiaohongshu am Ende der Feedback-Seite kontaktieren.
 
 ### v2.1.3 (Aktuelle Version)
 
