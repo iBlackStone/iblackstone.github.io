@@ -5,19 +5,39 @@ title: "Versionsverlauf"
 lang: de
 ---
 
-- 2026-10-26 (in Entwicklung, unveröffentlicht): Aufgabenmenüs, Geraden/Kreise/Punkte, gemeinsame Objektreihenfolge und Sperren, Vorder-/Rückenvergleich 1:1, Ansichtskontext, Papier und gemeinsame Listenvorschauen. Altdokumente bleiben erhalten. Nicht kompiliert; Geräteprüfung ausstehend. Ergänzt Ellipsen, Strecken und proportionale Skalierung, Seitenverhältnissperre, genaue Maße und unabhängige Anordnungsdrehung. Größenänderungen aktualisieren Schätzungen; die Anordnung erhält die Strickrichtung. Körperreferenzen erhalten einen schreibgeschützten Auswahlrahmen sowie Entsperren und Verschieben. Ihre Auswahl beendet das Zeichnen; Positionen sind rückgängig zu machen und werden gespeichert. Automatische Objektmenüs bleiben beim Zeichnen verborgen und kehren in Auswahl oder Knotenbearbeitung zurück. Auswahlmenüs bieten häufige Aktionen und direkten Zugriff auf Objekte und Ebenen. Zeilenmenüs ergänzen Bearbeiten, Umbenennen, Duplizieren, Stapeln und bestätigtes Löschen unter Beachtung von Sperren. Ausblenden erhält die Referenzquelle; beim Löschen eines Teils bleiben manuelle Anmerkungen und Diagrammeinträge mit Warnhinweisen erhalten. Rückgängig wird unterstützt. Vorderteil, Rückenteil, Ärmel und Körperreferenzen lassen sich einzeln verschieben, ausblenden und anordnen. Doppeltippen öffnet die Schnellbearbeitung mit Rückkehr zum vorherigen Werkzeug; Skizzen und Bilder unterstützen Gesamttransformationen. Fertige Geometrie und ausdrücklich abgeschlossene Konturen zeigen Aktionen im festen Werkzeugbereich bei aktivem Zeichenwerkzeug. Pinsel, Radierer und unfertige Pfade bleiben ungestört.
+### v2.1.5
 
-- 2026-10-26 (in Entwicklung, unveröffentlicht): Schaltflächen, Listen und Zeichenflächen bleiben während kurzer Hinweise bedienbar. Ladehinweise blockieren die Interaktion weiterhin im bisherigen Bereich. In den Stricknotizen bleiben Hinweise oben; neuere Hinweise werden nicht mehr vorzeitig entfernt. Nicht kompiliert; Prüfung auf Geräten steht aus.
+- Komplett überarbeitete Schnittmustergestaltung mit mehr Freiheit beim Entwerfen – probieren Sie es aus.
+- Strick- und Häkeldiagramm-Editoren stellen beim erneuten Öffnen den vorherigen Bearbeitungszustand vollständig wieder her.
+- Projekte auf der Startseite werden jetzt deutlich schneller geladen.
+- Auf Wunsch der Nutzer werden Preise für Garngruppen angezeigt.
+- Weitere Verbesserungen der Bedienung.
 
-- 2026-10-23 (in Entwicklung, unveröffentlicht): Schnittmuster erhalten eine freie Zeichenfläche mit leerem Start, Strategien, Vorlagen und Grundschnitten, verknüpften Maßen, Text/Tips, Konturschätzungen, optionalen Vorschauen, Ausgabevorbereitung mit Rückkehr, Export und Schutz älterer Arbeiten. Nicht kompiliert oder auf Geräten abgenommen. Getrennte 3D-Teile belegen keine Stoffpassform.
+### Wir empfehlen, die App aktuell zu halten, um ein besseres Nutzungserlebnis zu genießen.
 
+> Für Funktionsvorschläge können Sie den Entwickler über Xiaohongshu am Ende der Feedback-Seite kontaktieren.
 
-- 2026-10-23: Gespeicherte Häkeldiagramme merken sich die Position der Zeichenfläche und den Zoom beim Verlassen des Editors oder beim Wechsel der App in den Hintergrund und stellen die Ansicht beim erneuten Öffnen wieder her. Auch reines Verschieben oder Zoomen wird gespeichert. Nach einer Bildschirmdrehung oder Änderung der Fenstergröße erscheint der zuvor mittige Punkt der Zeichenfläche wieder in der Mitte der aktuellen Ansicht. Ein neues, unbearbeitetes leeres Diagramm nur anzusehen und zu schließen erzeugt keinen gespeicherten Eintrag.
+### v2.1.3 (Aktuelle Version)
 
-- 2026-10-23: Gespeicherte Strickdiagramme merken sich die Position der Zeichenfläche und den Zoom beim Verlassen des Editors oder beim Wechsel der App in den Hintergrund und stellen die Ansicht beim erneuten Öffnen wieder her. Auch reines Verschieben oder Zoomen wird gespeichert. Nach einer Bildschirmdrehung oder Änderung der Fenstergröße erscheint der zuvor mittige Diagrammpunkt wieder in der Mitte der aktuellen Ansicht. Ein neues, unbearbeitetes leeres Diagramm nur anzusehen und zu schließen erzeugt keinen gespeicherten Eintrag.
+- Automatische Datensicherung hinzugefügt.
+- Anpassung an iPhone Duo-Geräte.
 
-- 2026-10-22: Projektdetails für viele Diagramme optimiert: Grundinformationen erscheinen zuerst, danach die Ressourcenübersicht. Techniken werden beim Öffnen analysiert und einzelne Diagramme bei Bedarf geladen.
+Häkelbereich (Verbesserungen auf Basis von Nutzerfeedback)
+- Mehrere längliche Maschensymbole unterstützen jetzt Krümmungs- und Dehnungsanpassungen.
+- Bequeme Mehrfachauswahl mit Kopier- und Spiegelfunktionen für ähnliche Maschendiagramme.
+- Weitere Verbesserungen beim Häkeln.
+- Die 3D-Simulation von Diagrammen ist in Entwicklung.
 
+Strickbereich
+- Die 3D-Darstellung von Diagrammen wird laufend verbessert; Hunderte von Maschen erhalten schrittweise 3D-Unterstützung.
+- Verbesserte Darstellungsalgorithmen für sehr große Diagramme.
+
+Schnittmusterbereich
+- Sobald die 3D-Darstellung beim Stricken das angestrebte Niveau erreicht, wird die 3D-Anprobe an einem menschlichen Körper unterstützt.
+
+### v2.0.3
+- Entdecken-Bereich mit ausgewählten Diagrammen zum Nachstricken hinzugefügt.
+- Weitere Verbesserungen und Fehlerbehebungen.
 
 ### V2.0.2
 

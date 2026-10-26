@@ -4,20 +4,39 @@ title: "Cronologia delle versioni"
 lang: it
 ---
 
-- 2026-10-26 (in sviluppo, non pubblicato): menu per attività, linee/cerchi/punti, ordine e blocco unificati, confronto davanti/dietro con base 1:1, contesto, foglio e anteprime condivise. Documenti precedenti conservati. Non compilato; verifica su dispositivo in attesa. Aggiunge ellissi, allungamento e scala proporzionale, blocco proporzioni, misure precise e rotazione indipendente sul foglio. Il ridimensionamento aggiorna le stime; la disposizione conserva la direzione di lavorazione. I riferimenti corporei hanno una cornice in sola lettura e comandi di sblocco/spostamento. Selezionarli esce dal disegno; le posizioni sono annullabili e salvate. I menu automatici degli oggetti restano nascosti durante il disegno e tornano in selezione o modifica dei nodi. I menu di selezione offrono azioni frequenti e accesso diretto a Oggetti e livelli. Le righe offrono modifica, rinomina, duplica, ordine ed eliminazione con conferma, rispettando i blocchi. Nascondere un riferimento conserva la fonte; eliminare un pezzo conserva annotazioni manuali e registrazioni dei diagrammi con un avviso di collegamento non valido ed è annullabile. Davanti, dietro, manica e riferimenti corporei si spostano, nascondono e riordinano singolarmente. Il doppio tocco apre la modifica rapida con ritorno allo strumento precedente; schizzi e immagini supportano trasformazioni globali. Geometria completata e contorni esplicitamente finiti mostrano azioni in un’area fissa mantenendo lo strumento. Pennello, gomma e percorsi incompleti restano senza menu automatico.
+### v2.1.5
 
-- 2026-10-26 (in sviluppo, non pubblicato): Pulsanti, elenchi e tele restano interattivi durante i brevi messaggi. I messaggi di caricamento mantengono il blocco delle interazioni esistente. Le note di lavoro mantengono i messaggi in alto e correggono la rimozione prematura dei messaggi più recenti. Non compilato; verifica su dispositivo in attesa.
+- Progettazione dei cartamodelli completamente rinnovata, con più libertà creativa. Provala!
+- Gli editor di schemi ai ferri e all’uncinetto ripristinano completamente lo stato di modifica precedente alla riapertura.
+- I progetti nella pagina iniziale ora si caricano molto più velocemente.
+- Aggiunta la visualizzazione dei prezzi per i gruppi di filati, in base ai suggerimenti degli utenti.
+- Altri miglioramenti dell’esperienza di interazione.
 
-- 2026-10-23 (in sviluppo, non pubblicato): Cartamodelli passa alla tela libera con avvio vuoto, strategie, modelli e basi corporee, quote collegate, Text/Tips, stime del contorno, anteprime facoltative, preparazione degli output con ritorno, esportazione e protezione dei lavori precedenti. Non compilato né verificato su dispositivo. I pezzi separati in 3D non dimostrano la vestibilità del tessuto.
+### Si consiglia di mantenere l’app aggiornata per una migliore esperienza d’uso.
 
+> Per suggerire nuove funzionalità, contatta lo sviluppatore su Xiaohongshu dal fondo della pagina dei feedback.
 
-- 2026-10-23: Gli schemi all’uncinetto salvati ricordano la posizione della tela e lo zoom quando esci dall’editor o porti l’app in secondo piano, e ripristinano la vista alla riapertura. Vengono salvati anche i soli spostamenti o cambi di zoom. Dopo la rotazione dello schermo o il ridimensionamento della finestra, il punto della tela che era al centro torna al centro della vista attuale. Consultare e chiudere un nuovo schema vuoto senza modificarlo non crea un record salvato.
+### v2.1.3 (Versione recente)
 
-- 2026-10-23: Gli schemi ai ferri salvati ricordano la posizione della tela e lo zoom quando esci dall’editor o porti l’app in secondo piano, e ripristinano la vista alla riapertura. Vengono salvati anche i soli spostamenti o cambi di zoom. Dopo la rotazione dello schermo o il ridimensionamento della finestra, il punto dello schema che era al centro torna al centro della vista attuale. Consultare e chiudere un nuovo schema vuoto senza modificarlo non crea un record salvato.
+- Aggiunto il backup automatico dei dati.
+- Adattamento ai dispositivi iPhone Duo.
 
-- 2026-10-22: Ottimizzati i dettagli dei progetti con molti schemi: prima le informazioni principali, poi i riepiloghi delle risorse. Le tecniche vengono analizzate all’apertura e gli schemi caricati quando richiesti.
+Sezione uncinetto (miglioramenti basati sui suggerimenti degli utenti)
+- Diversi simboli di punti allungati ora supportano regolazioni di curvatura e allungamento.
+- Operazioni pratiche di selezione multipla, con copia e riflessione di diagrammi di punti simili.
+- Altri miglioramenti dell’esperienza all’uncinetto.
+- Simulazione 3D degli schemi in sviluppo. Restate aggiornati!
 
+Sezione ferri
+- La visualizzazione 3D degli schemi continua a migliorare; centinaia di punti riceveranno gradualmente il supporto 3D.
+- Algoritmi di visualizzazione aggiornati per schemi molto grandi.
 
+Sezione cartamodelli
+- Quando la visualizzazione 3D ai ferri raggiungerà l’obiettivo, i cartamodelli inizieranno a supportare la prova su un corpo umano in 3D.
+
+### v2.0.3
+- Aggiunta la sezione Scopri, con schemi selezionati da lavorare.
+- Altri miglioramenti dell’esperienza e correzioni di problemi.
 
 ### V2.0.2
 - Funzionalità di progettazione del modello aggiunte e migliorate per una più facile creazione e modifica.

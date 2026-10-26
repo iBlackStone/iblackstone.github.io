@@ -4,39 +4,39 @@ title: "Version History"
 lang: en
 ---
 
-- 2026-10-26 (in development, unreleased): Pattern Draft adds task menus, line/circle/construction tools, unified object ordering and locks, 1:1 front/back body-block comparison, window context, paper styles and shared record/file previews. Older documents remain supported. Not compiled; device validation pending. Also adds ellipses, piece stretch/proportional scale, aspect lock, precise dimensions and independent layout rotation. Resizing updates estimates; layout preserves knitting direction. Body references gain a read-only selection frame and position unlock/drag controls. Selecting a reference exits drawing; position changes support undo and saving. Automatic object menus stay hidden during drawing and return in selection or node editing. Selected-object menus offer frequent actions and direct access to Objects & Layers. Row menus add editing, rename, duplicate, stacking and confirmed deletion, respect locks and hide references without deleting their source. Piece deletion retains manual annotations and chart records with invalid-link warnings and supports Undo. Body-block front, back, sleeve and individual body references now move, hide and reorder independently. Double-tap opens quick editing with a return to the previous tool; sketches and images support whole-object transforms. Completed geometry and explicitly finished contours show actions in a fixed tool area while preserving the drawing tool. Brush, eraser and unfinished paths stay uninterrupted.
+### v2.1.5
 
-- 2026-10-26 (in development, unreleased): Buttons, lists and canvases remain interactive while ordinary brief messages are visible. Loading messages retain their existing interaction blocking. Project Notes keeps messages near the top and fixes newer messages being cleared too early. Not compiled; device validation pending.
+- Completely redesigned pattern drafting with greater freedom to design — give it a try.
+- Knitting and crochet editors fully restore your previous editing state when reopened.
+- Projects on the home page now load much faster.
+- Added price displays for yarn groups based on user feedback.
+- Other user interaction improvements.
 
-- 2026-10-23 (in development, unreleased): Pattern Draft moves to a free canvas with blank, strategy, template and body-block starts, associated dimensions, Text/Tips, current-path estimates, optional previews, output preparation and return, design export and older-project protection. Not compiled or device-accepted. Separate flat pieces in 3D do not establish cloth fit.
+### We recommend keeping the app updated for a better experience.
 
-
-- 2026-10-23: Saved crochet charts remember the canvas position and zoom when you leave the editor or put the app in the background, and restore that view when reopened. Panning or zooming alone is saved too. After rotating the screen or resizing the window, the previous canvas center returns to the center of the current view. Browsing and closing a new, unedited blank chart does not create a saved record.
-
-- 2026-10-23: Saved knitting charts remember the canvas position and zoom when you leave the editor or put the app in the background, and restore that view when reopened. Panning or zooming alone is saved too. After a screen rotation or window resize, the chart point that was at the center of the previous view returns to the center of the current view. Browsing a new, unedited blank chart and closing it does not create a saved record.
-
-- 2026-10-22: Optimized details for projects with many charts: basic information appears first, followed by resource summaries. Techniques are analyzed when opened, and individual charts load on demand.
-
-
-### It is recommended to update the version in time to enjoy a better user experience.
+> For feature suggestions, visit the bottom of the feedback page to contact the developer on Xiaohongshu.
 
 ### v2.1.3 (Recent Version)
 
-- New automatic data backup function added.
-- Compatibility with iPhone Duo devices improved.
+- Added automatic data backup.
+- Added compatibility for iPhone Duo devices.
 
-Hoop needle section (upgraded based on user feedback)
-- Multiple long-needle patterns now support curvature stretching;
-- Easy operation in multi-selection areas, and ability to duplicate similar needle patterns;
-- User experience improvements for other hoop needle patterns;
-- 3D simulation capabilities are being developed – stay tuned.
+Crochet section (improvements based on user feedback)
+- Multiple elongated stitch symbols now support curvature and stretching adjustments.
+- Added convenient multi-selection operations, including copying and mirroring similar stitch diagrams.
+- Other crochet experience improvements.
+- 3D chart simulation is in development — stay tuned.
 
-Crochet section
-- 3D rendering capabilities continue to improve; hundreds of needle patterns are gradually being integrated with 3D rendering;
-- Upgraded rendering algorithms for large-scale patterns.
+Knitting section
+- Chart 3D rendering continues to improve, with hundreds of stitches gradually gaining 3D rendering support.
+- Upgraded rendering algorithms for very large charts.
 
-Pattern section
-- Once 3D rendering capabilities for crochet patterns reach the desired level, patterns will start to support 3D human fitting effects.
+Pattern drafting section
+- Once knitting 3D rendering reaches its target, pattern drafting will begin supporting 3D fitting on a human body.
+
+### v2.0.3
+- Added Discover, with selected charts ready for you to knit.
+- Other experience improvements and bug fixes.
 
 ### v2.0.2
 - Added and improved pattern design features for easier creation and editing.

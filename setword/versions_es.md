@@ -4,19 +4,39 @@ title: "Historial de versiones"
 lang: es
 ---
 
-- 2026-10-26 (en desarrollo, sin publicar): menús por tarea, rectas/círculos/puntos, orden y bloqueo unificados, comparación delantero/espalda con base 1:1, contexto, papel y vistas compartidas. Documentos antiguos conservados. Sin compilar; validación en dispositivo pendiente. Añade elipses, estiramiento y escala proporcional, bloqueo de proporciones, medidas precisas y giro independiente de disposición. El tamaño actualiza las estimaciones; la disposición conserva la dirección de tejido. Las referencias corporales incluyen marco de solo lectura y desbloqueo de posición para arrastrar. Seleccionarlas sale del dibujo; los cambios se pueden deshacer y guardar. Los menús automáticos de objetos se ocultan al dibujar y vuelven al seleccionar o editar nodos. Los menús de selección ofrecen acciones frecuentes y acceso directo a Objetos y capas. Las filas permiten editar, renombrar, duplicar, ordenar y eliminar con confirmación respetando los bloqueos. Ocultar referencias conserva su fuente; eliminar piezas conserva anotaciones manuales y registros de gráficos con avisos de vínculo inválido y admite Deshacer. Delantero, espalda, manga y referencias corporales se mueven, ocultan y ordenan por separado. El doble toque abre edición rápida con vuelta a la herramienta anterior; bocetos e imágenes admiten transformación completa. Geometría terminada y contornos finalizados explícitamente muestran acciones en una zona fija manteniendo la herramienta. Pincel, goma y rutas incompletas no abren menús automáticos.
+### v2.1.5
 
-- 2026-10-26 (en desarrollo, sin publicar): Los botones, las listas y los lienzos siguen respondiendo mientras se muestran avisos breves. Los avisos de carga mantienen el bloqueo de interacción existente. Las notas de tejido conservan los avisos en la parte superior y corrigen la desaparición prematura de los avisos nuevos. Sin compilar; pendiente de validación en dispositivos.
+- Diseño de patrones completamente renovado, con más libertad para crear. ¡Pruébalo!
+- Los editores de punto y ganchillo restauran por completo el estado de edición anterior al volver a abrirlos.
+- Los proyectos de la página de inicio ahora se cargan mucho más rápido.
+- Se muestran los precios de los grupos de hilos, según los comentarios de los usuarios.
+- Otras mejoras en la experiencia de interacción.
 
-- 2026-10-23 (en desarrollo, sin publicar): Patrones incorpora lienzo libre con inicio vacío, estrategias, plantillas y bases corporales, cotas vinculadas, Text/Tips, estimación del contorno, vistas opcionales, preparación de salidas con retorno, exportación y protección de trabajos anteriores. Sin compilar ni validar en dispositivo. Las piezas separadas en 3D no demuestran el ajuste del tejido.
+### Recomendamos mantener la aplicación actualizada para disfrutar de una mejor experiencia.
 
+> Para sugerir nuevas funciones, contacta con el desarrollador en Xiaohongshu desde la parte inferior de la página de comentarios.
 
-- 2026-10-23: Los gráficos de ganchillo guardados recuerdan la posición del lienzo y el zoom al salir del editor o pasar la app a segundo plano, y restauran la vista al abrirlos de nuevo. También se guardan los cambios que consisten solo en desplazar o ampliar la vista. Tras girar la pantalla o cambiar el tamaño de la ventana, el punto del lienzo que estaba en el centro vuelve al centro de la vista actual. Consultar y cerrar un gráfico nuevo en blanco sin editarlo no crea un registro guardado.
+### v2.1.3 (Versión reciente)
 
-- 2026-10-23: Los gráficos de punto guardados recuerdan la posición del lienzo y el zoom al salir del editor o pasar la app a segundo plano, y restauran la vista al abrirlos de nuevo. También se guardan los cambios que consisten solo en desplazar o ampliar la vista. Tras girar la pantalla o cambiar el tamaño de la ventana, el punto del gráfico que estaba en el centro vuelve al centro de la vista actual. Consultar y cerrar un gráfico nuevo en blanco sin editarlo no crea un registro guardado.
+- Añadida la copia de seguridad automática de datos.
+- Adaptación a los dispositivos iPhone Duo.
 
-- 2026-10-22: Optimizados los detalles de proyectos con muchos diagramas: primero la información básica y después los resúmenes de recursos. Las técnicas se analizan al abrirlas y los diagramas se cargan bajo demanda.
+Sección de ganchillo (mejoras según los comentarios de los usuarios)
+- Varios símbolos de puntos alargados ahora permiten ajustar la curvatura y el estiramiento.
+- Operaciones prácticas de selección múltiple, con funciones de copia y reflejo para diagramas de puntos similares.
+- Otras mejoras de la experiencia de ganchillo.
+- Simulación 3D de diagramas en desarrollo. ¡Próximamente!
 
+Sección de punto
+- La representación 3D de diagramas sigue mejorando; cientos de puntos recibirán soporte 3D gradualmente.
+- Algoritmos de representación mejorados para diagramas muy grandes.
+
+Sección de patrones
+- Cuando la representación 3D de punto alcance el objetivo, los patrones comenzarán a admitir pruebas de ajuste sobre un cuerpo humano en 3D.
+
+### v2.0.3
+- Añadida la sección Descubrir, con diagramas seleccionados para tejer.
+- Otras mejoras de experiencia y correcciones de errores.
 
 ### v2.0.2
 - Se agregaron y mejoraron funciones de diseño de patrones para facilitar la creación y edición.
