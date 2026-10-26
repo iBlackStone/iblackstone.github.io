@@ -118,6 +118,7 @@ Top and side controls follow the same saving and validation rules. Navigation on
 - All and Uncategorized are fixed destinations and cannot be renamed or deleted. Create, rename, delete, and drag to reorder personal folders. Deleting a folder only moves its yarn to Uncategorized.
 - Below search, a persistent row shows the current filter, current sort, and result count. Tap Filter for hand-knitting yarn, cone yarn, low stock, or missing inventory.
 - Tap Sort, choose Name, Time, Inventory, or Price, then choose the detailed direction. Sorting supports name, creation date, modification date, known remaining stock, confirmed purchase total, and cost per 100g. Records without a confirmed price or sufficient weight stay at the end. In folder management, touch and hold a personal folder to reorder it.
+- The header shows the confirmed purchase total and price coverage for the current folder, search and filters. Unconfirmed legacy prices are excluded. This is the purchase total, not the value of remaining stock; missing prices are not treated as zero.
 - Use stock alerts to find yarn that is running low.
 - Use the yarn calendar to review added and usage records.
 

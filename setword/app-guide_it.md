@@ -118,6 +118,7 @@ I comandi in alto e di lato seguono le stesse regole di salvataggio e convalida.
 - Tutti e non categorizzati sono destinazioni fisse e non possono essere rinominate o eliminate. Crea, rinomina, elimina e trascina per riordinare le cartelle personali. L'eliminazione di una cartella sposta solo il suo filato in Uncategorized.
 - Sotto la ricerca, una riga persistente mostra il filtro corrente, l'ordinamento corrente e il conteggio dei risultati. Tocca Filtro per filato lavorato a mano, filato a cono, stock basso o inventario mancante.
 - Tocca Ordina, scegli Nome, Ora, Inventario o Prezzo, quindi scegli la direzione dettagliata. Il nome del supporto di ordinamento, la data di creazione, la data di modifica, lo stock residuo noto, il totale dell'acquisto confermato e il costo per 100 g. Registra senza un prezzo confermato o un peso sufficiente alla fine. Nella gestione delle cartelle, tocca e tieni teni tenta una cartella personale per riordinarla.
+- L’intestazione mostra il totale degli acquisti confermato e la copertura dei prezzi per la cartella, la ricerca e i filtri correnti. I prezzi precedenti non confermati sono esclusi. Il totale non è il valore delle scorte residue; un prezzo mancante non viene considerato zero.
 - Usa gli avvisi di magazzino per trovare il filato che si sta esaurendo.
 - Usa il calendario dei filati per rivedere i record aggiunti e di utilizzo.
 

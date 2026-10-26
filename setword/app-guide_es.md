@@ -118,6 +118,7 @@ Los controles superiores y laterales siguen las mismas reglas de guardado y vali
 - Todo y Sin categoría son destinos fijos y no se les puede cambiar el nombre ni eliminarlos. Cree, cambie el nombre, elimine y arrastre para reordenar carpetas personales. Eliminar una carpeta solo mueve su hilo a Sin categoría.
 - Debajo de la búsqueda, una fila persistente muestra el filtro actual, la clasificación actual y el recuento de resultados. Toque Filtrar para ver hilo tejido a mano, hilo cónico, stock bajo o inventario faltante.
 - Toque Ordenar, elija Nombre, Hora, Inventario o Precio y luego elija la dirección detallada. La clasificación admite nombre, fecha de creación, fecha de modificación, stock restante conocido, total de compra confirmada y costo por 100 g. Los registros sin precio confirmado o peso suficiente se quedan al final. En la administración de carpetas, toque y mantenga presionada una carpeta personal para reordenarla.
+- La cabecera muestra el total de compra confirmado y la cobertura de precios de la carpeta, búsqueda y filtros actuales. Los precios antiguos sin confirmar se excluyen. El total no representa el valor de las existencias restantes; un precio ausente no se considera cero.
 - Utilice alertas de existencias para encontrar hilo que se está agotando.
 - Utilice el calendario de hilados para revisar los registros agregados y de uso.
 

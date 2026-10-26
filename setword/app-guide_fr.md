@@ -96,6 +96,7 @@ Les commandes du haut et du côté suivent les mêmes règles d’enregistrement
 - « Tout » et « Non classé » sont fixes et ne peuvent être ni renommés ni supprimés. Les dossiers personnels peuvent être créés, renommés, supprimés et réorganisés par glisser-déposer. Supprimer un dossier déplace seulement ses fils vers « Non classé ».
 - Sous la recherche, une ligne affiche toujours le filtre courant, le tri et le nombre de résultats. Le filtre propose fil main, fil sur cône, stock faible ou stock non renseigné.
 - Pour trier, choisissez d’abord Nom, Date, Stock ou Prix, puis l’ordre détaillé. Le tri couvre le nom, la création, la modification, le stock restant connu, le total d’achat confirmé et le coût pour 100 g. Les fiches sans prix confirmé ou sans poids suffisant restent en fin de liste. Dans la gestion des dossiers, maintenez un dossier personnel pour le réorganiser.
+- L’en-tête affiche le total d’achat confirmé et la couverture des prix pour le dossier, la recherche et les filtres actuels. Les anciens prix non confirmés sont exclus. Ce total ne représente pas la valeur du stock restant ; un prix manquant ne vaut pas zéro.
 
 ### Simulateur d’échantillon
 

@@ -118,6 +118,7 @@ Die Bedienelemente oben und an der Seite folgen denselben Speicher- und Prüfreg
 - Alle und Unkategorisiert sind feste Ziele und können nicht umbenannt oder gelöscht werden. Erstellen, umbenennen, löschen und ziehen, um persönliche Ordner neu anzuordnungen. Das Löschen eines Ordners verschiebt nur sein Garn in Nicht kategorisiert.
 - Unter der Suche zeigt eine permanente Zeile den aktuellen Filter, die aktuelle Sortierung und die Ergebniszahl an. Tippe auf „Filtern für Handstrickgarn, Zapfengarn, Lagerbestand oder fehlendes Inventar.
 - Tippen Sie auf "Sortieren", wählen Sie Name, Zeit, Inventar oder Preis und wählen Sie dann die detaillierte Richtung. Sortieren unterstützt Name, Erstellungsdatum, Änderungsdatum, bekannte verbleibende Bestände, bestätigte Kaufsumme und Kosten pro 100 g. Aufzeichnungen ohne bestätigten Preis oder ausreichendes Gewicht bleiben am Ende. Tippen und halten Sie in der Ordnerverwaltung einen persönlichen Ordner, um ihn neu anzuorden.
+- Die Kopfzeile zeigt den bestätigten Kaufbetrag und die Preisabdeckung für den aktuellen Ordner, die Suche und die Filter. Unbestätigte alte Preise werden ausgeschlossen. Der Kaufbetrag ist nicht der Restbestandswert; fehlende Preise gelten nicht als null.
 - Verwenden Sie Lagerwarnungen, um Garn zu finden, das knapp wird.
 - Verwenden Sie den Garnkalender, um hinzugefügte und Nutzungsdatensätze zu überprüfen.
 
