@@ -21,6 +21,8 @@ One finger or a pen uses the active tool; two fingers pan and pinch to zoom. Sel
 <a id="tools"></a>
 ## Tools
 
+Draw → Snapping uses the visible centimeter grid, adapting its step with zoom. Targets include piece/image/sketch edges and centers, guides and visible body-block center, chest and waist lines. Locked targets remain usable; hidden targets are excluded. Orange points and dashed lines show a match; dragging away releases it. Text aligns by its center, Tips/callouts by position. Brush strokes, curve handles and dimension labels remain free. Person, comparison, paper and object-property menus anchor to the selected row.
+
 The groups are Draw, Edit, Annotate, Knit, Person & References, Preview, and Objects & Display. Switching groups shows a short hint. Frequent tools stay visible; related actions expand as needed. Finish, Close, Keep Open and Cancel appear only during path drawing. Annotate contains Text, Tips, leaders and dimensions; Knit contains gauge, boundaries, knitting joins, chart placement and colorwork. Grid visibility, grid/endpoint snapping and direction constraints are independent.
 
 The active drawing tool stays highlighted. The geometry entry names the current shape, such as “Geometry: Circle”, and its menu highlights that tool too. Opening or dismissing the menu keeps the tool unchanged. Hold a tool for a short explanation. The contour pen creates editable piece outlines that you can close or keep open; the brush stores sketches and handwriting, converted into an independent piece only after preview and confirmation. Symmetry has its own on/off highlight and applies to the contour pen and polylines.
@@ -55,7 +57,7 @@ Person & References selects measurements, reference images or independent copies
 
 The free version can keep two pattern projects at a time. Deleting one frees a slot, while existing projects always remain openable, editable, savable, and deletable. Free Draw and essential drafting tools—including body reference, formal body block, ease, gauge, dimensions, curves, nodes, and stitch plans—remain available.
 
-The Basic Drop-Shoulder Pullover is the free strategy. Fitted and future advanced strategies, My Templates, multiple presets, custom strategy authoring, and strategy-package transfer require membership. Generation Prep remains free; membership is checked only when you actually create a knitting chart. Counter, crochet, and yarn outputs will follow the same rule.
+The Basic Drop-Shoulder Pullover is free. Other paid built-in strategies require active membership and a separate unlock purchase. Owned strategies remain usable in the current app data after membership expires. Local/imported strategies, My Templates and authoring tools require membership. Generation Prep is free; creating outputs checks membership. Strategy purchases are consumable and cannot be restored to a new device through the App Store. Multiple presets and strategy-package import/export also require membership.
 
 <a id="evidence"></a>
 ## Evidence and future outputs
@@ -65,7 +67,7 @@ Generation & Links offers knitting, flat crochet, counter tasks and yarn estimat
 <a id="workflow-save-export"></a>
 ## Preview, export and save
 
-Planar preview shows actual pieces and body references and preserves the editing view on return. More → Export Design independently controls grids and expanded, numbered or hidden Tips. Saves retain open paths, annotations, stacking and paper. Each document restores its viewport, tool, selection and confirmed comparison without replaying commands or restoring Undo history. Pattern Records and Files share the latest successfully saved full-design preview, independent of the last zoomed or blank viewport. Readable older documents retain identity, geometry, notes and plans; unknown data is not overwritten with a blank project. This update has not been compiled or validated on a device.
+More → Export Design independently controls grids and expanded, numbered or hidden Tips. Saves retain open paths, annotations, stacking and paper. Each document restores its viewport, tool, selection and confirmed comparison without replaying commands or restoring Undo history. Pattern Records and Files share the latest successfully saved full-design preview, independent of the last zoomed or blank viewport. Readable older documents retain identity, geometry, notes and plans; unknown data is not overwritten with a blank project.
 
 <a id="body-block-comparison"></a>
 ## Compare with a body block
@@ -73,19 +75,23 @@ Planar preview shows actual pieces and body references and preserves the editing
 Preview → Compare with Body Block starts from the current piece. Choose a front/back block and a full or half piece. Mark its centerline and corresponding chest/waist level, then align at a chosen level and lock the reference at 1:1. One finger moves only the unlocked reference; two fingers navigate. Mark same-side neck/shoulder, shoulder tip, neck center, underarm and hem as needed. Results use actual outlines for widths, planar side differences and shoulder/neck/vertical measurements. Missing marks or multiple intervals do not produce a single width. Tap a result to highlight it. Confirm to save evidence and placement, then edit the piece and resume comparison; Back cancels changes. Rule-derived blocks may include estimates. Differences are not whole-garment ease, body clearance, pressure or a fit verdict.
 
 <a id="try-on-3d"></a>
-## Static 3D preview
+## 3D samples and reference material simulation
 
-Open Preview → Static 3D Preview for Person, Assembly, Try On, Display, Camera and Adjust. One finger rotates, two pan and pinch zooms. Switch to another work group to continue in 2D. Existing static 3D capabilities and limits remain.
+Open Preview → 3D Sample or the 3D workspace: Person, Assembly, Drape, Display, Camera and Adjust. Body blocks, 2D dimension comparisons and connection checks remain available. Bodies use saved measurement snapshots; choose neutral, female, male or child templates in person details. Templates estimate missing shape. Shoulder-point width is a positioning proxy; notes identify unfitted surface lengths. Changing people leaves panels unchanged.
 
-Width/depth ratios, head and limbs include template estimates. Back shoulder width and surface lengths are not yet fitted. Supply missing height or explicitly choose a 165 cm reference. Dimensions and Mesh Measurements shows sources, section circumferences and contour error. Pattern or join changes mark the previous result stale; generation can be cancelled.
+A valid closed panel works without gauge, panel roles or seams. In Assembly → Panel Placement and Pinning, select a panel, place it in front of the chest, behind the back or over either shoulder, then drag with one finger; two fingers navigate. Pin two top-edge points, tap to add/remove pins, rotate 90°, or reset. For a basic vest, confirm four shoulder and side joins, leaving neckline, armholes and hem open.
 
-This is a static mesh preview. Cloth stretch, bending, body collision and fit remain unvalidated; no pressure or fit scores are provided. This implementation has not been compiled or accepted on physical devices.
+Assembly → Reference Knit Material offers Soft Drape, Standard Knit and Stiffer. These are reference presets; gauge sets dimensions and motif scale, not elasticity. The main button starts, pauses or resumes gravity draping; restart from initial placement. Body and material estimates do not determine precise fit or pressure, and collisions may still show penetration.
 
-If a previous version reported an unclosed body mesh or invalid orientation, update, reopen the person details and regenerate the preview. You do not need to delete the person or re-enter measurements. This fix still awaits device validation.
+When viewing, one finger rotates horizontally; two pan and pinch to zoom, and double-tap focuses. Display can hide the base. Saved try-on settings and camera return on reopening.
+
+Update 3D after changing actual 2D paths. Compare results before and after changes from the same view under matching body, material, placement and pinning conditions. Save an effect image only from a current, valid completed result; running, paused or stale results are not current exports.
+
+Front, back and sleeve panels copied from body blocks, including outlines that explicitly return to their start before closing, can enter 3D. If a panel outline or boundary is invalid, garment simulation stops while the current body remains visible. The message names the panel and reason; correct it and update 3D. This body preview cannot be exported as a valid garment result.
 
 <a id="piece-colorwork"></a>
 ## Piece colorwork
 
 Open Knit → Piece colorwork, or 3D → Display → Piece colorwork. Choose a piece and an existing knitting color chart. The motif repeats at stitch and row gauge from the bottom center. Switch to a single motif, enter whole-stitch/row offsets, set the background, or replace individual source colors. Dragging on the canvas also moves it by whole stitches and rows. Necklines, armholes and outer edges clip the pattern. Each source cell stays one stitch by one row; it is never stretched to fit. The selected background fills empty/transparent source cells and the area outside a single motif.
 
-Save and delete support Undo; Cancel commits nothing. Sync after source or gauge changes. A change detected while saving first refreshes the preview for another review and save. 2D, assembly, 3D and eligible knitting output share the same sampling rule. Starting side changes numbering only; colorwork preserves active stitches and underlying symbols. This version accepts color cells or plain knit/purl only, excluding explicit no-stitch cells, multi-cell/structural stitches and translucent colors. Automatic seam matching, bands, saved colorways, real floats and cloth simulation are not included.
+Save and delete support Undo; Cancel commits nothing. Sync after source or gauge changes. A change detected while saving first refreshes the preview for another review and save. 2D, assembly, 3D and eligible knitting output share the same sampling rule. Starting side changes numbering only; colorwork preserves active stitches and underlying symbols. This version accepts color cells or plain knit/purl only, excluding explicit no-stitch cells, multi-cell/structural stitches and translucent colors. Colorwork shows color appearance; yarn floats and the material behavior of the actual stitch structure are not yet simulated. Overall fabric drape uses an independent reference material rather than physical properties derived from the colorwork. Automatic seam matching, bands and saved colorways remain unavailable.

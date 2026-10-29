@@ -21,6 +21,8 @@ Un dedo o el lápiz usa la herramienta activa; dos dedos desplazan y amplían. S
 <a id="tools"></a>
 ## Herramientas
 
+Dibujar → Ajuste utiliza la cuadrícula visible en cm y adapta el paso al zoom. Incluye bordes y centros de piezas, imágenes y bocetos, guías y líneas centrales/de pecho/cintura del patrón base visible. Los destinos bloqueados siguen disponibles; los ocultos se excluyen. Puntos naranjas y líneas discontinuas indican el ajuste; arrastra lejos para soltarlo. Texto por centro, Tips y llamadas por posición. Pincel, controles de curva y etiquetas quedan libres. Los menús de persona, comparación, papel y propiedades se anclan a la fila pulsada.
+
 Los grupos son Dibujar, Editar, Anotar, Tejer, Persona y referencias, Vista previa, Objetos y visualización. Al cambiar aparece una indicación breve. Las herramientas frecuentes quedan visibles; las relacionadas se despliegan según necesidad. Terminar, Cerrar, Mantener abierto y Cancelar solo aparecen al dibujar. Text, Tips, llamadas y medidas están en Anotar; muestra, bordes, uniones, diagramas y color en Tejer. Mostrar cuadrícula, ajustes y restricciones de dirección son independientes.
 
 La herramienta de dibujo activa permanece resaltada. El botón de geometría muestra la forma actual, como “Geometría: Círculo”, también resaltada en el menú. Abrir o cerrar el menú no cambia la herramienta. Mantén pulsado para ver una explicación breve. La pluma de contorno crea contornos editables que puedes cerrar o dejar abiertos; el pincel guarda bocetos y escritura, convertibles en una pieza independiente solo tras previsualizar y confirmar. La simetría tiene su propio indicador y se aplica a la pluma de contorno y a las polilíneas.
@@ -55,7 +57,7 @@ Persona y referencias permite elegir medidas, imágenes y copias independientes 
 
 La versión gratuita puede mantener dos proyectos de patrones a la vez. Eliminar uno libera un espacio, mientras que los proyectos existentes siempre se pueden abrir, editar, guardar y eliminar. Free Draw y las herramientas de dibujo esenciales, incluidas referencias de cuerpo, bloques de cuerpo formales, facilidad, calibre, dimensiones, curvas, nodos y planos de puntadas, siguen estando disponibles.
 
-El jersey básico con hombros caídos es la estrategia gratuita. Las estrategias avanzadas adaptadas y futuras, Mis plantillas, múltiples ajustes preestablecidos, creación de estrategias personalizadas y transferencia de paquetes de estrategias requieren membresía. Generation Prep sigue siendo gratuito; La membresía se verifica solo cuando realmente creas una tabla de tejido. Las salidas de contador, crochet e hilo seguirán la misma regla.
+El pulóver básico de hombro caído es gratuito. Las demás estrategias integradas de pago requieren una suscripción activa y una compra de desbloqueo independiente. Siguen disponibles en los datos actuales de la App tras caducar la suscripción. Las estrategias locales/importadas, plantillas personales y herramientas de autor requieren suscripción. La preparación es gratuita; la creación de salidas comprueba los derechos. Las compras son consumibles y no se restauran en otro dispositivo mediante App Store. Varios preajustes y la importación/exportación de paquetes también requieren suscripción.
 
 <a id="evidence"></a>
 ## Pruebas y resultados futuros
@@ -65,7 +67,7 @@ Generación y vínculos ofrece gráficos de dos agujas, ganchillo plano, contado
 <a id="workflow-save-export"></a>
 ## Vista previa, exportación y guardado
 
-La vista plana muestra piezas reales y referencias corporales y conserva la vista al volver. Exportar diseño controla por separado cuadrícula y Tips expandidos, numerados u ocultos. Guardar conserva líneas abiertas, notas, orden y papel. Cada documento restaura vista, herramienta, selección y comparación confirmada sin repetir órdenes ni recuperar Deshacer. Registros y archivos comparten la última vista completa guardada con éxito, no el último zoom o espacio vacío. Se protegen los datos antiguos legibles; los desconocidos no se sobrescriben con un documento vacío. Sin compilar ni validar en dispositivo.
+Exportar diseño controla por separado cuadrícula y Tips expandidos, numerados u ocultos. Guardar conserva líneas abiertas, notas, orden y papel. Cada documento restaura vista, herramienta, selección y comparación confirmada sin repetir órdenes ni recuperar Deshacer. Registros y archivos comparten la última vista completa guardada con éxito, no el último zoom o espacio vacío. Se protegen los datos antiguos legibles; los desconocidos no se sobrescriben con un documento vacío.
 
 <a id="body-block-comparison"></a>
 ## Comparar con patrón base
@@ -73,19 +75,23 @@ La vista plana muestra piezas reales y referencias corporales y conserva la vist
 Vista previa → Comparar con patrón base parte de la pieza actual. Elige delantero/espalda y pieza entera/media. Marca eje central y altura correspondiente de pecho/cintura; alinea a 1:1 y bloquea la referencia. Un dedo mueve solo la referencia desbloqueada; dos navegan. Marca cuello/hombro, extremo del hombro, centro del cuello, axila y bajo del mismo lado para medir contornos reales, diferencias laterales y distancias. Intervalos múltiples o marcas ausentes no producen una anchura única. Toca un resultado para resaltarlo; confirma para guardar bases y posición, modifica y continúa. Atrás descarta cambios. La base puede incluir estimaciones: las diferencias no son holgura total, separación corporal, presión ni un juicio de ajuste.
 
 <a id="try-on-3d"></a>
-## Vista 3D estática
+## Muestras 3D y simulación con material de referencia
 
-Abre Vista previa → Vista previa 3D estática para Persona, Ensamblaje, Prueba, Mostrar, Cámara y Ajustar. Un dedo gira, dos desplazan y el pellizco amplía. Cambia de grupo para seguir en 2D. Se mantienen las capacidades y límites 3D existentes.
+Abre Vista previa → Muestra 3D o el espacio 3D: Persona, Montaje, Caída, Visualización, Cámara y Ajustar. Siguen disponibles todos los patrones base del cuerpo, las comparaciones de dimensiones 2D y las comprobaciones de conexiones. El cuerpo usa una instantánea guardada de las medidas; elige una plantilla neutra, femenina, masculina o infantil en la ficha de persona. La plantilla estima las formas ausentes. La distancia entre puntos del hombro sirve para colocar; las longitudes superficiales no adaptadas conservan sus notas. Cambiar de persona no modifica las piezas.
 
-Proporciones, cabeza y extremidades son estimadas; el ancho de hombros y las longitudes superficiales aún no se ajustan. Introduce la altura ausente o elige expresamente la referencia de 165 cm. Las medidas muestran fuentes, contornos de sección y error de silueta. Cambiar paneles o uniones deja el resultado desactualizado; la generación se puede cancelar.
+Basta una pieza cerrada válida, sin muestra de tensión, roles ni costuras previas. En Montaje → Colocación y fijación de piezas, selecciona una pieza, ponla delante del pecho, detrás de la espalda o sobre un hombro y arrástrala con un dedo; dos dedos controlan la vista. Fija dos puntos superiores, añade o quita fijaciones tocando, gira 90° o restablece. Para un chaleco básico, confirma cuatro uniones de hombros y costados, dejando abiertos cuello, sisas y bajo.
 
-Es una vista estática: elasticidad, flexión, colisiones y ajuste no están validados. No hay puntuaciones de presión ni ajuste. Esta implementación aún no se ha compilado ni validado en dispositivos reales.
+Montaje → Tejido de punto de referencia ofrece Caída suave, Punto estándar y Más rígido. Son ajustes de referencia; la tensión define dimensiones y escala del motivo, no elasticidad. El botón principal inicia, pausa o continúa la caída por gravedad; puedes reiniciar desde la colocación inicial. Las estimaciones del cuerpo y material no determinan ajuste preciso ni presión; las colisiones pueden conservar penetraciones.
 
-Si una versión anterior indicaba una malla corporal sin cerrar o con orientación incorrecta, actualiza, vuelve a abrir los detalles de la persona y regenera la vista previa. No hace falta borrar a la persona ni volver a introducir sus medidas. Esta corrección aún requiere validación en un dispositivo.
+En observación, un dedo gira horizontalmente; dos desplazan y amplían con un pellizco; dos toques enfocan. Visualización permite ocultar la base. Los ajustes y la cámara guardados se restauran al reabrir.
+
+Actualiza el 3D tras cambiar los trazados 2D reales. Compara antes y después desde la misma vista, con cuerpo, material, colocación y fijaciones iguales. Guarda una imagen solo de un resultado actual, válido y completado; los resultados en curso, pausados u obsoletos no se exportan como resultado actual.
+
+Las piezas de delantero, espalda y manga copiadas de los patrones base, incluidos los contornos que vuelven explícitamente al inicio antes de cerrarse, pueden usarse en 3D. Si un contorno o un borde no es válido, la simulación de la prenda se detiene pero el cuerpo actual sigue visible. El mensaje indica la pieza y el motivo; corrígela y actualiza el 3D. Esta vista del cuerpo no puede exportarse como resultado válido de prueba de la prenda.
 
 <a id="piece-colorwork"></a>
 ## Jacquard de pieza
 
 Abre Tejer → Jacquard de pieza, o 3D → Mostrar → Jacquard de pieza. Elige una pieza y un gráfico de colores existente. El motivo se repite según la densidad de puntos y filas desde el centro inferior. Puedes elegir un motivo único, desplazar por puntos/filas enteros, cambiar el fondo y sustituir colores. También se arrastra por puntos y filas enteros en el lienzo. Se recorta en cuello, sisas y bordes. Cada celda sigue siendo un punto por una fila, sin estirarse. El fondo rellena celdas vacías/transparentes y el exterior de un motivo único.
 
-Guardar y eliminar admiten deshacer; Cancelar no aplica cambios. Sincroniza tras cambiar el gráfico o la muestra. Si se detecta un cambio al guardar, se actualiza primero la vista previa para revisarla y guardar de nuevo. 2D, montaje, 3D y salida de tejido apta comparten la regla de color. El lado inicial solo cambia la numeración; se conservan puntos activos y símbolos inferiores. Solo admite celdas de color o derecho/revés simples; excluye celdas sin punto, puntos estructurales/de varias celdas y colores translúcidos. No incluye ajuste automático entre costuras, franjas, combinaciones guardadas, hebras reales ni simulación de tela.
+Guardar y eliminar admiten deshacer; Cancelar no aplica cambios. Sincroniza tras cambiar el gráfico o la muestra. Si se detecta un cambio al guardar, se actualiza primero la vista previa para revisarla y guardar de nuevo. 2D, montaje, 3D y salida de tejido apta comparten la regla de color. El lado inicial solo cambia la numeración; se conservan puntos activos y símbolos inferiores. Solo admite celdas de color o derecho/revés simples; excluye celdas sin punto, puntos estructurales/de varias celdas y colores translúcidos. El tejido de colores muestra la apariencia del color; aún no se simulan las hebras flotantes ni el comportamiento físico de la estructura real de los puntos. La caída global del tejido usa un material de referencia independiente, sin deducir sus propiedades del motivo de colores. Siguen sin incluirse la coincidencia automática en costuras, las bandas y las combinaciones de colores guardadas.
