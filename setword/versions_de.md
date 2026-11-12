@@ -9,6 +9,12 @@ lang: de
 
 > Für Funktionsvorschläge können Sie den Entwickler über Xiaohongshu am Ende der Feedback-Seite kontaktieren.
 
+### v2.1.10
+
+- Neue Apple Watch-Zusammenarbeit für Strickzähler, Strick- und Häkeldiagramm-Editoren sowie Stricknotizen.
+- Zählerstände und die Zeilenmarkierung im Strickdiagramm direkt auf der Watch ändern; Doppeltipp wird auf kompatiblen Modellen unterstützt.
+- Gestenaktionen pro Bereich festlegen, haptisches Feedback ein- oder ausschalten und flüssiger hintereinander zählen.
+
 ### v2.1.5
 
 - Komplett überarbeitete Schnittmustergestaltung mit mehr Freiheit beim Entwerfen – probieren Sie es aus.

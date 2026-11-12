@@ -8,6 +8,12 @@ lang: en
 
 > For feature suggestions, visit the bottom of the feedback page to contact the developer on Xiaohongshu.
 
+### v2.1.10
+
+- Added Apple Watch collaboration for knitting counters, knitting and crochet editors, and knitting notes.
+- Adjust counts and move the knitting row marker from your watch, with double tap shortcuts on supported models.
+- Set gesture actions for each section, turn haptic feedback on or off, and enjoy smoother repeated counting.
+
 ### v2.1.5
 
 - Completely redesigned pattern drafting with greater freedom to design — give it a try.

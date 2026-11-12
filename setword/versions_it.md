@@ -8,6 +8,12 @@ lang: it
 
 > Per suggerire nuove funzionalità, contatta lo sviluppatore su Xiaohongshu dal fondo della pagina dei feedback.
 
+### v2.1.10
+
+- Nuova collaborazione con Apple Watch per i contatori, gli editor di schemi ai ferri e all’uncinetto e le note di lavoro.
+- Aumenta o diminuisci il conteggio e sposta l’indicatore di riga ai ferri dall’orologio, con il gesto doppio tap sui modelli compatibili.
+- Imposta le azioni del gesto per ogni sezione, attiva o disattiva il feedback aptico e conta più fluidamente con tocchi consecutivi.
+
 ### v2.1.5
 
 - Progettazione dei cartamodelli completamente rinnovata, con più libertà creativa. Provala!

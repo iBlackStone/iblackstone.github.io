@@ -8,6 +8,12 @@ lang: es
 
 > Para sugerir nuevas funciones, contacta con el desarrollador en Xiaohongshu desde la parte inferior de la página de comentarios.
 
+### v2.1.10
+
+- Nueva colaboración con Apple Watch para los contadores, los editores de punto y ganchillo y las notas de tejido.
+- Aumenta o reduce el contador y mueve el marcador de fila de punto desde el reloj, con el gesto de doble toque en modelos compatibles.
+- Configura las acciones del gesto por sección, activa o desactiva la respuesta háptica y cuenta de forma más fluida al pulsar varias veces.
+
 ### v2.1.5
 
 - Diseño de patrones completamente renovado, con más libertad para crear. ¡Pruébalo!
