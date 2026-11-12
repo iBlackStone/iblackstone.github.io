@@ -182,6 +182,8 @@ Each horizontal counter page displays up to three counters. Swipe horizontally w
 
 Free users can use up to three counters.
 
+In Project Notes, open a counter’s More menu or touch and hold the counter, then choose Link with Apple Watch. A watch icon marks the linked counter. You can switch targets from the watch menu at the top right. Watch controls only the selected counter. Turning pages, hiding the panel or switching to another app keeps counting available while connected. Leaving the reader pauses collaboration. Return to the same note to resume. You can add or subtract repeatedly on Apple Watch. Predictable counts update immediately, and the pending count appears below. iPhone saves and confirms actions in order. Actions pause at a step that needs confirmation on iPhone and resume afterward. Check unconfirmed actions if you change targets or counting settings.
+
 ## Elements
 
 Open **More > Elements** to manage components and brush notes in one place.

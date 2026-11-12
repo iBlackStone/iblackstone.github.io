@@ -77,6 +77,8 @@ Aperçu → Comparer au gabarit part de la pièce actuelle. Choisissez le devant
 <a id="try-on-3d"></a>
 ## Échantillons 3D et simulation avec un matériau de référence
 
+Dans la version publique, le bouton d’échantillon 3D de l’éditeur de patrons affiche un avis de maintenance. Les opérations 3D ci-dessous s’appliquent aux versions Debug.
+
 Ouvrez Aperçu → Échantillon 3D ou l’espace 3D : Personne, Assemblage, Drapé, Affichage, Caméra et Ajuster. Les patrons de base, comparaisons de dimensions 2D et vérifications des connexions restent disponibles. Le corps utilise un instantané enregistré des mesures ; choisissez un modèle neutre, féminin, masculin ou enfant dans la fiche de la personne. Les formes manquantes sont estimées par le modèle. La distance entre les points d’épaule sert de repère de placement ; les longueurs de surface non ajustées restent annotées. Changer de personne ne modifie pas les panneaux.
 
 Un panneau fermé valide suffit, sans jauge, rôle ni couture préalable. Dans Assemblage → Placement et fixation des panneaux, sélectionnez un panneau, placez-le devant la poitrine, dans le dos ou sur une épaule, puis déplacez-le avec un doigt ; deux doigts commandent la vue. Fixez deux points du bord supérieur, ajoutez ou retirez des fixations par toucher, tournez de 90° ou réinitialisez. Pour un débardeur simple, confirmez quatre assemblages aux épaules et aux côtés, en laissant encolure, emmanchures et ourlet ouverts.
@@ -89,9 +91,23 @@ Actualisez la 3D après modification des tracés 2D réels. Comparez avant et ap
 
 Les devants, dos et manches copiés des patrons de base, y compris les tracés revenant explicitement au point de départ avant fermeture, sont utilisables en 3D. Si un contour ou un bord est invalide, la simulation du vêtement s’arrête mais le corps actuel reste visible. Le message indique la pièce et la cause ; corrigez-la puis actualisez la 3D. Cet aperçu du corps ne peut pas être exporté comme résultat valide d’essayage du vêtement.
 
+Les aperçus 3D valides peuvent être enregistrés avec un projet et restaurés si le patron, le corps et les conditions de simulation correspondent toujours. Toute modification des données nécessite une nouvelle simulation ; les résultats en échec ou inachevés ne remplacent pas le dernier aperçu valide enregistré.
+
 <a id="piece-colorwork"></a>
 ## Jacquard de pièce
 
 Ouvrez Tricoter → Jacquard de pièce, ou 3D → Affichage → Jacquard de pièce. Choisissez une pièce et une grille de tricot en couleurs existante. Le motif se répète selon la densité des mailles et des rangs depuis le bas centré. Vous pouvez choisir un motif unique, saisir des décalages entiers, changer le fond et remplacer les couleurs. Le déplacement sur le canevas se fait aussi par mailles et rangs entiers. Le motif est découpé à l’encolure, aux emmanchures et aux bords, sans étirement : une case reste une maille sur un rang. Le fond remplit les cases vides/transparentes et l’extérieur d’un motif unique.
 
 Enregistrement et suppression sont annulables ; Annuler ne valide rien. Synchronisez après modification de la grille ou de l’échantillon. Un changement détecté à l’enregistrement actualise d’abord l’aperçu à vérifier avant de réenregistrer. 2D, assemblage, 3D et sortie de tricot admissible partagent la même règle de couleur ; le côté de départ change seulement la numérotation. Les mailles actives et symboles sous-jacents sont conservés. Seules les cases colorées ou mailles endroit/envers simples sont admises, sans cases sans maille, points structurels/multicases ni transparence partielle. Le jacquard représente l’aspect des couleurs ; les fils flottants et le comportement physique de la structure réelle des mailles ne sont pas encore simulés. Le drapé global du tissu utilise un matériau de référence indépendant, sans déduire ses propriétés du jacquard. Le raccord automatique aux coutures, les bordures et les palettes enregistrées restent indisponibles.
+
+<!-- bernat-debug-2026-11-10 -->
+Exemple Debug interne : reconstruisez l’app, puis ouvrez Bernat M en bas de Nouveau patron → Tricot → Génération par stratégie. Cette référence à quatre pièces de taille M fixe permet la modification, la sauvegarde et la réouverture. La gradation automatique, le col et les côtes restent à terminer. Le nouveau corps synthétique est utilisé pour un essayage expérimental ; la qualité finale et la sauvegarde du résultat sont en cours de validation.
+
+Une fois le calcul de Bernat M terminé, touchez **Essayage** et choisissez la poitrine, l’encolure, les poignets ou le bas. Les pointillés désignent le corps et les traits pleins le vêtement. Réglez l’aisance visée à la poitrine et comparez les deux poignets ou le bas devant et dos. Le panneau indique les repères issus du modèle, les dimensions d’encolure à confirmer et les résultats non validés par le contrôle qualité.
+
+Dans Bas, de courts pointillés marquent la taille de référence du corps. Touchez **Voir le corps** pour estomper le vêtement, puis **Rétablir le vêtement** pour revenir à la vue normale. Les repères se réalignent à la fin du déplacement.
+<!-- /bernat-debug-2026-11-10 -->
+
+<!-- bernat-debug-tryon-2026-11-10 -->
+Ouvrez la vue 3D pour utiliser le corps de référence synthétique. Une fois le calcul terminé, utilisez Partager pour enregistrer l’aperçu technique. Seuls les résultats ayant passé les contrôles qualité peuvent être enregistrés et rouverts comme essayages.
+<!-- /bernat-debug-tryon-2026-11-10 -->

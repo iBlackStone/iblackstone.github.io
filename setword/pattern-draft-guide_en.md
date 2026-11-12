@@ -77,6 +77,8 @@ Preview → Compare with Body Block starts from the current piece. Choose a fron
 <a id="try-on-3d"></a>
 ## 3D samples and reference material simulation
 
+In the release build, tapping the pattern editor’s 3D sample opens a maintenance notice. The 3D instructions below apply to Debug builds.
+
 Open Preview → 3D Sample or the 3D workspace: Person, Assembly, Drape, Display, Camera and Adjust. Body blocks, 2D dimension comparisons and connection checks remain available. Bodies use saved measurement snapshots; choose neutral, female, male or child templates in person details. Templates estimate missing shape. Shoulder-point width is a positioning proxy; notes identify unfitted surface lengths. Changing people leaves panels unchanged.
 
 A valid closed panel works without gauge, panel roles or seams. In Assembly → Panel Placement and Pinning, select a panel, place it in front of the chest, behind the back or over either shoulder, then drag with one finger; two fingers navigate. Pin two top-edge points, tap to add/remove pins, rotate 90°, or reset. For a basic vest, confirm four shoulder and side joins, leaving neckline, armholes and hem open.
@@ -89,9 +91,23 @@ Update 3D after changing actual 2D paths. Compare results before and after chang
 
 Front, back and sleeve panels copied from body blocks, including outlines that explicitly return to their start before closing, can enter 3D. If a panel outline or boundary is invalid, garment simulation stops while the current body remains visible. The message names the panel and reason; correct it and update 3D. This body preview cannot be exported as a valid garment result.
 
+Valid 3D previews can be saved with a project and restored when the pattern, body and simulation conditions still match. Input changes require a new simulation; failed or unfinished results do not overwrite the last saved valid preview.
+
 <a id="piece-colorwork"></a>
 ## Piece colorwork
 
 Open Knit → Piece colorwork, or 3D → Display → Piece colorwork. Choose a piece and an existing knitting color chart. The motif repeats at stitch and row gauge from the bottom center. Switch to a single motif, enter whole-stitch/row offsets, set the background, or replace individual source colors. Dragging on the canvas also moves it by whole stitches and rows. Necklines, armholes and outer edges clip the pattern. Each source cell stays one stitch by one row; it is never stretched to fit. The selected background fills empty/transparent source cells and the area outside a single motif.
 
 Save and delete support Undo; Cancel commits nothing. Sync after source or gauge changes. A change detected while saving first refreshes the preview for another review and save. 2D, assembly, 3D and eligible knitting output share the same sampling rule. Starting side changes numbering only; colorwork preserves active stitches and underlying symbols. This version accepts color cells or plain knit/purl only, excluding explicit no-stitch cells, multi-cell/structural stitches and translucent colors. Colorwork shows color appearance; yarn floats and the material behavior of the actual stitch structure are not yet simulated. Overall fabric drape uses an independent reference material rather than physical properties derived from the colorwork. Automatic seam matching, bands and saved colorways remain unavailable.
+
+<!-- bernat-debug-2026-11-10 -->
+Internal Debug sample: rebuild the app, then open Bernat M at the bottom of New Pattern → Knitting → Strategy Generation. This fixed-M four-panel reference supports editing, saving and reopening. The sample now uses a synthetic open-mesh body for experimental try-on. Automatic grading and neckband/rib details remain unfinished; final quality and result saving are under review.
+
+When the Bernat M simulation finishes, tap **Fit review** and choose Chest, Neckline, Cuffs, or Hem. Dashed lines point to the body and solid lines point to the garment. Set a target range for chest ease, compare both cuffs, or compare the front and back hem. Template landmarks, unfinished neckband dimensions, and simulations that fail quality checks are identified in the panel.
+
+In Hem, a short dashed line marks the body’s reference waistline. Tap **View body** to fade the garment, then **Restore garment** to return to the normal view. The guide lines realign after you finish moving the view.
+<!-- /bernat-debug-2026-11-10 -->
+
+<!-- bernat-debug-tryon-2026-11-10 -->
+Open 3D to try the sample on a synthetic reference body. When simulation finishes, use Share to save an engineering preview image. Only results that pass quality checks can be saved and reopened as try-on results.
+<!-- /bernat-debug-tryon-2026-11-10 -->

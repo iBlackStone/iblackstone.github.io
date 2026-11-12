@@ -4,6 +4,91 @@ title: "Version History"
 lang: en
 ---
 
+<!-- watch-settings-scenes-2026-11-12 -->
+- 2026-11-12 · In development, unreleased · Collaboration settings are separate for counters, knitting charts, notes and crochet charts. Counters, knitting charts, crochet charts and knitting notes support independent double-tap actions. In Project Notes, open a counter’s More menu or touch and hold the counter, then choose Link with Apple Watch. A watch icon marks the linked counter. You can switch targets from the watch menu at the top right. Watch controls only the selected counter. Turning pages, hiding the panel or switching to another app keeps counting available while connected. Leaving the reader pauses collaboration. Return to the same note to resume. You can add or subtract repeatedly on Apple Watch. Predictable counts update immediately, and the pending count appears below. iPhone saves and confirms actions in order. Actions pause at a step that needs confirmation on iPhone and resume afterward. Check unconfirmed actions if you change targets or counting settings. In a knitting chart, enter counting mode and enable the row marker to show a watch button beside More at the top right. Manually start or switch the target to move one row at a time. The chart is saved before binding. Watch shows the chart name, row number and total rows, and stops at the range boundary. Leaving counting mode, disabling the row marker or leaving the editor pauses collaboration; the bound chart keeps its watch entry. Reopen the same chart in counting mode to resume. Switching to another app to watch a video keeps the target available while connected. Full saves briefly pause operations and resume automatically. Changing row count or row origin requires rebinding. In a crochet chart, choose Link with Apple Watch from one counter’s More menu to bind only that counter. The top-right watch menu also lists targets and checks the current one. A small watch mark remains visible on the linked counter, including compact mode. Tapping other counters, renaming, reordering, paging or hiding the panel never changes the target. Switching to a video app keeps counting available while connected. Incrementing past a positive maximum wraps to zero; subtraction stops at zero. Reset keeps the binding; deleting the target ends it without selecting another. Leaving the editor or editing a counter pauses collaboration; returning to the same chart resumes it. Binding saves first, full saves briefly pause operations, and crochet gestures have their own preference. Count haptic feedback under Watch feedback is on by default and can be turned off. This preference is independent of projects and controls vibrations after successful button or gesture counts. It syncs when the watch is connected.
+<!-- /watch-settings-scenes-2026-11-12 -->
+
+<!-- workspace-recommendation-title-2026-11-11 -->
+- 2026-11-11 (in development, unreleased) — A dark gradient behind the titles on Home recommendation cards makes white text easier to read on light covers.
+<!-- /workspace-recommendation-title-2026-11-11 -->
+
+<!-- pattern-draft-3d-maintenance-2026-11-11 -->
+- 2026-11-11 (in development, unreleased) · In the release build, tapping the pattern editor’s 3D sample opens a maintenance notice.
+<!-- /pattern-draft-3d-maintenance-2026-11-11 -->
+
+<!-- bernat-debug-2026-11-10 -->
+2026-11-10 · Debug · Internal Debug sample: rebuild the app, then open Bernat M at the bottom of New Pattern → Knitting → Strategy Generation. This fixed-M four-panel reference supports editing, saving and reopening. The sample now uses a synthetic open-mesh body for experimental try-on. Automatic grading and neckband/rib details remain unfinished; final quality and result saving are under review.
+
+2026-11-11 · Debug · When the Bernat M simulation finishes, tap **Fit review** and choose Chest, Neckline, Cuffs, or Hem. Dashed lines point to the body and solid lines point to the garment. Set a target range for chest ease, compare both cuffs, or compare the front and back hem. Template landmarks, unfinished neckband dimensions, and simulations that fail quality checks are identified in the panel. In Hem, a short dashed line marks the body’s reference waistline. Tap **View body** to fade the garment, then **Restore garment** to return to the normal view. The guide lines realign after you finish moving the view.
+<!-- /bernat-debug-2026-11-10 -->
+
+
+<!-- discover-detail-2026-11-09 -->
+- 2026-11-09 (in development, unreleased): Fixed repeated full-library reads blocking the main thread when opening knitting chart details from Home or Discover. Saved-copy status is checked in the background. Card text and blank areas in Discover, Favorites and Likes open details; cover previews and favorites remain separate actions.
+- Filters start collapsed in all four Discover channels, with Expand or Collapse beside search. Active counts, clear actions and list position are preserved. Crochet quotes also check full-library saved copies in the background; existing paid copies remain usable.
+- The expand/collapse button now fits its content with a smaller arrow, leaving more width for search.
+<!-- /discover-detail-2026-11-09 -->
+
+<!-- discover-recommendations-2026-11-08 -->
+- 2026-11-08 (in development, unreleased): Home and Discover feature built-in knitting charts, crochet charts and pattern strategies with stable daily rotation. Home Quick Start opens the matching Discover channel. Discover remembers your tab and per-channel filters, shows local content first and keeps it during background refresh. Built-in recommendations open details before you add, open or use the content.
+- Fixed clipped content at the bottom of Discover lists so the last card can scroll fully into view; list heights follow channel and window-size changes.
+<!-- /discover-recommendations-2026-11-08 -->
+
+
+<!-- crochet-instructions-2026-11-08 -->
+- 2026-11-08 (in development). The crochet editor now lets you read and edit instructions, locate the symbols for a step, and tap a symbol to find its step. Newly added copies of the single crochet swatch, eight-loop star and triple flower include instructions.
+- All 19 built-in crochet charts in Discover now include step-by-step instructions. Open the book in the crochet editor to locate the symbols for each step. Saved copies that match the original load the instructions when you open the book.
+<!-- /crochet-instructions-2026-11-08 -->
+
+<!-- discover-earth-2026-11-08 -->
+- 2026-11-08 (in development). Discover adds Two-Color 3D Earth at the CNY 6 unlock tier, with round counts, blue-green color changes and a six-stitch decrease closure in an editable chart.
+<!-- /discover-earth-2026-11-08 -->
+
+<!-- discover-snowman-2026-11-08 -->
+- 2026-11-08 (in development). Discover adds the Three-part Crochet Snowman at the CNY 6 unlock tier, with numbered rounds, shaping, two sc5tog closures and colored eyes and nose.
+<!-- /discover-snowman-2026-11-08 -->
+
+<!-- discover-stocking-2026-11-08 -->
+- 2026-11-08 (in development). Discover adds Popcorn Stocking at the CNY 6 unlock tier. The complete chart includes numbered stages, a source and an editable copy. Choose the size using your yarn, hook and gauge swatch.
+- Fixed same-day sorting in the Discover crochet channel. When sorting by latest release, later batches now appear first.
+<!-- /discover-stocking-2026-11-08 -->
+
+<!-- discover-paid-crochet-2026-11-08 -->
+- 2026-11-08 (in development): Discover adds two complete complex crochet charts, Flower Granny Square and Shaped Baby Bootie, each at the CNY 6 unlock tier. Both include numbered stages, sources and editable copies. Determine the bootie size with your yarn, hook and gauge swatch.
+<!-- /discover-paid-crochet-2026-11-08 -->
+
+<!-- discover-crochet-charts-2026-11-08 -->
+<!-- discover-apple-luna-high-2026-11-08 -->
+- 2026-11-08 (in development): Discover → Crochet adds Shaped Apple, a complete 983-stitch chart at the CNY 6 tier. It includes segmented rounds, shared-base increase guides, source details and an editable copy; independent review and simplified-Chinese simulator acceptance passed.
+- Follow-up: Stitch sequence, chart layout and App readback passed; side-by-side comparison with the source 3D model is still pending, so the finished shape is not yet confirmed.
+<!-- /discover-apple-luna-high-2026-11-08 -->
+- 2026-11-08 (in development): Discover → Crochet adds a three-layer flower, a double-sided five-petal flower, and a picot-edged leaf. All three include source links and chart-reading notes. Each uses the CNY 1 unlock tier. Unlock a chart to add an editable copy. Previously saved copies still open directly. Built-in charts fit the canvas on first open and restore your saved view on reopening.
+<!-- /discover-crochet-charts-2026-11-08 -->
+
+<!-- discover-chart-commerce-2026-11-07 -->
+- 2026-11-07 (in development, not publicly released): Discover adds All / Free / Paid filters, native reference charts with viewable sources, and per-chart unlocks. Consumable unlock records are included in full-library backups; unfinished transactions can be retried without starting a new payment.
+- New copies are filled with knit stitches for working in the round. Line adds these stitches, and you can edit them.
+- Discover covers, full-size previews, and new copy thumbnails show the knit stitches for these reference charts.
+- Open Discover → Crochet to browse the first 10 built-in charts, including swatches, textured stitches, edgings, and motifs. Open a chart’s details to see its source and preview its stitch symbols. Add a chart to edit a local copy in the crochet editor. Paid charts unlock individually at the same consumable in-app purchase tiers as knitting charts. Use All, Free, or Paid to filter the list.
+- The first 10 knitting and 10 crochet charts are now free. Future pricing considers meaningful stitch symbols in one complete motif or the smallest repeat. Up to 100 symbols, basic repeats and simple colorwork are free. Charts with 101–300 symbols and moderate complexity may qualify for the ¥1 (CNY) tier. Charts with 301 or more symbols, high complexity and a complete deliverable may qualify for ¥6 (CNY). Symbol count alone never makes a chart paid. The store determines the actual purchase price.
+<!-- /discover-chart-commerce-2026-11-07 -->
+
+<!-- chart-json-readback-2026-11-06 -->
+- 2026-11-06 (in development, unreleased): Fixed restoration of bold grid-line colors when reading knitting chart JSON. Targeted native simulator tests passed; physical-device checks are pending.
+
+
+<!-- discover-filter-selection-2026-11-06 -->
+- Discover category and theme filters now use a light orange fill, orange text and a thin border for selection, with matching light and dark appearances.
+
+<!-- discover-content-search-2026-11-06 -->
+- 2026-11-06 (in development, unreleased): Discover channels gain search, category/theme filters and recommended/date sorting, with retry for cached or partial results. Static checks and compilation passed; device validation is pending.
+
+- 2026-11-06 (in development, unreleased): Updated the knitting and crochet editors’ top toolbars to follow the current safe area and avoid the notch or Dynamic Island. Physical-device validation is pending.
+
+- Pattern 3D: improved shoulder/arm and hip/leg transitions, saved and restored valid previews with projects, and fixed stage updates when resuming simulation. Full-garment try-on is still being improved.
+
+- 2026-10-27 (in development, unreleased): Pattern Draft adds measurement-driven mannequin templates and real 3D samples with reference materials. Place and temporarily pin closed panels, drape them under gravity, and join a basic vest. Update after editing 2D contours, compare under matching conditions, and export an image. Body blocks and 2D comparisons remain; former pseudo-3D entries lead to real 3D. Simulator checks completed; physical-device acceptance is pending. No precise fit or pressure verdict is provided. Fixed closed-path and mirrored-boundary compatibility for copied body-block panels and false self-intersections from straight-edge sampling. Invalid panels now leave the current body visible with a reason and can be retried after correction.
+
 - 2026-10-26 (in development, unreleased): Pattern Draft adds task menus, line/circle/construction tools, unified object ordering and locks, 1:1 front/back body-block comparison, window context, paper styles and shared record/file previews. Older documents remain supported. Not compiled; device validation pending. Also adds ellipses, piece stretch/proportional scale, aspect lock, precise dimensions and independent layout rotation. Resizing updates estimates; layout preserves knitting direction. Body references gain a read-only selection frame and position unlock/drag controls. Selecting a reference exits drawing; position changes support undo and saving. Automatic object menus stay hidden during drawing and return in selection or node editing. Selected-object menus offer frequent actions and direct access to Objects & Layers. Row menus add editing, rename, duplicate, stacking and confirmed deletion, respect locks and hide references without deleting their source. Piece deletion retains manual annotations and chart records with invalid-link warnings and supports Undo. Body-block front, back, sleeve and individual body references now move, hide and reorder independently. Double-tap opens quick editing with a return to the previous tool; sketches and images support whole-object transforms. Completed geometry and explicitly finished contours show actions in a fixed tool area while preserving the drawing tool. Brush, eraser and unfinished paths stay uninterrupted.
 
 - 2026-10-26 (in development, unreleased): Buttons, lists and canvases remain interactive while ordinary brief messages are visible. Loading messages retain their existing interaction blocking. Project Notes keeps messages near the top and fixes newer messages being cleared too early. Not compiled; device validation pending.
@@ -365,3 +450,7 @@ Yarn module upgrade
 
 
 > Other version updates can be viewed on the AppStore-App homepage.
+
+<!-- bernat-debug-tryon-2026-11-10 -->
+Open 3D to try the sample on a synthetic reference body. When simulation finishes, use Share to save an engineering preview image. Only results that pass quality checks can be saved and reopened as try-on results.
+<!-- /bernat-debug-tryon-2026-11-10 -->

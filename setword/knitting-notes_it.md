@@ -182,6 +182,8 @@ Ogni pagina orizzontale del contatore mostra fino a tre contatori. Scorri orizzo
 
 Gli utenti gratuiti possono utilizzare fino a tre contatori.
 
+Nelle note, apri il menu di un contatore o tienilo premuto, poi scegli Collega ad Apple Watch. Un’icona contrassegna il contatore collegato. Il menu orologio in alto a destra consente di cambiare destinazione. L’orologio controlla solo il contatore selezionato. Puoi cambiare pagina, nascondere il pannello o passare a un’altra app continuando a contare se connesso. Lasciare il lettore mette in pausa. Riapri la stessa nota per riprendere. Su Apple Watch puoi aumentare o diminuire il conteggio più volte di seguito. I valori prevedibili appaiono subito e sotto vedi le operazioni in attesa. iPhone salva e conferma le azioni in ordine. Le operazioni si mettono in pausa quando serve una conferma su iPhone. Verifica le azioni non confermate se cambi destinazione o impostazioni.
+
 ## Elementi
 
 Apri **Altro > Elementi** per gestire i componenti e le note di pennello in un unico posto.

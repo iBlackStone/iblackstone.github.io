@@ -77,6 +77,8 @@ Anteprima → Confronta con la base parte dal pezzo attuale. Scegli base davanti
 <a id="try-on-3d"></a>
 ## Campioni 3D e simulazione con materiale di riferimento
 
+Nella versione pubblica, toccando il campione 3D nell’editor del modello appare un avviso di manutenzione. Le istruzioni 3D qui sotto si applicano alle versioni Debug.
+
 Apri Anteprima → Campione 3D o lo spazio 3D: Persona, Assemblaggio, Drappeggio, Visualizzazione, Camera e Regola. Restano disponibili tutti i modelli base del corpo, i confronti dimensionali 2D e i controlli dei collegamenti. Il corpo usa un’istantanea salvata delle misure; nella scheda persona scegli un modello neutro, femminile, maschile o bambino. Le forme mancanti sono stimate dal modello. La distanza tra i punti delle spalle è un riferimento di posizionamento; le lunghezze di superficie non adattate mantengono le note. Cambiare persona non modifica i pannelli.
 
 Basta un pannello chiuso valido, senza campione di tensione, ruoli o cuciture preliminari. In Assemblaggio → Posizionamento e fissaggio dei pannelli, seleziona un pannello, mettilo davanti al torace, dietro la schiena o su una spalla, poi trascinalo con un dito; due dita controllano la vista. Fissa due punti superiori, aggiungi o rimuovi fissaggi con un tocco, ruota di 90° o ripristina. Per un gilet base, conferma quattro giunzioni su spalle e fianchi, lasciando aperti scollo, giromanica e orlo.
@@ -89,9 +91,23 @@ Aggiorna il 3D dopo modifiche ai tracciati 2D reali. Confronta prima e dopo dall
 
 I pannelli davanti, dietro e delle maniche copiati dai modelli base, compresi i contorni che tornano esplicitamente al punto iniziale prima della chiusura, sono utilizzabili in 3D. Se un contorno o un bordo non è valido, la simulazione del capo si ferma ma il corpo attuale resta visibile. Il messaggio indica il pannello e il motivo: correggilo e aggiorna il 3D. Questa anteprima del corpo non può essere esportata come risultato valido di prova del capo.
 
+Le anteprime 3D valide possono essere salvate con un progetto e ripristinate se il modello, il corpo e le condizioni di simulazione corrispondono ancora. Le modifiche ai dati richiedono una nuova simulazione; i risultati non riusciti o incompleti non sovrascrivono l’ultima anteprima valida salvata.
+
 <a id="piece-colorwork"></a>
 ## Jacquard del pezzo
 
 Apri Lavora a maglia → Jacquard del pezzo, oppure 3D → Visualizzazione → Jacquard del pezzo. Scegli un pezzo e uno schema a colori esistente. Il motivo si ripete secondo il campione di maglie e ferri dal centro inferiore. Puoi scegliere un motivo singolo, spostarlo per maglie/ferri interi, cambiare il fondo e sostituire i colori. Anche il trascinamento sulla tela avviene per maglie e ferri interi. Scollo, giromanica e bordi ritagliano il motivo. Ogni cella resta una maglia per un ferro, senza allungamenti. Il fondo copre le celle vuote/trasparenti e l’area esterna al motivo singolo.
 
 Salvataggio ed eliminazione sono annullabili; Annulla non applica nulla. Sincronizza dopo modifiche allo schema o al campione. Una modifica rilevata al salvataggio aggiorna prima l’anteprima da controllare e salvare di nuovo. 2D, assemblaggio, 3D e output ai ferri idoneo condividono la stessa regola di colore; il lato iniziale cambia solo la numerazione. Maglie attive e simboli sottostanti restano invariati. Sono ammesse solo celle colorate o semplici diritto/rovescio, escluse celle senza maglia, punti strutturali/multicella e semitrasparenze. La lavorazione a colori mostra l’aspetto cromatico; i fili flottanti e il comportamento fisico della struttura reale dei punti non sono ancora simulati. Il drappeggio complessivo del tessuto usa un materiale di riferimento indipendente, senza ricavare le proprietà dalla lavorazione a colori. Restano esclusi l’allineamento automatico alle cuciture, i bordi e le combinazioni di colori salvate.
+
+<!-- bernat-debug-2026-11-10 -->
+Esempio Debug interno: ricompilare l’app e aprire Bernat M in fondo a Nuovo modello → Maglia → Generazione tramite strategia. Il riferimento a quattro pezzi, taglia M fissa, può essere modificato, salvato e riaperto. Gradazione automatica, collo e coste restano da completare. Il nuovo corpo sintetico è collegato alla prova sperimentale; qualità finale e salvataggio del risultato sono in verifica.
+
+Al termine del calcolo di Bernat M, tocca **Vestibilità** e scegli torace, scollo, polsini oppure orlo. Le linee tratteggiate indicano il corpo e quelle continue il capo. Puoi impostare l’agio desiderato al torace e confrontare entrambi i polsini oppure gli orli davanti e dietro. Il pannello segnala i riferimenti del modello, le misure dello scollo da confermare e i risultati che non superano il controllo qualità.
+
+In Orlo, un breve tratteggio indica la vita di riferimento del corpo. Tocca **Mostra il corpo** per attenuare il capo e **Ripristina il capo** per tornare alla vista normale. Le linee guida si riallineano al termine dello spostamento.
+<!-- /bernat-debug-2026-11-10 -->
+
+<!-- bernat-debug-tryon-2026-11-10 -->
+La vista 3D usa un corpo di riferimento sintetico. Al termine del calcolo, usa Condividi per salvare un’immagine di anteprima tecnica. Solo i risultati che superano i controlli di qualità possono essere salvati e riaperti come prove.
+<!-- /bernat-debug-tryon-2026-11-10 -->

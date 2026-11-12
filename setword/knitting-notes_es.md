@@ -182,6 +182,8 @@ Cada página de contador horizontal muestra hasta tres contadores. Desliza horiz
 
 Los usuarios gratuitos pueden utilizar hasta tres contadores.
 
+En las notas, abre el menú de un contador o mantenlo pulsado y elige Vincular con Apple Watch. Un icono marca el contador vinculado. El menú del reloj arriba a la derecha permite cambiar el destino. El reloj controla solo el contador elegido. Puedes pasar páginas, ocultar el panel o cambiar de app y seguir contando mientras haya conexión. Salir del lector pausa la colaboración. Vuelve a la misma nota para reanudarla. Puedes sumar o restar varias veces seguidas en Apple Watch. Los valores predecibles se muestran al instante y debajo aparece el número de acciones pendientes. El iPhone guarda y confirma las acciones en orden. Si se necesita confirmar en el iPhone, las acciones se pausan hasta que confirmes. Revisa las acciones sin confirmar si cambias de destino o de configuración.
+
 ## Elementos
 
 Abra **Más > Elementos** para administrar componentes y notas de pincel en un solo lugar.

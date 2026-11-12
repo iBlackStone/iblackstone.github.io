@@ -4,6 +4,91 @@ title: "Historial de versiones"
 lang: es
 ---
 
+<!-- watch-settings-scenes-2026-11-12 -->
+- 2026-11-12 · En desarrollo, sin publicar · Los ajustes se separan para contadores, gráficos de punto, notas y ganchillo. Los contadores, los gráficos de punto y ganchillo y las notas permiten configurar el doble toque por separado. En las notas, abre el menú de un contador o mantenlo pulsado y elige Vincular con Apple Watch. Un icono marca el contador vinculado. El menú del reloj arriba a la derecha permite cambiar el destino. El reloj controla solo el contador elegido. Puedes pasar páginas, ocultar el panel o cambiar de app y seguir contando mientras haya conexión. Salir del lector pausa la colaboración. Vuelve a la misma nota para reanudarla. Puedes sumar o restar varias veces seguidas en Apple Watch. Los valores predecibles se muestran al instante y debajo aparece el número de acciones pendientes. El iPhone guarda y confirma las acciones en orden. Si se necesita confirmar en el iPhone, las acciones se pausan hasta que confirmes. Revisa las acciones sin confirmar si cambias de destino o de configuración. En el gráfico, activa el modo de conteo y el marcador de fila: aparece un reloj a la izquierda de Más, arriba a la derecha. Inicia o cambia el destino manualmente para mover una fila cada vez. El gráfico se guarda antes de vincularse. El reloj muestra nombre, fila y total de filas y se detiene en los límites. Salir del conteo, desactivar el marcador o dejar el editor pausa la colaboración; el gráfico vinculado conserva el botón del reloj. Vuelve a abrirlo en modo de conteo para continuar. Puedes cambiar a otra app para ver un vídeo y seguir contando mientras haya conexión. El guardado completo pausa brevemente las operaciones y las reanuda automáticamente. Cambiar el número o el origen de las filas requiere volver a vincular. En un gráfico de ganchillo, elige Vincular con Apple Watch en el menú de un contador para controlar solo ese. El menú del reloj arriba a la derecha también muestra destinos y marca el actual. El contador vinculado conserva un icono de reloj incluso en modo compacto. Tocar otros contadores, renombrar, reordenar, cambiar de página u ocultar el panel no cambia el destino. Puedes seguir desde una app de vídeo mientras haya conexión. Superar un límite positivo vuelve a cero; la resta se detiene en cero. Reiniciar conserva el vínculo; borrar el destino lo termina sin elegir otro. Dejar el editor o editar un contador pausa la colaboración; volver al mismo gráfico la reanuda. Se guarda antes de vincular, el guardado completo pausa brevemente y los gestos de ganchillo tienen su propio ajuste. La respuesta háptica del contador, en Respuesta del reloj, está activada por defecto y se puede desactivar. Es independiente de los proyectos, controla la vibración tras un conteo correcto con botones o gestos y se sincroniza cuando el reloj está conectado.
+<!-- /watch-settings-scenes-2026-11-12 -->
+
+<!-- workspace-recommendation-title-2026-11-11 -->
+- 2026-11-11 (en desarrollo, sin publicar) — Un degradado oscuro detrás de los títulos de las tarjetas de recomendaciones de Inicio facilita la lectura del texto blanco sobre portadas claras.
+<!-- /workspace-recommendation-title-2026-11-11 -->
+
+<!-- pattern-draft-3d-maintenance-2026-11-11 -->
+- 2026-11-11 (en desarrollo, sin publicar) · En la versión pública, al tocar la muestra 3D del editor de patrones aparece un aviso de mantenimiento.
+<!-- /pattern-draft-3d-maintenance-2026-11-11 -->
+
+<!-- bernat-debug-2026-11-10 -->
+2026-11-10 · Debug · Ejemplo Debug interno: recompila la app y abre Bernat M al final de Nuevo patrón → Punto → Generación por estrategia. Esta referencia de cuatro piezas y talla M fija permite editar, guardar y volver a abrir. La gradación automática, el cuello y los elásticos siguen pendientes. El nuevo cuerpo sintético permite una prueba experimental; la calidad final y el guardado del resultado están en revisión.
+
+2026-11-11 · Debug · Cuando termine el cálculo de Bernat M, pulsa **Ajuste** y elige pecho, escote, puños o bajo. Las líneas discontinuas señalan el cuerpo y las continuas, la prenda. Puedes definir el intervalo de holgura del pecho y comparar ambos puños o el bajo delantero y trasero. El panel indica las referencias de la plantilla, las medidas del escote pendientes y los resultados que no superaron el control de calidad. En Bajo, una línea discontinua corta señala la cintura de referencia del cuerpo. Pulsa **Ver el cuerpo** para atenuar la prenda y **Restaurar prenda** para volver a la vista normal. Las líneas se reajustan al terminar de mover la vista.
+<!-- /bernat-debug-2026-11-10 -->
+
+
+<!-- discover-detail-2026-11-09 -->
+- 2026-11-09 (en desarrollo, sin publicar): Se corrigieron las lecturas repetidas de toda la biblioteca que bloqueaban el hilo principal al abrir los detalles de gráficos de punto desde Inicio o Discover. Las copias guardadas se comprueban en segundo plano. El texto y las áreas vacías de las tarjetas de Discover, Favoritos y Me gusta abren los detalles; la vista previa y los favoritos siguen siendo acciones independientes.
+- Los filtros empiezan contraídos en los cuatro canales de Discover y se expanden o contraen junto a la búsqueda. Se conservan el recuento activo, el borrado y la posición de la lista. Las cotizaciones de ganchillo también comprueban copias guardadas en segundo plano; las copias de pago existentes siguen disponibles.
+- El botón de expandir o contraer se ajusta a su contenido y usa una flecha más pequeña, dejando más ancho para la búsqueda.
+<!-- /discover-detail-2026-11-09 -->
+
+<!-- discover-recommendations-2026-11-08 -->
+- 2026-11-08 (en desarrollo, sin publicar): Inicio y Descubrir recomiendan gráficos de punto, ganchillo y estrategias de patrones integrados con una selección estable durante el día. Inicio rápido abre el canal correspondiente de Descubrir. Se recuerdan la pestaña y los filtros de cada canal; el contenido local aparece primero y se mantiene durante la actualización. Las recomendaciones abren los detalles antes de añadir, abrir o usar el contenido.
+- Se corrige el recorte al final de las listas de Descubrir para que la última tarjeta pueda verse completa; la altura se adapta a los cambios de canal y de tamaño de ventana.
+<!-- /discover-recommendations-2026-11-08 -->
+
+
+<!-- crochet-instructions-2026-11-08 -->
+- 2026-11-08 (en desarrollo). El editor de crochet permite leer y editar instrucciones, localizar los símbolos de un paso y tocar un símbolo para encontrar su paso. Las nuevas copias de la muestra de punto bajo, la estrella de ocho bucles y la flor de tres capas incluyen instrucciones.
+- Los 19 diagramas de crochet integrados de Descubrir incluyen instrucciones paso a paso. Abre el libro en el editor para localizar los símbolos de cada paso. Las copias guardadas que coincidan con el original cargan las instrucciones al abrirlo.
+<!-- /crochet-instructions-2026-11-08 -->
+
+<!-- discover-earth-2026-11-08 -->
+- 2026-11-08 (en desarrollo). Descubrir incorpora Tierra tridimensional de dos colores por 6 yuanes, con recuentos por vuelta, cambios de azul y verde y cierre de seis puntos juntos en un gráfico editable.
+<!-- /discover-earth-2026-11-08 -->
+
+<!-- discover-snowman-2026-11-08 -->
+- 2026-11-08 (en desarrollo). Descubrir incorpora el Muñeco de nieve de tres piezas por 6 yuanes, con vueltas numeradas, aumentos, disminuciones, dos cierres y detalles de color.
+<!-- /discover-snowman-2026-11-08 -->
+
+<!-- discover-stocking-2026-11-08 -->
+- 2026-11-08 (en desarrollo). Descubrir incorpora el Calcetín de punto popcorn por 6 yuanes. El gráfico completo incluye etapas numeradas, la fuente y una copia editable. La talla depende del hilo, la aguja y la muestra.
+- Se corrigió el orden de los gráficos de ganchillo publicados el mismo día. Al ordenar por fecha de publicación, los lotes más recientes aparecen primero.
+<!-- /discover-stocking-2026-11-08 -->
+
+<!-- discover-paid-crochet-2026-11-08 -->
+- 2026-11-08 (en desarrollo): Descubrir incorpora dos gráficos completos y complejos, un cuadrado granny con flor y un patucó de bebé, cada uno en el nivel de 6 yuanes. Incluyen etapas numeradas, fuentes y copias editables. El tamaño del patucó depende del hilo, la aguja y la muestra.
+<!-- /discover-paid-crochet-2026-11-08 -->
+
+<!-- discover-crochet-charts-2026-11-08 -->
+<!-- discover-apple-luna-high-2026-11-08 -->
+- 2026-11-08 (en desarrollo): Descubrir → Ganchillo incorpora Manzana tridimensional, un gráfico completo de 983 puntos en el nivel de 6 yuanes. Incluye vueltas segmentadas, marcas de aumentos en una misma base, fuente y copia editable; superó la revisión independiente y la aceptación en simulador en chino simplificado.
+- Nota: Se validaron la secuencia de puntos, el diseño del gráfico y la lectura en la app; falta comparar la forma completa con el modelo 3D de la fuente, por lo que aún no está confirmada.
+<!-- /discover-apple-luna-high-2026-11-08 -->
+- 2026-11-08 (en desarrollo): Descubrir → Ganchillo incorpora una flor de tres capas, una flor de cinco pétalos de doble cara y una hoja con borde de picots. Los tres gráficos incluyen la fuente y las instrucciones de lectura. Cada uno se desbloquea en el nivel de 1 yuan. Las copias ya guardadas se abren directamente. Los gráficos integrados se muestran completos al abrirlos por primera vez y recuperan la vista guardada al volver a abrirlos.
+<!-- /discover-crochet-charts-2026-11-08 -->
+
+<!-- discover-chart-commerce-2026-11-07 -->
+- 2026-11-07 (en desarrollo, sin publicar): Descubrir añade filtros Todo / Gratis / De pago, gráficos nativos de referencia con fuente consultable y desbloqueos individuales. Los desbloqueos consumibles se incluyen en las copias de seguridad completas; las transacciones incompletas se pueden reintentar sin iniciar un nuevo pago.
+- Las copias nuevas se rellenan con puntos del derecho para tejer en redondo. Line añade estos puntos y puedes editarlos.
+- Las portadas y las vistas ampliadas en Descubrir, así como las miniaturas de las nuevas copias, muestran los puntos del derecho de estos gráficos de referencia.
+- En «Descubrir → Ganchillo» puedes explorar los primeros 10 gráficos integrados, con muestras, puntos con textura, bordes y motivos. Abre los detalles para consultar la fuente y ver los símbolos de los puntos. Añade un gráfico para editar una copia local en el editor de ganchillo. Los gráficos de pago se desbloquean uno a uno con los mismos niveles de precio de las compras consumibles dentro de la app que los gráficos de punto. Puedes filtrar la lista por «Todo», «Gratis» o «De pago».
+- Los primeros 10 gráficos de punto y 10 de ganchillo ya son gratuitos. Los precios futuros se evaluarán según los símbolos de puntos efectivos de un motivo completo o de la repetición mínima. Hasta 100 símbolos, las repeticiones básicas y los motivos de color sencillos son gratuitos. Entre 101 y 300 símbolos, con complejidad media, un gráfico puede optar al nivel de 1 yuan. A partir de 301, con complejidad alta y contenido completo, puede optar al de 6 yuanes. La cantidad por sí sola no convierte un gráfico en contenido de pago. El precio real será el que indique la tienda.
+<!-- /discover-chart-commerce-2026-11-07 -->
+
+<!-- chart-json-readback-2026-11-06 -->
+- 2026-11-06 (en desarrollo, sin publicar): Corregida la restauración del color de las líneas gruesas al leer gráficos de punto en JSON. Pruebas nativas específicas del simulador superadas; pendiente de comprobar en dispositivos físicos.
+
+
+<!-- discover-filter-selection-2026-11-06 -->
+- Los filtros de categoría y tema de Descubrir indican la selección con fondo naranja suave, texto naranja y un borde fino, adaptados a los modos claro y oscuro.
+
+<!-- discover-content-search-2026-11-06 -->
+- 2026-11-06 (en desarrollo, sin publicar): Descubrir añade búsqueda, filtros de categoría/tema y orden recomendado o por fecha, con recarga de resultados parciales o en caché. Comprobaciones estáticas y compilación superadas; prueba en dispositivo pendiente.
+
+- 2026-11-06 (en desarrollo, sin publicar): Las barras superiores de los editores de punto y ganchillo se ajustan al área segura actual para evitar que la muesca o Dynamic Island las oculten. Pendiente de validación en dispositivos físicos.
+
+- Patrones en 3D: mejores transiciones entre hombros y brazos y entre caderas y piernas, guardado y restauración de vistas previas válidas con el proyecto y corrección de las fases al reanudar la simulación. La prueba de prendas completas sigue en mejora.
+
+- 2026-10-27 (en desarrollo, sin publicar): Plantillas corporales basadas en medidas y muestras 3D reales con materiales de referencia. Coloca y fija temporalmente piezas cerradas, observa su caída por gravedad y une un chaleco básico. Actualiza tras editar contornos 2D, compara en las mismas condiciones y exporta una imagen. Se conservan los patrones base y las comparaciones 2D; los antiguos accesos pseudo-3D abren el 3D real. Verificado en simulador; falta la aceptación en dispositivo. No ofrece conclusiones precisas de ajuste o presión. Se corrigió la compatibilidad del cierre y los bordes reflejados de las piezas copiadas de patrones base, así como las falsas autointersecciones de bordes rectos. Las piezas no válidas mantienen visible el cuerpo actual con una explicación y permiten reintentar tras corregirlas.
+
 - 2026-10-26 (en desarrollo, sin publicar): menús por tarea, rectas/círculos/puntos, orden y bloqueo unificados, comparación delantero/espalda con base 1:1, contexto, papel y vistas compartidas. Documentos antiguos conservados. Sin compilar; validación en dispositivo pendiente. Añade elipses, estiramiento y escala proporcional, bloqueo de proporciones, medidas precisas y giro independiente de disposición. El tamaño actualiza las estimaciones; la disposición conserva la dirección de tejido. Las referencias corporales incluyen marco de solo lectura y desbloqueo de posición para arrastrar. Seleccionarlas sale del dibujo; los cambios se pueden deshacer y guardar. Los menús automáticos de objetos se ocultan al dibujar y vuelven al seleccionar o editar nodos. Los menús de selección ofrecen acciones frecuentes y acceso directo a Objetos y capas. Las filas permiten editar, renombrar, duplicar, ordenar y eliminar con confirmación respetando los bloqueos. Ocultar referencias conserva su fuente; eliminar piezas conserva anotaciones manuales y registros de gráficos con avisos de vínculo inválido y admite Deshacer. Delantero, espalda, manga y referencias corporales se mueven, ocultan y ordenan por separado. El doble toque abre edición rápida con vuelta a la herramienta anterior; bocetos e imágenes admiten transformación completa. Geometría terminada y contornos finalizados explícitamente muestran acciones en una zona fija manteniendo la herramienta. Pincel, goma y rutas incompletas no abren menús automáticos.
 
 - 2026-10-26 (en desarrollo, sin publicar): Los botones, las listas y los lienzos siguen respondiendo mientras se muestran avisos breves. Los avisos de carga mantienen el bloqueo de interacción existente. Las notas de tejido conservan los avisos en la parte superior y corrigen la desaparición prematura de los avisos nuevos. Sin compilar; pendiente de validación en dispositivos.
@@ -345,3 +430,7 @@ Actualización del módulo de hilo
 
 
 > Se pueden ver otras actualizaciones de versiones en la página de inicio de la aplicación AppStore.
+
+<!-- bernat-debug-tryon-2026-11-10 -->
+La vista 3D usa un cuerpo de referencia sintético. Al terminar el cálculo, usa Compartir para guardar una imagen de vista previa técnica. Solo los resultados que superen los controles de calidad pueden guardarse y volver a abrirse como pruebas.
+<!-- /bernat-debug-tryon-2026-11-10 -->

@@ -77,6 +77,8 @@ Vorschau → Mit Grundschnitt vergleichen beginnt beim aktuellen Teil. Vorder-/R
 <a id="try-on-3d"></a>
 ## 3D-Muster und Simulation mit Referenzmaterial
 
+In der veröffentlichten Version zeigt die Schaltfläche für das 3D-Muster im Schnitteditor einen Wartungshinweis an. Die folgenden 3D-Schritte gelten für Debug-Builds.
+
 Öffne Vorschau → 3D-Muster oder den 3D-Arbeitsbereich mit Person, Zusammenbau, Stofffall, Anzeige, Kamera und Anpassen. Alle Körpergrundschnitte, 2D-Maßvergleiche und Verbindungsprüfungen bleiben verfügbar. Der Körper nutzt einen gespeicherten Stand der Messwerte. Wähle in den Personendaten eine neutrale, weibliche, männliche oder Kinder-Vorlage. Fehlende Formen werden daraus geschätzt. Der Schulterpunktabstand dient als Positionierungshilfe; nicht angepasste Oberflächenlängen bleiben erläutert. Ein Personenwechsel verändert die Strickteile nicht.
 
 Ein gültiges geschlossenes Strickteil genügt, auch ohne Maschenprobe, zugewiesene Rollen oder Nähte. Wähle unter Zusammenbau → Strickteile platzieren und fixieren ein Teil, lege es vor die Brust, hinter den Rücken oder über eine Schulter und ziehe mit einem Finger; zwei Finger steuern die Ansicht. Fixiere zwei obere Randpunkte, setze oder löse Fixierungen durch Tippen, drehe um 90° oder setze zurück. Bestätige bei einer einfachen Weste vier Schulter- und Seitenverbindungen; Hals-, Armausschnitte und Saum bleiben offen.
@@ -89,9 +91,23 @@ Aktualisiere 3D nach Änderungen der tatsächlichen 2D-Pfade. Vergleiche vorher 
 
 Aus Grundschnitten kopierte Vorder-, Rücken- und Ärmelteile lassen sich in 3D verwenden, auch wenn ihre Kontur vor dem Schließen ausdrücklich zum Startpunkt zurückkehrt. Bei einer ungültigen Kontur oder Randzuordnung stoppt die Kleidungssimulation, während der aktuelle Körper sichtbar bleibt. Die Meldung nennt Teil und Ursache; nach der Korrektur 3D aktualisieren. Diese Körpervorschau kann nicht als gültiges Anprobeergebnis exportiert werden.
 
+Gültige 3D-Vorschauen können mit einem Projekt gespeichert und wiederhergestellt werden, wenn Schnitt, Körper und Simulationsbedingungen weiterhin übereinstimmen. Geänderte Eingaben erfordern eine neue Simulation; fehlgeschlagene oder unvollständige Ergebnisse überschreiben die zuletzt gespeicherte gültige Vorschau nicht.
+
 <a id="piece-colorwork"></a>
 ## Farbmuster im Teil
 
 Öffne Stricken → Farbmuster im Teil oder 3D → Anzeige → Farbmuster im Teil. Wähle ein Teil und ein vorhandenes Farbdiagramm. Das Motiv wiederholt sich gemäß Maschen- und Reihendichte von unten mittig. Einzelmotiv, ganzzahlige Maschen-/Reihenversätze, Grundfarbe und Ersatzfarben sind einstellbar. Auch auf der Zeichenfläche wird in ganzen Maschen und Reihen verschoben. Hals-, Armausschnitte und Außenkanten beschneiden das Muster. Eine Zelle bleibt eine Masche mal eine Reihe; es wird nicht gestreckt. Leere/transparente Farbzellen und Flächen außerhalb eines Einzelmotivs erhalten die Grundfarbe.
 
 Speichern und Löschen sind rückgängig machbar; Abbrechen übernimmt nichts. Nach Diagramm- oder Maschenprobenänderungen abgleichen. Beim Speichern erkannte Änderungen aktualisieren erst die Vorschau zur erneuten Prüfung und Speicherung. 2D, Montage, 3D und zulässige Strickausgabe teilen die Farbabtastung. Die Anfangsseite ändert nur die Nummerierung; aktive Maschen und darunterliegende Symbole bleiben erhalten. Zulässig sind Farbzellen oder einfache rechte/linke Maschen; Keine-Masche-Zellen, mehrzellige/strukturelle Maschen und halbtransparente Farben sind ausgeschlossen. Farbmuster zeigen das farbliche Aussehen; Spannfäden und das Materialverhalten der tatsächlichen Maschenstruktur werden noch nicht simuliert. Für den gesamten Stofffall wird ein unabhängiges Referenzmaterial verwendet, dessen Eigenschaften nicht aus dem Farbmuster abgeleitet werden. Automatische Musteranpassung an Nähten, Blenden und gespeicherte Farbvarianten sind weiterhin nicht enthalten.
+
+<!-- bernat-debug-2026-11-10 -->
+Internes Debug-Beispiel: App neu bauen und Bernat M unten unter Neues Schnittmuster → Stricken → Strategieerstellung öffnen. Die vierteilige Referenz in fester Größe M lässt sich bearbeiten, speichern und erneut öffnen. Automatische Größenanpassung, Halsbündchen und Rippen sind noch nicht fertig. Die experimentelle Anprobe nutzt jetzt einen synthetischen Körper; endgültige Qualität und Ergebnisspeicherung werden geprüft.
+
+Nach Abschluss der Berechnung für Bernat M kannst du unter **Passform** Brust, Halsausschnitt, Bündchen oder Saum wählen. Gestrichelte Linien zeigen auf den Körper, durchgezogene auf das Kleidungsstück. Lege einen Zielbereich für die Brustzugabe fest und vergleiche beide Bündchen oder den vorderen und hinteren Saum. Das Fenster kennzeichnet Vorlagenpunkte, ausstehende Maße am Halsbündchen und Ergebnisse ohne bestandene Qualitätsprüfung.
+
+Im Bereich Saum markiert eine kurze gestrichelte Linie die Referenztaillenlinie. Tippe auf **Körper ansehen**, um das Kleidungsstück durchscheinend anzuzeigen, und auf **Kleidung wiederherstellen**, um zur normalen Ansicht zurückzukehren. Nach dem Verschieben richten sich die Hilfslinien wieder an der Ansicht aus.
+<!-- /bernat-debug-2026-11-10 -->
+
+<!-- bernat-debug-tryon-2026-11-10 -->
+Die 3D-Ansicht verwendet einen synthetischen Referenzkörper. Nach der Berechnung lässt sich über Teilen ein technisches Vorschaubild speichern. Nur Ergebnisse mit bestandener Qualitätsprüfung lassen sich als Anprobe speichern und wieder öffnen.
+<!-- /bernat-debug-tryon-2026-11-10 -->

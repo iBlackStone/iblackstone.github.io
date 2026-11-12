@@ -65,6 +65,42 @@ La segunda acción en la parte superior izquierda de Inicio abre el Wish Pool. E
 
 ### Descubrir
 
+<!-- discover-detail-2026-11-09 -->
+Toca el texto, un espacio vacío o el botón de detalles de una tarjeta en Discover, Favoritos o Me gusta para abrir los detalles. La portada sigue mostrando las imágenes y el corazón cambia el estado de favorito. Los detalles de los gráficos de punto integrados aparecen primero; Añadir o Abrir se activa tras buscar una copia guardada en segundo plano. La comprobación se repite al volver del editor.
+<!-- /discover-detail-2026-11-09 -->
+
+<!-- discover-recommendations-2026-11-08 -->
+Inicio muestra tres contenidos públicos locales antes de las recomendaciones operativas: un gráfico de punto, uno de ganchillo y una estrategia de patronaje. El total está limitado a 15. En las secciones Tejido y Ganchillo de Inicio rápido, «Descubrir gráficos» cambia la pestaña principal Descubrir al canal correspondiente; «Descubrir patrones» en Dibujo de patrones abre el canal de patrones.
+
+El Hero de Descubrir muestra hasta cinco elementos: al menos tres contenidos públicos locales y hasta dos recomendaciones operativas existentes. El contenido local ocupa los espacios operativos que falten. Los tres destacados fijos siempre incluyen uno local y dos operativos; el contenido local completa los que falten. La selección rota de forma estable según el día y el dispositivo y, cuando es posible, varía entre entradas. Un elemento integrado abre primero su ficha nativa, donde puedes añadirlo, abrirlo o usarlo. Las recomendaciones locales aparecen antes del diseño y la actualización en segundo plano mantiene visible el contenido actual.
+Los primeros 37 gráficos de punto siguen disponibles para buscar, ver y añadir en Descubrir → Punto. Ya no aparecen en las recomendaciones de Inicio, en el banner de Descubrir ni en los tres destacados. Los gráficos añadidos después pueden seguir recomendándose.
+<!-- /discover-recommendations-2026-11-08 -->
+
+<!-- discover-filter-collapse-2026-11-09 -->
+Los filtros empiezan contraídos en los cuatro canales de Discover. Usa Expandir o Contraer a la derecha de la búsqueda para mostrar u ocultar categorías, temas, precio y orden. La búsqueda, el número de condiciones activas, Borrar filtros y los avisos de caché permanecen visibles. Contraer conserva las condiciones y la posición de la lista sin volver a filtrar. Cada canal mantiene su estado durante la sesión.
+<!-- /discover-filter-collapse-2026-11-09 -->
+
+<!-- discover-content-search-2026-11-06 -->
+Cada lista de Descubrir permite buscar títulos, autores, descripciones, categorías y temas, y combinar categoría y tema. Ordena por recomendados, publicación o actualización más reciente. Los contenidos integrados antiguos sin fecha fiable se sitúan después de los que tienen fecha. La pestaña seleccionada y la categoría, el tema, el precio y el orden de cada canal se guardan entre aperturas de la app; la búsqueda y el desplazamiento solo duran la sesión actual. Borra los filtros para ver todo. Los filtros de lista no afectan al banner ni a los tres destacados. Los resultados en caché o incompletos se indican; toca el aviso para recargar.
+
+<!-- discover-chart-commerce-2026-11-07 -->
+#### Precios de gráficos y desbloqueo individual (en desarrollo, sin publicar)
+
+- Los filtros de precio Todo / Gratis / De pago de Descubrir se pueden combinar con categoría, tema y búsqueda.
+- Se añaden gráficos nativos de la app redibujados a partir de originales de referencia, cuya fuente se puede consultar en los detalles. Los gráficos sencillos son gratuitos; algunos se compran individualmente. El precio efectivo es el que muestra la tienda.
+- Cada registro de desbloqueo corresponde a ese gráfico, que después se puede abrir repetidamente. Las copias ya editadas no se sobrescriben.
+- Son compras dentro de la app de tipo consumible. Los registros de desbloqueo se guardan en los datos de la app y se incluyen en las copias de seguridad completas. Restaurar compras del App Store no permite recrear estos registros; conserva una copia de seguridad de los datos.
+- Para una transacción incompleta, selecciona Reintentar procesar la compra en los detalles. Solo se vuelve a procesar la transacción existente y no se inicia un nuevo pago.
+
+- Las copias nuevas de los gráficos de referencia incluyen puntos del derecho editables para tejer en redondo, y los colores originales y las copias existentes se mantienen intactos. Para rellenar una copia existente, abre **Puntadas de celda en blanco** en la edición de área y elige **Contraste automático** para usar un símbolo negro o blanco según el fondo de cada celda, o elige tú el color, sin sobrescribir los puntos ya introducidos.
+- Las portadas y las vistas ampliadas en Descubrir, así como las miniaturas de las nuevas copias, muestran los puntos del derecho de estos gráficos de referencia.
+- En «Descubrir → Ganchillo» puedes explorar los primeros 10 gráficos integrados, con muestras, puntos con textura, bordes y motivos. Abre los detalles para consultar la fuente y ver los símbolos de los puntos. Añade un gráfico para editar una copia local en el editor de ganchillo. Los gráficos de pago se desbloquean uno a uno con los mismos niveles de precio de las compras consumibles dentro de la app que los gráficos de punto. Puedes filtrar la lista por «Todo», «Gratis» o «De pago».
+- Los primeros 10 gráficos de punto y 10 de ganchillo ya son gratuitos. Los precios futuros se evaluarán según los símbolos de puntos efectivos de un motivo completo o de la repetición mínima. Hasta 100 símbolos, las repeticiones básicas y los motivos de color sencillos son gratuitos. Entre 101 y 300 símbolos, con complejidad media, un gráfico puede optar al nivel de 1 yuan. A partir de 301, con complejidad alta y contenido completo, puede optar al de 6 yuanes. La cantidad por sí sola no convierte un gráfico en contenido de pago. El precio real será el que indique la tienda.
+<!-- /discover-chart-commerce-2026-11-07 -->
+
+Descubrir muestra cuatro canales en este orden: Destacado, Punto, Ganchillo y Patronaje.
+
+
 Discover presenta patrones seleccionados de Ravelry y proyectos comunitarios aprobados. Explore los aspectos más destacados del banner y las tres recomendaciones destacadas, cambie de canal para ver más proyectos y baje para actualizar. Toque una imagen para ver más fotos o abra una tarjeta para ver los detalles públicos, marcarla como favorita o darle me gusta. Los artículos de Ravelry pueden abrir su código fuente o importarse. Los proyectos comunitarios se pueden importar como nuevas copias locales junto con las fotografías, notas del proyecto, diagramas de tejido y diagramas de crochet que el editor seleccionó explícitamente. En las tarjetas de Ravelry, una tarjeta bancaria en la esquina superior derecha de la portada izquierda indica un patrón de pago y un regalo indica uno gratuito; si se desconoce esta información, no aparece ningún distintivo.
 
 Utilice el menú Más superior derecho de Discover para abrir Favoritos, Me gusta y Mis envíos, o elija un proyecto local de la lista de proyectos existentes para publicar. El menú Más de detalles del proyecto también proporciona un acceso directo Publicar para descubrir. El editor enumera campos públicos y recursos que se pueden compartir; la primera foto seleccionada se convierte en portada y se pueden incluir hasta seis fotos. Aparece una vista previa final de la tarjeta antes del envío. La entrada de publicación está disponible para todos, mientras que enviar un proyecto para su revisión requiere membresía. Aparece en un canal seleccionado solo después de la aprobación del administrador. El contenido seleccionado se carga en la base de datos pública de CloudKit; Se excluyen los contadores, el inventario de hilados, el progreso privado y los borradores de patrones. Navegar por Discover no requiere autorización de Ravelry; el flujo de conexión existente se usa solo para el contenido de la cuenta de Ravelry o las importaciones de Ravelry.
@@ -186,6 +222,12 @@ Cada contador admite tres modos de visualización:
 - **Notas del proyecto**: vincula un PDF o una nota de imagen en modo de solo lectura y recuerda la página actual del contador.
 - **Instrucciones de texto**: guarde los pasos escritos y ajuste el tamaño del texto.
 
+### Colaboración con Apple Watch
+
+En la pestaña **Ajustes** del iPhone, abre **Colaboración con Apple Watch**, debajo de **Notificaciones** en **Preferencias**, para elegir el gesto predeterminado. En un contador existente, toca el icono del reloj de la parte superior derecha para iniciar la colaboración en la pestaña actual, cambiar a ese contador, finalizar la colaboración o abrir los ajustes de Apple Watch. Mientras el reloj pueda comunicarse con el iPhone, puedes seguir usando el mismo contador vinculado aunque la app esté en segundo plano, por ejemplo, mientras ves un vídeo. Si se pierde la conexión, el reloj muestra el último valor confirmado.
+
+Los ajustes se separan para contadores, gráficos de punto, notas y ganchillo. Los contadores, los gráficos de punto y ganchillo y las notas permiten configurar el doble toque por separado. En las notas, abre el menú de un contador o mantenlo pulsado y elige Vincular con Apple Watch. Un icono marca el contador vinculado. El menú del reloj arriba a la derecha permite cambiar el destino. El reloj controla solo el contador elegido. Puedes pasar páginas, ocultar el panel o cambiar de app y seguir contando mientras haya conexión. Salir del lector pausa la colaboración. Vuelve a la misma nota para reanudarla. Puedes sumar o restar varias veces seguidas en Apple Watch. Los valores predecibles se muestran al instante y debajo aparece el número de acciones pendientes. El iPhone guarda y confirma las acciones en orden. Si se necesita confirmar en el iPhone, las acciones se pausan hasta que confirmes. Revisa las acciones sin confirmar si cambias de destino o de configuración. En el gráfico, activa el modo de conteo y el marcador de fila: aparece un reloj a la izquierda de Más, arriba a la derecha. Inicia o cambia el destino manualmente para mover una fila cada vez. El gráfico se guarda antes de vincularse. El reloj muestra nombre, fila y total de filas y se detiene en los límites. Salir del conteo, desactivar el marcador o dejar el editor pausa la colaboración; el gráfico vinculado conserva el botón del reloj. Vuelve a abrirlo en modo de conteo para continuar. Puedes cambiar a otra app para ver un vídeo y seguir contando mientras haya conexión. El guardado completo pausa brevemente las operaciones y las reanuda automáticamente. Cambiar el número o el origen de las filas requiere volver a vincular. En un gráfico de ganchillo, elige Vincular con Apple Watch en el menú de un contador para controlar solo ese. El menú del reloj arriba a la derecha también muestra destinos y marca el actual. El contador vinculado conserva un icono de reloj incluso en modo compacto. Tocar otros contadores, renombrar, reordenar, cambiar de página u ocultar el panel no cambia el destino. Puedes seguir desde una app de vídeo mientras haya conexión. Superar un límite positivo vuelve a cero; la resta se detiene en cero. Reiniciar conserva el vínculo; borrar el destino lo termina sin elegir otro. Dejar el editor o editar un contador pausa la colaboración; volver al mismo gráfico la reanuda. Se guarda antes de vincular, el guardado completo pausa brevemente y los gestos de ganchillo tienen su propio ajuste. La respuesta háptica del contador, en Respuesta del reloj, está activada por defecto y se puede desactivar. Es independiente de los proyectos, controla la vibración tras un conteo correcto con botones o gestos y se sincroniza cuando el reloj está conectado.
+
 <a id="pattern-drafting"></a>
 ## Redacción de patrones inteligentes
 
@@ -209,7 +251,14 @@ Persona y referencias permite elegir medidas, imágenes y copias independientes 
 
 Vista previa → Comparar con patrón base parte de la pieza actual. Elige delantero/espalda y pieza entera/media. Marca eje central y altura correspondiente de pecho/cintura; alinea a 1:1 y bloquea la referencia. Un dedo mueve solo la referencia desbloqueada; dos navegan. Marca cuello/hombro, extremo del hombro, centro del cuello, axila y bajo del mismo lado para medir contornos reales, diferencias laterales y distancias. Intervalos múltiples o marcas ausentes no producen una anchura única. Toca un resultado para resaltarlo; confirma para guardar bases y posición, modifica y continúa. Atrás descarta cambios. La base puede incluir estimaciones: las diferencias no son holgura total, separación corporal, presión ni un juicio de ajuste.
 
-La vista plana muestra piezas reales y referencias corporales y conserva la vista al volver. Exportar diseño controla por separado cuadrícula y Tips expandidos, numerados u ocultos. Guardar conserva líneas abiertas, notas, orden y papel. Cada documento restaura vista, herramienta, selección y comparación confirmada sin repetir órdenes ni recuperar Deshacer. Registros y archivos comparten la última vista completa guardada con éxito, no el último zoom o espacio vacío. Se protegen los datos antiguos legibles; los desconocidos no se sobrescriben con un documento vacío. Sin compilar ni validar en dispositivo.
+En la versión pública, al tocar la muestra 3D del editor de patrones aparece un aviso de mantenimiento.
+
+En las versiones Debug, coloca y fija piezas cerradas válidas en 3D, elige un tejido de punto de referencia e inicia, pausa o continúa la caída por gravedad; una muestra de una sola pieza no necesita costuras. El cuerpo y el material incluyen estimaciones: el resultado sirve para observar forma y caída, sin conclusiones precisas sobre ajuste o presión. Actualiza tras editar el contorno 2D y guarda imágenes solo de un resultado actual, válido y completado.
+
+Exportar diseño controla por separado cuadrícula y Tips expandidos, numerados u ocultos. Guardar conserva líneas abiertas, notas, orden y papel. Cada documento restaura vista, herramienta, selección y comparación confirmada sin repetir órdenes ni recuperar Deshacer. Registros y archivos comparten la última vista completa guardada con éxito, no el último zoom o espacio vacío. Se protegen los datos antiguos legibles; los desconocidos no se sobrescriben con un documento vacío.
+
+En las versiones Debug, las vistas previas 3D válidas se pueden guardar con el proyecto y restaurar si el patrón, el cuerpo y las condiciones de simulación siguen coincidiendo. Los cambios en los datos requieren una nueva simulación; los resultados fallidos o incompletos no sobrescriben la última vista previa válida guardada.
+
 
 <a id="knitting-chart"></a>
 ## Tablas de tejido
@@ -275,6 +324,8 @@ Las opciones de exportación incluyen imágenes y archivos de proyecto editables
 
 <a id="crochet-chart"></a>
 ## Diagramas de crochet
+
+Los diagramas de crochet integrados de Descubrir incluyen instrucciones paso a paso. En el editor de crochet, abre Instrucciones para seguir el patrón. Usa Anterior y Siguiente para recorrer los pasos, o selecciona Ver diagrama para consultar los símbolos del paso actual. También puedes tocar un símbolo del diagrama para encontrar el paso relacionado. La lectura de las instrucciones es independiente de los contadores del proyecto y no cambia sus valores. Abre Todos los pasos para editarlos. Durante la edición, toca o arrastra para seleccionar los elementos del diagrama y, después, elige Finalizar vínculo. Las notas existentes en los diagramas antiguos siguen disponibles para leer. Si los puntos y la disposición de un diagrama integrado guardado coinciden con el original, al abrir las instrucciones también se cargan sus pasos.
 
 Los usuarios gratuitos pueden crear hasta 3 diagramas de crochet. Después de llegar a 3, crear o importar otro gráfico requiere una suscripción, mientras que los gráficos existentes permanecen disponibles para abrir y editar.
 

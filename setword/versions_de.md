@@ -5,6 +5,91 @@ title: "Versionsverlauf"
 lang: de
 ---
 
+<!-- watch-settings-scenes-2026-11-12 -->
+- 2026-11-12 · In Entwicklung, unveröffentlicht · Die Einstellungen sind für Zähler, Strickschriften, Notizen und Häkelschriften getrennt. Zähler, Strickschriften, Häkelschriften und Stricknotizen unterstützen eigene Doppeltipp-Aktionen. Öffne in einer Stricknotiz das Zählermenü oder halte den Zähler gedrückt und wähle Mit Apple Watch verbinden. Ein Watch-Symbol markiert den verbundenen Zähler. Im Watch-Menü oben rechts kannst du das Ziel wechseln. Die Watch steuert nur den ausgewählten Zähler. Beim Umblättern, Ausblenden des Felds oder Wechsel zu einer anderen App kannst du bei bestehender Verbindung weiterzählen. Das Verlassen des Lesers pausiert die Zusammenarbeit. Kehre zur selben Notiz zurück, um fortzufahren. Auf der Apple Watch kannst du mehrmals hintereinander erhöhen oder verringern. Berechenbare Werte erscheinen sofort, offene Aktionen darunter. Das iPhone speichert und bestätigt die Aktionen der Reihe nach. Ist eine Bestätigung auf dem iPhone nötig, pausieren die Aktionen bis dahin. Prüfe unbestätigte Aktionen, wenn du Ziel oder Zähleinstellungen änderst. Aktiviere in der Strickschrift Zählmodus und Reihenmarkierung: Oben rechts erscheint links neben Mehr eine Watch-Taste. Starte oder wechsle das Ziel manuell, um jeweils eine Reihe zu verschieben. Vor dem Verbinden wird gespeichert. Die Watch zeigt Name, Reihennummer und Gesamtzahl und stoppt an den Grenzen. Beim Verlassen des Zählmodus, Ausschalten der Reihenmarkierung oder Verlassen des Editors wird pausiert; das verbundene Ziel behält die Watch-Taste. Öffne dieselbe Strickschrift im Zählmodus, um fortzusetzen. Beim Wechsel zu einer Video-App kannst du bei bestehender Verbindung weiterzählen. Vollständiges Speichern pausiert kurz und setzt automatisch fort. Nach Änderungen an Reihenzahl oder Reihenursprung muss neu verbunden werden. Wähle in der Häkelschrift im Menü eines Zählers Mit Apple Watch verbinden, um nur diesen zu steuern. Auch das Watch-Menü oben rechts bietet Ziele an und markiert das aktuelle. Am verbundenen Zähler bleibt selbst in der kompakten Ansicht ein Watch-Symbol sichtbar. Andere Zähler antippen, umbenennen, umsortieren, Seiten wechseln oder das Feld ausblenden ändert das Ziel nicht. In einer Video-App kannst du bei bestehender Verbindung weiterzählen. Nach Überschreiten eines positiven Maximums geht es auf null zurück; Verringern endet bei null. Zurücksetzen behält die Verbindung. Löschen des Ziels beendet sie ohne Ersatzwahl. Verlassen des Editors oder Bearbeiten des Zählers pausiert; Rückkehr zur gleichen Häkelschrift setzt fort. Vor dem Verbinden wird gespeichert, vollständiges Speichern pausiert kurz und Häkelgesten haben eine eigene Einstellung. Das haptische Zählerfeedback unter Watch-Rückmeldung ist standardmäßig aktiviert und kann ausgeschaltet werden. Die projektunabhängige Einstellung steuert Vibrationen nach erfolgreichem Zählen per Taste oder Geste und wird bei verbundener Watch synchronisiert.
+<!-- /watch-settings-scenes-2026-11-12 -->
+
+<!-- workspace-recommendation-title-2026-11-11 -->
+- 2026-11-11 (in Entwicklung, unveröffentlicht) – Ein dunkler Verlauf hinter den Titeln der Empfehlungskarten auf der Startseite verbessert die Lesbarkeit weißer Schrift auf hellen Titelbildern.
+<!-- /workspace-recommendation-title-2026-11-11 -->
+
+<!-- pattern-draft-3d-maintenance-2026-11-11 -->
+- 2026-11-11 (in Entwicklung, unveröffentlicht) · In der veröffentlichten Version zeigt die Schaltfläche für das 3D-Muster im Schnitteditor einen Wartungshinweis an.
+<!-- /pattern-draft-3d-maintenance-2026-11-11 -->
+
+<!-- bernat-debug-2026-11-10 -->
+2026-11-10 · Debug · Internes Debug-Beispiel: App neu bauen und Bernat M unten unter Neues Schnittmuster → Stricken → Strategieerstellung öffnen. Die vierteilige Referenz in fester Größe M lässt sich bearbeiten, speichern und erneut öffnen. Automatische Größenanpassung, Halsbündchen und Rippen sind noch nicht fertig. Die experimentelle Anprobe nutzt jetzt einen synthetischen Körper; endgültige Qualität und Ergebnisspeicherung werden geprüft.
+
+2026-11-11 · Debug · Nach Abschluss der Berechnung für Bernat M kannst du unter **Passform** Brust, Halsausschnitt, Bündchen oder Saum wählen. Gestrichelte Linien zeigen auf den Körper, durchgezogene auf das Kleidungsstück. Lege einen Zielbereich für die Brustzugabe fest und vergleiche beide Bündchen oder den vorderen und hinteren Saum. Das Fenster kennzeichnet Vorlagenpunkte, ausstehende Maße am Halsbündchen und Ergebnisse ohne bestandene Qualitätsprüfung. Im Bereich Saum markiert eine kurze gestrichelte Linie die Referenztaillenlinie. Tippe auf **Körper ansehen**, um das Kleidungsstück durchscheinend anzuzeigen, und auf **Kleidung wiederherstellen**, um zur normalen Ansicht zurückzukehren. Nach dem Verschieben richten sich die Hilfslinien wieder an der Ansicht aus.
+<!-- /bernat-debug-2026-11-10 -->
+
+
+<!-- discover-detail-2026-11-09 -->
+- 2026-11-09 (in Entwicklung, unveröffentlicht): Wiederholte vollständige Bibliotheksabfragen blockieren beim Öffnen von Strickdiagramm-Details aus Home oder Discover nicht mehr den Hauptthread. Gespeicherte Kopien werden im Hintergrund geprüft. Text und freie Flächen der Karten in Discover, Favoriten und Likes öffnen die Details; Bildvorschau und Favoriten bleiben getrennte Aktionen.
+- Die Filter aller vier Discover-Kanäle starten zugeklappt und lassen sich neben der Suche auf- und zuklappen. Aktive Anzahl, Filterlöschung und Listenposition bleiben erhalten. Auch Preisangebote für Häkeldiagramme prüfen gespeicherte Kopien im Hintergrund; vorhandene kostenpflichtige Kopien bleiben nutzbar.
+- Die Schaltfläche zum Auf- und Zuklappen passt sich nun ihrem Inhalt an; ein kleinerer Pfeil lässt mehr Platz für die Suche.
+<!-- /discover-detail-2026-11-09 -->
+
+<!-- discover-recommendations-2026-11-08 -->
+- 2026-11-08 (in Entwicklung, noch nicht veröffentlicht): Startseite und Entdecken zeigen integrierte Strick- und Häkeldiagramme sowie Schnittstrategien in einer täglich wechselnden Auswahl. Der Schnellstart öffnet den passenden Entdecken-Kanal. Tab und Filter je Kanal bleiben gespeichert; lokale Inhalte erscheinen zuerst und bleiben beim Aktualisieren sichtbar. Empfehlungen öffnen zunächst die Details zum Hinzufügen, Öffnen oder Verwenden.
+- Abgeschnittene Inhalte am Ende der Entdecken-Listen wurden korrigiert. Die letzte Karte lässt sich vollständig anzeigen; die Listenhöhe folgt Kanal- und Fenstergrößenänderungen.
+<!-- /discover-recommendations-2026-11-08 -->
+
+
+<!-- crochet-instructions-2026-11-08 -->
+- 2026-11-08 (in Entwicklung). Im Häkel-Editor kannst du Anleitungen lesen und bearbeiten, die Symbole eines Schritts anzeigen und durch Antippen eines Symbols den zugehörigen Schritt finden. Neu hinzugefügte Kopien der Maschenprobe, des Sterns mit acht Bögen und der dreilagigen Blüte enthalten Anleitungen.
+- Alle 19 integrierten Häkeldiagramme in Entdecken enthalten jetzt Schritt-für-Schritt-Anleitungen. Öffne im Editor das Buch, um die Symbole für jeden Schritt zu finden. Gespeicherte Kopien, die dem Original entsprechen, laden die Anleitung beim Öffnen.
+<!-- /crochet-instructions-2026-11-08 -->
+
+<!-- discover-earth-2026-11-08 -->
+- 2026-11-08 (in Entwicklung). Unter Entdecken gibt es die zweifarbige 3D-Erde für 6 Yuan. Die bearbeitbare Häkelschrift enthält Rundenzahlen, blau-grüne Farbwechsel und einen Abschluss mit sechs zusammen abgemaschten Maschen.
+<!-- /discover-earth-2026-11-08 -->
+
+<!-- discover-snowman-2026-11-08 -->
+- 2026-11-08 (in Entwicklung). Unter Entdecken gibt es den dreiteiligen Schneemann für 6 Yuan. Die Häkelschrift zeigt nummerierte Runden, Zu- und Abnahmen, zwei Abschlüsse und farbige Augen und Nase.
+<!-- /discover-snowman-2026-11-08 -->
+
+<!-- discover-stocking-2026-11-08 -->
+- 2026-11-08 (in Entwicklung). Unter Entdecken gibt es die Socke mit Popcornmuster in der Freischaltstufe für 6 Yuan. Die vollständige Häkelschrift enthält nummerierte Abschnitte, die Quelle und eine bearbeitbare Kopie. Die Größe hängt von Garn, Nadel und Maschenprobe ab.
+- Die Reihenfolge gleichentags veröffentlichter Häkelschriften wurde korrigiert. Bei der Sortierung nach Veröffentlichung erscheinen neuere Gruppen zuerst.
+<!-- /discover-stocking-2026-11-08 -->
+
+<!-- discover-paid-crochet-2026-11-08 -->
+- 2026-11-08 (in Entwicklung): Entdecken ergänzt zwei vollständige komplexe Häkelschriften, Granny Square mit Blütenmitte und geformter Babyschuh, jeweils in der Freischaltstufe von 6 Yuan. Beide enthalten nummerierte Schritte, Quellen und bearbeitbare Kopien. Die Schuhgröße ergibt sich aus Garn, Nadel und Maschenprobe.
+<!-- /discover-paid-crochet-2026-11-08 -->
+
+<!-- discover-crochet-charts-2026-11-08 -->
+<!-- discover-apple-luna-high-2026-11-08 -->
+- 2026-11-08 (in Entwicklung): Unter „Entdecken → Häkeln“ gibt es den vollständigen Apfel mit Formgebung (983 Maschensymbole) in der Freischaltstufe von 6 Yuan. Die Häkelschrift enthält segmentierte Runden, Hinweise auf Zunahmen in dieselbe Einstichstelle, Quelle und bearbeitbare Kopie; unabhängige Prüfung und Simulatorabnahme auf vereinfachtem Chinesisch bestanden.
+- Ergänzung: Maschenfolge, Diagrammlayout und App-Rücklesen wurden geprüft; der direkte Vergleich mit dem 3D-Modell der Quelle steht noch aus. Die fertige Form ist daher noch nicht bestätigt.
+<!-- /discover-apple-luna-high-2026-11-08 -->
+- 2026-11-08 (in Entwicklung): Unter „Entdecken → Häkeln“ gibt es drei neue Häkelschriften: eine dreilagige Blüte, eine beidseitige Blüte mit fünf Blättern und ein Blatt mit Pikots. Quelle und Lesehinweise stehen in der Detailansicht. Jede Häkelschrift nutzt die Freischaltstufe von 1 Yuan. Bereits gespeicherte Kopien lassen sich direkt öffnen. Integrierte Häkelschriften werden beim ersten Öffnen ganz angezeigt und später mit der gespeicherten Ansicht geöffnet.
+<!-- /discover-crochet-charts-2026-11-08 -->
+
+<!-- discover-chart-commerce-2026-11-07 -->
+- 2026-11-07 (in Entwicklung, unveröffentlicht): Entdecken ergänzt Alle / Kostenlos / Kostenpflichtig, Referenz-Strickschriften mit einsehbarer Quelle und Einzelfreischaltungen. Verbrauchbare Freischaltungen sind in vollständigen Datensicherungen enthalten; unvollständige Transaktionen lassen sich ohne neue Zahlung erneut verarbeiten.
+- Neue Kopien werden für das Stricken in Runden mit rechten Maschen gefüllt. Line ergänzt diese Maschen, die Sie bearbeiten können.
+- Titelbilder und Großansichten in Entdecken sowie Vorschaubilder neuer Kopien zeigen bei diesen Referenzdiagrammen die rechten Maschen.
+- Unter „Entdecken → Häkeln“ findest du die ersten 10 integrierten Häkelschriften mit Maschenproben, Strukturmustern, Borten und Motiven. In der Detailansicht kannst du die Quelle ansehen und die Maschensymbole in der Vorschau prüfen. Füge eine Häkelschrift hinzu, um eine lokale Kopie im Häkel-Editor zu bearbeiten. Kostenpflichtige Häkelschriften werden einzeln zu denselben Preisstufen für verbrauchbare In-App-Käufe wie Strickschriften freigeschaltet. Die Liste lässt sich nach „Alle“, „Kostenlos“ oder „Kostenpflichtig“ filtern.
+- Die ersten 10 Strick- und 10 Häkelschriften sind jetzt kostenlos. Künftige Preise richten sich nach den tatsächlichen Maschensymbolen eines vollständigen Motivs oder des kleinsten Rapports. Bis 100 Symbole, einfache Wiederholungen und einfache Farbmuster bleiben kostenlos. Bei 101–300 Symbolen und mittlerer Komplexität kommt die Stufe von 1 Yuan infrage. Ab 301 Symbolen, hoher Komplexität und vollständig ausgearbeitetem Inhalt kommt die Stufe von 6 Yuan infrage. Die Anzahl allein führt nie zu einem kostenpflichtigen Angebot. Maßgeblich ist der im Store angezeigte Kaufpreis.
+<!-- /discover-chart-commerce-2026-11-07 -->
+
+<!-- chart-json-readback-2026-11-06 -->
+- 2026-11-06 (in Entwicklung, unveröffentlicht): Die Wiederherstellung der Farbe dicker Gitterlinien beim Einlesen von Strickdiagramm-JSON wurde korrigiert. Gezielte native Simulatortests bestanden; Prüfung auf echten Geräten steht aus.
+
+
+<!-- discover-filter-selection-2026-11-06 -->
+- Ausgewählte Kategorien und Themen in Entdecken erhalten eine hellorange Füllung, orange Schrift und einen feinen Rand, abgestimmt auf helles und dunkles Design.
+
+<!-- discover-content-search-2026-11-06 -->
+- 2026-11-06 (in Entwicklung, unveröffentlicht): Entdecken bietet Suche, Kategorie-/Themenfilter und Empfehlungs-/Datumssortierung sowie erneutes Laden bei Cache- oder Teilergebnissen. Statische Prüfung und Kompilierung bestanden; Gerätetest ausstehend.
+
+- 2026-11-06 (in Entwicklung, unveröffentlicht): Die oberen Werkzeugleisten des Strick- und Häkeleditors folgen nun dem aktuellen sicheren Bereich, damit sie nicht von der Displayaussparung oder Dynamic Island verdeckt werden. Prüfung auf Geräten steht aus.
+
+- Schnittmuster in 3D: Verbesserte Schulter-/Arm- und Hüft-/Beinübergänge, Speichern und Wiederherstellen gültiger Vorschauen mit Projekten sowie korrigierte Statusmeldungen beim Fortsetzen der Simulation. Die Anprobe vollständiger Kleidungsstücke wird weiter verbessert.
+
+- 2026-10-27 (in Entwicklung, unveröffentlicht): Maßbasierte Körpervorlagen und echte 3D-Muster mit Referenzmaterial. Geschlossene Strickteile platzieren, vorübergehend fixieren, unter Schwerkraft drapieren und eine einfache Weste verbinden. Nach 2D-Änderungen aktualisieren, unter gleichen Bedingungen vergleichen und ein Bild exportieren. Körpergrundschnitte und 2D-Vergleiche bleiben; frühere Pseudo-3D-Einstiege führen zu echtem 3D. Simulator-Prüfungen erfolgt, Geräteabnahme ausstehend; keine präzise Passform- oder Druckbewertung. Kompatibilität geschlossener Pfade und gespiegelter Ränder kopierter Grundschnittteile sowie falsche Selbstüberschneidungen gerader Kanten behoben. Bei ungültigen Teilen bleibt der aktuelle Körper mit einer Fehlererklärung sichtbar; nach der Korrektur ist ein neuer Versuch möglich.
+
 - 2026-10-26 (in Entwicklung, unveröffentlicht): Aufgabenmenüs, Geraden/Kreise/Punkte, gemeinsame Objektreihenfolge und Sperren, Vorder-/Rückenvergleich 1:1, Ansichtskontext, Papier und gemeinsame Listenvorschauen. Altdokumente bleiben erhalten. Nicht kompiliert; Geräteprüfung ausstehend. Ergänzt Ellipsen, Strecken und proportionale Skalierung, Seitenverhältnissperre, genaue Maße und unabhängige Anordnungsdrehung. Größenänderungen aktualisieren Schätzungen; die Anordnung erhält die Strickrichtung. Körperreferenzen erhalten einen schreibgeschützten Auswahlrahmen sowie Entsperren und Verschieben. Ihre Auswahl beendet das Zeichnen; Positionen sind rückgängig zu machen und werden gespeichert. Automatische Objektmenüs bleiben beim Zeichnen verborgen und kehren in Auswahl oder Knotenbearbeitung zurück. Auswahlmenüs bieten häufige Aktionen und direkten Zugriff auf Objekte und Ebenen. Zeilenmenüs ergänzen Bearbeiten, Umbenennen, Duplizieren, Stapeln und bestätigtes Löschen unter Beachtung von Sperren. Ausblenden erhält die Referenzquelle; beim Löschen eines Teils bleiben manuelle Anmerkungen und Diagrammeinträge mit Warnhinweisen erhalten. Rückgängig wird unterstützt. Vorderteil, Rückenteil, Ärmel und Körperreferenzen lassen sich einzeln verschieben, ausblenden und anordnen. Doppeltippen öffnet die Schnellbearbeitung mit Rückkehr zum vorherigen Werkzeug; Skizzen und Bilder unterstützen Gesamttransformationen. Fertige Geometrie und ausdrücklich abgeschlossene Konturen zeigen Aktionen im festen Werkzeugbereich bei aktivem Zeichenwerkzeug. Pinsel, Radierer und unfertige Pfade bleiben ungestört.
 
 - 2026-10-26 (in Entwicklung, unveröffentlicht): Schaltflächen, Listen und Zeichenflächen bleiben während kurzer Hinweise bedienbar. Ladehinweise blockieren die Interaktion weiterhin im bisherigen Bereich. In den Stricknotizen bleiben Hinweise oben; neuere Hinweise werden nicht mehr vorzeitig entfernt. Nicht kompiliert; Prüfung auf Geräten steht aus.
@@ -669,3 +754,7 @@ Garnmodul-Upgrade
 
 
 > Andere Versionsaktualisierungen können auf der AppStore-App-Homepage eingesehen werden.
+
+<!-- bernat-debug-tryon-2026-11-10 -->
+Die 3D-Ansicht verwendet einen synthetischen Referenzkörper. Nach der Berechnung lässt sich über Teilen ein technisches Vorschaubild speichern. Nur Ergebnisse mit bestandener Qualitätsprüfung lassen sich als Anprobe speichern und wieder öffnen.
+<!-- /bernat-debug-tryon-2026-11-10 -->

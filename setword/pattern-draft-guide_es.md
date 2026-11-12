@@ -77,6 +77,8 @@ Vista previa → Comparar con patrón base parte de la pieza actual. Elige delan
 <a id="try-on-3d"></a>
 ## Muestras 3D y simulación con material de referencia
 
+En la versión pública, al tocar la muestra 3D del editor de patrones aparece un aviso de mantenimiento. Los pasos de 3D que siguen se aplican a las versiones Debug.
+
 Abre Vista previa → Muestra 3D o el espacio 3D: Persona, Montaje, Caída, Visualización, Cámara y Ajustar. Siguen disponibles todos los patrones base del cuerpo, las comparaciones de dimensiones 2D y las comprobaciones de conexiones. El cuerpo usa una instantánea guardada de las medidas; elige una plantilla neutra, femenina, masculina o infantil en la ficha de persona. La plantilla estima las formas ausentes. La distancia entre puntos del hombro sirve para colocar; las longitudes superficiales no adaptadas conservan sus notas. Cambiar de persona no modifica las piezas.
 
 Basta una pieza cerrada válida, sin muestra de tensión, roles ni costuras previas. En Montaje → Colocación y fijación de piezas, selecciona una pieza, ponla delante del pecho, detrás de la espalda o sobre un hombro y arrástrala con un dedo; dos dedos controlan la vista. Fija dos puntos superiores, añade o quita fijaciones tocando, gira 90° o restablece. Para un chaleco básico, confirma cuatro uniones de hombros y costados, dejando abiertos cuello, sisas y bajo.
@@ -89,9 +91,23 @@ Actualiza el 3D tras cambiar los trazados 2D reales. Compara antes y después de
 
 Las piezas de delantero, espalda y manga copiadas de los patrones base, incluidos los contornos que vuelven explícitamente al inicio antes de cerrarse, pueden usarse en 3D. Si un contorno o un borde no es válido, la simulación de la prenda se detiene pero el cuerpo actual sigue visible. El mensaje indica la pieza y el motivo; corrígela y actualiza el 3D. Esta vista del cuerpo no puede exportarse como resultado válido de prueba de la prenda.
 
+Las vistas previas 3D válidas se pueden guardar con el proyecto y restaurar si el patrón, el cuerpo y las condiciones de simulación siguen coincidiendo. Los cambios en los datos requieren una nueva simulación; los resultados fallidos o incompletos no sobrescriben la última vista previa válida guardada.
+
 <a id="piece-colorwork"></a>
 ## Jacquard de pieza
 
 Abre Tejer → Jacquard de pieza, o 3D → Mostrar → Jacquard de pieza. Elige una pieza y un gráfico de colores existente. El motivo se repite según la densidad de puntos y filas desde el centro inferior. Puedes elegir un motivo único, desplazar por puntos/filas enteros, cambiar el fondo y sustituir colores. También se arrastra por puntos y filas enteros en el lienzo. Se recorta en cuello, sisas y bordes. Cada celda sigue siendo un punto por una fila, sin estirarse. El fondo rellena celdas vacías/transparentes y el exterior de un motivo único.
 
 Guardar y eliminar admiten deshacer; Cancelar no aplica cambios. Sincroniza tras cambiar el gráfico o la muestra. Si se detecta un cambio al guardar, se actualiza primero la vista previa para revisarla y guardar de nuevo. 2D, montaje, 3D y salida de tejido apta comparten la regla de color. El lado inicial solo cambia la numeración; se conservan puntos activos y símbolos inferiores. Solo admite celdas de color o derecho/revés simples; excluye celdas sin punto, puntos estructurales/de varias celdas y colores translúcidos. El tejido de colores muestra la apariencia del color; aún no se simulan las hebras flotantes ni el comportamiento físico de la estructura real de los puntos. La caída global del tejido usa un material de referencia independiente, sin deducir sus propiedades del motivo de colores. Siguen sin incluirse la coincidencia automática en costuras, las bandas y las combinaciones de colores guardadas.
+
+<!-- bernat-debug-2026-11-10 -->
+Ejemplo Debug interno: recompila la app y abre Bernat M al final de Nuevo patrón → Punto → Generación por estrategia. Esta referencia de cuatro piezas y talla M fija permite editar, guardar y volver a abrir. La gradación automática, el cuello y los elásticos siguen pendientes. El nuevo cuerpo sintético permite una prueba experimental; la calidad final y el guardado del resultado están en revisión.
+
+Cuando termine el cálculo de Bernat M, pulsa **Ajuste** y elige pecho, escote, puños o bajo. Las líneas discontinuas señalan el cuerpo y las continuas, la prenda. Puedes definir el intervalo de holgura del pecho y comparar ambos puños o el bajo delantero y trasero. El panel indica las referencias de la plantilla, las medidas del escote pendientes y los resultados que no superaron el control de calidad.
+
+En Bajo, una línea discontinua corta señala la cintura de referencia del cuerpo. Pulsa **Ver el cuerpo** para atenuar la prenda y **Restaurar prenda** para volver a la vista normal. Las líneas se reajustan al terminar de mover la vista.
+<!-- /bernat-debug-2026-11-10 -->
+
+<!-- bernat-debug-tryon-2026-11-10 -->
+La vista 3D usa un cuerpo de referencia sintético. Al terminar el cálculo, usa Compartir para guardar una imagen de vista previa técnica. Solo los resultados que superen los controles de calidad pueden guardarse y volver a abrirse como pruebas.
+<!-- /bernat-debug-tryon-2026-11-10 -->

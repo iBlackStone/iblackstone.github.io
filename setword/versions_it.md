@@ -4,6 +4,91 @@ title: "Cronologia delle versioni"
 lang: it
 ---
 
+<!-- watch-settings-scenes-2026-11-12 -->
+- 2026-11-12 · In sviluppo, non pubblicato · Le impostazioni sono separate per contatori, schemi ai ferri, note e uncinetto. Contatori, schemi ai ferri e all’uncinetto e note consentono azioni del doppio tap indipendenti. Nelle note, apri il menu di un contatore o tienilo premuto, poi scegli Collega ad Apple Watch. Un’icona contrassegna il contatore collegato. Il menu orologio in alto a destra consente di cambiare destinazione. L’orologio controlla solo il contatore selezionato. Puoi cambiare pagina, nascondere il pannello o passare a un’altra app continuando a contare se connesso. Lasciare il lettore mette in pausa. Riapri la stessa nota per riprendere. Su Apple Watch puoi aumentare o diminuire il conteggio più volte di seguito. I valori prevedibili appaiono subito e sotto vedi le operazioni in attesa. iPhone salva e conferma le azioni in ordine. Le operazioni si mettono in pausa quando serve una conferma su iPhone. Verifica le azioni non confermate se cambi destinazione o impostazioni. Nello schema ai ferri, attiva conteggio e indicatore di riga: appare un orologio a sinistra di Altro, in alto a destra. Avvia o cambia destinazione manualmente per spostarti di una riga. Lo schema viene salvato prima del collegamento. L’orologio mostra nome, riga e totale delle righe, fermandosi ai limiti. Uscire dal conteggio, disattivare l’indicatore o lasciare l’editor mette in pausa; lo schema collegato mantiene il pulsante orologio. Riapri lo stesso schema in conteggio per riprendere. Passando a un’altra app per guardare un video puoi continuare finché la connessione rimane attiva. Il salvataggio completo sospende brevemente le operazioni e poi le riprende. Cambiare numero o origine delle righe richiede un nuovo collegamento. Nello schema all’uncinetto, scegli Collega ad Apple Watch dal menu di un contatore per controllare solo quello. Anche il menu orologio in alto a destra elenca le destinazioni e contrassegna quella attuale. Il contatore collegato mantiene l’icona anche in modalità compatta. Toccare altri contatori, rinominare, riordinare, cambiare pagina o nascondere il pannello non cambia destinazione. Passando a un’app video puoi continuare se connesso. Superare un limite positivo riporta a zero; la sottrazione si ferma a zero. L’azzeramento mantiene il collegamento; eliminare la destinazione lo termina senza sceglierne un’altra. Lasciare l’editor o modificare il contatore mette in pausa; tornare allo stesso schema riprende. Prima del collegamento viene salvato lo schema, i salvataggi completi sospendono brevemente le operazioni e i gesti hanno una preferenza separata. Il feedback aptico del conteggio, in Feedback dell’orologio, è attivo per impostazione predefinita e può essere disattivato. È indipendente dai progetti, controlla le vibrazioni dopo conteggi riusciti tramite pulsanti o gesti e si sincronizza quando l’orologio è connesso.
+<!-- /watch-settings-scenes-2026-11-12 -->
+
+<!-- workspace-recommendation-title-2026-11-11 -->
+- 2026-11-11 (in sviluppo, non pubblicato) — Una sfumatura scura dietro i titoli delle schede consigliate nella schermata Home rende il testo bianco più leggibile sulle copertine chiare.
+<!-- /workspace-recommendation-title-2026-11-11 -->
+
+<!-- pattern-draft-3d-maintenance-2026-11-11 -->
+- 2026-11-11 (in sviluppo, non pubblicato) · Nella versione pubblica, toccando il campione 3D nell’editor del modello appare un avviso di manutenzione.
+<!-- /pattern-draft-3d-maintenance-2026-11-11 -->
+
+<!-- bernat-debug-2026-11-10 -->
+2026-11-10 · Debug · Esempio Debug interno: ricompilare l’app e aprire Bernat M in fondo a Nuovo modello → Maglia → Generazione tramite strategia. Il riferimento a quattro pezzi, taglia M fissa, può essere modificato, salvato e riaperto. Gradazione automatica, collo e coste restano da completare. Il nuovo corpo sintetico è collegato alla prova sperimentale; qualità finale e salvataggio del risultato sono in verifica.
+
+2026-11-11 · Debug · Al termine del calcolo di Bernat M, tocca **Vestibilità** e scegli torace, scollo, polsini oppure orlo. Le linee tratteggiate indicano il corpo e quelle continue il capo. Puoi impostare l’agio desiderato al torace e confrontare entrambi i polsini oppure gli orli davanti e dietro. Il pannello segnala i riferimenti del modello, le misure dello scollo da confermare e i risultati che non superano il controllo qualità. In Orlo, un breve tratteggio indica la vita di riferimento del corpo. Tocca **Mostra il corpo** per attenuare il capo e **Ripristina il capo** per tornare alla vista normale. Le linee guida si riallineano al termine dello spostamento.
+<!-- /bernat-debug-2026-11-10 -->
+
+
+<!-- discover-detail-2026-11-09 -->
+- 2026-11-09 (in sviluppo, non pubblicato): Corrette le letture ripetute dell’intera libreria che bloccavano il thread principale aprendo i dettagli degli schemi a maglia da Home o Discover. Le copie salvate vengono controllate in background. Testo e aree vuote delle schede in Discover, Preferiti e Mi piace aprono i dettagli; anteprima e preferiti restano azioni separate.
+- I filtri dei quattro canali Discover iniziano compressi e si espandono o comprimono accanto alla ricerca. Conteggio attivo, cancellazione e posizione dell’elenco vengono mantenuti. Anche le offerte degli schemi all’uncinetto controllano le copie salvate in background; le copie a pagamento esistenti restano utilizzabili.
+- Il pulsante Espandi/Comprimi si adatta al contenuto con una freccia più piccola, lasciando più spazio alla ricerca.
+<!-- /discover-detail-2026-11-09 -->
+
+<!-- discover-recommendations-2026-11-08 -->
+- 2026-11-08 (in sviluppo, non pubblicato): Home e Scopri propongono schemi a maglia, all’uncinetto e strategie di modello integrati con una selezione stabile per ogni giornata. Avvio rapido apre il canale Scopri corrispondente. Scheda e filtri dei singoli canali vengono ricordati; i contenuti locali compaiono subito e restano visibili durante l’aggiornamento. I suggerimenti aprono i dettagli prima di aggiungere, aprire o usare il contenuto.
+- Corretto il contenuto tagliato in fondo agli elenchi di Scopri: l’ultima scheda può scorrere completamente in vista e l’altezza segue i cambi di canale e delle dimensioni della finestra.
+<!-- /discover-recommendations-2026-11-08 -->
+
+
+<!-- crochet-instructions-2026-11-08 -->
+- 2026-11-08 (in sviluppo). Nell’editor uncinetto puoi leggere e modificare le istruzioni, individuare i simboli di un passaggio e toccare un simbolo per trovare il relativo passaggio. Le nuove copie del campione a maglia bassa, della stellina a otto anelli e del fiore a tre strati includono le istruzioni.
+- Tutti i 19 diagrammi all’uncinetto integrati in Scopri includono istruzioni passo dopo passo. Apri il libro nell’editor per trovare i simboli di ogni passaggio. Le copie salvate che corrispondono all’originale caricano le istruzioni all’apertura.
+<!-- /crochet-instructions-2026-11-08 -->
+
+<!-- discover-earth-2026-11-08 -->
+- 2026-11-08 (in sviluppo). Scopri aggiunge Terra tridimensionale a due colori da 6 yuan. Lo schema modificabile include conteggi per giro, cambi di blu e verde e chiusura di sei punti insieme.
+<!-- /discover-earth-2026-11-08 -->
+
+<!-- discover-snowman-2026-11-08 -->
+- 2026-11-08 (in sviluppo). Scopri aggiunge il Pupazzo di neve in tre parti da 6 yuan, con giri numerati, aumenti, diminuzioni, due chiusure e dettagli colorati.
+<!-- /discover-snowman-2026-11-08 -->
+
+<!-- discover-stocking-2026-11-08 -->
+- 2026-11-08 (in sviluppo). Scopri aggiunge la Calza a punto popcorn nella fascia da 6 yuan. Lo schema completo include fasi numerate, fonte e copia modificabile. La taglia dipende dal filato, dall’uncinetto e dal campione.
+- Corretto l’ordine degli schemi all’uncinetto pubblicati nello stesso giorno. Ordinando per data di pubblicazione, i lotti più recenti appaiono per primi.
+<!-- /discover-stocking-2026-11-08 -->
+
+<!-- discover-paid-crochet-2026-11-08 -->
+- 2026-11-08 (in sviluppo): Scopri aggiunge due schemi completi e complessi, un granny square con fiore e una scarpina da neonato, ciascuno nella fascia da 6 yuan. Includono fasi numerate, fonti e copie modificabili. La taglia della scarpina dipende da filato, uncinetto e campione.
+<!-- /discover-paid-crochet-2026-11-08 -->
+
+<!-- discover-crochet-charts-2026-11-08 -->
+<!-- discover-apple-luna-high-2026-11-08 -->
+- 2026-11-08 (in sviluppo): Scopri → Uncinetto aggiunge Mela tridimensionale, uno schema completo di 983 punti nella fascia da 6 yuan. Include giri suddivisi, indicazioni per gli aumenti nella stessa base, fonte e copia modificabile; superati la revisione indipendente e il collaudo sul simulatore in cinese semplificato.
+- Nota: Sono stati verificati la sequenza dei punti, l’impaginazione dello schema e la rilettura nell’app; manca il confronto affiancato con il modello 3D della fonte, quindi la forma finale non è ancora confermata.
+<!-- /discover-apple-luna-high-2026-11-08 -->
+- 2026-11-08 (in sviluppo): Scopri → Uncinetto aggiunge un fiore a tre strati, un fiore a cinque petali a due facce e una foglia con picot. I tre schemi includono la fonte e le indicazioni di lettura. Ciascuno si sblocca nella fascia da 1 yuan. Le copie già salvate si aprono direttamente. Gli schemi integrati si adattano alla tela alla prima apertura e ripristinano la vista salvata quando li riapri.
+<!-- /discover-crochet-charts-2026-11-08 -->
+
+<!-- discover-chart-commerce-2026-11-07 -->
+- 2026-11-07 (in sviluppo, non pubblicato): Scopri aggiunge filtri Tutti / Gratis / A pagamento, schemi nativi di riferimento con fonte consultabile e sblocchi individuali. Gli sblocchi consumabili sono inclusi nei backup completi; le transazioni incomplete possono essere rielaborate senza avviare un nuovo pagamento.
+- Le nuove copie vengono riempite con maglie a diritto per la lavorazione in tondo. Line aggiunge queste maglie, che puoi modificare.
+- Le copertine e le anteprime a grandezza intera in Scopri, insieme alle miniature delle nuove copie, mostrano le maglie a diritto di questi schemi di riferimento.
+- In «Scoprire → Uncinetto» trovi i primi 10 schemi integrati, tra cui campioni, punti lavorati, bordure e motivi. Apri i dettagli per consultare la fonte e vedere l’anteprima dei simboli. Aggiungi uno schema per modificarne una copia locale nell’editor per l’uncinetto. Gli schemi a pagamento si sbloccano singolarmente con le stesse fasce di prezzo degli acquisti in-app consumabili degli schemi a maglia. Puoi filtrare l’elenco con «Tutti», «Gratis» o «A pagamento».
+- I primi 10 schemi ai ferri e 10 all’uncinetto sono ora gratuiti. Per i futuri prezzi si valutano i simboli effettivi di un motivo completo o della ripetizione minima. Fino a 100 simboli, le ripetizioni di base e i semplici motivi a colori restano gratuiti. Da 101 a 300 simboli, con complessità media, uno schema può rientrare nella fascia da 1 yuan. Da 301, con complessità elevata e contenuti completi, può rientrare in quella da 6 yuan. Il numero da solo non rende uno schema a pagamento. Vale il prezzo effettivo indicato nello store.
+<!-- /discover-chart-commerce-2026-11-07 -->
+
+<!-- chart-json-readback-2026-11-06 -->
+- 2026-11-06 (in sviluppo, non pubblicato): Corretto il ripristino del colore delle linee spesse leggendo i diagrammi a maglia in JSON. Test nativi mirati sul simulatore superati; verifica su dispositivi fisici in attesa.
+
+
+<!-- discover-filter-selection-2026-11-06 -->
+- I filtri di categoria e tema in Scopri indicano la selezione con sfondo arancione tenue, testo arancione e bordo sottile, nei temi chiaro e scuro.
+
+<!-- discover-content-search-2026-11-06 -->
+- 2026-11-06 (in sviluppo, non pubblicato): Scopri aggiunge ricerca, filtri per categoria/tema e ordine consigliato o per data, con ricarica di risultati parziali o in cache. Controlli statici e compilazione superati; verifica su dispositivo in attesa.
+
+- 2026-11-06 (in sviluppo, non pubblicato): Le barre superiori degli editor per maglia e uncinetto seguono ora l’area sicura corrente per evitare sovrapposizioni con il notch o Dynamic Island. Verifica su dispositivi fisici in attesa.
+
+- Modelli 3D: migliorate le transizioni spalla/braccio e anca/gamba, salvataggio e ripristino delle anteprime valide con i progetti e aggiornamenti delle fasi corretti alla ripresa della simulazione. La prova dei capi completi è ancora in fase di miglioramento.
+
+- 2026-10-27 (in sviluppo, non pubblicato): Modelli corporei basati sulle misure e campioni 3D reali con materiali di riferimento. Posiziona e fissa temporaneamente pannelli chiusi, osserva il drappeggio per gravità e unisci un gilet base. Aggiorna dopo le modifiche 2D, confronta alle stesse condizioni ed esporta un’immagine. Restano i modelli base e i confronti 2D; i vecchi accessi pseudo-3D aprono il 3D reale. Verifiche nel simulatore completate, accettazione su dispositivo in attesa; nessuna valutazione precisa di vestibilità o pressione. Corretta la compatibilità dei tracciati chiusi e dei bordi specchiati dei pannelli copiati dai modelli base e le false autointersezioni dei bordi diritti. I pannelli non validi lasciano visibile il corpo attuale con una spiegazione; dopo la correzione è possibile riprovare.
+
 - 2026-10-26 (in sviluppo, non pubblicato): menu per attività, linee/cerchi/punti, ordine e blocco unificati, confronto davanti/dietro con base 1:1, contesto, foglio e anteprime condivise. Documenti precedenti conservati. Non compilato; verifica su dispositivo in attesa. Aggiunge ellissi, allungamento e scala proporzionale, blocco proporzioni, misure precise e rotazione indipendente sul foglio. Il ridimensionamento aggiorna le stime; la disposizione conserva la direzione di lavorazione. I riferimenti corporei hanno una cornice in sola lettura e comandi di sblocco/spostamento. Selezionarli esce dal disegno; le posizioni sono annullabili e salvate. I menu automatici degli oggetti restano nascosti durante il disegno e tornano in selezione o modifica dei nodi. I menu di selezione offrono azioni frequenti e accesso diretto a Oggetti e livelli. Le righe offrono modifica, rinomina, duplica, ordine ed eliminazione con conferma, rispettando i blocchi. Nascondere un riferimento conserva la fonte; eliminare un pezzo conserva annotazioni manuali e registrazioni dei diagrammi con un avviso di collegamento non valido ed è annullabile. Davanti, dietro, manica e riferimenti corporei si spostano, nascondono e riordinano singolarmente. Il doppio tocco apre la modifica rapida con ritorno allo strumento precedente; schizzi e immagini supportano trasformazioni globali. Geometria completata e contorni esplicitamente finiti mostrano azioni in un’area fissa mantenendo lo strumento. Pennello, gomma e percorsi incompleti restano senza menu automatico.
 
 - 2026-10-26 (in sviluppo, non pubblicato): Pulsanti, elenchi e tele restano interattivi durante i brevi messaggi. I messaggi di caricamento mantengono il blocco delle interazioni esistente. Le note di lavoro mantengono i messaggi in alto e correggono la rimozione prematura dei messaggi più recenti. Non compilato; verifica su dispositivo in attesa.
@@ -346,3 +431,7 @@ Aggiornamento del modulo del filato
 
 
 > Altri aggiornamenti di versione possono essere visualizzati sulla homepage di AppStore-App.
+
+<!-- bernat-debug-tryon-2026-11-10 -->
+La vista 3D usa un corpo di riferimento sintetico. Al termine del calcolo, usa Condividi per salvare un’immagine di anteprima tecnica. Solo i risultati che superano i controlli di qualità possono essere salvati e riaperti come prove.
+<!-- /bernat-debug-tryon-2026-11-10 -->
