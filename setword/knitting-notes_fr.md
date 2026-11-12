@@ -182,6 +182,8 @@ Une page horizontale affiche jusqu’à trois compteurs. Balayez horizontalement
 
 Les utilisateurs gratuits peuvent utiliser jusqu’à trois compteurs.
 
+Dans les notes, ouvrez le menu d’un compteur ou maintenez-le enfoncé, puis choisissez Lier à l’Apple Watch. Une icône marque le compteur lié. Le menu montre en haut à droite permet de changer de cible. La montre commande uniquement le compteur sélectionné. Vous pouvez tourner les pages, masquer le panneau ou changer d’app tout en comptant si la connexion est maintenue. Quitter le lecteur met la collaboration en pause. Revenez à la même note pour reprendre. Vous pouvez augmenter ou diminuer le compteur plusieurs fois de suite sur l’Apple Watch. Les valeurs prévisibles s’affichent immédiatement et le nombre d’actions en attente apparaît en dessous. L’iPhone enregistre et confirme les actions dans l’ordre. Les actions se mettent en pause si une confirmation sur iPhone est nécessaire. Vérifiez les actions non confirmées si vous changez de cible ou de réglage.
+
 ## Gestion des éléments
 
 Ouvrez **Plus > Éléments** pour gérer les composants et les notes dessinées :

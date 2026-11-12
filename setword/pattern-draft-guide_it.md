@@ -21,6 +21,8 @@ Un dito o la penna usa lo strumento attivo; due dita spostano e ingrandiscono. S
 <a id="tools"></a>
 ## Strumenti
 
+Disegno → Aggancio usa la griglia visibile in cm e adatta il passo allo zoom. Bordi e centri di pezzi, immagini e schizzi, guide e linee centrali/torace/vita del modello base visibile sono destinazioni valide. I riferimenti bloccati restano utilizzabili; quelli nascosti sono esclusi. Punti arancioni e tratteggi mostrano l’allineamento; trascinare lontano lo libera. Testo al centro, Tips e richiami per posizione. Pennello, maniglie delle curve ed etichette restano liberi. I menu di persona, confronto, foglio e proprietà si ancorano alla riga scelta.
+
 I gruppi sono Disegna, Modifica, Annota, Lavora a maglia, Persona e riferimenti, Anteprima, Oggetti e visualizzazione. Il cambio mostra un breve suggerimento. Gli strumenti frequenti restano visibili; gli altri si espandono al bisogno. Fine, Chiudi, Mantieni aperto e Annulla appaiono solo durante il disegno. Text, Tips, richiami e quote sono in Annota; campione, bordi, unioni, diagrammi e motivi a colori nella maglia. Griglia, agganci e vincoli di direzione sono indipendenti.
 
 Lo strumento di disegno attivo resta evidenziato. Il pulsante geometria indica la forma corrente, ad esempio “Geometria: Cerchio”, evidenziata anche nel menu. Aprire o chiudere il menu non cambia strumento. Tieni premuto per una breve spiegazione. La penna contorno crea contorni modificabili da chiudere o lasciare aperti; il pennello salva schizzi e scrittura, convertibili in un pezzo indipendente solo dopo anteprima e conferma. La simmetria ha un proprio indicatore di attivazione e si applica alla penna contorno e alle polilinee.
@@ -55,7 +57,7 @@ Persona e riferimenti sceglie misure, immagini e copie indipendenti della base. 
 
 La versione gratuita può mantenere due progetti di modelli alla volta. L'eliminazione di uno libera uno slot, mentre i progetti esistenti rimangono sempre apribili, modificabili, salvabili e cancellabili. Il disegno gratuito e gli strumenti di disegno essenziali, tra cui riferimento al corpo, blocco del corpo formale, facilità, calibro, dimensioni, curve, nodi e piani di punti, rimangono disponibili.
 
-Il Basic Drop-Shoulder Pullover è la strategia gratuita. Strategie avanzate adattate e future, I miei modelli, più preset, creazione di strategie personalizzate e trasferimento di pacchetti di strategia richiedono l'iscrizione. Generation Prep rimane gratuita; l'iscrizione viene controllata solo quando crei effettivamente una tabella di lavoro a maglia. Gli output del contatore, dell'uncinetto e del filato seguiranno la stessa regola.
+Il pullover base con spalla scesa è gratuito. Le altre strategie integrate a pagamento richiedono un abbonamento attivo e un acquisto separato. Restano utilizzabili nei dati attuali dell’App dopo la scadenza. Strategie locali/importate, modelli personali e strumenti di creazione richiedono un abbonamento. La preparazione è gratuita; la creazione degli output verifica i diritti. Gli acquisti sono consumabili e non si ripristinano su un nuovo dispositivo tramite App Store. Anche più preimpostazioni e l’importazione/esportazione dei pacchetti richiedono un abbonamento.
 
 <a id="evidence"></a>
 ## Prove e risultati futuri
@@ -65,7 +67,7 @@ Generazione e collegamenti offre schemi ai ferri, uncinetto in piano, contatori 
 <a id="workflow-save-export"></a>
 ## Anteprima, esportazione e salvataggio
 
-L’anteprima piana mostra pezzi reali e riferimenti corporei e conserva la vista al ritorno. L’esportazione regola separatamente griglia e Tips espansi, numerati o nascosti. Il salvataggio mantiene tracciati aperti, note, ordine e foglio. Ogni documento ripristina vista, strumento, selezione e confronto confermato senza rieseguire comandi o ripristinare Annulla. Elenchi e file condividono l’ultima anteprima completa salvata con successo, non l’ultimo dettaglio ingrandito o vuoto. I dati precedenti leggibili sono protetti e quelli ignoti non vengono sovrascritti da un documento vuoto. Non compilato né verificato su dispositivo.
+L’esportazione regola separatamente griglia e Tips espansi, numerati o nascosti. Il salvataggio mantiene tracciati aperti, note, ordine e foglio. Ogni documento ripristina vista, strumento, selezione e confronto confermato senza rieseguire comandi o ripristinare Annulla. Elenchi e file condividono l’ultima anteprima completa salvata con successo, non l’ultimo dettaglio ingrandito o vuoto. I dati precedenti leggibili sono protetti e quelli ignoti non vengono sovrascritti da un documento vuoto.
 
 <a id="body-block-comparison"></a>
 ## Confronto con la base
@@ -73,19 +75,39 @@ L’anteprima piana mostra pezzi reali e riferimenti corporei e conserva la vist
 Anteprima → Confronta con la base parte dal pezzo attuale. Scegli base davanti/dietro e pezzo intero/metà. Indica asse centrale e altezza corrispondente petto/vita, allinea a 1:1 e blocca il riferimento. Un dito sposta solo il riferimento sbloccato; due navigano. Indica sullo stesso lato collo/spalla, punta spalla, centro collo, ascella e fondo per misurare contorni reali, differenze laterali e distanze. Più intervalli o riferimenti mancanti non producono una larghezza unica. Tocca il risultato per evidenziarlo; conferma per salvare basi e posizione, modifica il pezzo e riprendi. Indietro scarta le modifiche. La base può includere stime: differenze non equivalgono ad agio totale, spazio dal corpo, pressione o giudizio di vestibilità.
 
 <a id="try-on-3d"></a>
-## Anteprima 3D statica
+## Campioni 3D e simulazione con materiale di riferimento
 
-Apri Anteprima → Anteprima 3D statica per Persona, Assemblaggio, Prova, Visualizzazione, Camera e Regola. Un dito ruota, due spostano e il pizzico ingrandisce. Cambia gruppo per continuare in 2D. Capacità e limiti della 3D statica restano invariati.
+Nella versione pubblica, toccando il campione 3D nell’editor del modello appare un avviso di manutenzione. Le istruzioni 3D qui sotto si applicano alle versioni Debug.
 
-Proporzioni, testa e arti sono stimati; larghezza spalle e lunghezze superficiali non sono adattate. Inserisci l’altezza mancante oppure scegli esplicitamente 165 cm come riferimento. Le misure mostrano fonti, circonferenze delle sezioni ed errore del contorno. Cambiare pannelli o unioni rende il risultato obsoleto; la generazione è annullabile.
+Apri Anteprima → Campione 3D o lo spazio 3D: Persona, Assemblaggio, Drappeggio, Visualizzazione, Camera e Regola. Restano disponibili tutti i modelli base del corpo, i confronti dimensionali 2D e i controlli dei collegamenti. Il corpo usa un’istantanea salvata delle misure; nella scheda persona scegli un modello neutro, femminile, maschile o bambino. Le forme mancanti sono stimate dal modello. La distanza tra i punti delle spalle è un riferimento di posizionamento; le lunghezze di superficie non adattate mantengono le note. Cambiare persona non modifica i pannelli.
 
-È un’anteprima statica: elasticità, flessione, collisioni e vestibilità non sono validate. Nessun punteggio di pressione o vestibilità. Questa implementazione non è stata compilata né verificata su dispositivo reale.
+Basta un pannello chiuso valido, senza campione di tensione, ruoli o cuciture preliminari. In Assemblaggio → Posizionamento e fissaggio dei pannelli, seleziona un pannello, mettilo davanti al torace, dietro la schiena o su una spalla, poi trascinalo con un dito; due dita controllano la vista. Fissa due punti superiori, aggiungi o rimuovi fissaggi con un tocco, ruota di 90° o ripristina. Per un gilet base, conferma quattro giunzioni su spalle e fianchi, lasciando aperti scollo, giromanica e orlo.
 
-Se una versione precedente segnalava una mesh del corpo non chiusa o con orientamento errato, aggiorna, riapri i dettagli della persona e rigenera l’anteprima. Non serve eliminare la persona né reinserire le misure. Questa correzione è ancora in attesa di verifica su dispositivo.
+Assemblaggio → Maglia di riferimento offre Drappeggio morbido, Maglia standard e Più rigido. Sono preimpostazioni indicative; la tensione definisce dimensioni e scala del motivo, non elasticità. Il pulsante principale avvia, sospende o riprende il drappeggio per gravità; puoi ripartire dalla posizione iniziale. Le stime del corpo e del materiale non determinano vestibilità precisa o pressione; nelle collisioni possono rimanere compenetrazioni.
+
+In osservazione, un dito ruota orizzontalmente; due spostano e ingrandiscono con un pizzico; un doppio tocco mette a fuoco. Visualizzazione può nascondere la base. Impostazioni e camera salvate tornano alla riapertura.
+
+Aggiorna il 3D dopo modifiche ai tracciati 2D reali. Confronta prima e dopo dalla stessa vista con corpo, materiale, posizione e fissaggi uguali. Salva un’immagine solo da un risultato attuale, valido e completato; risultati in corso, sospesi o obsoleti non sono esportabili come risultato attuale.
+
+I pannelli davanti, dietro e delle maniche copiati dai modelli base, compresi i contorni che tornano esplicitamente al punto iniziale prima della chiusura, sono utilizzabili in 3D. Se un contorno o un bordo non è valido, la simulazione del capo si ferma ma il corpo attuale resta visibile. Il messaggio indica il pannello e il motivo: correggilo e aggiorna il 3D. Questa anteprima del corpo non può essere esportata come risultato valido di prova del capo.
+
+Le anteprime 3D valide possono essere salvate con un progetto e ripristinate se il modello, il corpo e le condizioni di simulazione corrispondono ancora. Le modifiche ai dati richiedono una nuova simulazione; i risultati non riusciti o incompleti non sovrascrivono l’ultima anteprima valida salvata.
 
 <a id="piece-colorwork"></a>
 ## Jacquard del pezzo
 
 Apri Lavora a maglia → Jacquard del pezzo, oppure 3D → Visualizzazione → Jacquard del pezzo. Scegli un pezzo e uno schema a colori esistente. Il motivo si ripete secondo il campione di maglie e ferri dal centro inferiore. Puoi scegliere un motivo singolo, spostarlo per maglie/ferri interi, cambiare il fondo e sostituire i colori. Anche il trascinamento sulla tela avviene per maglie e ferri interi. Scollo, giromanica e bordi ritagliano il motivo. Ogni cella resta una maglia per un ferro, senza allungamenti. Il fondo copre le celle vuote/trasparenti e l’area esterna al motivo singolo.
 
-Salvataggio ed eliminazione sono annullabili; Annulla non applica nulla. Sincronizza dopo modifiche allo schema o al campione. Una modifica rilevata al salvataggio aggiorna prima l’anteprima da controllare e salvare di nuovo. 2D, assemblaggio, 3D e output ai ferri idoneo condividono la stessa regola di colore; il lato iniziale cambia solo la numerazione. Maglie attive e simboli sottostanti restano invariati. Sono ammesse solo celle colorate o semplici diritto/rovescio, escluse celle senza maglia, punti strutturali/multicella e semitrasparenze. Nessun raccordo automatico sulle cuciture, fasce, varianti salvate, fili flottanti reali o simulazione del tessuto.
+Salvataggio ed eliminazione sono annullabili; Annulla non applica nulla. Sincronizza dopo modifiche allo schema o al campione. Una modifica rilevata al salvataggio aggiorna prima l’anteprima da controllare e salvare di nuovo. 2D, assemblaggio, 3D e output ai ferri idoneo condividono la stessa regola di colore; il lato iniziale cambia solo la numerazione. Maglie attive e simboli sottostanti restano invariati. Sono ammesse solo celle colorate o semplici diritto/rovescio, escluse celle senza maglia, punti strutturali/multicella e semitrasparenze. La lavorazione a colori mostra l’aspetto cromatico; i fili flottanti e il comportamento fisico della struttura reale dei punti non sono ancora simulati. Il drappeggio complessivo del tessuto usa un materiale di riferimento indipendente, senza ricavare le proprietà dalla lavorazione a colori. Restano esclusi l’allineamento automatico alle cuciture, i bordi e le combinazioni di colori salvate.
+
+<!-- bernat-debug-2026-11-10 -->
+Esempio Debug interno: ricompilare l’app e aprire Bernat M in fondo a Nuovo modello → Maglia → Generazione tramite strategia. Il riferimento a quattro pezzi, taglia M fissa, può essere modificato, salvato e riaperto. Gradazione automatica, collo e coste restano da completare. Il nuovo corpo sintetico è collegato alla prova sperimentale; qualità finale e salvataggio del risultato sono in verifica.
+
+Al termine del calcolo di Bernat M, tocca **Vestibilità** e scegli torace, scollo, polsini oppure orlo. Le linee tratteggiate indicano il corpo e quelle continue il capo. Puoi impostare l’agio desiderato al torace e confrontare entrambi i polsini oppure gli orli davanti e dietro. Il pannello segnala i riferimenti del modello, le misure dello scollo da confermare e i risultati che non superano il controllo qualità.
+
+In Orlo, un breve tratteggio indica la vita di riferimento del corpo. Tocca **Mostra il corpo** per attenuare il capo e **Ripristina il capo** per tornare alla vista normale. Le linee guida si riallineano al termine dello spostamento.
+<!-- /bernat-debug-2026-11-10 -->
+
+<!-- bernat-debug-tryon-2026-11-10 -->
+La vista 3D usa un corpo di riferimento sintetico. Al termine del calcolo, usa Condividi per salvare un’immagine di anteprima tecnica. Solo i risultati che superano i controlli di qualità possono essere salvati e riaperti come prove.
+<!-- /bernat-debug-tryon-2026-11-10 -->

@@ -45,8 +45,6 @@ Home is the project workspace. The header shows the current project and its next
 
 Pull down on Home to refresh local projects and resource relationships without making a network request, while keeping the current filters and sorting.
 
-When Ravelry is connected, the Home header may show large free-pattern recommendations based on projects stored on this device. Swipe or wait for the next image. Tap to choose Preview Image, View Ravelry Details, or Import. The current-project card remains the fallback when Ravelry is disconnected, unavailable, or has no suitable result.
-
 Quick Start groups destinations under Ravelry, Pattern Drafting, Project Notes, Knitting, Crochet, Yarn, Projects, Stitches, and Help. Pattern Drafting, Project Notes, Knitting, and Crochet place Files immediately after New or Import, keep supporting tools in the middle, and move the classic List to the end. Help collects the app guide, knitting chart guide, crochet chart guide, Project Notes guide, Pattern Drafting guide, knitting counter guide, swatch simulator, and feedback; the matching guide is also available inside each supported module. Modules scroll horizontally and reveal their actions in the rounded group below; the top pointer marks the active module. Select it again or use Collapse to hide the group.
 
 Ravelry in Home’s Quick Start provides Import, Library, Pattern Search, Favorites, and Account. Pattern Search includes all patterns by default; filter by free or paid, craft, category, and language, and choose a sort order. Tap a pattern to preview it, add or remove a favorite, or view its official Ravelry details. Favorites are shared with Discover and saved in the app; they are not added to your Ravelry favorites. Direct import from search is available only for free patterns with an accessible PDF. For externally hosted content, download the file yourself and use file import. Paid patterns can be favorited and their source viewed; any purchase is completed by you on Ravelry. Purchased patterns with download access in your Library can still be imported from Library.
@@ -64,6 +62,41 @@ The Mode menu at the top right of simulation settings offers Gauge-based simulat
 The second action at the top-left of Home opens the Wish Pool. Choose an area and a preset wish to submit it; only a custom wish requires text, and preset wishes may include an optional note. Validation and submission results appear as Toast messages. For a functional problem, use the Feedback link at the bottom and include the steps or a screenshot.
 
 ### Discover
+
+<!-- discover-detail-2026-11-09 -->
+Tap the text, blank area or View Details on a card in Discover, Favorites or Likes to open details. The cover still previews images, and the heart toggles favorites. Built-in knitting chart details appear first; Add or Open becomes available after a background check for a saved copy. Returning from the editor checks again.
+<!-- /discover-detail-2026-11-09 -->
+
+<!-- discover-recommendations-2026-11-08 -->
+Home shows three public local items before operational recommendations: one knitting chart, one crochet chart and one pattern strategy. The total is capped at 15. In the Knitting and Crochet sections of Quick Start, **Discover Charts** switches the main Discover tab to the matching channel; **Discover Patterns** in Pattern Drafting opens the pattern channel.
+
+The Discover Hero shows up to five items: at least three public local items and up to two existing operational picks. Local items fill any missing operational slots. The fixed three highlights always contain one local and two operational items, with local items filling any gaps. Picks rotate consistently by day and device and vary across entry points where possible. A built-in item opens its native detail first, where you can add, open or use it. Local recommendations appear before layout, and background refreshes keep visible content in place.
+The first 37 older knitting charts remain searchable, viewable, and addable in Discover → Knitting. They no longer appear in Home recommendations, the Discover banner, or the three featured slots. Newer knitting charts can still be recommended.
+<!-- /discover-recommendations-2026-11-08 -->
+
+<!-- discover-filter-collapse-2026-11-09 -->
+Filters start collapsed in all four Discover channels. Use Expand or Collapse to the right of the search box to show or hide categories, themes, price and sorting. Search, the active-condition count, Clear Filters and cache notices remain visible. Collapsing keeps your conditions and list position without filtering again. Each channel keeps its own expanded state during this browsing session.
+<!-- /discover-filter-collapse-2026-11-09 -->
+
+<!-- discover-content-search-2026-11-06 -->
+Each Discover channel list supports searching titles, creators, summaries, categories and themes, with category and theme filters combined. Sort by recommended order, newest publication or latest update. Historical built-in items without reliable dates follow dated items. The selected tab and each channel’s category, theme, price and sort settings are saved across app launches; search text and scroll position last only for the current session. Clear filters to see all items again. List filters do not affect the banner or three highlights. Cached or incomplete results are labelled; tap the notice to retry loading.
+
+<!-- discover-chart-commerce-2026-11-07 -->
+#### Chart prices and per-chart unlocks (in development, not publicly released)
+
+- Discover’s All / Free / Paid price filters can be combined with category, theme, and search conditions.
+- New native charts are redrawn from reference originals, and their source can be viewed in details. Simpler charts are free; some charts require a separate purchase. The actual price is the one shown by the store.
+- Each unlock record applies to that chart. You can open it repeatedly after unlocking; existing editable copies will not be overwritten.
+- These are consumable in-app purchases. Unlock records are stored in app data and included in full-library backups. App Store Restore Purchases cannot recreate these records; keep a data backup.
+- For an unfinished transaction, choose Retry purchase processing in details. It only replays the existing transaction and does not start a new payment.
+
+- New reference chart copies come with editable knit stitches for working in the round, while the original colorwork and existing copies stay as they are. To fill an existing copy, use **Blank Cell Stitches** in area editing and choose **Auto Contrast** to use a black or white symbol based on each cell’s background, or select a color yourself, without overwriting stitches already in the chart.
+- Discover covers, full-size previews, and new copy thumbnails show the knit stitches for these reference charts.
+- Open Discover → Crochet to browse the first 10 built-in charts, including swatches, textured stitches, edgings, and motifs. Open a chart’s details to see its source and preview its stitch symbols. Add a chart to edit a local copy in the crochet editor. Paid charts unlock individually at the same consumable in-app purchase tiers as knitting charts. Use All, Free, or Paid to filter the list.
+- The first 10 knitting and 10 crochet charts are now free. Future pricing considers meaningful stitch symbols in one complete motif or the smallest repeat. Up to 100 symbols, basic repeats and simple colorwork are free. Charts with 101–300 symbols and moderate complexity may qualify for the ¥1 (CNY) tier. Charts with 301 or more symbols, high complexity and a complete deliverable may qualify for ¥6 (CNY). Symbol count alone never makes a chart paid. The store determines the actual purchase price.
+<!-- /discover-chart-commerce-2026-11-07 -->
+
+Discover shows four channels in this order: Featured, Knitting, Crochet, and Pattern drafting.
 
 Discover presents curated Ravelry patterns and approved community projects. Browse highlights in the banner and three featured recommendations, switch channels for more projects, and pull down to refresh. Tap an image for more photos, or open a card to view public details, favorite it, or like it. Ravelry items can open their source or be imported. Community projects can be imported as new local copies together with the photos, Project Notes, knitting charts, and crochet charts that the publisher explicitly selected. On Ravelry cards, a credit card icon at the top-right of the left-hand cover marks paid patterns, and a gift icon marks free patterns; no badge appears when availability is unknown.
 
@@ -186,6 +219,12 @@ Each counter supports three display modes:
 - **Project Notes**: link a PDF or image note in read-only mode and remember the counter's current page.
 - **Text instructions**: save written steps and adjust text size.
 
+### Apple Watch collaboration
+
+On the iPhone’s Settings tab, find **Apple Watch collaboration** below **Notifications** in **Preferences** to choose the default watch gesture. On an existing counter page, tap the watch icon in the upper right to start collaboration for the current tab, switch collaboration to this counter, end collaboration, or open Apple Watch settings. While the watch can still reach the iPhone, you can keep using the same linked counter with the iPhone app in the background, for example while watching a video. If the connection drops, the watch displays the last confirmed count.
+
+Collaboration settings are separate for counters, knitting charts, notes and crochet charts. Counters, knitting charts, crochet charts and knitting notes support independent double-tap actions. In Project Notes, open a counter’s More menu or touch and hold the counter, then choose Link with Apple Watch. A watch icon marks the linked counter. You can switch targets from the watch menu at the top right. Watch controls only the selected counter. Turning pages, hiding the panel or switching to another app keeps counting available while connected. Leaving the reader pauses collaboration. Return to the same note to resume. You can add or subtract repeatedly on Apple Watch. Predictable counts update immediately, and the pending count appears below. iPhone saves and confirms actions in order. Actions pause at a step that needs confirmation on iPhone and resume afterward. Check unconfirmed actions if you change targets or counting settings. In a knitting chart, enter counting mode and enable the row marker to show a watch button beside More at the top right. Manually start or switch the target to move one row at a time. The chart is saved before binding. Watch shows the chart name, row number and total rows, and stops at the range boundary. Leaving counting mode, disabling the row marker or leaving the editor pauses collaboration; the bound chart keeps its watch entry. Reopen the same chart in counting mode to resume. Switching to another app to watch a video keeps the target available while connected. Full saves briefly pause operations and resume automatically. Changing row count or row origin requires rebinding. In a crochet chart, choose Link with Apple Watch from one counter’s More menu to bind only that counter. The top-right watch menu also lists targets and checks the current one. A small watch mark remains visible on the linked counter, including compact mode. Tapping other counters, renaming, reordering, paging or hiding the panel never changes the target. Switching to a video app keeps counting available while connected. Incrementing past a positive maximum wraps to zero; subtraction stops at zero. Reset keeps the binding; deleting the target ends it without selecting another. Leaving the editor or editing a counter pauses collaboration; returning to the same chart resumes it. Binding saves first, full saves briefly pause operations, and crochet gestures have their own preference. Count haptic feedback under Watch feedback is on by default and can be turned off. This preference is independent of projects and controls vibrations after successful button or gesture counts. It syncs when the watch is connected.
+
 <a id="pattern-drafting"></a>
 ## Smart Pattern Drafting
 
@@ -209,7 +248,14 @@ Person & References selects measurements, reference images or independent copies
 
 Preview → Compare with Body Block starts from the current piece. Choose a front/back block and a full or half piece. Mark its centerline and corresponding chest/waist level, then align at a chosen level and lock the reference at 1:1. One finger moves only the unlocked reference; two fingers navigate. Mark same-side neck/shoulder, shoulder tip, neck center, underarm and hem as needed. Results use actual outlines for widths, planar side differences and shoulder/neck/vertical measurements. Missing marks or multiple intervals do not produce a single width. Tap a result to highlight it. Confirm to save evidence and placement, then edit the piece and resume comparison; Back cancels changes. Rule-derived blocks may include estimates. Differences are not whole-garment ease, body clearance, pressure or a fit verdict.
 
-Planar preview shows actual pieces and body references and preserves the editing view on return. More → Export Design independently controls grids and expanded, numbered or hidden Tips. Saves retain open paths, annotations, stacking and paper. Each document restores its viewport, tool, selection and confirmed comparison without replaying commands or restoring Undo history. Pattern Records and Files share the latest successfully saved full-design preview, independent of the last zoomed or blank viewport. Readable older documents retain identity, geometry, notes and plans; unknown data is not overwritten with a blank project. This update has not been compiled or validated on a device.
+In the release build, tapping the pattern editor’s 3D sample opens a maintenance notice.
+
+In Debug builds, you can place and pin valid closed panels in 3D, choose a reference knit material, then start, pause or resume gravity draping; a single-panel sample needs no seams. Body and material estimates support observing shape and drape without precise fit or pressure conclusions. Update after editing the 2D outline, and save an image only from a current, valid completed result.
+
+More → Export Design independently controls grids and expanded, numbered or hidden Tips. Saves retain open paths, annotations, stacking and paper. Each document restores its viewport, tool, selection and confirmed comparison without replaying commands or restoring Undo history. Pattern Records and Files share the latest successfully saved full-design preview, independent of the last zoomed or blank viewport. Readable older documents retain identity, geometry, notes and plans; unknown data is not overwritten with a blank project.
+
+In Debug builds, valid 3D previews can be saved with a project and restored when the pattern, body and simulation conditions still match. Input changes require a new simulation; failed or unfinished results do not overwrite the last saved valid preview.
+
 
 <a id="knitting-chart"></a>
 ## Knitting charts
@@ -275,6 +321,8 @@ Export options include images and editable project files; use project files for 
 
 <a id="crochet-chart"></a>
 ## Crochet charts
+
+Built-in crochet charts in Discover come with step-by-step instructions. In the crochet editor, open Instructions to read the pattern. Use Previous and Next to move between steps, or select Locate chart to see the symbols for the current step. You can also tap a chart symbol to find its related step. Reading instructions is separate from the project counters and never changes their counts. Open All steps to edit the steps. In a step, choose Link chart elements, then tap or drag to select chart elements, then choose Finish linking. Existing project notes in older charts remain readable. When a saved built-in chart still matches the original stitches and layout, opening Instructions also loads its built-in steps.
 
 Free users can create up to 3 crochet charts. After reaching 3, creating or importing another chart requires a subscription, while existing charts remain available to open and edit.
 

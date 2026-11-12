@@ -182,6 +182,8 @@ Jede horizontale Zählerseite zeigt bis zu drei Zähler an. Wischen Sie horizont
 
 Kostenlose Benutzer können bis zu drei Zähler verwenden.
 
+Öffne in einer Stricknotiz das Zählermenü oder halte den Zähler gedrückt und wähle Mit Apple Watch verbinden. Ein Watch-Symbol markiert den verbundenen Zähler. Im Watch-Menü oben rechts kannst du das Ziel wechseln. Die Watch steuert nur den ausgewählten Zähler. Beim Umblättern, Ausblenden des Felds oder Wechsel zu einer anderen App kannst du bei bestehender Verbindung weiterzählen. Das Verlassen des Lesers pausiert die Zusammenarbeit. Kehre zur selben Notiz zurück, um fortzufahren. Auf der Apple Watch kannst du mehrmals hintereinander erhöhen oder verringern. Berechenbare Werte erscheinen sofort, offene Aktionen darunter. Das iPhone speichert und bestätigt die Aktionen der Reihe nach. Ist eine Bestätigung auf dem iPhone nötig, pausieren die Aktionen bis dahin. Prüfe unbestätigte Aktionen, wenn du Ziel oder Zähleinstellungen änderst.
+
 ## Element
 
 Öffnen Sie **Mehr > Elemente**, um Komponenten und Notizen an einem Ort zu verwalten.
