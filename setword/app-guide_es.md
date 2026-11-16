@@ -14,6 +14,7 @@ Knit & Crochet te ayuda a organizar hilos, gestionar proyectos de tejido, realiz
 - [Project workspace](#project-workspace)
 - [Knitting counter](#counter)
 - [Smart Pattern Drafting](#pattern-drafting)
+- [Personalización del menú del editor](#editor-customization)
 - [Knitting charts](#knitting-chart)
 - [Knitting chart area operations](#knitting-chart-area-operations)
 - [Crochet charts](#crochet-chart)
@@ -51,6 +52,8 @@ Inicio rápido agrupa destinos en Ravelry, Dibujo de patrones, Notas del proyect
 
 Ravelry en el Inicio rápido de la pantalla de inicio ofrece Importar, Biblioteca, Buscar patrones, Favoritos y Cuenta. La búsqueda incluye todos los patrones de forma predeterminada; puedes filtrar los gratuitos o de pago, la técnica, la categoría y el idioma, y elegir el orden. Toca un patrón para ver una vista previa, añadirlo a favoritos o eliminarlo de ellos, o consultar su ficha oficial en Ravelry. Los favoritos se comparten con Discover y se guardan en la app; no se añaden a tus favoritos de Ravelry. Solo los patrones gratuitos con un PDF accesible se pueden importar directamente desde la búsqueda. Para los contenidos alojados en sitios externos, descarga el archivo por tu cuenta y utiliza la importación de archivos. Los patrones de pago se pueden añadir a favoritos y se puede consultar su fuente; cualquier compra la realizas tú en Ravelry. Los patrones ya comprados con permiso de descarga en tu Biblioteca siguen pudiéndose importar desde ella.
 
+Cuando la app está en chino simplificado o tradicional, la página de cuenta de Ravelry muestra este aviso de red: En China continental, es posible que necesites una herramienta que permita acceder a Ravelry para iniciar sesión y autorizar tu cuenta. Solo se necesita durante ese paso; después puedes volver a tu conexión habitual.
+
 Los filtros avanzados incluyen nombre del diseñador, 13 atributos habituales (deben coincidir todos los seleccionados), tamaño de agujas o ganchillo en mm, varios grosores estándar de hilo y un intervalo de metraje en metros o yardas. Puedes indicar solo un límite; cambiar de unidad convierte el intervalo existente. Los resultados pueden abarcar varias tallas: comprueba el metraje necesario. Ordena por popularidad actual, publicación reciente, incorporación reciente, proyectos o favoritos. No hay filtro de descuentos; consulta precios y ofertas en la página oficial. Quita los filtros individualmente o restablécelos todos.
 
 La página de filtros mantiene Aplicar arriba a la derecha y añade un botón grande debajo de Restablecer filtros. El corazón de la esquina superior izquierda de Descubrir abre siempre Mis favoritos; el menú Más también da acceso a favoritos y Me gusta. Pulsa Buscar patrones de Ravelry encima de los favoritos para abrir los filtros, conectando antes la cuenta si es necesario. Aplica los filtros, guarda patrones desde los resultados y vuelve para ver los favoritos actualizados. El acceso sigue visible si no hay favoritos y se oculta en la pestaña Me gusta. El menú de búsqueda muestra un estado de descarga breve y sitúa los favoritos primero; las instrucciones completas siguen en los detalles o la confirmación de importación.
@@ -61,9 +64,17 @@ El menú Modo, arriba a la derecha de los ajustes, ofrece Simulación según la 
 
 **Controles de la vista previa 3D**: arrastra con un dedo para girar. Pellizca con dos dedos para ampliar o reducir, o arrástralos juntos para mover la vista; ambos gestos se pueden combinar. Si parte del tejido queda fuera de la ventana tras ampliar o girar, usa dos dedos para volver a mostrar la zona que quieras observar. Toca Restablecer arriba a la derecha o cambia entre Frente / Oblicua / Reverso para restaurar esa vista y centrar el tejido. Mover solo cambia el encuadre: no modifica el hilo ni los puntos ni vuelve a ejecutar la simulación.
 
-La segunda acción en la parte superior izquierda de Inicio abre el Wish Pool. Elija un área y un deseo preestablecido para enviarlo; solo un deseo personalizado requiere texto y los deseos preestablecidos pueden incluir una nota opcional. Los resultados de validación y envío aparecen como mensajes Toast. Para un problema funcional, use el enlace Comentarios en la parte inferior e incluya los pasos o una captura de pantalla.
+El segundo botón de la parte superior izquierda de Inicio, con un icono de bocadillos, abre «Valoración y sugerencias». Selecciona «Pedir un deseo» para abrir el Wish Pool. Elija un área y un deseo preestablecido para enviarlo; solo un deseo personalizado requiere texto y los deseos preestablecidos pueden incluir una nota opcional. Los resultados de validación y envío aparecen como mensajes Toast. Para un problema funcional, use el enlace Comentarios en la parte inferior e incluya los pasos o una captura de pantalla.
 
 ### Descubrir
+
+Discover presenta patrones seleccionados de Ravelry y proyectos comunitarios aprobados. Explore los aspectos más destacados del banner y las tres recomendaciones destacadas, cambie de canal para ver más proyectos y baje para actualizar. Toque una imagen para ver más fotos o abra una tarjeta para ver los detalles públicos, marcarla como favorita o darle me gusta. Los artículos de Ravelry pueden abrir su código fuente o importarse. Los proyectos comunitarios se pueden importar como nuevas copias locales junto con las fotografías, notas del proyecto, diagramas de tejido y diagramas de crochet que el editor seleccionó explícitamente. En las tarjetas de Ravelry, una tarjeta bancaria en la esquina superior derecha de la portada izquierda indica un patrón de pago y un regalo indica uno gratuito; si se desconoce esta información, no aparece ningún distintivo.
+
+En el iPad y cuando el iPhone Duo está desplegado, el banner superior mantiene una altura máxima tanto en vertical como en horizontal; las tres recomendaciones se mantienen centradas dentro de un ancho máximo para que el contenido no crezca demasiado en pantallas anchas. Los márgenes a ambos lados de las tres recomendaciones se rellenan con un fondo desenfocado basado en la portada de la primera recomendación.
+
+Descubrir muestra cuatro canales en este orden: Destacado, Punto, Ganchillo y Patronaje. Destacado puede mostrar contenidos de los demás canales. Punto también incluye gráficos integrados gratuitos, y Patronaje ofrece estrategias de patronaje incluidas. Las tarjetas muestran acceso gratuito, precio o estado adquirido. Toca el texto o Ver detalles para abrir primero la ficha de Descubrir y después elegir añadir, usar, importar o ver la fuente. Las portadas siguen abriendo una vista previa de las imágenes grandes.
+
+Los 37 gráficos de punto integrados existentes se pueden obtener gratis. Ver los detalles no añade ningún registro. Añadir a Mis gráficos crea una copia editable que cuenta para el límite actual de gráficos, incluido el de los usuarios gratuitos. Si ya existe una copia, Abrir mi gráfico la abre sin sobrescribir tus cambios. Tras borrar la copia, puedes volver a añadir el gráfico.
 
 <!-- discover-detail-2026-11-09 -->
 Toca el texto, un espacio vacío o el botón de detalles de una tarjeta en Discover, Favoritos o Me gusta para abrir los detalles. La portada sigue mostrando las imágenes y el corazón cambia el estado de favorito. Los detalles de los gráficos de punto integrados aparecen primero; Añadir o Abrir se activa tras buscar una copia guardada en segundo plano. La comprobación se repite al volver del editor.
@@ -73,7 +84,6 @@ Toca el texto, un espacio vacío o el botón de detalles de una tarjeta en Disco
 Inicio muestra tres contenidos públicos locales antes de las recomendaciones operativas: un gráfico de punto, uno de ganchillo y una estrategia de patronaje. El total está limitado a 15. En las secciones Tejido y Ganchillo de Inicio rápido, «Descubrir gráficos» cambia la pestaña principal Descubrir al canal correspondiente; «Descubrir patrones» en Dibujo de patrones abre el canal de patrones.
 
 El Hero de Descubrir muestra hasta cinco elementos: al menos tres contenidos públicos locales y hasta dos recomendaciones operativas existentes. El contenido local ocupa los espacios operativos que falten. Los tres destacados fijos siempre incluyen uno local y dos operativos; el contenido local completa los que falten. La selección rota de forma estable según el día y el dispositivo y, cuando es posible, varía entre entradas. Un elemento integrado abre primero su ficha nativa, donde puedes añadirlo, abrirlo o usarlo. Las recomendaciones locales aparecen antes del diseño y la actualización en segundo plano mantiene visible el contenido actual.
-Los primeros 37 gráficos de punto siguen disponibles para buscar, ver y añadir en Descubrir → Punto. Ya no aparecen en las recomendaciones de Inicio, en el banner de Descubrir ni en los tres destacados. Los gráficos añadidos después pueden seguir recomendándose.
 <!-- /discover-recommendations-2026-11-08 -->
 
 <!-- discover-filter-collapse-2026-11-09 -->
@@ -98,10 +108,7 @@ Cada lista de Descubrir permite buscar títulos, autores, descripciones, categor
 - Los primeros 10 gráficos de punto y 10 de ganchillo ya son gratuitos. Los precios futuros se evaluarán según los símbolos de puntos efectivos de un motivo completo o de la repetición mínima. Hasta 100 símbolos, las repeticiones básicas y los motivos de color sencillos son gratuitos. Entre 101 y 300 símbolos, con complejidad media, un gráfico puede optar al nivel de 1 yuan. A partir de 301, con complejidad alta y contenido completo, puede optar al de 6 yuanes. La cantidad por sí sola no convierte un gráfico en contenido de pago. El precio real será el que indique la tienda.
 <!-- /discover-chart-commerce-2026-11-07 -->
 
-Descubrir muestra cuatro canales en este orden: Destacado, Punto, Ganchillo y Patronaje.
-
-
-Discover presenta patrones seleccionados de Ravelry y proyectos comunitarios aprobados. Explore los aspectos más destacados del banner y las tres recomendaciones destacadas, cambie de canal para ver más proyectos y baje para actualizar. Toque una imagen para ver más fotos o abra una tarjeta para ver los detalles públicos, marcarla como favorita o darle me gusta. Los artículos de Ravelry pueden abrir su código fuente o importarse. Los proyectos comunitarios se pueden importar como nuevas copias locales junto con las fotografías, notas del proyecto, diagramas de tejido y diagramas de crochet que el editor seleccionó explícitamente. En las tarjetas de Ravelry, una tarjeta bancaria en la esquina superior derecha de la portada izquierda indica un patrón de pago y un regalo indica uno gratuito; si se desconoce esta información, no aparece ningún distintivo.
+La ficha de una estrategia muestra ejemplos, límites, el precio real de App Store y el estado adquirido. Durante la beta, las estrategias integradas son gratuitas y se usan directamente; las candidatas están ocultas. Las desbloqueadas siguen disponibles tras caducar la suscripción. El desbloqueo se guarda en los datos de la app y no se restaura en otro dispositivo mediante App Store. La creación de patrones mantiene el límite actual de proyectos. Consulta las capacidades y elige usar la estrategia.
 
 Utilice el menú Más superior derecho de Discover para abrir Favoritos, Me gusta y Mis envíos, o elija un proyecto local de la lista de proyectos existentes para publicar. El menú Más de detalles del proyecto también proporciona un acceso directo Publicar para descubrir. El editor enumera campos públicos y recursos que se pueden compartir; la primera foto seleccionada se convierte en portada y se pueden incluir hasta seis fotos. Aparece una vista previa final de la tarjeta antes del envío. La entrada de publicación está disponible para todos, mientras que enviar un proyecto para su revisión requiere membresía. Aparece en un canal seleccionado solo después de la aprobación del administrador. El contenido seleccionado se carga en la base de datos pública de CloudKit; Se excluyen los contadores, el inventario de hilados, el progreso privado y los borradores de patrones. Navegar por Discover no requiere autorización de Ravelry; el flujo de conexión existente se usa solo para el contenido de la cuenta de Ravelry o las importaciones de Ravelry.
 
@@ -110,6 +117,10 @@ Solo en la pestaña de estado En progreso de Inicio, una tarjeta de proyecto mue
 ### Hilo
 
 La pestaña Hilados es un administrador de inventario. Su encabezado resume el número de hilos, el peso restante conocido, las existencias bajas y los registros que necesitan detalles de inventario. Explore la biblioteca por filtros de carpeta, búsqueda y inventario.
+
+Desde Inicio, elija Inicio rápido → Hilos → Resumen de inventario para ver todo el inventario. Si entra desde la pestaña Hilos, se mantienen la carpeta, la búsqueda y los filtros actuales.
+
+Toque cualquier parte de la tarjeta de resumen superior o elija Resumen de inventario en el menú Más. El Resumen de inventario conserva la carpeta, la búsqueda y los filtros actuales, y permite cambiar a todo el inventario. La página tiene tres temas: Mi perfil de hilos muestra color, material, grosor y marca; Uso y existencias restantes muestra el uso acumulado, el destino en proyectos y los restos que aún se pueden usar; Compras y costes muestra fechas de compra, importes confirmados, coste por 100 g y coste restante. Toque un gráfico o una categoría para ver los hilos correspondientes; Atrás conserva las selecciones anteriores. Las estadísticas usan solo los registros de hilos conservados en el alcance actual. La información que falta se señala por separado y los precios ausentes no se tratan como cero. El antiguo calendario de hilos solo sirve para las fechas de compra registradas; no permite revisar salidas ni fechas de uso mes a mes. Los detalles del hilo siguen siendo editables y, al volver después de editar, el resumen se actualiza.
 
 ### Herramientas
 
@@ -156,7 +167,7 @@ Los controles superiores y laterales siguen las mismas reglas de guardado y vali
 - Toque Ordenar, elija Nombre, Hora, Inventario o Precio y luego elija la dirección detallada. La clasificación admite nombre, fecha de creación, fecha de modificación, stock restante conocido, total de compra confirmada y costo por 100 g. Los registros sin precio confirmado o peso suficiente se quedan al final. En la administración de carpetas, toque y mantenga presionada una carpeta personal para reordenarla.
 - La cabecera muestra el total de compra confirmado y la cobertura de precios de la carpeta, búsqueda y filtros actuales. Los precios antiguos sin confirmar se excluyen. El total no representa el valor de las existencias restantes; un precio ausente no se considera cero.
 - Utilice alertas de existencias para encontrar hilo que se está agotando.
-- Utilice el calendario de hilados para revisar los registros agregados y de uso.
+- El antiguo calendario de hilos solo muestra fechas de compra registradas; no permite revisar salidas ni fechas de uso mes a mes.
 
 ### Simulador de muestras
 
@@ -231,6 +242,8 @@ Los ajustes se separan para contadores, gráficos de punto, notas y ganchillo. L
 <a id="pattern-drafting"></a>
 ## Redacción de patrones inteligentes
 
+Dibujar → Ajuste utiliza la cuadrícula visible en cm y adapta el paso al zoom. Incluye bordes y centros de piezas, imágenes y bocetos, guías y líneas centrales/de pecho/cintura del patrón base visible. Los destinos bloqueados siguen disponibles; los ocultos se excluyen. Puntos naranjas y líneas discontinuas indican el ajuste; arrastra lejos para soltarlo. Texto por centro, Tips y llamadas por posición. Pincel, controles de curva y etiquetas quedan libres. Los menús de persona, comparación, papel y propiedades se anclan a la fila pulsada.
+
 Un dedo o el lápiz usa la herramienta activa; dos dedos desplazan y amplían. Selecciona antes de arrastrar; mantén pulsado o usa el panel para elegir objetos superpuestos. Dibujar → Geometría ofrece puntos guardados, rectas con dos toques o arrastre, polilíneas, rectángulos y círculos desde el centro. Conserva abierto, continúa o cierra explícitamente el trazado. Editar → Nodos permite curvar el punto medio con extremos fijos y afinar con controles cuadrados. Pincel y goma trabajan sobre bocetos. Un trazo se convierte en pieza independiente tras confirmar la vista previa, conservando el original. Unir trazados abiertos crea una copia continua y conserva originales y notas. Las acciones continuas se pueden deshacer.
 
 Los grupos son Dibujar, Editar, Anotar, Tejer, Persona y referencias, Vista previa, Objetos y visualización. Al cambiar aparece una indicación breve. Las herramientas frecuentes quedan visibles; las relacionadas se despliegan según necesidad. Terminar, Cerrar, Mantener abierto y Cancelar solo aparecen al dibujar. Text, Tips, llamadas y medidas están en Anotar; muestra, bordes, uniones, diagramas y color en Tejer. Mostrar cuadrícula, ajustes y restricciones de dirección son independientes.
@@ -257,8 +270,9 @@ En las versiones Debug, coloca y fija piezas cerradas válidas en 3D, elige un t
 
 Exportar diseño controla por separado cuadrícula y Tips expandidos, numerados u ocultos. Guardar conserva líneas abiertas, notas, orden y papel. Cada documento restaura vista, herramienta, selección y comparación confirmada sin repetir órdenes ni recuperar Deshacer. Registros y archivos comparten la última vista completa guardada con éxito, no el último zoom o espacio vacío. Se protegen los datos antiguos legibles; los desconocidos no se sobrescriben con un documento vacío.
 
-En las versiones Debug, las vistas previas 3D válidas se pueden guardar con el proyecto y restaurar si el patrón, el cuerpo y las condiciones de simulación siguen coincidiendo. Los cambios en los datos requieren una nueva simulación; los resultados fallidos o incompletos no sobrescriben la última vista previa válida guardada.
+Durante la beta, las estrategias integradas son gratuitas: chaleco básico, jersey de hombro caído y pieza en blanco. Las estrategias candidatas (raglán, chaqueta, canesú redondo/cuadrado, manga montada, bies) están ocultas; los proyectos existentes se abren, pero no se crean desde el catálogo. Estrategias locales/importadas, plantillas y herramientas de autor siguen siendo para miembros. La preparación es gratuita; crear gráficos y contadores comprueba la suscripción. Exportar la imagen y el PDF de ficha técnica es gratis. Los ajustes múltiples y la importación/exportación de paquetes siguen siendo para miembros.
 
+En las versiones Debug, las vistas previas 3D válidas se pueden guardar con el proyecto y restaurar si el patrón, el cuerpo y las condiciones de simulación siguen coincidiendo. Los cambios en los datos requieren una nueva simulación; los resultados fallidos o incompletos no sobrescriben la última vista previa válida guardada.
 
 <a id="knitting-chart"></a>
 ## Tablas de tejido
@@ -275,6 +289,12 @@ El editor de gráficos de tejido almacena colores y símbolos de puntadas en cel
 - Dibuja símbolos, rellena colores, borra, deshace y rehace.
 - Utilice la selección de área para copiar, cortar, pegar, rellenar, reemplazar y colocar repetidamente.
 - Guarde colores, plantillas y símbolos personalizados reutilizables.
+
+Las categorías existentes incluyen KFB/PFB, LLI/RLI, puntos deslizados con hebra delante/detrás, lazada inversa (BYO) y la creación y el tejido del derecho o del revés del punto doble de vueltas cortas alemanas. Busca las abreviaturas y mantén pulsado para ver las explicaciones. Los símbolos siguen la leyenda de Line: compruébala con tu patrón. El punto doble sigue contando como un punto. Un pequeño indicador marca las novedades actuales aún no consultadas y desaparece tras seleccionarlas o abrir sus detalles correctamente; navegar o buscar no lo elimina. Las correcciones de nombres no se marcan como novedades.
+
+La biblioteca de punto incluye las pestañas Puntos y Trenzas. Las piezas de la antigua pestaña están arriba a la derecha en Más → Partes de símbolos. El editor conserva las pestañas de símbolos recientes y personalizados. Se mantienen todos los símbolos, las categorías y la cobertura de búsqueda, y las partes se pueden seleccionar directamente. En el selector de media pantalla, Más está junto al campo de búsqueda.
+
+Durante la sesión de edición actual, al cerrar y volver a abrir el selector de símbolos se restauran la última pestaña y la posición consultadas. Esta memoria se restablece al salir del editor.
 
 <a id="knitting-chart-area-operations"></a>
 ### Operaciones de área
@@ -342,6 +362,10 @@ El editor de crochet utiliza un lienzo gratuito y no se limita a la cuadrícula 
 ### Consejos de edición
 
 - Busque en la biblioteca de símbolos por nombre, abreviatura o palabra clave. Los símbolos seleccionados recientemente aparecen primero en Usado.
+- Durante la sesión de edición actual, al cerrar y volver a abrir el selector de símbolos se restauran la última pestaña y la posición consultadas. Esta memoria se restablece al salir del editor.
+- La biblioteca incluye puntos altos triples en relieve por delante y por detrás (FPdtr/BPdtr) y 2 o 3 puntos altos dobles cerrados juntos (tr2tog/tr3tog). Busca por nombre o abreviatura; estas disminuciones se trabajan en puntos de base distintos y se cierran juntas.
+- Veinte incorporaciones incluyen ehdc/edc/etr, dtr2tog/dtr3tog, 2 o 3 tr/dtr en el mismo punto, siete variantes por hebra y cuatro disminuciones en relieve. Los controles de curvatura admiten ehdc, edc, etr, hdc flo, dc flo, tr blo/flo y dtr blo/flo; las disminuciones y los aumentos de base común conservan el ajuste de tamaño normal. Abreviaturas de EE. UU.
+- Las siete variantes por hebra anteriores combinan un punto básico con una marca de inserción y están listas para seleccionar. Interpretar cada punto con la leyenda del diagrama utilizado.
 - La configuración del proyecto controla el ancho de línea y el tamaño predeterminado de los símbolos recién agregados. Los símbolos de cadena giratoria del 2 al 6, así como los símbolos hdc, dc, tr, dtr y ttr, incluyen un control de curvatura para doblar. El mismo control también admite hdc blo y dc blo (solo en la hebra trasera), además de FPhdc, BPhdc, FPdc, BPdc, FPtr y BPtr (puntos en relieve por delante/detrás).
 - La gestión de capas muestra los miembros habituales del grupo de forma recursiva. Expanda o contraiga un grupo, ubique elementos, alterne la visibilidad o bloquéelos.
 - En el modo de selección múltiple, toque elementos para agregarlos o eliminarlos, o dibuje un nuevo cuadro de selección para reemplazar la selección actual. Arrastre cualquier elemento seleccionado para mover la selección sin crear un grupo y toque el lienzo vacío para salir de la selección múltiple.
@@ -399,7 +423,7 @@ Project Notes tiene su propia guía detallada. Seleccione "Notas del proyecto" e
 ## Otras herramientas
 
 - **Herramientas de color**: muestree colores de imágenes, cree paletas y guarde registros de color.
-- **Bibliotecas de símbolos**: explore y busque símbolos de tejido o crochet y mantenga símbolos o notas personales.
+- **Bibliotecas de símbolos**: explore y busque símbolos de tejido o crochet y mantenga símbolos o notas personales. Si falta un símbolo, toca «¿Falta un símbolo? Enviar comentarios» debajo del campo de búsqueda para abrir la página de comentarios.
 - **Redacción de patrones**: almacene personas y medidas, comience a partir de referencias femeninas incorporadas o estándares públicos e inspeccione la referencia corporal, el bloque formal del cuerpo y las prendas por separado.
 - **Calculadoras**: ayudan con los cálculos de calibre, longitud, peso y tamaño.
 - **Calendarios y alertas**: revise los registros de hilo/proyecto y configure recordatorios relacionados con el stock.
@@ -440,10 +464,11 @@ Después de cambiar de dispositivo o reinstalar la aplicación, abra la página 
 <a id="settings-help"></a>
 ## Configuraciones y ayuda
 
-- **Apariencia**: los principales editores admiten el modo claro y oscuro. Utilice el botón sol/luna en la parte superior derecha de Configuración para alternar rápidamente, o abra Apariencia para seleccionar un modo.
+- **Apariencia**: los principales editores admiten los modos claro, oscuro y sistema. Toca el icono de apariencia en la parte superior derecha de Configuración y elige Luz, Oscuridad o Sistema, o abre Apariencia para cambiar de modo. Sistema sigue automáticamente la apariencia del dispositivo.
 - **Idioma**: chino simplificado, inglés, japonés, coreano y francés.
 - **Notas de la versión**: revise los cambios importantes en las versiones publicadas.
 - **Comentarios**: envíe un informe de problema, sugerencias y capturas de pantalla.
+- **Valoración y sugerencias**: el acceso fijo está en Inicio → Ayuda → Valoración y sugerencias. abra el panel unificado para elegir «Valorar en el App Store», «Informar de un problema» o «Pedir un deseo». Las valoraciones abren el App Store; los informes de problemas admiten texto, datos de contacto, capturas de pantalla y archivos adjuntos de diagnóstico. Los deseos siguen usando las áreas, los deseos preestablecidos y las notas opcionales del Wish Pool.
 - **Guía de funciones de la aplicación**: abre esta página; La navegación rápida salta directamente a un módulo.
 - **Política de privacidad y términos**: revise la información de privacidad y servicio.
 - **Información de diagnóstico**: en Configuración → Acerca de, recupere la ID de usuario de CloudKit solo cuando sea necesario. La identificación está enmascarada de forma predeterminada y se puede mostrar o copiar explícitamente; la aplicación no lo carga, guarda ni registra automáticamente.
@@ -475,6 +500,13 @@ Abra Configuración → Comentarios. Incluya los pasos, el resultado esperado, e
 Los proyectos, los borradores de patrones, las tablas de tejido, las tablas de crochet y las notas de tejido tienen cada uno sus propias carpetas. Las herramientas de borrador de patrones, crochet y notas de tejido mantienen una entrada dedicada a la administración de archivos como la forma recomendada de buscar, organizar y administrar contenido; Los registros permanecen disponibles como una lista clásica secundaria. Al vincular un recurso existente a un proyecto, o elegir material existente dentro de un mostrador, nota de tejido o borrador de patrón, se abre el selector de archivos coincidentes. El modo de selección mantiene las carpetas, la búsqueda y la clasificación, pero oculta las acciones de mover, eliminar y administrar carpetas.
 
 Utilice el botón de administración a la derecha para crear, cambiar el nombre, eliminar, buscar o reordenar carpetas. Al eliminar una carpeta, sus elementos se mueven a Sin archivar y nunca se eliminan los proyectos o gráficos. Buscar nombres de archivos o resúmenes; la fila debajo de la búsqueda siempre muestra la carpeta actual, la clasificación y el recuento de resultados, y su control de clasificación cambia el orden. Desliza una fila de archivos hacia la izquierda o mantenla presionada en el iPad para moverla o eliminarla permanentemente; la eliminación permanente solicita confirmación. La página Archivos recuerda su última carpeta y la ordena. Cambiar una carpeta desde los detalles del elemento; notas de tejido utilice el menú superior derecho.
+<a id="editor-customization"></a>
+## Personalización del menú del editor
+
+En el editor de punto, ganchillo o patrones, toca «Personalizar» arriba y abre «Ajustes generales». Elige «Orden de la barra de herramientas inferior» para personalizar por separado las filas superior e inferior de punto y ganchillo. El editor de patrones ofrece siete modos principales: Dibujar, Editar, Anotar, Tejer, Persona y referencias, Vista previa, Objetos y visualización. En punto y ganchillo, «Orden de los grupos de operaciones del área» solo cambia los grupos del panel de operaciones del área.
+
+Mantén pulsado un elemento dentro de su grupo y arrástralo para reordenarlo. Los cambios se guardan automáticamente y se aplican al volver al editor. Restaurar los valores predeterminados solo recupera el orden mostrado en la página actual; no afecta a las demás preferencias, al contenido del proyecto ni al historial de deshacer. Esta preferencia se comparte entre proyectos sin escribirse en un proyecto. Cada editor guarda sus preferencias localmente y pueden incluirse en la copia de seguridad del paquete de datos de la aplicación. No se ofrece sincronización en tiempo real.
+
 ## Estrategias de patrones y jerseys completos.
 
 Patrones incluye creación, archivos, registros, plantillas, ajustes, muestras y personas. Elige dos agujas o ganchillo y después dibujo libre, patrón base corporal, estrategia o plantilla. Dibujo libre abre una cuadrícula vacía sin exigir persona ni tensión. Todos los métodos llevan al mismo lienzo. Se mantienen vínculos con proyectos y carpetas. Mantén pulsado un registro para borrarlo tras confirmación.

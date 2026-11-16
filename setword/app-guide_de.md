@@ -14,6 +14,7 @@ Knit & Crochet hilft Ihnen, Garne zu organisieren, Strickprojekte zu verwalten, 
 - [Project workspace](#project-workspace)
 - [Knitting counter](#counter)
 - [Smart Pattern Drafting](#pattern-drafting)
+- [Editor-Menü anpassen](#editor-customization)
 - [Knitting charts](#knitting-chart)
 - [Knitting chart area operations](#knitting-chart-area-operations)
 - [Crochet charts](#crochet-chart)
@@ -49,6 +50,8 @@ Schnellstart gruppiert Ziele unter Ravelry, Pattern Drafting, Project Notes, Kni
 
 Ravelry im Schnellstart der Startseite bietet Importieren, Bibliothek, Anleitungssuche, Favoriten und Konto. Die Suche umfasst standardmäßig alle Anleitungen; Sie können nach kostenlos oder kostenpflichtig, Technik, Kategorie und Sprache filtern sowie die Sortierung wählen. Tippen Sie auf eine Anleitung, um eine Vorschau anzuzeigen, sie als Favorit zu speichern oder zu entfernen oder die offiziellen Details auf Ravelry zu öffnen. Die Favoriten werden gemeinsam mit Discover in der App gespeichert; sie werden nicht zu Ihren Ravelry-Favoriten hinzugefügt. Direkt aus der Suche lassen sich nur kostenlose Anleitungen mit einer zugänglichen PDF importieren. Laden Sie Inhalte auf externen Websites selbst herunter und verwenden Sie anschließend den Dateiimport. Kostenpflichtige Anleitungen können als Favoriten gespeichert und ihre Quellen geöffnet werden; einen Kauf führen Sie selbst auf Ravelry durch. Bereits gekaufte Anleitungen mit Downloadberechtigung in Ihrer Bibliothek lassen sich weiterhin aus der Bibliothek importieren.
 
+Wenn die App vereinfachtes oder traditionelles Chinesisch verwendet, zeigt die Ravelry-Kontoseite diesen Netzwerkhinweis: In Festlandchina ist für die Anmeldung und Kontofreigabe bei Ravelry möglicherweise ein Hilfsmittel für den Netzwerkzugang nötig. Es wird nur während dieses Schritts benötigt; danach können Sie wieder Ihre gewohnte Verbindung nutzen.
+
 Erweiterte Filter umfassen Designername, 13 gängige Merkmale (alle gewählten Merkmale müssen zutreffen), Nadel- oder Häkelnadelstärke in mm, mehrere Standardgarnstärken und Garnbedarf in Metern oder Yards. Auch nur eine Grenze ist möglich; beim Einheitenwechsel wird der vorhandene Bereich umgerechnet. Ergebnisse können mehrere Größen umfassen: den Bedarf für die eigene Größe prüfen. Sortierungen: aktuell beliebt, kürzlich veröffentlicht, kürzlich hinzugefügt, meiste Projekte oder Favoriten. Es gibt keinen Rabattfilter; Preise und Angebote stehen auf der offiziellen Seite. Filter einzeln entfernen oder alle zurücksetzen.
 
 Die Filterseite behält Anwenden oben rechts und ergänzt eine große Schaltfläche unter Filter zurücksetzen. Das Herz oben links in Entdecken öffnet jederzeit Meine Favoriten; auch das Mehr-Menü führt zu Favoriten und Likes. Ravelry-Anleitungen suchen über der Favoritenliste öffnet die Filter, bei Bedarf nach der Kontoverknüpfung. Filter anwenden, Anleitungen aus den Ergebnissen speichern und zurückgehen: Die Favoritenliste wird aktualisiert. Der Sucheinstieg bleibt auch bei leeren Favoriten sichtbar und wird im Bereich Likes ausgeblendet. Das Suchmenü zeigt einen kurzen Downloadstatus und Favoriten an erster Stelle; ausführliche Hinweise bleiben in den Details oder der Importbestätigung.
@@ -59,9 +62,17 @@ Das Menü Modus oben rechts in den Simulationseinstellungen bietet Simulation na
 
 **Bedienung der 3D-Vorschau**: Mit einem Finger ziehen, um zu drehen. Mit zwei Fingern auseinander- oder zusammenziehen, um zu zoomen, oder beide Finger gemeinsam ziehen, um die Ansicht zu verschieben. Zoomen und Verschieben lassen sich kombinieren. Liegt nach dem Zoomen oder Drehen ein Teil des Gestricks außerhalb des Fensters, ziehen Sie den gewünschten Bereich mit zwei Fingern zurück ins Bild. Zurücksetzen oben rechts oder ein Wechsel zwischen Vorderseite / Schrägansicht / Rückseite stellt die jeweilige Ansicht wieder her und zentriert das Gestrick. Verschieben ändert nur den Bildausschnitt, nicht Garn oder Maschen, und startet keine neue Simulation.
 
-Die zweite Aktion oben links auf Home öffnet den Wunschpool. Wählen Sie einen Bereich und einen voreingestellten Wunsch, um ihn einzureichen; nur ein benutzerdefinierter Wunsch erfordert Text, und voreingestellte Wünsche können eine optionale Notiz enthalten. Validierungs- und Einreichungsergebnisse werden als Toast-Nachrichten angezeigt. Verwenden Sie bei einem Funktionsproblem den Feedback-Link unten und fügen Sie die Schritte oder einen Screenshot hinzu.
+Die zweite Schaltfläche oben links auf Home mit dem Sprechblasensymbol öffnet „Bewertung und Vorschläge“. Wähle „Einen Wunsch senden“, um den Wunschpool zu öffnen. Wählen Sie einen Bereich und einen voreingestellten Wunsch, um ihn einzureichen; nur ein benutzerdefinierter Wunsch erfordert Text, und voreingestellte Wünsche können eine optionale Notiz enthalten. Validierungs- und Einreichungsergebnisse werden als Toast-Nachrichten angezeigt. Verwenden Sie bei einem Funktionsproblem den Feedback-Link unten und fügen Sie die Schritte oder einen Screenshot hinzu.
 
 ### Entdecken
+
+Discover präsentiert kuratierte Ravelry-Muster und genehmigte Community-Projekte. Durchsuchen Sie die Highlights im Banner und die drei vorgestellten Empfehlungen, wechseln Sie den Kanal für weitere Projekte und ziehen Sie sie nach unten, um sie zu aktualisieren. Tippe auf ein Bild, um weitere Fotos zu sehen, oder öffne eine Karte, um öffentliche Details anzuzeigen, sie als Favoriten zu markieren oder zu liken. Ravelry-Artikel können ihre Quelle öffnen oder importiert werden. Community-Projekte können als neue lokale Kopien zusammen mit den Fotos, Projektnotizen, Strickdiagrammen und Häkeldiagrammen importiert werden, die der Herausgeber ausdrücklich ausgewählt hat. Auf Ravelry-Karten kennzeichnet eine Kreditkarte oben rechts auf dem linken Titelbild kostenpflichtige Anleitungen; ein Geschenk steht für kostenlose Anleitungen. Bei unbekanntem Status erscheint kein Symbol.
+
+Auf dem iPad und bei aufgeklapptem iPhone Duo hat das obere Banner sowohl im Hoch- als auch im Querformat eine maximale Höhe; die drei Empfehlungen bleiben innerhalb einer zentrierten maximalen Breite, damit der Inhalt auf breiten Bildschirmen nicht zu groß wird. Der Leerraum neben den drei Empfehlungen wird mit einem verschwommenen Hintergrund auf Basis des Titelbilds der ersten Empfehlung gefüllt.
+
+Entdecken zeigt vier Kanäle in dieser Reihenfolge: Vorgestellt, Stricken, Häkeln und Schnittmuster. Vorgestellt kann Inhalte aus den anderen Kanälen hervorheben. Stricken enthält außerdem kostenlose integrierte Diagramme, Schnittmuster die integrierten Schnittstrategien. Karten zeigen kostenlosen Zugriff, Preis oder Kaufstatus. Tippe auf den Kartentext oder Details ansehen, um zuerst die Detailseite zu öffnen und dann Hinzufügen, Verwenden, Importieren oder Quelle ansehen zu wählen. Titelbilder öffnen weiterhin die große Bildvorschau.
+
+Alle 37 vorhandenen integrierten Strickdiagramme sind kostenlos erhältlich. Beim Ansehen der Details wird kein Eintrag angelegt. Zu meinen Diagrammen hinzufügen erstellt eine bearbeitbare Kopie, die zum bestehenden Diagrammlimit zählt, auch für kostenlose Benutzer. Ist bereits eine Kopie vorhanden, öffnet Mein Diagramm öffnen sie, ohne deine Änderungen zu überschreiben. Nach dem Löschen der Kopie kannst du das Diagramm erneut hinzufügen.
 
 <!-- discover-detail-2026-11-09 -->
 Tippe in Discover, Favoriten oder Gefällt mir auf den Text, eine freie Fläche oder die Details-Schaltfläche einer Karte, um die Details zu öffnen. Das Titelbild öffnet weiterhin die Bildvorschau, das Herz schaltet Favoriten um. Die Details integrierter Strickdiagramme erscheinen zuerst; Hinzufügen oder Öffnen wird nach der Hintergrundprüfung auf eine gespeicherte Kopie verfügbar. Bei der Rückkehr aus dem Editor wird erneut geprüft.
@@ -71,7 +82,6 @@ Tippe in Discover, Favoriten oder Gefällt mir auf den Text, eine freie Fläche 
 Auf Home stehen vor den betrieblichen Empfehlungen drei öffentliche lokale Inhalte: je ein Strickdiagramm, Häkeldiagramm und Schnittmuster. Insgesamt werden höchstens 15 Empfehlungen gezeigt. In den Schnellstart-Bereichen Stricken und Häkeln führt „Diagramme entdecken“, im Bereich Schnittmuster „Schnittmuster entdecken“, direkt zum passenden Kanal im Haupt-Tab Entdecken.
 
 Der Hero in Entdecken zeigt höchstens fünf Inhalte: mindestens drei lokale öffentliche Inhalte und bis zu zwei vorhandene betriebliche Empfehlungen. Fehlende betriebliche Empfehlungen werden lokal ergänzt; auch die drei festen Highlights bleiben vollständig und enthalten ein lokales sowie zwei betriebliche Inhalte, mit lokaler Ergänzung bei Bedarf. Die Auswahl wechselt stabil nach Tag und Gerät und variiert nach Möglichkeit zwischen den Einstiegen. Ein integrierter Inhalt öffnet zuerst die native Detailansicht, wo Sie ihn hinzufügen, öffnen oder verwenden können. Lokale Empfehlungen erscheinen vor dem Layout; Hintergrundaktualisierungen lassen sichtbare Inhalte stehen.
-Die ersten 37 älteren Strickdiagramme bleiben unter Entdecken → Stricken durchsuchbar und können angesehen und hinzugefügt werden. Sie erscheinen nicht mehr in den Empfehlungen auf der Startseite, im Entdecken-Banner oder auf den drei festen Empfehlungsplätzen. Neuere Strickdiagramme können weiterhin empfohlen werden.
 <!-- /discover-recommendations-2026-11-08 -->
 
 <!-- discover-filter-collapse-2026-11-09 -->
@@ -96,10 +106,7 @@ Jede Entdecken-Kanalliste bietet Suche nach Titel, Urheber, Beschreibung, Katego
 - Die ersten 10 Strick- und 10 Häkelschriften sind jetzt kostenlos. Künftige Preise richten sich nach den tatsächlichen Maschensymbolen eines vollständigen Motivs oder des kleinsten Rapports. Bis 100 Symbole, einfache Wiederholungen und einfache Farbmuster bleiben kostenlos. Bei 101–300 Symbolen und mittlerer Komplexität kommt die Stufe von 1 Yuan infrage. Ab 301 Symbolen, hoher Komplexität und vollständig ausgearbeitetem Inhalt kommt die Stufe von 6 Yuan infrage. Die Anzahl allein führt nie zu einem kostenpflichtigen Angebot. Maßgeblich ist der im Store angezeigte Kaufpreis.
 <!-- /discover-chart-commerce-2026-11-07 -->
 
-Entdecken zeigt vier Kanäle in dieser Reihenfolge: Vorgestellt, Stricken, Häkeln und Schnittmuster.
-
-
-Discover präsentiert kuratierte Ravelry-Muster und genehmigte Community-Projekte. Durchsuchen Sie die Highlights im Banner und die drei vorgestellten Empfehlungen, wechseln Sie den Kanal für weitere Projekte und ziehen Sie sie nach unten, um sie zu aktualisieren. Tippe auf ein Bild, um weitere Fotos zu sehen, oder öffne eine Karte, um öffentliche Details anzuzeigen, sie als Favoriten zu markieren oder zu liken. Ravelry-Artikel können ihre Quelle öffnen oder importiert werden. Community-Projekte können als neue lokale Kopien zusammen mit den Fotos, Projektnotizen, Strickdiagrammen und Häkeldiagrammen importiert werden, die der Herausgeber ausdrücklich ausgewählt hat. Auf Ravelry-Karten kennzeichnet eine Kreditkarte oben rechts auf dem linken Titelbild kostenpflichtige Anleitungen; ein Geschenk steht für kostenlose Anleitungen. Bei unbekanntem Status erscheint kein Symbol.
+Die Details einer Schnittstrategie zeigen Beispiele, Leistungsgrenzen, den tatsächlichen App-Store-Preis und den Kaufstatus. Während der Beta sind integrierte Strategien kostenlos und direkt nutzbar; Kandidatenstrategien sind ausgeblendet. Freigeschaltete Strategien bleiben nach Ablauf der Mitgliedschaft nutzbar. Die Freischaltung liegt in den App-Daten und lässt sich nicht über den App Store auf ein neues Gerät übertragen. Für neue Schnitte gilt weiterhin das aktuelle Projektlimit. Prüfe die Hinweise und wähle dann die Nutzung.
 
 Verwenden Sie das Menü "Mehr" oben rechts von Discover, um Favoriten, Likes und "Meine Einsendungen" zu öffnen, oder wählen Sie ein lokales Projekt aus der Liste der vorhandenen Projekte aus, das Sie veröffentlichen möchten. Das Menü "Projektdetails" Mehr" bietet auch eine Verknüpfung zum Veröffentlichen in Discover. Der Editor listet öffentliche Felder und gemeinsam teilbare Ressourcen auf; das erste ausgewählte Foto wird zum Cover und bis zu sechs Fotos können aufgenommen werden. Vor der Einreichung wird eine letzte Kartenvorschau angezeigt. Der Veröffentlichungseintrag ist für alle verfügbar, während die Übermittlung eines Projekts zur Überprüfung eine Mitgliedschaft erfordert. Es wird in einem ausgewählten Kanal nur nach Genehmigung des Administrators angezeigt. Ausgewählte Inhalte werden in die öffentliche CloudKit-Datenbank hochgeladen; Zähler, Garnbestand, privater Fortschritt und Musterentwürfe sind ausgeschlossen. Das Durchsuchen von Discover erfordert keine Ravelry-Autorisierung; der vorhandene Verbindungsfluss wird nur für Ravelry-Kontoinhalte oder Ravelry-Importe verwendet.
 
@@ -108,6 +115,10 @@ Nur auf der Registerkarte "In Bearbeitung" von Home zeigt eine Projektkarte ein 
 ### Garn
 
 Die Registerkarte Garn ist ein Inventory Manager. Der Kopf fasst die Garnzahl, das bekannte Restgewicht, den niedrigen Lagerbestand und die Datensätze zusammen, die Bestandsdetails benötigen. Durchsuchen Sie die Bibliothek nach Ordner-, Such- und Inventarfiltern.
+
+Unter Start → Schnellstart → Garn → Inventarübersicht sehen Sie den gesamten Bestand. Beim Öffnen über den Garnbestand bleiben der aktuelle Ordner, die Suche und die Filter erhalten.
+
+Tippen Sie auf eine beliebige Stelle der Zusammenfassung im Kopf oder wählen Sie „Inventarübersicht“ im Menü „Mehr“. Die Inventarübersicht übernimmt den aktuellen Ordner-, Such- und Filterbereich und kann auf das gesamte Inventar umgeschaltet werden. Die Seite hat drei Themen: Mein Garnprofil zeigt Farbe, Material, Stärke und Marke; Verwendung und Restbestand zeigt kumulierte Verwendung, Projekte und noch nutzbare Garnreste; Käufe und Kosten zeigt Kaufdaten, bestätigte Kaufsummen, Kosten pro 100 g und Restkosten. Tippen Sie auf ein Diagramm oder eine Kategorie, um die passenden Garne zu sehen; Zurück behält die vorherige Auswahl. Die Statistik verwendet nur die im aktuellen Bereich behaltenen Garndatensätze. Fehlende Angaben werden separat ausgewiesen, und fehlende Preise werden nicht als null behandelt. Der alte Garnkalender dient nur zur Anzeige erfasster Kaufdaten; monatliche Ausgänge oder Nutzungsdaten lassen sich damit nicht nachverfolgen. Die Garndetails bleiben bearbeitbar; nach der Rückkehr aus der Bearbeitung wird die Übersicht aktualisiert.
 
 ### Werkzeuge
 
@@ -229,6 +240,8 @@ Die Einstellungen sind für Zähler, Strickschriften, Notizen und Häkelschrifte
 <a id="pattern-drafting"></a>
 ## Intelligentes Muster entwerfen
 
+Zeichnen → Einrasten verwendet das sichtbare cm-Raster und passt die Schrittweite dem Zoom an. Ziele sind Ränder und Mitten von Teilen, Bildern und Skizzen, Hilfslinien sowie sichtbare Mittel-, Brust- und Taillenlinien des Körpergrundschnitts. Gesperrte Ziele bleiben nutzbar, ausgeblendete entfallen. Orange Punkte und gestrichelte Linien zeigen Treffer; Wegziehen löst sie. Text nutzt den Mittelpunkt, Tips und Verweise ihre Position. Pinsel, Kurvengriffe und Maßetiketten bleiben frei. Menüs für Person, Vergleich, Papier und Eigenschaften verankern sich an der gewählten Zeile.
+
 Ein Finger oder Stift nutzt das aktive Werkzeug; zwei Finger verschieben und zoomen. Vor dem Ziehen ein Objekt wählen; langes Drücken oder die Objektliste wählt Überlappungen. Zeichnen → Geometrie bietet gespeicherte Konstruktionspunkte, Geraden per zwei Punkten oder Ziehen, Linienzüge, Rechtecke und Kreise ab Mittelpunkt. Pfade offen behalten, fortsetzen oder ausdrücklich schließen. Bearbeiten → Knoten biegt am Segmentmittelpunkt bei festen Endpunkten; quadratische Griffe verfeinern Kurven. Pinsel und Radierer bearbeiten Skizzen. Ein einzelner Strich wird nach bestätigter Vorschau zum unabhängigen Teil; das Original bleibt. Offene Pfade verbinden erzeugt eine durchgehende Kopie und erhält Originale und Beschriftungen. Zusammenhängende Aktionen sind rückgängig machbar.
 
 Die Gruppen heißen Zeichnen, Bearbeiten, Beschriften, Stricken, Person und Referenzen, Vorschau sowie Objekte und Anzeige. Beim Wechsel erscheint ein kurzer Hinweis. Häufiges bleibt sichtbar, Zusammengehöriges wird bei Bedarf geöffnet. Fertig, Schließen, Offen behalten und Abbrechen erscheinen nur beim Zeichnen. Text, Tips, Hinweise und Maße stehen unter Beschriften; Maschenprobe, Grenzen, Verbindungen, Diagramme und Farbmuster unter Stricken. Gitteranzeige, Einrasten und Richtungsbindung sind getrennt.
@@ -255,8 +268,9 @@ In Debug-Builds kannst du gültige geschlossene Strickteile in 3D platzieren und
 
 Export stellt Gitter und ausgeklappte, nummerierte oder verborgene Tips separat ein. Speichern erhält offene Pfade, Beschriftungen, Reihenfolge und Papier. Jedes Dokument stellt Ansicht, Werkzeug, Auswahl und bestätigten Vergleich wieder her, ohne Befehle oder Rückgängig-Verlauf zu wiederholen. Schnitt- und Dateiliste teilen die zuletzt erfolgreich gespeicherte Gesamtvorschau, unabhängig vom letzten Zoom oder Leerbereich. Lesbare Altdaten bleiben erhalten; Unbekanntes wird nicht leer überschrieben.
 
-In Debug-Builds können gültige 3D-Vorschauen mit einem Projekt gespeichert und wiederhergestellt werden, wenn Schnitt, Körper und Simulationsbedingungen weiterhin übereinstimmen. Geänderte Eingaben erfordern eine neue Simulation; fehlgeschlagene oder unvollständige Ergebnisse überschreiben die zuletzt gespeicherte gültige Vorschau nicht.
+Während der Beta sind alle integrierten Strategien kostenlos: Basisweste, Drop-Shoulder-Pullover und leeres Schnittteil. Kandidatenstrategien (Raglan, Cardigan, Rund-/Eckpasse, eingesetzter Ärmel, Bias) sind vorübergehend ausgeblendet; bestehende Projekte bleiben offen, können aber nicht aus dem Katalog neu erstellt werden. Lokale/importierte Strategien, eigene Vorlagen und Autorenwerkzeuge bleiben Mitgliedsfunktionen. Die Vorbereitung ist kostenlos; beim Erstellen von Schriften und Zählern wird die Mitgliedschaft geprüft. Designbild- und Tech-Pack-PDF-Export sind kostenlos. Mehrere Voreinstellungen sowie Paketimport/-export bleiben Mitgliedsfunktionen.
 
+In Debug-Builds können gültige 3D-Vorschauen mit einem Projekt gespeichert und wiederhergestellt werden, wenn Schnitt, Körper und Simulationsbedingungen weiterhin übereinstimmen. Geänderte Eingaben erfordern eine neue Simulation; fehlgeschlagene oder unvollständige Ergebnisse überschreiben die zuletzt gespeicherte gültige Vorschau nicht.
 
 <a id="knitting-chart"></a>
 ## Strickdiagramme
@@ -273,6 +287,12 @@ Der Strickdiagrammeditor speichert Farben und Stichsymbole in Rasterzellen. Es e
 - Symbole zeichnen, Farben ausfüllen, löschen, rückgängig machen und wiederholen.
 - Verwenden Sie die Bereichsauswahl zum Kopieren, Ausschneiden, Einfügen, Füllen, Ersetzen und Wiederholen platzieren.
 - Speichern Sie wiederverwendbare Farben, Vorlagen und benutzerdefinierte Symbole.
+
+Die vorhandenen Kategorien enthalten KFB/PFB, LLI/RLI, abgehobene Maschen mit Faden vor/hinter der Arbeit, den umgekehrten Umschlag (BYO) sowie das Bilden und rechte oder linke Abstricken einer Doppelmasche bei deutschen verkürzten Reihen. Nach Kürzeln suchen und für Erklärungen lange drücken. Die Zeichen folgen der Line-Legende; mit der eigenen Anleitung abgleichen. Eine Doppelmasche zählt weiterhin als eine Masche. Aktuelle ungelesene Ergänzungen erhalten eine kleine Neu-Markierung. Sie verschwindet nach erfolgreicher Auswahl oder Öffnen der Details, nicht beim Blättern oder Suchen. Namenskorrekturen werden nicht als neu markiert.
+
+Die Stricksymbolbibliothek bietet die Tabs Maschen und Zöpfe. Die bisherigen Einzelteile finden Sie oben rechts unter Mehr → Symbolteile. Zuletzt verwendete und eigene Symbole bleiben im Editor verfügbar. Alle Symbole, Kategorien und der Suchumfang bleiben erhalten; Teile sind weiterhin direkt auswählbar. In der halbhohen Auswahl steht Mehr rechts neben dem Suchfeld.
+
+Während der aktuellen Bearbeitung stellt die Symbolauswahl beim erneuten Öffnen den zuletzt angezeigten Tab und die Position wieder her. Beim Verlassen des Editors wird diese Speicherung zurückgesetzt.
 
 <a id="knitting-chart-area-operations"></a>
 ### Gebietsbetrieb
@@ -340,6 +360,10 @@ Der Häkeleditor verwendet eine kostenlose Leinwand und ist nicht auf das Strick
 ### Bearbeitungstipps
 
 - Durchsuchen Sie die Symbolbibliothek nach Namen, Abkürzung oder Schlüsselwort. Kürzlich ausgewählte Symbole erscheinen zuerst unter Verwendet.
+- Während der aktuellen Bearbeitung stellt die Symbolauswahl beim erneuten Öffnen den zuletzt angezeigten Tab und die Position wieder her. Beim Verlassen des Editors wird diese Speicherung zurückgesetzt.
+- Die Bibliothek enthält vordere und hintere Relief-Dreifachstäbchen (FPdtr/BPdtr) sowie 2 oder 3 zusammen abgemaschte Doppelstäbchen (tr2tog/tr3tog). Suchen Sie nach Name oder Abkürzung; diese Abnahmen werden in verschiedene Grundmaschen gearbeitet und gemeinsam abgemascht.
+- Zwanzig Ergänzungen umfassen ehdc/edc/etr, dtr2tog/dtr3tog, 2 oder 3 tr/dtr in eine Masche, sieben Maschenglied-Varianten und vier Relief-Abnahmen. Krümmungsgriffe unterstützen ehdc, edc, etr, hdc flo, dc flo, tr blo/flo und dtr blo/flo; Abnahmen und Zunahmen mit gemeinsamer Basis behalten die normale Größenänderung. US-Abkürzungen.
+- Die sieben genannten Maschenglied-Varianten sind direkt auswählbare Kombinationen einer Grundmasche mit einer Einstichmarkierung. Jede Masche zusammen mit der aktuellen Diagrammlegende lesen.
 - Die Projekteinstellungen steuern die Linienbreite und die Standardgröße neu hinzugefügter Symbole. Die Drehkettensymbole 2–6 sowie die Symbole hdc, dc, tr, dtr und ttr enthalten einen Krümmungsgriff zum Biegen. Der gleiche Griff unterstützt auch hdc blo und dc blo (nur ins hintere Maschenglied) sowie FPhdc, BPhdc, FPdc, BPdc, FPtr und BPtr (vordere/hintere Reliefmaschen).
 - Die Ebenenverwaltung zeigt regelmäßige Gruppenmitglieder rekursiv an. Erweitern oder reduzieren Sie eine Gruppe, suchen Sie Elemente, schalten Sie die Sichtbarkeit um oder sperren Sie sie.
 - Tippen Sie im Mehrfachauswahlmodus auf Elemente, um sie hinzuzufügen oder zu entfernen, oder zeichnen Sie ein neues Auswahlfeld, um die aktuelle Auswahl zu ersetzen. Ziehen Sie ein beliebiges ausgewähltes Element, um die Auswahl zusammen zu verschieben, ohne eine Gruppe zu erstellen, und tippen Sie auf leere Leinwand, um die Mehrfachauswahl zu beenden.
@@ -397,7 +421,7 @@ Projektnotizen haben einen eigenen detaillierten Leitfaden. Wählen Sie im Hilfe
 ## Andere Werkzeuge
 
 - **Farbwerkzeuge**: Musterfarben aus Bildern, Paletten erstellen und Farbdatensätze speichern.
-- **Symbolbibliotheken**: Durchsuchen und suchen Sie nach Strick- oder Häkelsymbolen und bewahren Sie persönliche Symbole oder Notizen auf.
+- **Symbolbibliotheken**: Durchsuchen und suchen Sie nach Strick- oder Häkelsymbolen und bewahren Sie persönliche Symbole oder Notizen auf. Fehlt ein Symbol, tippen Sie unter dem Suchfeld auf „Fehlt ein Symbol? Feedback senden“, um die Feedbackseite zu öffnen.
 - **Musterentwurf**: Speichern Sie Personen und Maße, beginnen Sie mit eingebauten weiblichen Referenzen oder öffentlichen Standards und überprüfen Sie die Körperreferenz, den formalen Körperblock und die Kleidungsstücke separat.
 - **Rechner**: Unterstützung bei der Berechnung von Messgeräten, Länge, Gewicht und Größe.
 - **Kalender und Benachrichtigungen**: Überprüfen Sie Garn-/Projektdatensätze und konfigurieren Sie bestandsbezogene Erinnerungen.
@@ -438,10 +462,11 @@ Nachdem Sie die Geräte gewechselt oder die App neu installiert haben, öffnen S
 <a id="settings-help"></a>
 ## Einstellungen und Hilfe
 
-- **Aussehen**: Die wichtigsten Editoren unterstützen den Hell- und Dunkelmodus. Verwenden Sie die Sonne/Mond-Taste oben rechts in den Einstellungen, um sie schnell umzuschalten, oder öffnen Sie das Erscheinungsbild, um einen Modus auszuwählen.
+- **Aussehen**: Die wichtigsten Editoren unterstützen Hell, Dunkel und System. Tippen Sie auf die Darstellungstaste oben rechts in den Einstellungen und wählen Sie Hell, Dunkel oder System, oder öffnen Sie das Erscheinungsbild. System folgt automatisch dem Erscheinungsbild des Geräts.
 - **Sprache**: Vereinfachtes Chinesisch, Englisch, Japanisch, Koreanisch und Französisch.
 - **Versionshinweise**: Überprüfen Sie wichtige Änderungen in veröffentlichten Versionen.
 - **Feedback**: Senden Sie einen Problembericht, einen Vorschlag und Screenshots.
+- **Bewertung und Vorschläge**: Der feste Zugang befindet sich unter Startseite → Hilfe → Bewertung und Vorschläge. Öffnen Sie das einheitliche Panel, um „Im App Store bewerten“, „Problem melden“ oder „Einen Wunsch senden“ auszuwählen. Bewertungen öffnen den App Store; Problemberichte unterstützen Text, Kontaktdaten, Screenshots und Diagnoseanhänge. Wünsche verwenden weiterhin Bereiche, Voreinstellungen und optionale Notizen des Wunschpools.
 - **App-Funktionsleitfaden**: Öffnet diese Seite; Schnellnavigation springt direkt zu einem Modul.
 - **Datenschutzrichtlinie und -bedingungen**: Überprüfen Sie Datenschutz- und Serviceinformationen.
 - **Diagnoseinformationen**: Rufen Sie unter Einstellungen → Info die CloudKit-Benutzer-ID nur bei Bedarf ab. Die ID ist standardmäßig maskiert und kann explizit angezeigt oder kopiert werden; die App lädt sie nicht automatisch hoch, speichert oder protokolliert sie nicht automatisch.
@@ -473,6 +498,13 @@ Einstellungen öffnen → Feedback. Fügen Sie die Schritte, das erwartete Ergeb
 Projekte, Musterentwürfe, Strickdiagramme, Häkeldiagramme und Stricknotizen haben jeweils eigene Ordner. Die Werkzeuge Musterentwurf, Häkeln und Stricknotizen behalten einen speziellen Dateiverwaltungseintrag als empfohlene Möglichkeit, Inhalte zu finden, zu organisieren und zu verwalten; Aufzeichnungen sind weiterhin als sekundäre klassische Liste verfügbar. Wenn Sie eine vorhandene Ressource mit einem Projekt verknüpfen oder vorhandenes Material in einer Theke, einer Stricknotiz oder einem Musterentwurf auswählen, wird die passende Dateiauswahl geöffnet. Der Auswahlmodus speichert Ordner, suchen und sortieren, aber Bewegungen werden verschoben, gelöscht und Ordnerverwaltung ausgeblendet.
 
 Verwenden Sie die Verwaltungsschaltfläche auf der rechten Seite, um Ordner zu erstellen, umzubenennen, zu löschen, zu durchsuchen oder neu anzu ordnen. Das Löschen eines Ordners verschiebt seine Elemente in Nicht abgelegt und löscht nie die Projekte oder Diagramme. Dateinamen oder -zusammenfassungen durchsuchen; die Zeile unter der Suche zeigt immer den aktuellen Ordner, die Sortierung und die Anzahl der Ergebnisse an, und das Sortiersteuerelement ändert die Reihenfolge. Wischen Sie eine Dateizeile nach links oder drücken Sie sie auf dem iPad lange, um sie zu verschieben oder dauerhaft zu löschen; das dauerhafte Löschen erfordert eine Bestätigung. Die Seite "Dateien" merkt sich den letzten Ordner und die Sortierung. Ändern Sie einen Ordner aus Artikeldetails; Stricknotizen verwenden Sie das Menü oben rechts.
+<a id="editor-customization"></a>
+## Editor-Menü anpassen
+
+Tippe im Strick-, Häkel- oder Schnittmustereditor oben auf „Anpassen“ und öffne „Allgemeine Einstellungen“. Mit „Reihenfolge der unteren Symbolleiste“ passt du die obere und untere Zeile von Strick- und Häkeleditor getrennt an. Der Schnittmustereditor bietet sieben Hauptmodi: Zeichnen, Bearbeiten, Markieren, Stricken, Person und Referenzen, Vorschau sowie Objekte und Anzeige. Bei Strick- und Häkeleditoren ändert „Reihenfolge der Gruppen für Bereichsaktionen“ nur die Gruppen im Bereichsaktionsfenster.
+
+Halte ein Element innerhalb seiner Gruppe gedrückt und ziehe es an die gewünschte Stelle. Änderungen werden automatisch gespeichert und beim Zurückkehren zum Editor übernommen. Das Wiederherstellen der Standardwerte setzt nur die auf der aktuellen Seite angezeigte Reihenfolge zurück; andere Einstellungen, Projektinhalte und der Rückgängig-Verlauf bleiben unverändert. Diese Einstellung gilt projektübergreifend, wird aber nicht in ein Projekt geschrieben. Jeder Editor speichert seine Präferenzen lokal; sie können mit dem Datenpaket der App gesichert werden. Eine Echtzeitsynchronisierung wird nicht angeboten.
+
 ## Musterstrategien und komplette Pullover
 
 Schnittmuster umfasst neue Entwürfe, Dateien, Einträge, Vorlagen, Voreinstellungen, Maschenproben und Personen. Nach Stricken oder Häkeln folgen freies Zeichnen, Körpergrundschnitt, Strategie oder Vorlage. Freies Zeichnen öffnet sofort ein leeres Raster; Person und Maschenprobe sind optional. Alle Wege führen zur gleichen Zeichenfläche. Projekt- und Ordnerverknüpfungen bleiben erhalten. Einträge lassen sich nach langem Drücken mit Bestätigung löschen.

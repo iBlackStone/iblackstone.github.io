@@ -8,6 +8,15 @@ lang: es
 
 > Para sugerir nuevas funciones, contacta con el desarrollador en Xiaohongshu desde la parte inferior de la página de comentarios.
 
+### v2.1.11
+
+- Todas las estrategias de patrón integradas son gratuitas. Las estrategias candidatas están ocultas temporalmente; los proyectos nuevos ofrecen chaleco básico, jersey con hombro caído y pieza en blanco.
+- Añadido PDF de ficha técnica imprimible, exportación gratuita desde «Generar y vincular».
+- El plan de vueltas incluye vueltas de canalé y cantidad de hombro caído; antes de generar se indica «requiere confirmación» o «aún no se puede crear».
+- Al crear un patrón se vuelve a la lista, los borradores vacíos no consumen la cuota gratuita y la barra de herramientas es más compacta.
+
+- Configuración y Apariencia ahora incluyen Sistema, que sigue la apariencia clara/oscura del dispositivo; Luz y Oscuridad siguen disponibles.
+
 ### v2.1.10
 
 - Nueva colaboración con Apple Watch para los contadores, los editores de punto y ganchillo y las notas de tejido.

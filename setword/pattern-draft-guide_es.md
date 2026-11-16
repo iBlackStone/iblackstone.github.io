@@ -55,12 +55,13 @@ Persona y referencias permite elegir medidas, imágenes y copias independientes 
 <a id="membership"></a>
 ## Versión gratuita y membresía.
 
-La versión gratuita puede mantener dos proyectos de patrones a la vez. Eliminar uno libera un espacio, mientras que los proyectos existentes siempre se pueden abrir, editar, guardar y eliminar. Free Draw y las herramientas de dibujo esenciales, incluidas referencias de cuerpo, bloques de cuerpo formales, facilidad, calibre, dimensiones, curvas, nodos y planos de puntadas, siguen estando disponibles.
+Durante la beta, las estrategias integradas son gratuitas: chaleco básico, jersey de hombro caído y pieza en blanco. Las estrategias candidatas (raglán, chaqueta, canesú redondo/cuadrado, manga montada, bies) están ocultas; los proyectos existentes se abren, pero no se crean desde el catálogo. Estrategias locales/importadas, plantillas y herramientas de autor siguen siendo para miembros. La preparación es gratuita; crear gráficos y contadores comprueba la suscripción. Exportar la imagen y el PDF de ficha técnica es gratis. Los ajustes múltiples y la importación/exportación de paquetes siguen siendo para miembros.
 
-El pulóver básico de hombro caído es gratuito. Las demás estrategias integradas de pago requieren una suscripción activa y una compra de desbloqueo independiente. Siguen disponibles en los datos actuales de la App tras caducar la suscripción. Las estrategias locales/importadas, plantillas personales y herramientas de autor requieren suscripción. La preparación es gratuita; la creación de salidas comprueba los derechos. Las compras son consumibles y no se restauran en otro dispositivo mediante App Store. Varios preajustes y la importación/exportación de paquetes también requieren suscripción.
 
 <a id="evidence"></a>
 ## Pruebas y resultados futuros
+
+**Nota:** Generación y vínculos también exporta la imagen de diseño y un PDF de ficha técnica imprimible. Antes de la salida definitiva indica «listo», «requiere confirmación» o «aún no se puede crear», con la estructura o el motivo del bloqueo.
 
 Generación y vínculos ofrece gráficos de dos agujas, ganchillo plano, contadores y estimación de hilo. La preparación enlaza a datos, plan o lienzo original; al volver desde este se retoma la misma tarea. Los gráficos definitivos necesitan un plan ejecutable y confirmado. Las piezas libres cerradas admiten ganchillo plano dentro de las reglas de puntos y conexiones compatibles. El contador conserva su origen. El hilo se estima con áreas cerradas válidas y una muestra medida; corrige cualquier pieza inválida. No se sustituyen áreas por rectángulos ni se descuenta inventario automáticamente.
 

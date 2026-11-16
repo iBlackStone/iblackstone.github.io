@@ -55,12 +55,13 @@ Person und Referenzen bietet Maße, Bilder und unabhängige Grundschnittkopien. 
 <a id="membership"></a>
 ## Kostenlose Version und Mitgliedschaft
 
-Die kostenlose Version kann zwei Musterprojekte auf einmal behalten. Das Löschen eines wird ein Slot frei, während bestehende Projekte immer offen, bearbeitbar, sicherbar und löschbar bleiben. Kostenloses Zeichnen und wichtige Zeichenwerkzeuge - einschließlich Körperreferenz, formaler Körperblock, Leichtigkeit, Stärke, Abmessungen, Kurven, Knoten und Stichpläne - bleiben verfügbar.
+Während der Beta sind alle integrierten Strategien kostenlos: Basisweste, Drop-Shoulder-Pullover und leeres Schnittteil. Kandidatenstrategien (Raglan, Cardigan, Rund-/Eckpasse, eingesetzter Ärmel, Bias) sind vorübergehend ausgeblendet; bestehende Projekte bleiben offen, können aber nicht aus dem Katalog neu erstellt werden. Lokale/importierte Strategien, eigene Vorlagen und Autorenwerkzeuge bleiben Mitgliedsfunktionen. Die Vorbereitung ist kostenlos; beim Erstellen von Schriften und Zählern wird die Mitgliedschaft geprüft. Designbild- und Tech-Pack-PDF-Export sind kostenlos. Mehrere Voreinstellungen sowie Paketimport/-export bleiben Mitgliedsfunktionen.
 
-Der einfache Pullover mit überschnittener Schulter ist kostenlos. Andere kostenpflichtige integrierte Strategien erfordern eine aktive Mitgliedschaft und einen separaten Freischaltkauf. Gekaufte Strategien bleiben in den aktuellen App-Daten nach Ablauf nutzbar. Lokale/importierte Strategien, eigene Vorlagen und Autorenwerkzeuge benötigen eine Mitgliedschaft. Die Vorbereitung ist kostenlos; beim Erstellen von Ausgaben werden die Rechte geprüft. Verbrauchskäufe lassen sich nicht über den App Store auf einem neuen Gerät wiederherstellen. Mehrere Voreinstellungen und der Paketimport/-export erfordern ebenfalls eine Mitgliedschaft.
 
 <a id="evidence"></a>
 ## Beweise und zukünftige Ergebnisse
+
+**Hinweis:** Erzeugen und Verknüpfen exportiert auch ein Designbild und ein druckbares Tech-Pack-PDF. Vor der formellen Ausgabe erscheint „bereit“, „Bestätigung nötig“ oder „noch nicht erstellbar“ mit Struktur oder Sperrgrund.
 
 Erzeugen und Verknüpfen bietet Strickschriften, flache Häkelschriften, Zähler und Garnschätzungen. Die Vorbereitung führt zu fehlenden Daten, Plan oder ursprünglicher Zeichenfläche; erneutes Öffnen setzt dieselbe Aufgabe fort. Endgültige Schriften benötigen ausführbare bestätigte Pläne. Freie geschlossene Teile können im Rahmen unterstützter Maschen und Verbindungen flach gehäkelt werden. Zähler behalten die Herkunft. Garn wird aus gültigen geschlossenen Flächen und gemessenen Proben geschätzt; ungültige Teile zuerst korrigieren. Keine Ersatzrechtecke und kein automatischer Lagerabzug.
 

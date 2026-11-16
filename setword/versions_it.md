@@ -8,6 +8,15 @@ lang: it
 
 > Per suggerire nuove funzionalità, contatta lo sviluppatore su Xiaohongshu dal fondo della pagina dei feedback.
 
+### v2.1.11
+
+- Tutte le strategie di cartamodello integrate sono gratuite. Le strategie candidate sono temporaneamente nascoste; i nuovi progetti offrono gilet base, maglia con spalla scesa e pezzo vuoto.
+- Aggiunto PDF di scheda tecnica stampabile, esportabile gratuitamente da «Genera e collega».
+- Il piano ferri include ferri a coste e misura della spalla scesa; prima della generazione viene indicato «da confermare» o «non ancora creabile».
+- Dopo la creazione si torna all'elenco, le bozze vuote non consumano la quota gratuita e la barra strumenti è più essenziale.
+
+- Impostazioni e Aspetto ora includono Sistema, che segue l'aspetto chiaro/scuro del dispositivo; Luce e Scuro restano disponibili.
+
 ### v2.1.10
 
 - Nuova collaborazione con Apple Watch per i contatori, gli editor di schemi ai ferri e all’uncinetto e le note di lavoro.

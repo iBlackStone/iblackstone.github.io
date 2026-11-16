@@ -14,6 +14,7 @@ Tricot & Crochet permet de gérer les fils, d’organiser les projets, de suivre
 - [Espace projets](#project-workspace)
 - [Compteur de tricot](#counter)
 - [Création intelligente de patron](#pattern-drafting)
+- [Personnaliser le menu de l’éditeur](#editor-customization)
 - [Grilles de tricot](#knitting-chart)
 - [Opérations de zone des grilles de tricot](#knitting-chart-area-operations)
 - [Diagrammes de crochet](#crochet-chart)
@@ -45,6 +46,8 @@ Lorsque la bibliothèque de projets est vide, Tricot & Crochet installe une seul
 
   Dans le démarrage rapide de l’accueil, Ravelry propose Importer, Bibliothèque, Recherche de modèles, Favoris et Compte. La recherche inclut tous les modèles par défaut ; vous pouvez filtrer les modèles gratuits ou payants, la technique, la catégorie et la langue, puis choisir le tri. Touchez un modèle pour le prévisualiser, l’ajouter aux favoris ou l’en retirer, ou consulter sa fiche officielle Ravelry. Les favoris sont communs avec Découvrir et enregistrés dans l’app ; ils ne sont pas ajoutés à vos favoris Ravelry. Seuls les modèles gratuits disposant d’un PDF accessible peuvent être importés directement depuis la recherche. Pour les contenus hébergés sur un site externe, téléchargez vous-même le fichier puis utilisez l’importation de fichiers. Les modèles payants peuvent être ajoutés aux favoris et leur source consultée ; tout achat est effectué par vous sur Ravelry. Les modèles déjà achetés dont le téléchargement est autorisé dans votre Bibliothèque restent importables depuis celle-ci.
 
+  Lorsque l’app est en chinois simplifié ou traditionnel, la page du compte Ravelry affiche ce conseil réseau : En Chine continentale, un outil facilitant l’accès à Ravelry peut être nécessaire pour vous connecter et autoriser votre compte. Il n’est nécessaire que pendant cette étape ; vous pouvez ensuite reprendre votre connexion habituelle.
+
 Les filtres avancés comprennent le nom du créateur, 13 attributs courants (tous les attributs choisis doivent correspondre), la taille des aiguilles ou du crochet en mm, plusieurs grosseurs standard de fil et une plage de métrage en mètres ou yards. Une seule borne suffit ; changer d’unité convertit la plage existante. Les résultats peuvent couvrir plusieurs tailles : vérifiez le métrage nécessaire. Triez par popularité actuelle, publication récente, ajout récent, nombre de projets ou de favoris. Aucun filtre de réduction n’est proposé ; vérifiez les prix et offres sur la page officielle. Retirez les filtres un par un ou réinitialisez-les tous.
 
 La page de filtres conserve Appliquer en haut à droite et ajoute un grand bouton sous Réinitialiser les filtres. Le cœur en haut à gauche de Découvrir ouvre toujours Mes favoris ; le menu Plus donne aussi accès aux favoris et mentions J’aime. Touchez Rechercher des modèles Ravelry au-dessus des favoris pour ouvrir les filtres, après connexion du compte si nécessaire. Appliquez les filtres, ajoutez des modèles depuis les résultats, puis revenez pour voir les favoris actualisés. Le raccourci reste visible si les favoris sont vides et est masqué dans l’onglet J’aime. Le menu de recherche affiche un bref état du téléchargement et place les favoris en premier ; les explications complètes restent dans les détails ou la confirmation d’importation.
@@ -55,9 +58,13 @@ Le menu Mode, en haut à droite des réglages, propose Simulation selon la jauge
 
 **Commandes de l’aperçu 3D** : glissez avec un doigt pour tourner. Pincez avec deux doigts pour zoomer ou faites-les glisser ensemble pour déplacer la vue ; les deux gestes peuvent être combinés. Si une partie du tricot sort de la fenêtre après un zoom ou une rotation, ramenez la zone à examiner avec deux doigts. Touchez Réinitialiser en haut à droite ou changez de vue Face / Oblique / Dos pour restaurer cette vue et centrer le tricot. Le déplacement ne change que le cadrage, sans modifier le fil ou les mailles ni relancer la simulation.
 
-La deuxième action en haut à gauche de l’accueil ouvre la Boîte à souhaits. Choisissez un domaine et un souhait prédéfini pour l’envoyer ; seul un souhait personnalisé demande du texte. Une note facultative peut compléter un souhait prédéfini. Les validations et le résultat de l’envoi s’affichent sous forme de Toast. Pour un problème fonctionnel, utilisez le lien Retour en bas et joignez les étapes ou une capture d’écran.
+Le deuxième bouton en haut à gauche de l’accueil, avec une icône de bulles, ouvre « Évaluation et suggestions ». Choisissez « Faire un souhait » pour ouvrir la Boîte à souhaits. Choisissez un domaine et un souhait prédéfini pour l’envoyer ; seul un souhait personnalisé demande du texte. Une note facultative peut compléter un souhait prédéfini. Les validations et le résultat de l’envoi s’affichent sous forme de Toast. Pour un problème fonctionnel, utilisez le lien Retour en bas et joignez les étapes ou une capture d’écran.
 
 - **Découvrir** : présente des modèles Ravelry sélectionnés et des créations d’utilisateurs approuvées. Parcourez la bannière et les trois recommandations, changez de canal et tirez vers le bas pour actualiser. Touchez une image pour afficher les autres photos, ou ouvrez une carte pour consulter les informations publiques, ajouter un favori ou indiquer « J’aime ». Un élément Ravelry peut ouvrir sa source ou être importé. Une création d’utilisateur est importée comme une nouvelle copie locale avec les photos, Notes de projet, grilles de tricot et diagrammes de crochet explicitement sélectionnés par son auteur. Sur les cartes Ravelry, une icône de carte bancaire en haut à droite de la couverture située à gauche indique un modèle payant, et une icône de cadeau un modèle gratuit ; aucun badge ne s’affiche si cette information est inconnue.
+
+  Découvrir affiche quatre canaux dans cet ordre : Sélection, Tricot, Crochet et Patrons. Sélection peut mettre en avant du contenu des autres canaux. Tricot propose aussi des grilles intégrées gratuites, et Patrons des stratégies de patron intégrées. Les cartes indiquent la gratuité, le prix ou le statut acquis. Touchez le texte ou Voir les détails pour ouvrir d’abord la fiche Découvrir, puis choisir d’ajouter, d’utiliser, d’importer ou de consulter la source. Les couvertures permettent toujours de voir les images en grand.
+
+  Les 37 grilles de tricot intégrées existantes sont gratuites. Consulter une fiche ne crée aucun enregistrement. Ajouter à mes grilles crée une copie modifiable qui compte dans la limite actuelle de grilles, y compris celle des utilisateurs gratuits. Si une copie existe, Ouvrir ma grille la retrouve sans écraser vos modifications. Après suppression de la copie, vous pouvez ajouter la grille de nouveau.
 
 <!-- discover-detail-2026-11-09 -->
 Touchez le texte, une zone vide ou le bouton de détails d’une carte dans Discover, Favoris ou J’aime pour ouvrir les détails. La couverture affiche toujours les images et le cœur gère les favoris. Les détails des grilles de tricot intégrées s’affichent d’abord ; Ajouter ou Ouvrir devient disponible après la recherche en arrière-plan d’une copie enregistrée. La vérification se répète au retour de l’éditeur.
@@ -67,7 +74,6 @@ Touchez le texte, une zone vide ou le bouton de détails d’une carte dans Disc
 Accueil affiche trois contenus publics locaux avant les recommandations de l’équipe : une grille de tricot, une grille de crochet et une stratégie de patron. Le total est limité à 15. Dans les sections Tricot et Crochet de Démarrage rapide, « Découvrir les grilles » bascule l’onglet principal Découvrir vers le canal correspondant ; « Découvrir les patrons » dans Patrons ouvre le canal des patrons.
 
 Le Hero de Découvrir affiche jusqu’à cinq éléments : au moins trois contenus publics locaux et jusqu’à deux sélections opérationnelles existantes. Les contenus locaux complètent les places opérationnelles manquantes. Les trois sélections fixes comprennent toujours un contenu local et deux sélections opérationnelles ; les contenus locaux complètent les places manquantes. La sélection alterne de façon stable selon le jour et l’appareil et varie entre les entrées lorsque c’est possible. Un contenu intégré ouvre d’abord sa fiche native, où vous pouvez l’ajouter, l’ouvrir ou l’utiliser. Les recommandations locales s’affichent avant la mise en page, et l’actualisation en arrière-plan conserve le contenu visible.
-Les 37 premières grilles de tricot restent accessibles dans la liste Découvrir → Tricot, avec recherche, aperçu et ajout. Elles n’apparaissent plus dans les recommandations de l’accueil, la bannière Découvrir ni les trois emplacements à la une. Les grilles ajoutées ensuite restent éligibles.
 <!-- /discover-recommendations-2026-11-08 -->
 
 <!-- discover-filter-collapse-2026-11-09 -->
@@ -75,7 +81,7 @@ Les filtres sont repliés au départ dans les quatre canaux Discover. À droite 
 <!-- /discover-filter-collapse-2026-11-09 -->
 
 <!-- discover-content-search-2026-11-06 -->
-  Chaque liste de canal de Découvrir permet de rechercher titres, auteurs, descriptions, catégories et thèmes, et de combiner catégorie et thème. Triez par recommandations, publication ou mise à jour récente. Les anciens contenus intégrés sans date fiable suivent les contenus datés. L’onglet sélectionné et, pour chaque canal, la catégorie, le thème, le prix et le tri sont conservés après fermeture puis réouverture de l’app ; la recherche et le défilement ne durent que pendant la session en cours. Effacez les filtres pour tout revoir. Les filtres de liste ne modifient ni la bannière ni les trois sélections. Les résultats en cache ou incomplets sont signalés ; touchez ce message pour recharger.
+Chaque liste de canal de Découvrir permet de rechercher titres, auteurs, descriptions, catégories et thèmes, et de combiner catégorie et thème. Triez par recommandations, publication ou mise à jour récente. Les anciens contenus intégrés sans date fiable suivent les contenus datés. L’onglet sélectionné et, pour chaque canal, la catégorie, le thème, le prix et le tri sont conservés après fermeture puis réouverture de l’app ; la recherche et le défilement ne durent que pendant la session en cours. Effacez les filtres pour tout revoir. Les filtres de liste ne modifient ni la bannière ni les trois sélections. Les résultats en cache ou incomplets sont signalés ; touchez ce message pour recharger.
 
 <!-- discover-chart-commerce-2026-11-07 -->
 #### Prix des grilles et déblocage individuel (en développement, non publié)
@@ -92,8 +98,9 @@ Les filtres sont repliés au départ dans les quatre canaux Discover. À droite 
 - Les 10 premiers diagrammes de tricot et les 10 premiers diagrammes de crochet sont désormais gratuits. Les futurs tarifs tiendront compte des symboles de mailles utiles d’un motif complet ou du plus petit rapport. Jusqu’à 100 symboles, les répétitions de base et les motifs de couleurs simples restent gratuits. De 101 à 300 symboles avec une complexité moyenne, un diagramme peut relever du tarif de 1 yuan. À partir de 301 symboles, avec une complexité élevée et un contenu complet, il peut relever de celui de 6 yuans. Le nombre seul ne rend jamais un diagramme payant. Le prix réel est celui affiché dans la boutique.
 <!-- /discover-chart-commerce-2026-11-07 -->
 
-Découvrir affiche quatre canaux dans cet ordre : Sélection, Tricot, Crochet et Patrons.
+La fiche d’une stratégie présente des exemples, ses limites, le prix réel de l’App Store et le statut acquis. Pendant la bêta, les stratégies intégrées sont gratuites et utilisables directement ; les stratégies candidates sont masquées. Les stratégies déverrouillées restent réutilisables après la fin de l’abonnement. Le déverrouillage est conservé dans les données de cette app et ne peut pas être restauré sur un nouvel appareil via l’App Store. La création d’un patron reste soumise à la limite actuelle de projets. Consultez les capacités avant de choisir d’utiliser une stratégie.
 
+  Sur iPad et lorsque l’iPhone Duo est déplié, la bannière supérieure est limitée à une hauteur maximale en mode portrait comme paysage ; les trois recommandations restent centrées dans une largeur maximale afin d’éviter qu’elles ne deviennent trop grandes sur les écrans larges. Les marges de chaque côté des trois recommandations sont remplies par un arrière-plan flouté basé sur la couverture de la première recommandation.
 
   Le menu Plus en haut à droite permet d’ouvrir les favoris, les mentions J’aime et Mes publications, ou de choisir dans la liste des créations existantes une création locale à publier. Le menu Plus de la fiche d’une création propose aussi le raccourci « Publier dans Découvrir ». L’éditeur liste les champs publics et les ressources partageables ; la première photo sélectionnée devient la couverture et jusqu’à six photos peuvent être incluses. La carte finale peut être prévisualisée avant l’envoi. L’entrée de publication est visible par tous, mais l’envoi en révision demande un abonnement. La création n’apparaît dans le canal choisi qu’après approbation d’un administrateur. Le contenu sélectionné est envoyé dans la base publique CloudKit ; les compteurs, le stock de fils, la progression privée et les patrons de coupe sont exclus. La consultation de Découvrir ne demande pas de connexion Ravelry.
   Uniquement dans l’onglet d’état « En cours » en haut de l’accueil, lorsqu’un projet est associé à des Notes de projet, un patron, une grille de tricot ou un diagramme au crochet, un menu de ressources apparaît dans l’angle supérieur droit de sa carte. Les onglets « Tous » et les autres états n’affichent pas ce raccourci. Les Notes de projet sont proposées directement en premier ; les patrons et les grilles de tricot ou de crochet restent regroupés dans des sous-menus repliés. Sélectionnez le nom d’une ressource pour l’ouvrir.
@@ -114,6 +121,10 @@ Les commandes du haut et du côté suivent les mêmes règles d’enregistrement
 
 <a id="yarn-library"></a>
 ## Bibliothèque de fils
+
+Depuis l’accueil, choisissez Démarrage rapide → Fils → Vue d’ensemble du stock pour consulter tout le stock. Depuis l’onglet Fils, le dossier, la recherche et les filtres actuels sont conservés.
+
+Touchez n’importe où sur la carte récapitulative en haut ou choisissez « Vue d’ensemble du stock » dans le menu Plus. Cette vue conserve le dossier, la recherche et les filtres actuels et permet de passer à tout le stock. La page propose trois thèmes : Mon profil de fils couvre la couleur, la matière, l’épaisseur et la marque ; Utilisation et stock restant couvre l’utilisation cumulée, les projets et les restes encore utilisables ; Achats et coûts couvre les dates d’achat, les montants confirmés, le coût pour 100 g et le coût restant. Touchez un graphique ou une catégorie pour voir les fils correspondants ; Retour conserve les choix précédents. Les statistiques utilisent uniquement les fiches de fils conservées dans le périmètre actuel. Les informations manquantes sont signalées séparément et les prix absents ne sont pas traités comme zéro. L’ancien calendrier des fils sert uniquement aux dates d’achat enregistrées ; il ne permet pas de revoir les sorties ou les dates d’utilisation mois par mois. Les détails du fil restent modifiables et le retour après modification actualise la vue d’ensemble.
 
 - Pour chaque fil créé ou modifié, choisissez « fil à tricoter main » ou « fil sur cône » en haut de la fiche des caractéristiques. Vous pouvez basculer directement entre les deux sans effacer immédiatement les valeurs de l’autre mode.
 - Pour le fil main, saisissez le nombre de pelotes ou d’écheveaux, le poids, la longueur et le prix par unité. Pour le fil sur cône, saisissez le nombre de cônes, le poids par cône ou total, le titrage Nm, le nombre de brins et le mode de prix.
@@ -175,6 +186,8 @@ Les réglages sont séparés pour les compteurs, les diagrammes de tricot, les n
 <a id="pattern-drafting"></a>
 ## Création intelligente de patron
 
+Dessiner → Aimantation utilise la grille visible en cm, avec un pas adapté au zoom. Les bords et centres des pièces, images et esquisses, les guides et les axes/poitrine/taille du patron de base visible servent de cibles. Les cibles verrouillées restent utilisables, les cibles masquées sont exclues. Points orange et pointillés indiquent l’alignement ; éloignez l’objet pour le libérer. Le texte utilise son centre, les Tips et renvois leur position. Pinceau, poignées de courbe et étiquettes restent libres. Les menus des personnes, comparaisons, feuilles et propriétés se placent sur la ligne choisie.
+
 Un doigt ou le stylet utilise l’outil actif ; deux doigts déplacent et zooment. Sélectionnez avant de glisser ; un appui long ou le panneau choisit un objet superposé. Dessiner → Géométrie propose points enregistrés, droites par deux points ou glissement, polylignes, rectangles et cercles depuis leur centre. Gardez un tracé ouvert, poursuivez-le ou fermez-le explicitement. Modifier → Nœuds permet de courber au milieu avec extrémités fixes et d’affiner par poignées carrées. Pinceau et gomme concernent les croquis. Un trait peut devenir une pièce indépendante après aperçu confirmé, en gardant l’original. Relier des tracés ouverts crée une copie continue et conserve originaux et annotations. Une action continue peut être annulée.
 
 Les groupes sont Dessiner, Modifier, Annoter, Tricoter, Personne et références, Aperçu, Objets et affichage. Le changement affiche un bref conseil. Les outils fréquents restent visibles ; les actions liées se déplient au besoin. Terminer, Fermer, Garder ouvert et Annuler n’apparaissent que pendant le tracé. Text, Tips, repères et dimensions sont dans Annoter ; échantillon, bords, assemblages, diagrammes et jacquard dans Tricoter. Affichage de grille, accrochages et directions sont indépendants.
@@ -201,8 +214,9 @@ Dans les versions Debug, placez et fixez des panneaux fermés valides en 3D, cho
 
 L’export règle séparément grille et Tips développés, numérotés ou masqués. L’enregistrement conserve tracés ouverts, annotations, ordre et papier. Chaque document restaure vue, outil, sélection et comparaison confirmée sans rejouer les commandes ni l’historique Annuler. Les listes de patrons et fichiers partagent le dernier aperçu complet enregistré avec succès, sans reprendre un zoom local ou une vue vide. Les données lisibles anciennes restent protégées ; les données inconnues ne sont pas écrasées par un document vide.
 
-Dans les versions Debug, les aperçus 3D valides peuvent être enregistrés avec un projet et restaurés si le patron, le corps et les conditions de simulation correspondent toujours. Toute modification des données nécessite une nouvelle simulation ; les résultats en échec ou inachevés ne remplacent pas le dernier aperçu valide enregistré.
+Pendant la bêta, les stratégies intégrées sont gratuites : gilet de base, pull à épaules tombantes et pièce vierge. Les stratégies candidates (raglan, gilet, empiècement rond/carré, manche montée, biais) sont masquées ; les projets existants restent ouvrables, sans création depuis le catalogue. Stratégies locales/importées, modèles personnels et outils de création restent réservés aux membres. La préparation est gratuite ; la création des grilles et compteurs vérifie l’abonnement. L’export de l’image et du PDF de fiche technique est gratuit. Les préréglages multiples et l’import/export de paquets restent réservés.
 
+Dans les versions Debug, les aperçus 3D valides peuvent être enregistrés avec un projet et restaurés si le patron, le corps et les conditions de simulation correspondent toujours. Toute modification des données nécessite une nouvelle simulation ; les résultats en échec ou inachevés ne remplacent pas le dernier aperçu valide enregistré.
 
 <a id="knitting-chart"></a>
 ## Grilles de tricot
@@ -217,6 +231,12 @@ L’éditeur enregistre couleurs et symboles dans des cellules. Il convient aux 
 - Dessinez, colorez, effacez, annulez et rétablissez.
 - Utilisez une sélection de zone pour copier, couper, coller, remplacer et répéter.
 - Enregistrez couleurs, modèles et symboles personnalisés.
+
+Les catégories existantes proposent KFB/PFB, LLI/RLI, les mailles glissées fil devant/derrière, le jeté inversé (BYO) et la création puis le tricot à l’endroit ou à l’envers d’une maille double de rang raccourci allemand. Recherchez les abréviations et faites un appui long pour les explications. Ces symboles suivent la légende de Line : vérifiez celle de votre modèle. La maille double compte toujours pour une maille. Un petit repère signale les ajouts actuels non consultés ; il disparaît après une sélection réussie ou l’ouverture des détails, pas lors du défilement ou d’une recherche. Une correction de nom n’est pas marquée comme ajout.
+
+La bibliothèque de tricot propose les onglets Points et Torsades. Les anciens éléments de torsade se trouvent en haut à droite dans Plus → Éléments de symboles. Les onglets récents et personnalisés restent disponibles dans l’éditeur. Tous les symboles, catégories et résultats de recherche sont conservés, et les éléments restent directement sélectionnables. Dans le sélecteur en demi-écran, Plus est à droite du champ de recherche.
+
+Pendant la session d’édition en cours, fermer puis rouvrir le sélecteur de symboles restaure le dernier onglet et la position consultés. Cette mémorisation est réinitialisée en quittant l’éditeur.
 
 <a id="knitting-chart-area-operations"></a>
 ### Opérations de zone
@@ -272,6 +292,10 @@ L’éditeur de crochet utilise un canevas libre.
 ### Conseils d’édition
 
 - Recherchez un symbole par nom, abréviation ou mot-clé. Les symboles récemment choisis apparaissent en priorité dans « Utilisés ».
+- Pendant la session d’édition en cours, fermer puis rouvrir le sélecteur de symboles restaure le dernier onglet et la position consultés. Cette mémorisation est réinitialisée en quittant l’éditeur.
+- La bibliothèque comprend les triples brides en relief avant et arrière (FPdtr/BPdtr), ainsi que 2 ou 3 doubles brides écoulées ensemble (tr2tog/tr3tog). Recherchez par nom ou abréviation ; ces diminutions se travaillent dans des mailles de base distinctes et se ferment ensemble.
+- Vingt ajouts couvrent ehdc/edc/etr, dtr2tog/dtr3tog, 2 ou 3 tr/dtr dans une maille, sept variantes par brin et quatre diminutions en relief. Les poignées de courbure prennent en charge ehdc, edc, etr, hdc flo, dc flo, tr blo/flo et dtr blo/flo ; diminutions et augmentations à base commune conservent le redimensionnement ordinaire. Abréviations américaines.
+- Les sept variantes par brin ci-dessus sont des combinaisons prêtes à l’emploi d’une maille de base et d’un repère d’insertion. Lire chaque maille avec la légende du diagramme utilisé.
 - Les réglages du projet définissent l’épaisseur de trait et la taille par défaut des nouveaux symboles. Les mailles en l’air de début 2 à 6, ainsi que les symboles hdc, dc, tr, dtr et ttr, disposent d’une poignée de courbure. La même poignée prend aussi en charge hdc blo et dc blo (brin arrière seulement), ainsi que FPhdc, BPhdc, FPdc, BPdc, FPtr et BPtr (mailles en relief avant/arrière).
 - La gestion des calques affiche récursivement les éléments des groupes ordinaires. Vous pouvez développer ou réduire un groupe, localiser un élément, modifier sa visibilité ou le verrouiller.
 - En mode de sélection multiple, touchez un élément pour l’ajouter ou le retirer ; un nouveau rectangle remplace la sélection actuelle. Faites glisser un élément sélectionné pour déplacer toute la sélection sans créer de groupe, puis touchez une zone vide pour quitter ce mode.
@@ -328,7 +352,7 @@ Une documentation détaillée est disponible via « Notes de projet » dans le c
 ## Autres outils
 
 - **Couleurs** : prélevez des couleurs sur une image, créez des palettes et conservez les résultats.
-- **Bibliothèques de symboles** : recherchez les symboles de tricot ou crochet et gérez vos symboles et notes.
+- **Bibliothèques de symboles** : recherchez les symboles de tricot ou crochet et gérez vos symboles et notes. S’il manque un symbole, touchez « Un symbole manque ? Donner votre avis » sous le champ de recherche pour ouvrir la page de retour.
 - **Création de patron** : enregistrez personnes et mesures, partez de références femme ou de normes publiques, puis examinez séparément référence corporelle, patron de base formel et pièces du vêtement.
 - **Calculateurs** : aide pour l’échantillon, la longueur, le poids et les dimensions.
 - **Calendriers et alertes** : consultez l’activité des fils/projets et configurez des rappels de stock.
@@ -361,7 +385,9 @@ La consultation de base et l’utilisation des contenus existants restent dispon
 <a id="settings-help"></a>
 ## Réglages et aide
 
-Les Réglages donnent accès au thème, aux cinq langues, à l’historique des versions, aux avis, à ce guide, à la politique de confidentialité et aux conditions d’utilisation. Les principaux éditeurs prennent en charge les modes clair et sombre ; utilisez l’icône soleil/lune en haut à droite des Réglages pour basculer rapidement, ou choisissez le mode depuis la page Apparence.
+Les Réglages donnent accès au thème, aux cinq langues, à l’historique des versions, aux avis, à ce guide, à la politique de confidentialité et aux conditions d’utilisation. Les principaux éditeurs prennent en charge les modes clair, sombre et système ; touchez l’icône d’apparence en haut à droite des Réglages pour choisir Clair, Sombre ou Système, ou choisissez le mode depuis la page Apparence. Le mode Système suit automatiquement l’apparence de l’appareil.
+
+L’accès permanent Accueil → Aide → Évaluation et suggestions ouvre un panneau unifié pour choisir « Noter dans l’App Store », « Signaler un problème » ou « Faire un souhait ». Les évaluations ouvrent l’App Store ; les signalements acceptent texte, coordonnées, captures d’écran et pièces jointes de diagnostic. Les souhaits conservent les domaines, préréglages et notes facultatives de la Boîte à souhaits.
 
 Dans Réglages → Informations sur l’app → Informations de diagnostic, l’identifiant utilisateur CloudKit n’est récupéré qu’à la demande. Il est masqué par défaut et l’utilisateur peut choisir de l’afficher ou de le copier ; l’app ne le téléverse, ne l’enregistre et ne le consigne pas automatiquement.
 
@@ -388,6 +414,13 @@ Ouvrez Réglages → Avis. Indiquez les étapes, le résultat attendu et le rés
 Les projets, patrons, grilles de tricot, grilles de crochet et notes disposent chacun de leurs propres dossiers. Les outils Patron, Crochet et Notes conservent une entrée Gestion des fichiers comme accès recommandé pour rechercher, classer et gérer le contenu ; la liste classique reste disponible comme accès secondaire. L’association d’une ressource existante à un projet, ainsi que le choix d’un élément dans un compteur, une note ou un patron, utilisent le sélecteur correspondant. Le mode de sélection conserve les dossiers, la recherche et le tri, mais masque le déplacement, la suppression et la gestion des dossiers.
 
 Le bouton de gestion à droite permet de créer, renommer, supprimer, rechercher et réordonner les dossiers. Supprimer un dossier déplace son contenu vers Non classé sans supprimer les projets ni les grilles. Recherchez par nom ou résumé ; sous la recherche, une ligne affiche toujours le dossier courant, le tri et le nombre de résultats. Touchez le tri pour modifier l’ordre. Balayez une cellule de fichier vers la gauche, ou effectuez un appui long sur iPad, pour la déplacer ou la supprimer définitivement ; la suppression définitive demande confirmation. La page Fichiers mémorise le dernier dossier et le tri. Le dossier se modifie dans la fiche de l’élément ; pour une note de tricot, utilisez le menu en haut à droite.
+<a id="editor-customization"></a>
+## Personnaliser le menu de l’éditeur
+
+Dans l’éditeur de tricot, de crochet ou de patron, touchez « Personnaliser » en haut, puis ouvrez « Réglages généraux ». Choisissez « Ordre de la barre d’outils inférieure » pour personnaliser séparément les lignes supérieure et inférieure du tricot et du crochet. Le patron propose sept modes principaux : Dessiner, Modifier, Annoter, Tricoter, Personnes et références, Aperçu, Objets et affichage. Pour le tricot et le crochet, « Ordre des groupes d’opérations de zone » ne modifie que les groupes du panneau des opérations de zone.
+
+Maintenez un élément dans son groupe et faites-le glisser pour le réordonner. Les changements sont enregistrés automatiquement et prennent effet au retour dans l’éditeur. Le rétablissement des valeurs par défaut ne rétablit que l’ordre affiché sur la page courante ; il ne modifie pas les autres préférences, le contenu du projet ni l’historique d’annulation. Cette préférence est commune aux projets sans être écrite dans un projet. Chaque éditeur enregistre ses préférences localement ; elles peuvent être sauvegardées avec le paquet de données de l’application. La synchronisation en temps réel n’est pas proposée.
+
 ## Stratégies de patron et pull complet
 
 Patrons regroupe création, fichiers, historique, modèles, préréglages, échantillons et personnes. Choisissez tricot ou crochet, puis dessin libre, patron de base, stratégie ou modèle. Le dessin libre ouvre immédiatement une grille vide ; personne et tension peuvent être ajoutées plus tard. Tous les départs mènent au même canevas. Les liens aux ouvrages et dossiers sont conservés. Un appui long sur une entrée permet sa suppression après confirmation.

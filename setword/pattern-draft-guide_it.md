@@ -55,12 +55,13 @@ Persona e riferimenti sceglie misure, immagini e copie indipendenti della base. 
 <a id="membership"></a>
 ## Versione gratuita e abbonamento
 
-La versione gratuita può mantenere due progetti di modelli alla volta. L'eliminazione di uno libera uno slot, mentre i progetti esistenti rimangono sempre apribili, modificabili, salvabili e cancellabili. Il disegno gratuito e gli strumenti di disegno essenziali, tra cui riferimento al corpo, blocco del corpo formale, facilità, calibro, dimensioni, curve, nodi e piani di punti, rimangono disponibili.
+Durante la beta le strategie integrate sono gratuite: gilet base, pull con spalla scesa e pezzo vuoto. Le strategie candidate (raglan, cardigan, sprone rotondo/quadrato, manica a giro, sbieco) sono nascoste; i progetti esistenti restano apribili ma non creabili dal catalogo. Strategie locali/importate, modelli personali e strumenti di creazione restano per i membri. La preparazione è gratuita; la creazione di schemi e contatori verifica l’abbonamento. L’esportazione di immagine e PDF tecnico è gratuita. Preset multipli e import/export di pacchetti restano per i membri.
 
-Il pullover base con spalla scesa è gratuito. Le altre strategie integrate a pagamento richiedono un abbonamento attivo e un acquisto separato. Restano utilizzabili nei dati attuali dell’App dopo la scadenza. Strategie locali/importate, modelli personali e strumenti di creazione richiedono un abbonamento. La preparazione è gratuita; la creazione degli output verifica i diritti. Gli acquisti sono consumabili e non si ripristinano su un nuovo dispositivo tramite App Store. Anche più preimpostazioni e l’importazione/esportazione dei pacchetti richiedono un abbonamento.
 
 <a id="evidence"></a>
 ## Prove e risultati futuri
+
+**Nota:** Generazione e collegamenti esporta anche l’immagine di progetto e un PDF tecnico stampabile. Prima dell’output definitivo mostra «pronto», «da confermare» o «non ancora creabile», con la struttura o il motivo del blocco.
 
 Generazione e collegamenti offre schemi ai ferri, uncinetto in piano, contatori e stime di filato. La preparazione porta ai dati mancanti, al piano o alla tela originale; riaprendola dalla tela riprendi lo stesso compito. Gli schemi definitivi richiedono un piano eseguibile e confermato. Anche i pezzi liberi chiusi possono usare l’uncinetto in piano entro i limiti di punti e collegamenti supportati. Il contatore mantiene la provenienza. Il filato si stima da aree chiuse valide e campione misurato: correggi ogni pezzo non valido. Non si usano rettangoli sostitutivi né si scarica automaticamente il magazzino.
 

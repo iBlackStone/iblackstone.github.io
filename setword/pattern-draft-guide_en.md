@@ -55,12 +55,13 @@ Person & References selects measurements, reference images or independent copies
 <a id="membership"></a>
 ## Free version and membership
 
-The free version can keep two pattern projects at a time. Deleting one frees a slot, while existing projects always remain openable, editable, savable, and deletable. Free Draw and essential drafting tools—including body reference, formal body block, ease, gauge, dimensions, curves, nodes, and stitch plans—remain available.
+Built-in strategies are free during Beta: Basic Vest, Basic Drop-Shoulder Pullover and Blank Custom Piece. Candidate strategies (raglan, cardigan, round/square yoke, fitted set-in and bias) are temporarily hidden; existing projects still open but cannot be created from the catalog. Local/imported strategies, My Templates and authoring tools still require membership. Generation Prep is free; formal charts and counters check membership. Design-image and tech-pack PDF exports are free. Multiple presets and strategy-package import/export remain membership features.
 
-The Basic Drop-Shoulder Pullover is free. Other paid built-in strategies require active membership and a separate unlock purchase. Owned strategies remain usable in the current app data after membership expires. Local/imported strategies, My Templates and authoring tools require membership. Generation Prep is free; creating outputs checks membership. Strategy purchases are consumable and cannot be restored to a new device through the App Store. Multiple presets and strategy-package import/export also require membership.
 
 <a id="evidence"></a>
 ## Evidence and future outputs
+
+**Note:** Generation & Links also exports a design image and a printable tech-pack PDF. Formal output first shows “ready”, “needs confirmation” or “cannot create yet”, with the unconfirmed structure or blocking reason.
 
 Generation & Links offers knitting, flat crochet, counter tasks and yarn estimates. Generation Prep lists requirements and links to gauge, plan or the original canvas; reopening from that canvas resumes preparation. Formal charts need an executable, confirmed plan. Free closed pieces can use flat crochet within the supported stitch/topology rules. Counter tasks retain their source. Yarn estimates use valid closed areas and a measured swatch; fix any invalid piece before estimating. Bounding rectangles are not substituted, and inventory is not deducted automatically.
 

@@ -8,6 +8,15 @@ lang: en
 
 > For feature suggestions, visit the bottom of the feedback page to contact the developer on Xiaohongshu.
 
+### v2.1.11
+
+- All built-in pattern strategies are now free. Candidate strategies are temporarily hidden; new projects offer the basic vest, drop-shoulder pullover and blank piece.
+- Added a printable tech-pack PDF, free to export from “Generate & Connect”.
+- The row plan now includes rib rows and drop-shoulder amount, and formal output clearly shows “needs confirmation” or “cannot create yet”.
+- Creating a pattern returns to the list, blank drafts no longer use the free quota, and the editor toolbar is simpler.
+
+- Settings and the Appearance page now offer a System option that follows the device light/dark appearance, while Light and Dark remain available.
+
 ### v2.1.10
 
 - Added Apple Watch collaboration for knitting counters, knitting and crochet editors, and knitting notes.

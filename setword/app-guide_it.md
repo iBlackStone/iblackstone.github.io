@@ -14,6 +14,7 @@ Knit & Crochet ti aiuta a organizzare il filato, gestire progetti di lavoro a ma
 - [Project workspace](#project-workspace)
 - [Knitting counter](#counter)
 - [Smart Pattern Drafting](#pattern-drafting)
+- [Personalizzazione del menu dell’editor](#editor-customization)
 - [Knitting charts](#knitting-chart)
 - [Knitting chart area operations](#knitting-chart-area-operations)
 - [Crochet charts](#crochet-chart)
@@ -49,6 +50,8 @@ Quick Start raggruppa le destinazioni sotto Ravelry, Pattern Drafting, Project N
 
 Ravelry nell’Avvio rapido della schermata Home offre Importa, Libreria, Cerca modelli, Preferiti e Account. La ricerca include tutti i modelli per impostazione predefinita; puoi filtrare quelli gratuiti o a pagamento, la tecnica, la categoria e la lingua, e scegliere l’ordinamento. Tocca un modello per visualizzare l’anteprima, aggiungerlo ai preferiti o rimuoverlo, oppure aprire la scheda ufficiale su Ravelry. I preferiti sono condivisi con Discover e salvati nell’app; non vengono aggiunti ai preferiti di Ravelry. L’importazione diretta dalla ricerca è disponibile solo per i modelli gratuiti con un PDF accessibile. Per i contenuti ospitati su siti esterni, scarica il file autonomamente e usa l’importazione di file. Puoi aggiungere ai preferiti i modelli a pagamento e visualizzarne la fonte; l’eventuale acquisto viene effettuato da te su Ravelry. I modelli già acquistati con autorizzazione al download nella tua Libreria restano importabili dalla Libreria.
 
+Quando l’app è in cinese semplificato o tradizionale, la pagina account Ravelry mostra questo avviso di rete: Nella Cina continentale, potrebbe essere necessario uno strumento che consenta di accedere a Ravelry per effettuare l’accesso e autorizzare l’account. Serve solo durante questa fase; al termine puoi tornare alla connessione abituale.
+
 I filtri avanzati includono nome del designer, 13 attributi comuni (devono corrispondere tutti quelli selezionati), misura di ferri o uncinetto in mm, più spessori standard del filato e un intervallo di metraggio in metri o iarde. Puoi inserire anche un solo limite; cambiando unità si converte l’intervallo esistente. I risultati possono includere più taglie: verifica il metraggio necessario. Ordina per popolarità attuale, pubblicazione recente, aggiunta recente, numero di progetti o preferiti. Non è disponibile un filtro sconti: controlla prezzi e offerte sulla pagina ufficiale. Rimuovi i filtri singolarmente o azzerali tutti.
 
 La pagina dei filtri mantiene Applica in alto a destra e aggiunge un grande pulsante sotto Reimposta filtri. Il cuore in alto a sinistra di Discover apre sempre I miei preferiti; anche il menu Altro consente di aprire preferiti e Mi piace. Tocca Cerca modelli Ravelry sopra i preferiti per aprire i filtri, collegando prima l’account se necessario. Applica i filtri, salva modelli dai risultati e torna indietro per vedere i preferiti aggiornati. Il collegamento resta visibile se i preferiti sono vuoti ed è nascosto nella scheda Mi piace. Il menu di ricerca mostra un breve stato del download e mette i preferiti per primi; le istruzioni complete restano nei dettagli o nella conferma d’importazione.
@@ -59,9 +62,17 @@ Il menu Modalità in alto a destra nelle impostazioni offre Simulazione con camp
 
 **Comandi dell’anteprima 3D**: trascina con un dito per ruotare. Pizzica con due dita per zoomare oppure trascinale insieme per spostare la vista; puoi combinare zoom e spostamento. Se parte del tessuto esce dalla finestra dopo lo zoom o la rotazione, riportala in vista con due dita. Tocca Ripristina in alto a destra oppure passa a Fronte / Obliqua / Retro per ripristinare quella vista e centrare il tessuto. Lo spostamento cambia solo l’inquadratura, senza modificare filato o maglie né rieseguire la simulazione.
 
-La seconda azione in alto a sinistra di Home apre il Wish Pool. Scegli un'area e un desiderio preimpostato per inviarlo; solo un desiderio personalizzato richiede testo e i desideri preimpostati possono includere una nota facoltativa. I risultati della convalida e dell'invio vengono visualizzati come messaggi di brindisi. Per un problema funzionale, usa il link Feedback in basso e includi i passaggi o uno screenshot.
+Il secondo pulsante in alto a sinistra di Home, con un’icona a fumetti, apre «Valutazione e suggerimenti». Scegli «Esprimi un desiderio» per aprire il Wish Pool. Scegli un'area e un desiderio preimpostato per inviarlo; solo un desiderio personalizzato richiede testo e i desideri preimpostati possono includere una nota facoltativa. I risultati della convalida e dell'invio vengono visualizzati come messaggi di brindisi. Per un problema funzionale, usa il link Feedback in basso e includi i passaggi o uno screenshot.
 
 ### Scoprire
+
+Scopri i modelli Ravelry curati e i progetti della comunità approvati. Sfoglia i punti salienti nel banner e tre consigli in primo piano, cambia canale per più progetti e trascina verso il basso per aggiornare. Tocca un'immagine per altre foto o apri una scheda per visualizzare i dettagli pubblici, aggiungerla ai preferiti o mettere mi piace. Gli articoli Ravelry possono aprire la loro fonte o essere importati. I progetti della comunità possono essere importati come nuove copie locali insieme alle foto, alle note di progetto, ai grafici di lavoro a maglia e ai grafici all'uncinetto che l'editore ha esplicitamente selezionato. Nelle schede Ravelry, un’icona della carta di credito in alto a destra sulla copertina a sinistra indica i modelli a pagamento, mentre un regalo indica quelli gratuiti; se l’informazione non è disponibile, non compare alcuna icona.
+
+Su iPad e quando iPhone Duo è aperto, il banner superiore mantiene un’altezza massima sia in verticale sia in orizzontale; i tre consigli restano centrati entro una larghezza massima, così il contenuto non diventa eccessivamente grande sugli schermi ampi. I margini ai lati dei tre consigli vengono riempiti con uno sfondo sfocato basato sulla copertina del primo consiglio.
+
+Scoprire mostra quattro canali in questo ordine: In primo piano, Lavoro a maglia, Uncinetto e Cartamodelli. In primo piano può proporre contenuti degli altri canali. Lavoro a maglia include anche schemi gratuiti integrati, e Cartamodelli le strategie di creazione incluse. Le schede mostrano lo stato gratuito, il prezzo o l’acquisto già effettuato. Tocca il testo o Vedi dettagli per aprire prima la scheda di dettaglio e poi scegliere se aggiungere, usare, importare o consultare la fonte. Le copertine continuano ad aprire l’anteprima delle immagini grandi.
+
+Tutti i 37 schemi a maglia integrati esistenti sono gratuiti. Consultare i dettagli non aggiunge record. Aggiungi ai miei schemi crea una copia modificabile che rientra nel limite attuale di schemi, compreso quello degli utenti gratuiti. Se esiste già una copia, Apri il mio schema la apre senza sovrascrivere le modifiche. Dopo aver eliminato la copia puoi aggiungere di nuovo lo schema.
 
 <!-- discover-detail-2026-11-09 -->
 Tocca il testo, un’area vuota o il pulsante dei dettagli di una scheda in Discover, Preferiti o Mi piace per aprire i dettagli. La copertina mostra le immagini e il cuore gestisce i preferiti. I dettagli degli schemi a maglia integrati appaiono subito; Aggiungi o Apri diventa disponibile dopo la ricerca in background di una copia salvata. Il controllo si ripete tornando dall’editor.
@@ -71,7 +82,6 @@ Tocca il testo, un’area vuota o il pulsante dei dettagli di una scheda in Disc
 Home mostra tre contenuti pubblici locali prima dei consigli operativi: uno schema a maglia, uno all’uncinetto e una strategia per modelli. Il totale è limitato a 15. Nelle sezioni Maglia e Uncinetto di Avvio rapido, «Scopri gli schemi» passa la scheda principale Scopri al canale corrispondente; «Scopri i modelli» in Modelli apre il canale dei modelli.
 
 L’Hero di Scopri mostra fino a cinque elementi: almeno tre contenuti pubblici locali e fino a due selezioni operative esistenti. I contenuti locali occupano gli eventuali posti operativi mancanti. I tre contenuti in evidenza sono sempre uno locale e due operativi, con integrazione locale se necessario. La selezione ruota in modo stabile in base al giorno e al dispositivo e varia tra gli ingressi quando possibile. Un elemento integrato apre prima la scheda nativa, dove puoi aggiungerlo, aprirlo o usarlo. I consigli locali appaiono prima del layout e l’aggiornamento in background mantiene visibili i contenuti correnti.
-I primi 37 schemi a maglia restano disponibili nell’elenco Scopri → Maglia, con ricerca, visualizzazione e aggiunta. Non compaiono più nei consigli della Home, nel banner di Scopri o nei tre riquadri in evidenza. Gli schemi aggiunti in seguito possono ancora essere consigliati.
 <!-- /discover-recommendations-2026-11-08 -->
 
 <!-- discover-filter-collapse-2026-11-09 -->
@@ -96,10 +106,7 @@ Ogni elenco di Scopri consente di cercare titoli, autori, descrizioni, categorie
 - I primi 10 schemi ai ferri e 10 all’uncinetto sono ora gratuiti. Per i futuri prezzi si valutano i simboli effettivi di un motivo completo o della ripetizione minima. Fino a 100 simboli, le ripetizioni di base e i semplici motivi a colori restano gratuiti. Da 101 a 300 simboli, con complessità media, uno schema può rientrare nella fascia da 1 yuan. Da 301, con complessità elevata e contenuti completi, può rientrare in quella da 6 yuan. Il numero da solo non rende uno schema a pagamento. Vale il prezzo effettivo indicato nello store.
 <!-- /discover-chart-commerce-2026-11-07 -->
 
-Scoprire mostra quattro canali in questo ordine: In primo piano, Lavoro a maglia, Uncinetto e Cartamodelli.
-
-
-Scopri i modelli Ravelry curati e i progetti della comunità approvati. Sfoglia i punti salienti nel banner e tre consigli in primo piano, cambia canale per più progetti e trascina verso il basso per aggiornare. Tocca un'immagine per altre foto o apri una scheda per visualizzare i dettagli pubblici, aggiungerla ai preferiti o mettere mi piace. Gli articoli Ravelry possono aprire la loro fonte o essere importati. I progetti della comunità possono essere importati come nuove copie locali insieme alle foto, alle note di progetto, ai grafici di lavoro a maglia e ai grafici all'uncinetto che l'editore ha esplicitamente selezionato. Nelle schede Ravelry, un’icona della carta di credito in alto a destra sulla copertina a sinistra indica i modelli a pagamento, mentre un regalo indica quelli gratuiti; se l’informazione non è disponibile, non compare alcuna icona.
+I dettagli di una strategia mostrano esempi, limiti, prezzo effettivo dell’App Store e stato di acquisto. Durante la beta le strategie integrate sono gratuite e subito utilizzabili; le strategie candidate sono nascoste. Quelle sbloccate restano riutilizzabili dopo la fine dell’abbonamento. Lo sblocco è conservato nei dati dell’app e non si ripristina su un nuovo dispositivo tramite App Store. La creazione di un cartamodello segue il limite attuale di progetti. Leggi le capacità e scegli se usare la strategia.
 
 Usa il menu Altro in alto a destra di Discover per aprire Preferiti, Mi piace e I miei invii, o scegli un progetto locale dall'elenco dei progetti esistenti da pubblicare. Il menu Dettagli del progetto Altro fornisce anche una scorciatoia Pubblica per scoprire. L'editor elenca i campi pubblici e le risorse condivisibili; la prima foto selezionata diventa la copertina e possono essere incluse fino a sei foto. Un'anteprima finale della scheda viene visualizzata prima dell'invio. La voce di pubblicazione è disponibile per tutti, mentre l'invio di un progetto per la revisione richiede l'iscrizione. Viene visualizzato in un canale selezionato solo dopo l'approvazione dell'amministratore. I contenuti selezionati vengono caricati sul database pubblico CloudKit; sono esclusi i contatori, l'inventario dei filati, l'avanzamento privato e le bozze dei modelli. La navigazione in Discover non richiede l'autorizzazione Ravelry; il flusso di connessione esistente viene utilizzato solo per i contenuti dell'account Ravelry o le importazioni di Ravelry.
 
@@ -108,6 +115,10 @@ Solo nella scheda di stato In corso di Home, una scheda di progetto mostra un me
 ### Filato
 
 La scheda Yarn è un gestore dell'inventario. La sua intestazione riassume il numero di filati, il peso residuo noto, lo stock basso e i record che necessitano di dettagli di inventario. Sfoglia la libreria per cartelle, ricerca e filtri di inventario.
+
+Dalla schermata iniziale, scegli Avvio rapido → Filati → Panoramica inventario per vedere tutto l’inventario. Dalla scheda Filati vengono mantenuti cartella, ricerca e filtri correnti.
+
+Tocca un punto qualsiasi della scheda riepilogativa in alto oppure scegli Panoramica inventario nel menu Altro. La Panoramica inventario mantiene la cartella, la ricerca e i filtri correnti e consente di passare a tutto l’inventario. La pagina offre tre temi: Il mio profilo filati mostra colore, materiale, spessore e marca; Utilizzo e rimanenza mostra utilizzo cumulativo, destinazione nei progetti e avanzi ancora utilizzabili; Acquisti e costi mostra date di acquisto, importi confermati, costo per 100 g e costo rimanente. Tocca un grafico o una categoria per vedere i filati corrispondenti; Indietro conserva le scelte precedenti. Le statistiche usano solo le schede di filati conservate nell’ambito corrente. Le informazioni mancanti sono segnalate separatamente e i prezzi mancanti non vengono trattati come zero. Il vecchio calendario dei filati serve solo per le date di acquisto registrate; non permette di rivedere uscite o date di utilizzo mese per mese. I dettagli del filato restano modificabili e, tornando dopo una modifica, la panoramica si aggiorna.
 
 ### Strumenti
 
@@ -154,7 +165,7 @@ I comandi in alto e di lato seguono le stesse regole di salvataggio e convalida.
 - Tocca Ordina, scegli Nome, Ora, Inventario o Prezzo, quindi scegli la direzione dettagliata. Il nome del supporto di ordinamento, la data di creazione, la data di modifica, lo stock residuo noto, il totale dell'acquisto confermato e il costo per 100 g. Registra senza un prezzo confermato o un peso sufficiente alla fine. Nella gestione delle cartelle, tocca e tieni teni tenta una cartella personale per riordinarla.
 - L’intestazione mostra il totale degli acquisti confermato e la copertura dei prezzi per la cartella, la ricerca e i filtri correnti. I prezzi precedenti non confermati sono esclusi. Il totale non è il valore delle scorte residue; un prezzo mancante non viene considerato zero.
 - Usa gli avvisi di magazzino per trovare il filato che si sta esaurendo.
-- Usa il calendario dei filati per rivedere i record aggiunti e di utilizzo.
+- Il vecchio calendario dei filati mostra solo le date di acquisto registrate; non permette di rivedere uscite o date di utilizzo mese per mese.
 
 ### Simulatore di campioni
 
@@ -229,6 +240,8 @@ Le impostazioni sono separate per contatori, schemi ai ferri, note e uncinetto. 
 <a id="pattern-drafting"></a>
 ## Redazione di modelli intelligenti
 
+Disegno → Aggancio usa la griglia visibile in cm e adatta il passo allo zoom. Bordi e centri di pezzi, immagini e schizzi, guide e linee centrali/torace/vita del modello base visibile sono destinazioni valide. I riferimenti bloccati restano utilizzabili; quelli nascosti sono esclusi. Punti arancioni e tratteggi mostrano l’allineamento; trascinare lontano lo libera. Testo al centro, Tips e richiami per posizione. Pennello, maniglie delle curve ed etichette restano liberi. I menu di persona, confronto, foglio e proprietà si ancorano alla riga scelta.
+
 Un dito o la penna usa lo strumento attivo; due dita spostano e ingrandiscono. Seleziona prima di trascinare; pressione lunga o pannello scelgono gli oggetti sovrapposti. Disegna → Geometria offre punti salvati, rette con due tocchi o trascinamento, polilinee, rettangoli e cerchi dal centro. Mantieni aperto, continua o chiudi esplicitamente un tracciato. Modifica → Nodi curva il punto medio con estremi fissi; le maniglie quadrate rifiniscono le curve. Pennello e gomma lavorano sugli schizzi. Un tratto diventa pezzo indipendente dopo anteprima e conferma, conservando l’originale. Collegare tracciati aperti crea una copia continua mantenendo originali e note. Le azioni continue si annullano.
 
 I gruppi sono Disegna, Modifica, Annota, Lavora a maglia, Persona e riferimenti, Anteprima, Oggetti e visualizzazione. Il cambio mostra un breve suggerimento. Gli strumenti frequenti restano visibili; gli altri si espandono al bisogno. Fine, Chiudi, Mantieni aperto e Annulla appaiono solo durante il disegno. Text, Tips, richiami e quote sono in Annota; campione, bordi, unioni, diagrammi e motivi a colori nella maglia. Griglia, agganci e vincoli di direzione sono indipendenti.
@@ -255,8 +268,9 @@ Nelle versioni Debug, posiziona e fissa pannelli chiusi validi in 3D, scegli una
 
 L’esportazione regola separatamente griglia e Tips espansi, numerati o nascosti. Il salvataggio mantiene tracciati aperti, note, ordine e foglio. Ogni documento ripristina vista, strumento, selezione e confronto confermato senza rieseguire comandi o ripristinare Annulla. Elenchi e file condividono l’ultima anteprima completa salvata con successo, non l’ultimo dettaglio ingrandito o vuoto. I dati precedenti leggibili sono protetti e quelli ignoti non vengono sovrascritti da un documento vuoto.
 
-Nelle versioni Debug, le anteprime 3D valide possono essere salvate con un progetto e ripristinate se il modello, il corpo e le condizioni di simulazione corrispondono ancora. Le modifiche ai dati richiedono una nuova simulazione; i risultati non riusciti o incompleti non sovrascrivono l’ultima anteprima valida salvata.
+Durante la beta le strategie integrate sono gratuite: gilet base, pull con spalla scesa e pezzo vuoto. Le strategie candidate (raglan, cardigan, sprone rotondo/quadrato, manica a giro, sbieco) sono nascoste; i progetti esistenti restano apribili ma non creabili dal catalogo. Strategie locali/importate, modelli personali e strumenti di creazione restano per i membri. La preparazione è gratuita; la creazione di schemi e contatori verifica l’abbonamento. L’esportazione di immagine e PDF tecnico è gratuita. Preset multipli e import/export di pacchetti restano per i membri.
 
+Nelle versioni Debug, le anteprime 3D valide possono essere salvate con un progetto e ripristinate se il modello, il corpo e le condizioni di simulazione corrispondono ancora. Le modifiche ai dati richiedono una nuova simulazione; i risultati non riusciti o incompleti non sovrascrivono l’ultima anteprima valida salvata.
 
 <a id="knitting-chart"></a>
 ## Grafici di lavoro a maglia
@@ -273,6 +287,12 @@ L'editor del grafico a maglia memorizza i colori e i simboli del punto nelle cel
 - Disegna simboli, riempi i colori, cancella, annulla e ripeti.
 - Usa la selezione dell'area per copiare, tagliare, incollare, riempire, sostituire e ripetere il posizionamento.
 - Salva colori, modelli e simboli personalizzati riutilizzabili.
+
+Le categorie esistenti includono KFB/PFB, LLI/RLI, maglie passate con filo davanti/dietro, gettato inverso (BYO) e creazione, lavorazione a diritto o a rovescio della maglia doppia dei ferri accorciati alla tedesca. Cerca le abbreviazioni e tieni premuto per le spiegazioni. I simboli seguono la legenda di Line: confrontala con il tuo modello. La maglia doppia conta sempre come una maglia. Un piccolo indicatore segnala le novità attuali non consultate e scompare dopo la selezione riuscita o l’apertura dei dettagli; scorrere o cercare non lo rimuove. Le correzioni dei nomi non sono segnalate come novità.
+
+La libreria dei simboli a maglia offre le schede Punti e Trecce. Le parti prima raccolte nella scheda dedicata si trovano in alto a destra in Altro → Parti dei simboli. Nell’editor restano le schede dei simboli recenti e personalizzati. Simboli, categorie e ambito di ricerca sono invariati; le parti restano selezionabili direttamente. Nel selettore a metà schermo, Altro è accanto alla ricerca.
+
+Durante la sessione di modifica corrente, chiudendo e riaprendo il selettore dei simboli vengono ripristinate l’ultima scheda e la posizione consultate. Questa memoria si azzera all’uscita dall’editor.
 
 <a id="knitting-chart-area-operations"></a>
 ### Operazioni di area
@@ -340,6 +360,10 @@ L'editor all'uncinetto utilizza una tela libera e non è limitato alla griglia d
 ### Suggerimenti per la modifica
 
 - Cerca nella libreria di simboli per nome, abbreviazione o parola chiave. I simboli selezionati di recente appaiono per primi sotto Usato.
+- Durante la sessione di modifica corrente, chiudendo e riaprendo il selettore dei simboli vengono ripristinate l’ultima scheda e la posizione consultate. Questa memoria si azzera all’uscita dall’editor.
+- La libreria comprende la maglia alta tripla in rilievo davanti e dietro (FPdtr/BPdtr) e 2 o 3 maglie alte doppie chiuse insieme (tr2tog/tr3tog). Cercate per nome o abbreviazione; queste diminuzioni si lavorano in maglie di base distinte e si chiudono insieme.
+- Venti aggiunte comprendono ehdc/edc/etr, dtr2tog/dtr3tog, 2 o 3 tr/dtr nella stessa maglia, sette varianti per asola e quattro diminuzioni in rilievo. Le maniglie di curvatura supportano ehdc, edc, etr, hdc flo, dc flo, tr blo/flo e dtr blo/flo; diminuzioni e aumenti con base comune mantengono il normale ridimensionamento. Abbreviazioni USA.
+- Le sette varianti per asola sopra indicate combinano un punto base con un indicatore della posizione di inserimento e sono pronte da selezionare. Leggere ogni punto insieme alla legenda del diagramma in uso.
 - Le impostazioni del progetto controllano la larghezza della linea e la dimensione predefinita dei simboli appena aggiunti. I simboli della catena di tornitura 2–6 e i simboli hdc, dc, tr, dtr e ttr dispongono di una maniglia di curvatura per la flessione. La stessa maniglia supporta anche hdc blo e dc blo (solo nell’asola posteriore), oltre a FPhdc, BPhdc, FPdc, BPdc, FPtr e BPtr (punti in rilievo davanti/dietro).
 - La gestione dei livelli mostra i membri regolari del gruppo in modo ricorsivo. Espandi o comprimi un gruppo, individua elementi, attiva la visibilità o bloccali.
 - In modalità di selezione multipla, tocca gli elementi per aggiungerli o rimuoverli o disegnare una nuova casella di selezione per sostituire la selezione corrente. Trascina qualsiasi elemento selezionato per spostare la selezione insieme senza creare un gruppo e tocca la tela vuota per uscire dalla selezione multipla.
@@ -397,7 +421,7 @@ Project Notes ha una propria guida dettagliata. Seleziona "Note di progetto" nel
 ## Altri strumenti
 
 - **Strumenti di colore**: campiona i colori dalle immagini, crea tavolozze e salva i record dei colori.
-- **Librerie di simboli**: sfoglia e cerca simboli a maglia o all'uncinetto e mantieni simboli o note personali.
+- **Librerie di simboli**: sfoglia e cerca simboli a maglia o all'uncinetto e mantieni simboli o note personali. Se manca un simbolo, tocca “Manca un simbolo? Invia feedback” sotto il campo di ricerca per aprire la pagina di feedback.
 - **Modello di redazione**: archivia persone e misure, inizia dai riferimenti femminili integrati o dagli standard pubblici e ispeziona il riferimento del corpo, il blocco del corpo formale e i pezzi di abbigliamento separatamente.
 - **Calcolatori**: assistere con calcoli di gauge, lunghezza, peso e dimensioni.
 - **Calendari e avvisi**: rivedere i record di filati/progetti e configurare promemoria relativi alle azioni.
@@ -438,10 +462,11 @@ Dopo aver cambiato dispositivo o reinstallato l'app, apri la pagina dell'iscrizi
 <a id="settings-help"></a>
 ## Impostazioni e aiuto
 
-- **Aspetto**: gli editor principali supportano la modalità luce e scura. Usa il pulsante sole/luna in alto a destra di Impostazioni per una rapida attivazione o apri Aspetto per selezionare una modalità.
+- **Aspetto**: gli editor principali supportano le modalità chiara, scura e sistema. Tocca l’icona dell’aspetto in alto a destra di Impostazioni e scegli Luce, Scuro o Sistema, oppure apri Aspetto per cambiare modalità. Sistema segue automaticamente l’aspetto del dispositivo.
 - **Lingua**: cinese semplificato, inglese, giapponese, coreano e francese.
 - **Note di rilascio**: rivedere importanti modifiche nelle versioni pubblicate.
 - **Feedback**: invia una segnalazione del problema, un suggerimento e degli screenshot.
+- **Valutazione e suggerimenti**: il collegamento fisso si trova in Home → Aiuto → Valutazione e suggerimenti. apri il pannello unificato per scegliere “Valuta sull’App Store”, “Segnala un problema” o “Esprimi un desiderio”. Le valutazioni aprono l’App Store; le segnalazioni supportano testo, dati di contatto, screenshot e allegati diagnostici. I desideri continuano a usare aree, preimpostazioni e note facoltative del Wish Pool.
 - **Guida alle funzionalità dell'app**: apre questa pagina; la navigazione rapida salta direttamente a un modulo.
 - **Informativa sulla privacy e termini**: rivedere le informazioni sulla privacy e sul servizio.
 - **Informazioni diagnostiche**: in Impostazioni → Informazioni, recuperare l'ID utente CloudKit solo quando necessario. L'ID è mascherato per impostazione predefinita e può essere mostrato o copiato esplicitamente; l'app non lo carica, lo salva o lo registra automaticamente.
@@ -473,6 +498,13 @@ Apri Impostazioni → Feedback. Includi i passaggi, il risultato atteso, il risu
 Progetti, bozze di modelli, grafici di lavoro a maglia, grafici all'uncinetto e note di lavoro a maglia hanno ciascuno le proprie cartelle. Gli strumenti Pattern Draft, uncinetto e knitting-note mantengono una voce di gestione file dedicata come il modo consigliato per trovare, organizzare e gestire i contenuti; i record rimangono disponibili come elenco classico secondario. Collegando una risorsa esistente a un progetto o scegliendo il materiale esistente all'interno di un bancone, una nota di lavoro a maglia o una bozza di modello, si apre il selettore di file corrispondente. La modalità di selezione mantiene cartelle, ricerca e ordinamento, ma nasconde le azioni di spostamento, eliminazione e gestione delle cartelle.
 
 Usa il pulsante di gestione a destra per creare, rinominare, eliminare, cercare o riordinare le cartelle. L'eliminazione di una cartella sposta i suoi elementi in Non affilato e non elimina mai i progetti o i grafici. Cerca nomi o riepiloghi dei file; la riga sotto la ricerca mostra sempre la cartella corrente, l'ordinamento e il conteggio dei risultati e il suo controllo di ordinamento cambia l'ordine. Scorri una riga di file a sinistra, o premila a lungo su iPad, per spostarla o eliminarla definitivamente; la cancellazione permanente richiede conferma. La pagina File ricorda la sua ultima cartella e l'ordinamento. Cambia una cartella dai dettagli dell'articolo; le note per lavorare a maglia usano il menu in alto a destra.
+<a id="editor-customization"></a>
+## Personalizzazione del menu dell’editor
+
+Nell’editor per lavoro a maglia, uncinetto o modelli, tocca «Personalizza» in alto e apri «Impostazioni generali». Scegli «Ordine della barra degli strumenti inferiore» per personalizzare separatamente le righe superiore e inferiore del lavoro a maglia e dell’uncinetto. Il modello offre sette modalità principali: Disegno, Modifica, Annotazioni, Lavoro a maglia, Persona e riferimenti, Anteprima, Oggetti e visualizzazione. Per lavoro a maglia e uncinetto, «Ordine dei gruppi delle operazioni sull’area» modifica solo i gruppi del pannello delle operazioni sull’area.
+
+Tieni premuto un elemento nel gruppo e trascinalo per riordinarlo. Le modifiche vengono salvate automaticamente e applicate tornando all’editor. Il ripristino dei valori predefiniti ripristina solo l’ordine mostrato nella pagina corrente; non modifica le altre preferenze, il contenuto del progetto o la cronologia degli annullamenti. La preferenza è comune ai progetti senza essere scritta in un progetto. Ogni editor salva le proprie preferenze localmente; possono essere incluse nel backup del pacchetto dati dell’app. La sincronizzazione in tempo reale non è disponibile.
+
 ## Strategie di modelli e pullover completi
 
 Cartamodelli include creazione, file, registrazioni, modelli, preimpostazioni, campioni e persone. Scegli ferri o uncinetto, poi disegno libero, modello base, strategia o modello salvato. Il disegno libero apre subito una griglia vuota; persona e tensione si aggiungono in seguito. Tutti i percorsi arrivano alla stessa tela. Restano i collegamenti a lavori e cartelle. Tieni premuta una voce della libreria per eliminarla dopo conferma.

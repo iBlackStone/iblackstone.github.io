@@ -55,12 +55,13 @@ Personne et références choisit mesures, images et copies indépendantes du gab
 <a id="membership"></a>
 ## Version gratuite et abonnement
 
-La version gratuite peut conserver deux projets de patron à la fois ; supprimer un patron libère un emplacement. Même lorsque la limite est atteinte, les patrons existants restent consultables, modifiables, enregistrables et supprimables. Le dessin libre et les outils essentiels — patron de base, aisance, échantillon, mesures, courbes, nœuds et plans de mailles — restent gratuits.
+Pendant la bêta, les stratégies intégrées sont gratuites : gilet de base, pull à épaules tombantes et pièce vierge. Les stratégies candidates (raglan, gilet, empiècement rond/carré, manche montée, biais) sont masquées ; les projets existants restent ouvrables, sans création depuis le catalogue. Stratégies locales/importées, modèles personnels et outils de création restent réservés aux membres. La préparation est gratuite ; la création des grilles et compteurs vérifie l’abonnement. L’export de l’image et du PDF de fiche technique est gratuit. Les préréglages multiples et l’import/export de paquets restent réservés.
 
-Le pull de base à épaules tombantes est gratuit. Les autres stratégies intégrées payantes nécessitent un abonnement actif et un achat de déverrouillage distinct. Elles restent utilisables dans les données actuelles de l’App après expiration. Stratégies locales/importées, modèles personnels et outils de création nécessitent un abonnement. La préparation est gratuite ; la création des sorties vérifie les droits. Ces achats consommables ne sont pas restaurables sur un nouvel appareil via l’App Store. Plusieurs préréglages et l’import/export de paquets nécessitent aussi un abonnement.
 
 <a id="evidence"></a>
 ## État des preuves
+
+**Remarque :** Génération et liens exporte aussi l’image de conception et un PDF de fiche technique imprimable. Avant la sortie définitive, l’app indique « prêt », « confirmation requise » ou « pas encore possible », avec la structure ou le blocage concerné.
 
 Génération et liens propose grilles tricot, crochet à plat, compteurs et quantité de fil. La préparation conduit directement aux informations manquantes, au plan ou au canevas ; rouvrir depuis ce canevas reprend la préparation. Une grille définitive exige un plan exécutable et confirmé. Les pièces libres fermées peuvent servir au crochet à plat dans les limites des points et connexions pris en charge. Le compteur garde sa source. La quantité utilise les aires fermées valides et un échantillon mesuré ; corrigez toute pièce invalide. Aucun rectangle de remplacement ni déduction automatique du stock.
 

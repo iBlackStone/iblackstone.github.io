@@ -9,6 +9,15 @@ lang: de
 
 > Für Funktionsvorschläge können Sie den Entwickler über Xiaohongshu am Ende der Feedback-Seite kontaktieren.
 
+### v2.1.11
+
+- Alle integrierten Schnittstrategien sind jetzt kostenlos. Kandidatenstrategien sind vorübergehend ausgeblendet; neue Projekte bieten Basisweste, Drop-Shoulder-Pullover und leeres Schnittteil.
+- Druckbares Tech-Pack-PDF hinzugefügt, kostenlos über „Erzeugen & Verknüpfen“ exportierbar.
+- Der Reihenplan enthält nun Rippreihen und Drop-Shoulder-Betrag; vor der formellen Ausgabe wird „Bestätigung nötig“ oder „noch nicht erstellbar“ angezeigt.
+- Nach dem Erstellen zurück zur Liste, leere Entwürfe zählen nicht zum kostenlosen Kontingent, die Editor-Werkzeugleiste ist übersichtlicher.
+
+- Einstellungen und Erscheinungsbild bieten jetzt „System“, das dem hellen/dunklen Erscheinungsbild des Geräts folgt; Hell und Dunkel bleiben verfügbar.
+
 ### v2.1.10
 
 - Neue Apple Watch-Zusammenarbeit für Strickzähler, Strick- und Häkeldiagramm-Editoren sowie Stricknotizen.

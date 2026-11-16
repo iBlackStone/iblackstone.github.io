@@ -14,6 +14,7 @@ Knit & Crochet helps you organize yarn, manage knitting projects, track progress
 - [Project workspace](#project-workspace)
 - [Knitting counter](#counter)
 - [Smart Pattern Drafting](#pattern-drafting)
+- [Editor menu customization](#editor-customization)
 - [Knitting charts](#knitting-chart)
 - [Knitting chart area operations](#knitting-chart-area-operations)
 - [Crochet charts](#crochet-chart)
@@ -49,6 +50,8 @@ Quick Start groups destinations under Ravelry, Pattern Drafting, Project Notes, 
 
 Ravelry in Home’s Quick Start provides Import, Library, Pattern Search, Favorites, and Account. Pattern Search includes all patterns by default; filter by free or paid, craft, category, and language, and choose a sort order. Tap a pattern to preview it, add or remove a favorite, or view its official Ravelry details. Favorites are shared with Discover and saved in the app; they are not added to your Ravelry favorites. Direct import from search is available only for free patterns with an accessible PDF. For externally hosted content, download the file yourself and use file import. Paid patterns can be favorited and their source viewed; any purchase is completed by you on Ravelry. Purchased patterns with download access in your Library can still be imported from Library.
 
+When the app uses Simplified or Traditional Chinese, the Ravelry account page shows this network tip: In mainland China, you may need a tool that enables access to Ravelry to sign in and authorize your account. It is only needed during sign-in and authorization; afterward, you can return to your usual network connection.
+
 Advanced filters include designer name, 13 common pattern attributes (all selected attributes must match), needle/hook size in mm, multiple standard yarn weights, and a yarn amount range in meters or yards. You may enter just one bound; switching units converts an existing range. Results may cover several sizes, so check the amount for your size. Sort by currently popular, recently published, recently added, most projects, or most favorites. There is no discount filter; check prices and offers on the official page. Remove filters individually or reset them all.
 
 The filter page keeps Apply at the top right and adds a large Apply button below Reset Filters. The heart at the top left of Discover always opens My Favorites; the More menu still opens favorites and likes. Tap Search Ravelry patterns above the favorites list to open filters, connecting your account first if needed. Apply filters, save patterns from the results, and go back to see the updated favorites. The search shortcut remains visible when favorites are empty and is hidden in the Likes segment. Pattern search menus show a short download status with Favorite/Remove Favorite first; full guidance remains in the details or import confirmation.
@@ -59,9 +62,17 @@ The Mode menu at the top right of simulation settings offers Gauge-based simulat
 
 **3D preview controls**: drag with one finger to rotate. Pinch with two fingers to zoom, or drag both fingers together to move the view; zooming and moving can be combined. If part of the fabric leaves the window after zooming or rotating, use two fingers to bring the area you want to inspect back into view. Tap Reset at the top right, or switch Front / Oblique / Back, to restore that view and center the fabric. Moving only changes the composition; it does not change yarn or stitches or rerun the simulation.
 
-The second action at the top-left of Home opens the Wish Pool. Choose an area and a preset wish to submit it; only a custom wish requires text, and preset wishes may include an optional note. Validation and submission results appear as Toast messages. For a functional problem, use the Feedback link at the bottom and include the steps or a screenshot.
+The second button at the top-left of Home uses a speech-bubble icon and opens “Ratings and suggestions”. Select “Make a wish” to open the Wish Pool. Choose an area and a preset wish to submit it; only a custom wish requires text, and preset wishes may include an optional note. Validation and submission results appear as Toast messages. For a functional problem, use the Feedback link at the bottom and include the steps or a screenshot.
 
 ### Discover
+
+Discover presents curated Ravelry patterns and approved community projects. Browse highlights in the banner and three featured recommendations, switch channels for more projects, and pull down to refresh. Tap an image for more photos, or open a card to view public details, favorite it, or like it. Ravelry items can open their source or be imported. Community projects can be imported as new local copies together with the photos, Project Notes, knitting charts, and crochet charts that the publisher explicitly selected. On Ravelry cards, a credit card icon at the top-right of the left-hand cover marks paid patterns, and a gift icon marks free patterns; no badge appears when availability is unknown.
+
+On iPad and when an iPhone Duo is unfolded, the top banner keeps a maximum height in both orientations, while the three featured recommendations stay within a centered maximum width so content does not grow too large on wide screens. The side margins around the three featured recommendations use a blurred background based on the cover of the first recommendation.
+
+Discover shows four channels in this order: Featured, Knitting, Crochet, and Pattern drafting. Featured can highlight content from the other channels. Knitting also includes free built-in charts, and Pattern drafting includes built-in drafting strategies. Cards show free access, price, or owned status. Tap the card text or View details to open Discover details first, then choose to add, use, import, or view the source. Covers still open full-size image previews.
+
+All 37 existing built-in knitting charts are free to obtain. Browsing details adds no record. Add to My Charts creates an editable copy that counts toward your existing chart limit, including the free-user limit. If a copy already exists, Open my chart opens it without overwriting your edits. You can add the chart again after deleting the copy.
 
 <!-- discover-detail-2026-11-09 -->
 Tap the text, blank area or View Details on a card in Discover, Favorites or Likes to open details. The cover still previews images, and the heart toggles favorites. Built-in knitting chart details appear first; Add or Open becomes available after a background check for a saved copy. Returning from the editor checks again.
@@ -71,7 +82,6 @@ Tap the text, blank area or View Details on a card in Discover, Favorites or Lik
 Home shows three public local items before operational recommendations: one knitting chart, one crochet chart and one pattern strategy. The total is capped at 15. In the Knitting and Crochet sections of Quick Start, **Discover Charts** switches the main Discover tab to the matching channel; **Discover Patterns** in Pattern Drafting opens the pattern channel.
 
 The Discover Hero shows up to five items: at least three public local items and up to two existing operational picks. Local items fill any missing operational slots. The fixed three highlights always contain one local and two operational items, with local items filling any gaps. Picks rotate consistently by day and device and vary across entry points where possible. A built-in item opens its native detail first, where you can add, open or use it. Local recommendations appear before layout, and background refreshes keep visible content in place.
-The first 37 older knitting charts remain searchable, viewable, and addable in Discover → Knitting. They no longer appear in Home recommendations, the Discover banner, or the three featured slots. Newer knitting charts can still be recommended.
 <!-- /discover-recommendations-2026-11-08 -->
 
 <!-- discover-filter-collapse-2026-11-09 -->
@@ -96,9 +106,7 @@ Each Discover channel list supports searching titles, creators, summaries, categ
 - The first 10 knitting and 10 crochet charts are now free. Future pricing considers meaningful stitch symbols in one complete motif or the smallest repeat. Up to 100 symbols, basic repeats and simple colorwork are free. Charts with 101–300 symbols and moderate complexity may qualify for the ¥1 (CNY) tier. Charts with 301 or more symbols, high complexity and a complete deliverable may qualify for ¥6 (CNY). Symbol count alone never makes a chart paid. The store determines the actual purchase price.
 <!-- /discover-chart-commerce-2026-11-07 -->
 
-Discover shows four channels in this order: Featured, Knitting, Crochet, and Pattern drafting.
-
-Discover presents curated Ravelry patterns and approved community projects. Browse highlights in the banner and three featured recommendations, switch channels for more projects, and pull down to refresh. Tap an image for more photos, or open a card to view public details, favorite it, or like it. Ravelry items can open their source or be imported. Community projects can be imported as new local copies together with the photos, Project Notes, knitting charts, and crochet charts that the publisher explicitly selected. On Ravelry cards, a credit card icon at the top-right of the left-hand cover marks paid patterns, and a gift icon marks free patterns; no badge appears when availability is unknown.
+Drafting-strategy details show examples, capability limits, the actual App Store price, and owned status. Built-in strategies are free during Beta and can be used directly; candidate strategies are temporarily hidden. Unlocked strategies remain reusable after membership ends. Unlocks stay in this app’s data and cannot be restored to a new device through the App Store. Pattern creation still follows the current project limit. Review the capability notes, then choose to use a strategy.
 
 Use Discover's upper-right More menu to open Favorites, Likes, and My Submissions, or choose a local project from the existing-project list to publish. The project detail More menu also provides a Publish to Discover shortcut. The editor lists public fields and shareable resources; the first selected photo becomes the cover and up to six photos can be included. A final card preview appears before submission. The publishing entry is available to everyone, while sending a project for review requires membership. It appears in a selected channel only after administrator approval. Selected content is uploaded to the public CloudKit database; counters, yarn inventory, private progress, and pattern drafts are excluded. Browsing Discover does not require Ravelry authorization; the existing connection flow is used only for Ravelry account content or Ravelry imports.
 
@@ -107,6 +115,10 @@ Only on Home's In Progress state tab, a project card shows a resource shortcut m
 ### Yarn
 
 The Yarn tab is an inventory manager. Its header summarizes yarn count, known remaining weight, low stock, and records that need inventory details. Browse the library by folder, search, and inventory filters.
+
+From Home, choose Quick Start → Yarn → Inventory Overview to view all inventory. Entering from the Yarn tab keeps its current folder, search, and filters.
+
+Tap anywhere on the header summary card, or choose Inventory Overview from the More menu. The Inventory Overview keeps the current folder, search, and filter scope, and you can switch to all inventory. The page has three topics: My Yarn Profile covers color, material, weight, and brand; Usage and Remaining Stock covers cumulative usage, project destinations, and scraps you can still use; Purchases and Cost covers purchase dates, confirmed purchase amounts, cost per 100g, and remaining cost. Tap a chart or category to see the matching yarn records; Back keeps your previous choices. Statistics use only retained yarn records in the current scope. Missing fields are called out separately, and missing prices are not treated as zero. The legacy yarn calendar is for purchase dates only; it cannot show month-by-month outflow or usage dates. Yarn details remain editable, and returning from an edit refreshes the overview.
 
 ### Tools
 
@@ -153,7 +165,7 @@ Top and side controls follow the same saving and validation rules. Navigation on
 - Tap Sort, choose Name, Time, Inventory, or Price, then choose the detailed direction. Sorting supports name, creation date, modification date, known remaining stock, confirmed purchase total, and cost per 100g. Records without a confirmed price or sufficient weight stay at the end. In folder management, touch and hold a personal folder to reorder it.
 - The header shows the confirmed purchase total and price coverage for the current folder, search and filters. Unconfirmed legacy prices are excluded. This is the purchase total, not the value of remaining stock; missing prices are not treated as zero.
 - Use stock alerts to find yarn that is running low.
-- Use the yarn calendar to review added and usage records.
+- The legacy yarn calendar shows recorded purchase dates only; it cannot review month-by-month outflow or usage dates.
 
 ### Swatch simulator
 
@@ -228,6 +240,8 @@ Collaboration settings are separate for counters, knitting charts, notes and cro
 <a id="pattern-drafting"></a>
 ## Smart Pattern Drafting
 
+Draw → Snapping uses the visible centimeter grid, adapting its step with zoom. Targets include piece/image/sketch edges and centers, guides and visible body-block center, chest and waist lines. Locked targets remain usable; hidden targets are excluded. Orange points and dashed lines show a match; dragging away releases it. Text aligns by its center, Tips/callouts by position. Brush strokes, curve handles and dimension labels remain free. Person, comparison, paper and object-property menus anchor to the selected row.
+
 One finger or a pen uses the active tool; two fingers pan and pinch to zoom. Select an object before dragging. Hold overlapping objects to choose one, or use the object panel. Draw → Geometry offers saved construction points, two-tap or dragged straight lines, polylines, rectangles and center-to-edge circles. Keep paths open, continue them or explicitly close them. In Edit → Nodes, drag a selected segment’s midpoint to bend it with endpoints fixed; square handles refine curves. Brush and eraser handle sketches. Convert a single sketch through preview and confirmation into an independent piece, retaining the stroke. Connecting open paths creates a previewed continuous copy and retains originals and annotations. Continuous actions can be undone.
 
 The groups are Draw, Edit, Annotate, Knit, Person & References, Preview, and Objects & Display. Switching groups shows a short hint. Frequent tools stay visible; related actions expand as needed. Finish, Close, Keep Open and Cancel appear only during path drawing. Annotate contains Text, Tips, leaders and dimensions; Knit contains gauge, boundaries, knitting joins, chart placement and colorwork. Grid visibility, grid/endpoint snapping and direction constraints are independent.
@@ -254,8 +268,9 @@ In Debug builds, you can place and pin valid closed panels in 3D, choose a refer
 
 More → Export Design independently controls grids and expanded, numbered or hidden Tips. Saves retain open paths, annotations, stacking and paper. Each document restores its viewport, tool, selection and confirmed comparison without replaying commands or restoring Undo history. Pattern Records and Files share the latest successfully saved full-design preview, independent of the last zoomed or blank viewport. Readable older documents retain identity, geometry, notes and plans; unknown data is not overwritten with a blank project.
 
-In Debug builds, valid 3D previews can be saved with a project and restored when the pattern, body and simulation conditions still match. Input changes require a new simulation; failed or unfinished results do not overwrite the last saved valid preview.
+Built-in strategies are free during Beta: Basic Vest, Basic Drop-Shoulder Pullover and Blank Custom Piece. Candidate strategies (raglan, cardigan, round/square yoke, fitted set-in and bias) are temporarily hidden; existing projects still open but cannot be created from the catalog. Local/imported strategies, My Templates and authoring tools still require membership. Generation Prep is free; formal charts and counters check membership. Design-image and tech-pack PDF exports are free. Multiple presets and strategy-package import/export remain membership features.
 
+In Debug builds, valid 3D previews can be saved with a project and restored when the pattern, body and simulation conditions still match. Input changes require a new simulation; failed or unfinished results do not overwrite the last saved valid preview.
 
 <a id="knitting-chart"></a>
 ## Knitting charts
@@ -272,6 +287,12 @@ The knitting chart editor stores colors and stitch symbols in grid cells. It is 
 - Draw symbols, fill colors, erase, undo, and redo.
 - Use area selection for copy, cut, paste, fill, replace, and repeated placement.
 - Save reusable colors, templates, and custom symbols.
+
+Existing knitting categories now include KFB/PFB, LLI/RLI, yarn-in-front/back slip stitches, backward yarn over (BYO), and making, knitting, or purling a German short-row double stitch. Search by abbreviation and long-press for explanations. These use Line chart conventions; check your pattern key. A double stitch still counts as one stitch. Unviewed entries in the current addition batch have a small new badge, cleared after successful selection or opening details. Browsing or search results do not clear it; corrected names are not marked new.
+
+The knitting library has Stitches and Cables tabs. The former Cable Parts tab is now under More → Symbol Parts at the top right. Recent and Custom remain available in the editor. All symbols, categories, and search coverage are preserved, and parts can still be selected directly. In the half-screen picker, More is beside the search box.
+
+During the current editing session, closing and reopening the symbol picker restores your last tab and browsing position. This memory resets when you exit the editor.
 
 <a id="knitting-chart-area-operations"></a>
 ### Area operations
@@ -339,6 +360,10 @@ The crochet editor uses a free canvas and is not restricted to the knitting grid
 ### Editing tips
 
 - Search the symbol library by name, abbreviation, or keyword. Recently selected symbols appear first under Used.
+- During the current editing session, closing and reopening the symbol picker restores your last tab and browsing position. This memory resets when you exit the editor.
+- The library includes front/back post double treble crochet (FPdtr/BPdtr) and treble crochet 2/3 together (tr2tog/tr3tog). Search by name or abbreviation; together stitches use separate base stitches and share one top.
+- Twenty additions cover extended stitches ehdc/edc/etr, dtr2tog/dtr3tog, 2/3 tr or dtr in one stitch, seven front/back-loop variants, and four post decreases. Curvature handles support ehdc, edc, etr, hdc flo, dc flo, tr blo/flo, and dtr blo/flo; decreases and same-base increases retain regular resizing.
+- The seven front/back-loop variants above are ready-to-use combinations of a basic stitch and an insertion-position marker. Read each stitch with the current chart key.
 - Project settings control the line width and default size of newly added symbols. Turning-chain symbols 2–6, as well as the hdc, dc, tr, dtr, and ttr symbols, include a curvature handle for bending. The same handle also supports hdc blo and dc blo (back loop only), plus FPhdc, BPhdc, FPdc, BPdc, FPtr, and BPtr (front/back post stitches).
 - Layer management shows regular group members recursively. Expand or collapse a group, locate elements, toggle visibility, or lock them.
 - In multi-select mode, tap elements to add or remove them, or draw a new selection box to replace the current selection. Drag any selected element to move the selection together without creating a group, and tap empty canvas to exit multi-select.
@@ -396,7 +421,7 @@ Project Notes has its own detailed guide. Select “Project Notes” in the help
 ## Other tools
 
 - **Color tools**: sample colors from images, create palettes, and save color records.
-- **Symbol libraries**: browse and search knitting or crochet symbols and maintain personal symbols or notes.
+- **Symbol libraries**: browse and search knitting or crochet symbols and maintain personal symbols or notes. If a symbol is missing, tap “Missing a symbol? Send feedback” below the search box to open the feedback page.
 - **Pattern Drafting**: store people and measurements, start from built-in female references or public standards, and inspect body reference, formal body block, and garment pieces separately.
 - **Calculators**: assist with gauge, length, weight, and size calculations.
 - **Calendars and alerts**: review yarn/project records and configure stock-related reminders.
@@ -435,10 +460,11 @@ After changing devices or reinstalling the app, open the membership page in Sett
 <a id="settings-help"></a>
 ## Settings and help
 
-- **Appearance**: major editors support light and dark mode. Use the sun/moon button in the top-right of Settings for a quick toggle, or open Appearance to select a mode.
+- **Appearance**: major editors support light, dark, and system appearance. Tap the appearance button in the top-right of Settings and choose Light, Dark, or System, or open Appearance to switch. System follows the device appearance automatically.
 - **Language**: Simplified Chinese, English, Japanese, Korean, and French.
 - **Release notes**: review important changes in published versions.
 - **Feedback**: send a problem report, suggestion, and screenshots.
+- **Ratings and suggestions**: open the permanent shortcut under Home → Help → Ratings and suggestions. open the unified panel to choose “Rate on the App Store”, “Report a problem”, or “Make a wish”. Ratings open the App Store; problem reports support text, contact details, screenshots, and diagnostic attachments. Wishes continue to use the Wish Pool’s areas, presets, and optional notes.
 - **App Features Guide**: opens this page; Quick navigation jumps directly to a module.
 - **Privacy Policy and Terms**: review privacy and service information.
 - **Diagnostic Information**: under Settings → About, retrieve the CloudKit User ID only when needed. The ID is masked by default and can be shown or copied explicitly; the app does not upload, save, or log it automatically.
@@ -470,6 +496,13 @@ Open Settings → Feedback. Include the steps, expected result, actual result, a
 Projects, Pattern Drafts, knitting charts, crochet charts, and knitting notes each have their own folders. Pattern Draft, crochet, and knitting-note tools keep a dedicated File Management entry as the recommended way to find, organize, and manage content; Records remains available as a secondary classic list. Linking an existing resource to a project, or choosing existing material inside a counter, knitting note, or Pattern Draft, opens the matching file selector. Selection mode keeps folders, search, and sorting, but hides move, delete, and folder-management actions.
 
 Use the management button on the right to create, rename, delete, search, or reorder folders. Deleting a folder moves its items to Unfiled and never deletes the projects or charts. Search file names or summaries; the row below search always shows the current folder, sorting, and result count, and its sorting control changes the order. Swipe a file row left, or long-press it on iPad, to move or permanently delete it; permanent deletion asks for confirmation. The Files page remembers its last folder and sorting. Change a folder from item details; knitting notes use the top-right menu.
+<a id="editor-customization"></a>
+## Editor menu customization
+
+In the knitting, crochet, or Pattern Draft editor, tap “Customize” at the top, then open “Common Settings”. Choose “Bottom toolbar order” to customize the knitting and crochet upper and lower rows separately. Pattern Draft exposes seven primary modes: Draw, Edit, Annotate, Knit, Person & References, Preview, and Objects & Display. For knitting and crochet, “Area-operation group order” changes only the groups in the area-operations panel.
+
+Press and hold within a group, then drag to reorder. Changes save automatically and take effect when you return to the editor. Restore defaults only restores the ordering shown on the current page; it does not affect other editor preferences, project content, or undo history. The preference is shared across projects without being written into a project; each editor stores its preference locally, and it can be backed up with the app data package. Real-time sync is not provided.
+
 ## Pattern strategies and complete pullovers
 
 Pattern Design includes New Pattern, files, records, templates, presets, gauges and people. Choose knitting or crochet, then Free Draw, Body Block, Strategy or Template. Free Draw opens an empty grid immediately; a person, strategy and gauge are optional. Every starting method leads to the same editable canvas. Files retain project and folder links. Touch and hold a library record to delete it with confirmation.
