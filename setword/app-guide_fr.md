@@ -3,7 +3,7 @@ title: Guide d’utilisation de Tricot & Crochet
 lang: fr
 ---
 
-Tricot & Crochet permet de gérer les fils, d’organiser les projets, de suivre l’avancement, de créer des grilles de tricot ou de crochet et de lire des patrons PDF dans les Notes de projet. Chaque outil peut être utilisé seul ou lié au même projet.
+Tricot & Crochet permet de gérer les fils, d’organiser les projets, de suivre l’avancement, de créer des grilles de tricot ou de crochet et de lire des patrons PDF dans les Notes de tricot. Chaque outil peut être utilisé seul ou lié au même projet.
 
 ## Navigation rapide
 
@@ -19,7 +19,7 @@ Tricot & Crochet permet de gérer les fils, d’organiser les projets, de suivre
 - [Opérations de zone des grilles de tricot](#knitting-chart-area-operations)
 - [Diagrammes de crochet](#crochet-chart)
 - [Opérations de zone au crochet](#crochet-area-operations)
-- [Notes de projet](#knitting-notes)
+- [Notes de tricot](#knitting-notes)
 - [Autres outils](#other-tools)
 - [Importation, exportation et synchronisation](#data-transfer)
 - [Abonnement](#membership)
@@ -32,7 +32,7 @@ Tricot & Crochet permet de gérer les fils, d’organiser les projets, de suivre
 1. Ouvrez le projet tutoriel intégré depuis l’accueil pour comprendre le lien entre projet, compteurs, grilles et notes.
 2. Ajoutez vos fils avec photos, caractéristiques, stock et prix.
 3. Créez un projet et associez les fils prévus.
-4. Ajoutez des compteurs, des grilles de tricot, des diagrammes de crochet ou des Notes de projet.
+4. Ajoutez des compteurs, des grilles de tricot, des diagrammes de crochet ou des Notes de tricot.
 5. Reprenez ensuite le travail depuis la carte du projet actuel sur l’accueil.
 
 Lorsque la bibliothèque de projets est vide, Tricot & Crochet installe une seule fois un projet tutoriel intégré. Cette installation ne demande pas d’abonnement et ne consomme pas le projet personnel gratuit. Si vous le supprimez, il ne sera pas recréé continuellement.
@@ -42,9 +42,9 @@ Lorsque la bibliothèque de projets est vide, Tricot & Crochet installe une seul
 
 - **Accueil** : affiche le projet actuel et la prochaine action, puis classe les projets par états — préparation, en cours, terminé ou abandonné.
   Tirez vers le bas sur l’accueil pour actualiser les projets locaux et leurs associations de ressources sans effectuer de requête réseau, tout en conservant les filtres et le tri actuels.
-  Le démarrage rapide regroupe Ravelry, les patrons, les Notes de projet, le tricot, le crochet, les fils, les projets, les points et l’aide. Pour les patrons, les notes, le tricot et le crochet, Fichiers vient juste après Nouveau ou Importer, les outils complémentaires restent au milieu et la liste classique passe en dernier. L’aide rassemble les guides de l’app, des grilles de tricot et de crochet, des Notes de projet, des patrons, du compteur et du simulateur d’échantillon, ainsi que les retours ; chaque module pris en charge donne aussi accès à son guide. Les modules défilent horizontalement et affichent leurs accès dans le groupe arrondi en dessous. Sélectionnez le module actif à nouveau ou utilisez « Réduire » pour masquer le groupe.
+  Le démarrage rapide regroupe Ravelry, les patrons, les Notes de tricot, le tricot, le crochet, les fils, les projets, les points et l’aide. Pour les patrons, les notes, le tricot et le crochet, Fichiers vient juste après Nouveau ou Importer, les outils complémentaires restent au milieu et la liste classique passe en dernier. L’aide rassemble les guides de l’app, des grilles de tricot et de crochet, des Notes de tricot, des patrons, du compteur et du simulateur d’échantillon, ainsi que les retours ; chaque module pris en charge donne aussi accès à son guide. Les modules défilent horizontalement et affichent leurs accès dans le groupe arrondi en dessous. Sélectionnez le module actif à nouveau ou utilisez « Réduire » pour masquer le groupe.
 
-  Dans le démarrage rapide de l’accueil, Ravelry propose Importer, Bibliothèque, Recherche de modèles, Favoris et Compte. La recherche inclut tous les modèles par défaut ; vous pouvez filtrer les modèles gratuits ou payants, la technique, la catégorie et la langue, puis choisir le tri. Touchez un modèle pour le prévisualiser, l’ajouter aux favoris ou l’en retirer, ou consulter sa fiche officielle Ravelry. Les favoris sont communs avec Découvrir et enregistrés dans l’app ; ils ne sont pas ajoutés à vos favoris Ravelry. Seuls les modèles gratuits disposant d’un PDF accessible peuvent être importés directement depuis la recherche. Pour les contenus hébergés sur un site externe, téléchargez vous-même le fichier puis utilisez l’importation de fichiers. Les modèles payants peuvent être ajoutés aux favoris et leur source consultée ; tout achat est effectué par vous sur Ravelry. Les modèles déjà achetés dont le téléchargement est autorisé dans votre Bibliothèque restent importables depuis celle-ci.
+  Dans le démarrage rapide de l’accueil, Ravelry propose Importer, Bibliothèque, Recherche de modèles, Favoris et Compte. La recherche inclut tous les modèles par défaut ; vous pouvez filtrer les modèles gratuits ou payants, la technique, la catégorie et la langue, puis choisir le tri. Touchez un modèle pour le prévisualiser, l’ajouter aux favoris ou l’en retirer, ou consulter sa fiche officielle Ravelry. Les favoris sont communs avec Découvrir et enregistrés dans l’app ; ils ne sont pas ajoutés à vos favoris Ravelry. Seuls les modèles gratuits disposant d’un PDF accessible peuvent être importés directement depuis la recherche. Pour les contenus hébergés sur un site externe, téléchargez vous-même le fichier puis utilisez l’importation de fichiers. Les modèles payants peuvent être ajoutés aux favoris et leur source consultée ; tout achat est effectué par vous sur Ravelry. Les modèles déjà achetés dont le téléchargement est autorisé dans votre Bibliothèque restent importables depuis celle-ci. Les modèles déjà importés affichent le badge « Importé » et le premier élément du menu ouvre directement les notes de tricot associées ; une note créée pendant l’importation est aussi proposée juste après. Lorsque la page de confirmation détecte un PDF téléchargeable, vous pouvez aussi choisir « Créer uniquement les notes de tricot » pour ignorer le projet et les photos et ouvrir directement le lecteur.
 
   Lorsque l’app est en chinois simplifié ou traditionnel, la page du compte Ravelry affiche ce conseil réseau : En Chine continentale, un outil facilitant l’accès à Ravelry peut être nécessaire pour vous connecter et autoriser votre compte. Il n’est nécessaire que pendant cette étape ; vous pouvez ensuite reprendre votre connexion habituelle.
 
@@ -60,7 +60,7 @@ Le menu Mode, en haut à droite des réglages, propose Simulation selon la jauge
 
 Le deuxième bouton en haut à gauche de l’accueil, avec une icône de bulles, ouvre « Évaluation et suggestions ». Choisissez « Faire un souhait » pour ouvrir la Boîte à souhaits. Choisissez un domaine et un souhait prédéfini pour l’envoyer ; seul un souhait personnalisé demande du texte. Une note facultative peut compléter un souhait prédéfini. Les validations et le résultat de l’envoi s’affichent sous forme de Toast. Pour un problème fonctionnel, utilisez le lien Retour en bas et joignez les étapes ou une capture d’écran.
 
-- **Découvrir** : présente des modèles Ravelry sélectionnés et des créations d’utilisateurs approuvées. Parcourez la bannière et les trois recommandations, changez de canal et tirez vers le bas pour actualiser. Touchez une image pour afficher les autres photos, ou ouvrez une carte pour consulter les informations publiques, ajouter un favori ou indiquer « J’aime ». Un élément Ravelry peut ouvrir sa source ou être importé. Une création d’utilisateur est importée comme une nouvelle copie locale avec les photos, Notes de projet, grilles de tricot et diagrammes de crochet explicitement sélectionnés par son auteur. Sur les cartes Ravelry, une icône de carte bancaire en haut à droite de la couverture située à gauche indique un modèle payant, et une icône de cadeau un modèle gratuit ; aucun badge ne s’affiche si cette information est inconnue.
+- **Découvrir** : présente des modèles Ravelry sélectionnés et des créations d’utilisateurs approuvées. Parcourez la bannière et les trois recommandations, changez de canal et tirez vers le bas pour actualiser. Touchez une image pour afficher les autres photos, ou ouvrez une carte pour consulter les informations publiques, ajouter un favori ou indiquer « J’aime ». Un élément Ravelry peut ouvrir sa source ou être importé. Une création d’utilisateur est importée comme une nouvelle copie locale avec les photos, Notes de tricot, grilles de tricot et diagrammes de crochet explicitement sélectionnés par son auteur. Sur les cartes Ravelry, une icône de carte bancaire en haut à droite de la couverture située à gauche indique un modèle payant, et une icône de cadeau un modèle gratuit ; aucun badge ne s’affiche si cette information est inconnue.
 
   Découvrir affiche quatre canaux dans cet ordre : Sélection, Tricot, Crochet et Patrons. Sélection peut mettre en avant du contenu des autres canaux. Tricot propose aussi des grilles intégrées gratuites, et Patrons des stratégies de patron intégrées. Les cartes indiquent la gratuité, le prix ou le statut acquis. Touchez le texte ou Voir les détails pour ouvrir d’abord la fiche Découvrir, puis choisir d’ajouter, d’utiliser, d’importer ou de consulter la source. Les couvertures permettent toujours de voir les images en grand.
 
@@ -103,9 +103,9 @@ La fiche d’une stratégie présente des exemples, ses limites, le prix réel d
   Sur iPad et lorsque l’iPhone Duo est déplié, la bannière supérieure est limitée à une hauteur maximale en mode portrait comme paysage ; les trois recommandations restent centrées dans une largeur maximale afin d’éviter qu’elles ne deviennent trop grandes sur les écrans larges. Les marges de chaque côté des trois recommandations sont remplies par un arrière-plan flouté basé sur la couverture de la première recommandation.
 
   Le menu Plus en haut à droite permet d’ouvrir les favoris, les mentions J’aime et Mes publications, ou de choisir dans la liste des créations existantes une création locale à publier. Le menu Plus de la fiche d’une création propose aussi le raccourci « Publier dans Découvrir ». L’éditeur liste les champs publics et les ressources partageables ; la première photo sélectionnée devient la couverture et jusqu’à six photos peuvent être incluses. La carte finale peut être prévisualisée avant l’envoi. L’entrée de publication est visible par tous, mais l’envoi en révision demande un abonnement. La création n’apparaît dans le canal choisi qu’après approbation d’un administrateur. Le contenu sélectionné est envoyé dans la base publique CloudKit ; les compteurs, le stock de fils, la progression privée et les patrons de coupe sont exclus. La consultation de Découvrir ne demande pas de connexion Ravelry.
-  Uniquement dans l’onglet d’état « En cours » en haut de l’accueil, lorsqu’un projet est associé à des Notes de projet, un patron, une grille de tricot ou un diagramme au crochet, un menu de ressources apparaît dans l’angle supérieur droit de sa carte. Les onglets « Tous » et les autres états n’affichent pas ce raccourci. Les Notes de projet sont proposées directement en premier ; les patrons et les grilles de tricot ou de crochet restent regroupés dans des sous-menus repliés. Sélectionnez le nom d’une ressource pour l’ouvrir.
+  Uniquement dans l’onglet d’état « En cours » en haut de l’accueil, lorsqu’un projet est associé à des Notes de tricot, un patron, une grille de tricot ou un diagramme au crochet, un menu de ressources apparaît dans l’angle supérieur droit de sa carte. Les onglets « Tous » et les autres états n’affichent pas ce raccourci. Les Notes de tricot sont proposées directement en premier ; les patrons et les grilles de tricot ou de crochet restent regroupés dans des sous-menus repliés. Sélectionnez le nom d’une ressource pour l’ouvrir.
 - **Fils** : le gestionnaire de stock résume le nombre de fils, le poids restant connu, les stocks faibles et les fiches à compléter, puis permet de parcourir la liste par dossier, recherche et filtre.
-- **Outils** : grilles, diagrammes, compteurs, Notes de projet, couleurs, symboles et calculateurs.
+- **Outils** : grilles, diagrammes, compteurs, Notes de tricot, couleurs, symboles et calculateurs.
 - **Réglages** : apparence, langue, abonnement, synchronisation, historique des versions, avis, confidentialité, aide et informations sur l’application. La rubrique « Remerciements » ouvre la page dans la langue actuelle.
 
 <a id="display-navigation"></a>
@@ -153,7 +153,7 @@ Ouvrez-le depuis la fiche d’un fil. Saisissez le nombre de mailles, de rangs, 
 
 La fiche du projet affiche d’abord les informations principales, puis actualise le résumé des ressources liées. Ouvrez les techniques pour consulter les recommandations et les symboles utilisés dans vos grilles. Le contenu complet de chaque grille est chargé à son ouverture.
 
-Un projet peut contenir le type d’ouvrage, son état et sa couverture, les fils et quantités, plusieurs compteurs, des Notes de projet, des grilles de tricot, des diagrammes de crochet et les techniques utilisées.
+Un projet peut contenir le type d’ouvrage, son état et sa couverture, les fils et quantités, plusieurs compteurs, des Notes de tricot, des grilles de tricot, des diagrammes de crochet et les techniques utilisées.
 
 L’accueil privilégie les projets récemment modifiés. Les cartes utilisent une couverture carrée 1:1 qui remplit toute la carte ; le titre, l’état et la progression sont regroupés dans un dégradé noir au bas de l’image. La mise en page s’adapte aux apparences claire ou sombre ainsi qu’à l’orientation de l’iPad. Ouvrez un projet pour continuer le compteur principal ou accéder aux matériaux, grilles, notes et techniques. Changer l’état ne supprime aucun contenu.
 
@@ -174,7 +174,7 @@ Lorsqu’un module est ouvert depuis un projet, la session lui est attribuée au
 - Configurez un nombre fixe, des règles d’augmentations／diminutions et l’avancement automatique, avec confirmation ou manuel.
 - Ajoutez plusieurs onglets de compteurs, renommez-les, réorganisez-les ou supprimez-les.
 - Enregistrez la règle actuelle dans un plan de tricot et ajoutez les sections suivantes.
-- Choisissez entre une grille de tricot, des Notes de projet en lecture seule ou des instructions textuelles.
+- Choisissez entre une grille de tricot, des Notes de tricot en lecture seule ou des instructions textuelles.
 - Les journaux d’actions alimentent l’analyse du projet.
 
 ### Collaboration Apple Watch
@@ -214,14 +214,14 @@ Dans les versions Debug, placez et fixez des panneaux fermés valides en 3D, cho
 
 L’export règle séparément grille et Tips développés, numérotés ou masqués. L’enregistrement conserve tracés ouverts, annotations, ordre et papier. Chaque document restaure vue, outil, sélection et comparaison confirmée sans rejouer les commandes ni l’historique Annuler. Les listes de patrons et fichiers partagent le dernier aperçu complet enregistré avec succès, sans reprendre un zoom local ou une vue vide. Les données lisibles anciennes restent protégées ; les données inconnues ne sont pas écrasées par un document vide.
 
-Pendant la bêta, les stratégies intégrées sont gratuites : gilet de base, pull à épaules tombantes et pièce vierge. Les stratégies candidates (raglan, gilet, empiècement rond/carré, manche montée, biais) sont masquées ; les projets existants restent ouvrables, sans création depuis le catalogue. Stratégies locales/importées, modèles personnels et outils de création restent réservés aux membres. La préparation est gratuite ; la création des grilles et compteurs vérifie l’abonnement. L’export de l’image et du PDF de fiche technique est gratuit. Les préréglages multiples et l’import/export de paquets restent réservés.
+Pendant la bêta, les stratégies intégrées sont gratuites : gilet de base, pull à épaules tombantes et pièce vierge. Les stratégies candidates (raglan, gilet, empiècement rond/carré, manche montée, biais) sont masquées ; les projets existants restent ouvrables, sans création depuis le catalogue. Les stratégies locales/importées peuvent être débloquées individuellement sans abonnement, ou utilisées avec un abonnement actif ; les modèles personnels et les outils de création restent réservés aux membres. La préparation est gratuite ; la création des grilles et compteurs vérifie l’abonnement. L’export de l’image et du PDF de fiche technique est gratuit. Les préréglages multiples et l’import/export de paquets restent réservés.
 
 Dans les versions Debug, les aperçus 3D valides peuvent être enregistrés avec un projet et restaurés si le patron, le corps et les conditions de simulation correspondent toujours. Toute modification des données nécessite une nouvelle simulation ; les résultats en échec ou inachevés ne remplacent pas le dernier aperçu valide enregistré.
 
 <a id="knitting-chart"></a>
 ## Grilles de tricot
 
-Les utilisateurs gratuits peuvent créer jusqu’à 3 grilles de tricot. Une fois cette limite atteinte, la création ou l’importation d’une nouvelle grille nécessite un abonnement ; les grilles existantes restent accessibles et modifiables. La règle d’abonnement existante pour les grandes grilles ne change pas.
+Les utilisateurs gratuits peuvent créer jusqu’à 5 grilles de tricot. Une fois cette limite atteinte, la création ou l’importation d’une nouvelle grille nécessite un abonnement ; les grilles existantes restent accessibles et modifiables. La règle d’abonnement existante pour les grandes grilles ne change pas.
 
 L’éditeur enregistre couleurs et symboles dans des cellules. Il convient aux diagrammes de points, au jacquard, au point de croix et au pixel art.
 
@@ -278,7 +278,7 @@ Les sauvegardes programmées sont désactivées pendant la modification afin de 
 
 Les diagrammes de crochet intégrés de Découverte incluent des instructions étape par étape. Dans l’éditeur de crochet, ouvrez Instructions pour suivre le patron. Utilisez Précédent et Suivant pour parcourir les étapes, ou choisissez Voir le diagramme pour afficher les symboles de l’étape en cours. Vous pouvez aussi toucher un symbole du diagramme pour retrouver l’étape associée. La lecture des instructions est indépendante des compteurs du projet et ne modifie pas leur valeur. Ouvrez Toutes les étapes pour les modifier. Pendant la modification, touchez ou faites glisser pour sélectionner les éléments du diagramme, puis choisissez Terminer l’association. Les notes déjà présentes dans les anciens diagrammes restent consultables. Si les mailles et la disposition d’un diagramme intégré déjà enregistré correspondent à l’original, ses étapes intégrées s’affichent aussi à l’ouverture des instructions.
 
-Les utilisateurs gratuits peuvent créer jusqu’à 3 diagrammes de crochet. Une fois cette limite atteinte, la création ou l’importation d’un nouveau diagramme nécessite un abonnement ; les diagrammes existants restent accessibles et modifiables.
+Les utilisateurs gratuits peuvent créer jusqu’à 5 diagrammes de crochet. Une fois cette limite atteinte, la création ou l’importation d’un nouveau diagramme nécessite un abonnement ; les diagrammes existants restent accessibles et modifiables.
 
 L’éditeur de crochet utilise un canevas libre.
 
@@ -336,9 +336,9 @@ Annuler ou revenir en arrière ne modifie pas la toile ; touchez « Appliquer »
 Chaque modification effective correspond à une seule annulation ou restauration. Annuler un sélecteur ou effectuer une opération sans changement n’ajoute aucune étape. Les résultats sont enregistrés avec le projet et utilisent l’export PNG/PDF existant.
 
 <a id="knitting-notes"></a>
-## Notes de projet
+## Notes de tricot
 
-Les Notes de projet importent un PDF ou une image et superposent des éléments modifiables sans réécrire le PDF d’origine.
+Les Notes de tricot importent un PDF ou une image et superposent des éléments modifiables sans réécrire le PDF d’origine.
 
 - Création depuis l’appareil photo, Photos ou Fichiers.
 - Zoom, changement de page, miniatures et étiquettes de page.
@@ -346,7 +346,7 @@ Les Notes de projet importent un PDF ou une image et superposent des éléments 
 - Stylos, gomme, annulation／rétablissement et gestion des éléments.
 - Compteurs auxiliaires et liaison à un projet ou à un compteur principal.
 
-Une documentation détaillée est disponible via « Notes de projet » dans le centre d’aide.
+Une documentation détaillée est disponible via « Notes de tricot » dans le centre d’aide.
 
 <a id="other-tools"></a>
 ## Autres outils
@@ -374,13 +374,13 @@ La carte de sauvegarde automatique affiche l’heure de conservation locale, l�
 
 Pour utiliser une sauvegarde complète V3, mettez les deux appareils sur la même version de l’app. Les anciennes versions ne lisent que `kv.db` et `PDFAssets/`, ne peuvent pas restaurer les données de création de patron et refusent les paquets `.lineopus` V2.
 - `.pxproj` et formats associés : grille de tricot modifiable.
-- PDF／images : sources des Notes de projet ou résultats à partager.
+- PDF／images : sources des Notes de tricot ou résultats à partager.
 - CSV fils V2 : l’exportation groupée crée un dossier contenant un manifeste de version, la table principale des fils, les tables des compositions et des images, ainsi que les fichiers image. Les en-têtes combinent le libellé localisé et un ID de champ stable, ce qui permet l’édition et l’importation entre langues. Tous les fichiers sont validés avant toute écriture. Les anciens `line_list.csv` ne sont plus pris en charge.
 
 <a id="membership"></a>
 ## Abonnement
 
-La consultation de base et l’utilisation des contenus existants restent disponibles autant que possible. Les transferts en lot, les projets complets, des quotas de création supérieurs et certaines fonctions professionnelles nécessitent un abonnement. Le message affiché lors de l’action indique la règle actuelle. Après un changement d’appareil, utilisez Restaurer les achats sur la page d’abonnement.
+La consultation de base et l’utilisation des contenus existants restent disponibles autant que possible. Les transferts en lot, les projets complets, des quotas de création supérieurs et certaines fonctions professionnelles nécessitent un abonnement. Le message affiché lors de l’action indique la règle actuelle. Les nouveaux utilisateurs peuvent bénéficier d’un essai complet de 7 jours lors de la création de leur premier projet. Aucun prélèvement automatique ; l’app revient à la version gratuite à la fin. Après un changement d’appareil, utilisez Restaurer les achats sur la page d’abonnement.
 
 <a id="settings-help"></a>
 ## Réglages et aide

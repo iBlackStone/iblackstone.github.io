@@ -3,7 +3,7 @@ title: Ayuda de notas de tejido
 lang: es
 ---
 
-Knitting Notes le permite importar y leer patrones PDF, luego agregar reglas, texto, imágenes, pines de información, pinceladas y contadores. Agregar elementos de página o dibujos no modifica directamente el PDF original.
+Notas de tejido le permite importar y leer patrones PDF, luego agregar reglas, texto, imágenes, pines de información, pinceladas y contadores. Agregar elementos de página o dibujos no modifica directamente el PDF original.
 
 ## Navegación rápida
 
@@ -25,10 +25,10 @@ Knitting Notes le permite importar y leer patrones PDF, luego agregar reglas, te
 
 1. Abra Herramientas y seleccione **Notas de tejido**.
 2. Elija el archivo PDF que desea importar.
-3. El archivo importado aparece en la lista de proyectos de Knitting Notes.
+3. El archivo importado aparece en la lista de proyectos de Notas de tejido.
 4. Toque el proyecto para continuar desde su posición de lectura y estado de edición anteriores.
 
-Los usuarios gratuitos pueden crear hasta un proyecto de Knitting Notes. La eliminación de un proyecto no se puede deshacer, así que primero confirma que ya no lo necesitas.
+Los usuarios gratuitos pueden crear hasta un proyecto de Notas de tejido. La eliminación de un proyecto no se puede deshacer, así que primero confirma que ya no lo necesitas.
 
 ## Diseño del editor
 
@@ -76,7 +76,7 @@ Toca **Páginas** para abrir el panel de miniaturas:
 - Toque `...` en la miniatura seleccionada para agregar, editar o eliminar una etiqueta.
 - Cada página puede tener una etiqueta.
 
-Los usuarios gratuitos pueden crear hasta dos etiquetas de página. Las etiquetas existentes aún se pueden editar o eliminar.
+Los usuarios gratuitos pueden crear hasta tres etiquetas de página. Las etiquetas existentes aún se pueden editar o eliminar.
 
 ## Agregar componentes de página
 
@@ -164,11 +164,11 @@ Para agregar nuevos ajustes preestablecidos de pincel es necesario ser miembro. 
 
 ## tiempo invertido
 
-El temporizador inferior está separado de los contadores de fila. Después de iniciarlo manualmente, al descartar la hoja se mantiene en funcionamiento; Al dejar Notas del proyecto o enviar la aplicación a un segundo plano, se detiene y la guarda. Las notas abiertas desde un proyecto asignan la sesión a ese proyecto, mientras que las notas independientes mantienen un historial de solo notas.
+El temporizador inferior está separado de los contadores de fila. Después de iniciarlo manualmente, al descartar la hoja se mantiene en funcionamiento; Al dejar Notas de tejido o enviar la aplicación a un segundo plano, se detiene y la guarda. Las notas abiertas desde un proyecto asignan la sesión a ese proyecto, mientras que las notas independientes mantienen un historial de solo notas.
 
 ## Contadores
 
-Cada proyecto de Knitting Notes contiene al menos un contador.
+Cada proyecto de Notas de tejido contiene al menos un contador.
 
 - Toque el número para agregar 1.
 - Toque `-` para restar 1.
@@ -199,8 +199,8 @@ Abra **Más > Elementos** para administrar componentes y notas de pincel en un s
 El menú inferior **Más** contiene configuraciones compartidas:
 
 - **Color predeterminado** afecta a los componentes agregados posteriormente.
-- **Administrador de pinceles** administra los ajustes preestablecidos de pincel compartidos por todos los proyectos de Knitting Notes.
-- **Administrador de reglas** administra los ajustes preestablecidos de reglas compartidos por todos los proyectos de Knitting Notes.
+- **Administrador de pinceles** administra los ajustes preestablecidos de pincel compartidos por todos los proyectos de Notas de tejido.
+- **Administrador de reglas** administra los ajustes preestablecidos de reglas compartidos por todos los proyectos de Notas de tejido.
 
 Cambiar un ajuste preestablecido compartido no altera automáticamente los componentes o trazos que ya se han agregado.
 
@@ -213,7 +213,7 @@ Cambiar un ajuste preestablecido compartido no altera automáticamente los compo
 
 ## iCloud y múltiples dispositivos
 
-Las copias de seguridad de Knitting Notes incluyen la base de datos del proyecto, archivos PDF y recursos de imágenes relacionados con PDF. El proyecto completo aparece en otro dispositivo solo después de que finaliza la sincronización o restauración de iCloud de la aplicación.
+Las copias de seguridad de Notas de tejido incluyen la base de datos del proyecto, archivos PDF y recursos de imágenes relacionados con PDF. El proyecto completo aparece en otro dispositivo solo después de que finaliza la sincronización o restauración de iCloud de la aplicación.
 
 Tenga en cuenta:
 

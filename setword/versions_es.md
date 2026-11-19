@@ -8,6 +8,15 @@ lang: es
 
 > Para sugerir nuevas funciones, contacta con el desarrollador en Xiaohongshu desde la parte inferior de la página de comentarios.
 
+### v2.1.12
+
+- Los nuevos usuarios pueden iniciar una prueba completa de 7 días al crear su primer proyecto, o reclamarla desde la página de membresía. Antes de terminar aparece un recordatorio; después, los proyectos y notas existentes siguen disponibles para ver y editar
+- Los usuarios gratuitos pueden crear hasta 5 gráficos de punto, 5 de ganchillo y 3 etiquetas de página en las notas de tejido
+- La búsqueda, los filtros y el calendario del inventario de hilos, además de eliminar contadores y cambiar el modo de conteo, ahora son gratuitos
+- Las estrategias de patrón locales/importadas se pueden desbloquear individualmente sin membresía; las estrategias integradas siguen siendo gratuitas
+- La página de membresía muestra mejor el ahorro anual; los avisos aparecen desde abajo en lugar de diálogos repetidos
+- Los miembros permanentes y suscriptores actuales conservan sus beneficios, fechas de vencimiento y restauración de compras
+
 ### v2.1.11
 
 - Todas las estrategias de patrón integradas son gratuitas. Las estrategias candidatas están ocultas temporalmente; los proyectos nuevos ofrecen chaleco básico, jersey con hombro caído y pieza en blanco.

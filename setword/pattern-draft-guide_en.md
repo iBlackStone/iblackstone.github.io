@@ -55,7 +55,7 @@ Person & References selects measurements, reference images or independent copies
 <a id="membership"></a>
 ## Free version and membership
 
-Built-in strategies are free during Beta: Basic Vest, Basic Drop-Shoulder Pullover and Blank Custom Piece. Candidate strategies (raglan, cardigan, round/square yoke, fitted set-in and bias) are temporarily hidden; existing projects still open but cannot be created from the catalog. Local/imported strategies, My Templates and authoring tools still require membership. Generation Prep is free; formal charts and counters check membership. Design-image and tech-pack PDF exports are free. Multiple presets and strategy-package import/export remain membership features.
+Built-in strategies are free during Beta: Basic Vest, Basic Drop-Shoulder Pullover and Blank Custom Piece. Candidate strategies (raglan, cardigan, round/square yoke, fitted set-in and bias) are temporarily hidden; existing projects still open but cannot be created from the catalog. Local/imported strategies can be unlocked individually without membership, or used with an active membership; My Templates and authoring tools still require membership. Generation Prep is free; formal charts and counters check membership. Design-image and tech-pack PDF exports are free. Multiple presets and strategy-package import/export remain membership features.
 
 
 <a id="evidence"></a>

@@ -76,7 +76,7 @@ Tap **Pages** to open the thumbnail panel:
 - Tap `...` on the selected thumbnail to add, edit, or delete a label.
 - Each page can have one label.
 
-Free users can create up to two page labels. Existing labels can still be edited or deleted.
+Free users can create up to three page labels. Existing labels can still be edited or deleted.
 
 ## Add Page Components
 
@@ -164,7 +164,7 @@ Adding new brush presets requires membership. Default and existing brushes remai
 
 ## Time spent
 
-The bottom Timer is separate from row Counters. After you start it manually, dismissing the sheet keeps it running; leaving Project Notes or sending the app to the background stops and saves it. Notes opened from a project assign the session to that project, while standalone notes keep a note-only history.
+The bottom Timer is separate from row Counters. After you start it manually, dismissing the sheet keeps it running; leaving Knitting Notes or sending the app to the background stops and saves it. Notes opened from a project assign the session to that project, while standalone notes keep a note-only history.
 
 ## Counters
 
@@ -182,7 +182,7 @@ Each horizontal counter page displays up to three counters. Swipe horizontally w
 
 Free users can use up to three counters.
 
-In Project Notes, open a counter’s More menu or touch and hold the counter, then choose Link with Apple Watch. A watch icon marks the linked counter. You can switch targets from the watch menu at the top right. Watch controls only the selected counter. Turning pages, hiding the panel or switching to another app keeps counting available while connected. Leaving the reader pauses collaboration. Return to the same note to resume. You can add or subtract repeatedly on Apple Watch. Predictable counts update immediately, and the pending count appears below. iPhone saves and confirms actions in order. Actions pause at a step that needs confirmation on iPhone and resume afterward. Check unconfirmed actions if you change targets or counting settings.
+In Knitting Notes, open a counter’s More menu or touch and hold the counter, then choose Link with Apple Watch. A watch icon marks the linked counter. You can switch targets from the watch menu at the top right. Watch controls only the selected counter. Turning pages, hiding the panel or switching to another app keeps counting available while connected. Leaving the reader pauses collaboration. Return to the same note to resume. You can add or subtract repeatedly on Apple Watch. Predictable counts update immediately, and the pending count appears below. iPhone saves and confirms actions in order. Actions pause at a step that needs confirmation on iPhone and resume afterward. Check unconfirmed actions if you change targets or counting settings.
 
 ## Elements
 

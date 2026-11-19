@@ -3,7 +3,7 @@ title: Aiuto per le note di lavoro a maglia
 lang: it
 ---
 
-Knitting Notes ti consente di importare e leggere modelli PDF, quindi aggiungere righelli, testo, immagini, spille informative, pennellate e contatori. L'aggiunta di elementi di pagina o disegno non modifica direttamente il PDF originale.
+Note di lavoro a maglia ti consente di importare e leggere modelli PDF, quindi aggiungere righelli, testo, immagini, spille informative, pennellate e contatori. L'aggiunta di elementi di pagina o disegno non modifica direttamente il PDF originale.
 
 ## Navigazione rapida
 
@@ -25,10 +25,10 @@ Knitting Notes ti consente di importare e leggere modelli PDF, quindi aggiungere
 
 1. Apri Strumenti e seleziona **Note per maglieria**.
 2. Scegli il file PDF che vuoi importare.
-3. Il file importato viene visualizzato nell'elenco dei progetti Knitting Notes.
+3. Il file importato viene visualizzato nell'elenco dei progetti Note di lavoro a maglia.
 4. Tocca il progetto per continuare dalla tua precedente posizione di lettura e dallo stato di modifica.
 
-Gli utenti gratuiti possono creare fino a un progetto Knitting Notes. L'eliminazione di un progetto non può essere annullata, quindi conferma che non ne hai più bisogno prima.
+Gli utenti gratuiti possono creare fino a un progetto Note di lavoro a maglia. L'eliminazione di un progetto non può essere annullata, quindi conferma che non ne hai più bisogno prima.
 
 ## Layout dell'editor
 
@@ -76,7 +76,7 @@ Tocca **Pagine** per aprire il pannello delle miniature:
 - Tocca `...` sulla miniatura selezionata per aggiungere, modificare o eliminare un'etichetta.
 - Ogni pagina può avere un'etichetta.
 
-Gli utenti gratuiti possono creare fino a due etichette di pagina. Le etichette esistenti possono ancora essere modificate o eliminate.
+Gli utenti gratuiti possono creare fino a tre etichette di pagina. Le etichette esistenti possono ancora essere modificate o eliminate.
 
 ## Aggiungi componenti della pagina
 
@@ -164,11 +164,11 @@ L'aggiunta di nuovi preset di pennello richiede l'iscrizione. I pennelli predefi
 
 ## Tempo trascorso
 
-Il timer inferiore è separato dai contatori di riga. Dopo averlo avviato manualmente, il salvataggio del foglio lo mantiene in esecuzione; lasciando le note del progetto o l'invio dell'app in background si ferma e lo salva. Le note aperte da un progetto assegnano la sessione a quel progetto, mentre le note autonome mantengono una cronologia di sole note.
+Il timer inferiore è separato dai contatori di riga. Dopo averlo avviato manualmente, il salvataggio del foglio lo mantiene in esecuzione; lasciando le note di lavoro a maglia o l'invio dell'app in background si ferma e lo salva. Le note aperte da un progetto assegnano la sessione a quel progetto, mentre le note autonome mantengono una cronologia di sole note.
 
 ## Contatori
 
-Ogni progetto Knitting Notes contiene almeno un contatore.
+Ogni progetto Note di lavoro a maglia contiene almeno un contatore.
 
 - Tocca il numero per aggiungere 1.
 - Tocca `-` per sottrarre 1.
@@ -199,8 +199,8 @@ Apri **Altro > Elementi** per gestire i componenti e le note di pennello in un u
 Il menu **Altro** in basso contiene impostazioni condivise:
 
 - **Colore predefinito** influisce sui componenti aggiunti in seguito.
-- **Brush Manager** gestisce i preset di pennello condivisi da tutti i progetti Knitting Notes.
-- **Ruler Manager** gestisce i preset del righello condivisi da tutti i progetti Knitting Notes.
+- **Brush Manager** gestisce i preset di pennello condivisi da tutti i progetti Note di lavoro a maglia.
+- **Ruler Manager** gestisce i preset del righello condivisi da tutti i progetti Note di lavoro a maglia.
 
 La modifica di un preset condiviso non altera automaticamente componenti o tratti che sono già stati aggiunti.
 
@@ -213,7 +213,7 @@ La modifica di un preset condiviso non altera automaticamente componenti o tratt
 
 ## iCloud e più dispositivi
 
-I backup di Knitting Notes includono il database del progetto, i file PDF e le risorse di immagini relative ai PDF. Il progetto completo viene visualizzato su un altro dispositivo solo dopo che la sincronizzazione o il ripristino di iCloud dell'app è terminato.
+I backup di Note di lavoro a maglia includono il database del progetto, i file PDF e le risorse di immagini relative ai PDF. Il progetto completo viene visualizzato su un altro dispositivo solo dopo che la sincronizzazione o il ripristino di iCloud dell'app è terminato.
 
 Si prega di notare:
 

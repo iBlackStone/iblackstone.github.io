@@ -19,7 +19,7 @@ Knit & Crochet ti aiuta a organizzare il filato, gestire progetti di lavoro a ma
 - [Knitting chart area operations](#knitting-chart-area-operations)
 - [Crochet charts](#crochet-chart)
 - [Operazioni sull’area all’uncinetto](#crochet-area-operations)
-- [Project Notes](#knitting-notes)
+- [Note di lavoro a maglia](#knitting-notes)
 - [Other tools](#other-tools)
 - [Import, export, and sync](#data-transfer)
 - [Membership](#membership)
@@ -32,7 +32,7 @@ Knit & Crochet ti aiuta a organizzare il filato, gestire progetti di lavoro a ma
 1. Apri il progetto tutorial integrato su Home per vedere come progetti, contatori, grafici e note funzionano insieme.
 2. Aggiungi record di filati con foto, specifiche, stock e informazioni sui prezzi.
 3. Crea un progetto e attacca il filato che prevedi di utilizzare.
-4. Aggiungi contatori e collega grafici a maglia, grafici all'uncinetto o note di progetto.
+4. Aggiungi contatori e collega grafici a maglia, grafici all'uncinetto o note di lavoro a maglia.
 5. Torna alla scheda del progetto corrente su Home ogni volta che vuoi continuare.
 
 Quando la libreria del progetto locale è vuota, Knit & Crochet installa un progetto tutorial in bundle. Questa installazione non richiede l'iscrizione e non utilizza l'indennità gratuita per il progetto personale. Se lo elimini, Knit & Crochet non lo ricreerà ripetutamente.
@@ -46,9 +46,9 @@ La casa è lo spazio di lavoro del progetto. L'intestazione mostra il progetto i
 
 Nella schermata Home, tira verso il basso per aggiornare i progetti locali e le associazioni delle risorse senza effettuare richieste di rete, mantenendo i filtri e l'ordinamento correnti.
 
-Quick Start raggruppa le destinazioni sotto Ravelry, Pattern Drafting, Project Notes, Knitting, Crochet, Yarn, Projects, Stitches e Help. Schema di disegno, note di progetto, lavoro a maglia e uncinetto posiziona i file immediatamente dopo Nuovo o Importa, tieni gli strumenti di supporto nel mezzo e sposta l'elenco classico alla fine. L'aiuto raccoglie la guida dell'app, la guida del grafico del lavoro a maglia, la guida del grafico all'uncinetto, la guida alle note del progetto, la guida alla stesura del modello, la guida del contatore del lavoro a maglia, il simulatore di campioni e il feedback; la guida alla corrispondenza è disponibile anche all'interno di ogni modulo supportato. I moduli scorrono orizzontalmente e rivelano le loro azioni nel gruppo arrotondato sottostante; il puntatore in alto segna il modulo attivo. Selezionalo di nuovo o usa Comprimi per nascondere il gruppo.
+Quick Start raggruppa le destinazioni sotto Ravelry, Pattern Drafting, Note di lavoro a maglia, Knitting, Crochet, Yarn, Projects, Stitches e Help. Schema di disegno, note di lavoro a maglia, lavoro a maglia e uncinetto posiziona i file immediatamente dopo Nuovo o Importa, tieni gli strumenti di supporto nel mezzo e sposta l'elenco classico alla fine. L'aiuto raccoglie la guida dell'app, la guida del grafico del lavoro a maglia, la guida del grafico all'uncinetto, la guida alle note di lavoro a maglia, la guida alla stesura del modello, la guida del contatore del lavoro a maglia, il simulatore di campioni e il feedback; la guida alla corrispondenza è disponibile anche all'interno di ogni modulo supportato. I moduli scorrono orizzontalmente e rivelano le loro azioni nel gruppo arrotondato sottostante; il puntatore in alto segna il modulo attivo. Selezionalo di nuovo o usa Comprimi per nascondere il gruppo.
 
-Ravelry nell’Avvio rapido della schermata Home offre Importa, Libreria, Cerca modelli, Preferiti e Account. La ricerca include tutti i modelli per impostazione predefinita; puoi filtrare quelli gratuiti o a pagamento, la tecnica, la categoria e la lingua, e scegliere l’ordinamento. Tocca un modello per visualizzare l’anteprima, aggiungerlo ai preferiti o rimuoverlo, oppure aprire la scheda ufficiale su Ravelry. I preferiti sono condivisi con Discover e salvati nell’app; non vengono aggiunti ai preferiti di Ravelry. L’importazione diretta dalla ricerca è disponibile solo per i modelli gratuiti con un PDF accessibile. Per i contenuti ospitati su siti esterni, scarica il file autonomamente e usa l’importazione di file. Puoi aggiungere ai preferiti i modelli a pagamento e visualizzarne la fonte; l’eventuale acquisto viene effettuato da te su Ravelry. I modelli già acquistati con autorizzazione al download nella tua Libreria restano importabili dalla Libreria.
+Ravelry nell’Avvio rapido della schermata Home offre Importa, Libreria, Cerca modelli, Preferiti e Account. La ricerca include tutti i modelli per impostazione predefinita; puoi filtrare quelli gratuiti o a pagamento, la tecnica, la categoria e la lingua, e scegliere l’ordinamento. Tocca un modello per visualizzare l’anteprima, aggiungerlo ai preferiti o rimuoverlo, oppure aprire la scheda ufficiale su Ravelry. I preferiti sono condivisi con Discover e salvati nell’app; non vengono aggiunti ai preferiti di Ravelry. L’importazione diretta dalla ricerca è disponibile solo per i modelli gratuiti con un PDF accessibile. Per i contenuti ospitati su siti esterni, scarica il file autonomamente e usa l’importazione di file. Puoi aggiungere ai preferiti i modelli a pagamento e visualizzarne la fonte; l’eventuale acquisto viene effettuato da te su Ravelry. I modelli già acquistati con autorizzazione al download nella tua Libreria restano importabili dalla Libreria. I modelli già importati mostrano il badge «Importato» e la prima voce del menu apre direttamente le note di lavoro a maglia associate; subito dopo l’importazione viene proposta anche la nota creata. Quando la pagina di conferma rileva un PDF scaricabile, puoi anche scegliere «Crea solo le note di lavoro a maglia» per saltare progetto e foto e aprire subito il lettore.
 
 Quando l’app è in cinese semplificato o tradizionale, la pagina account Ravelry mostra questo avviso di rete: Nella Cina continentale, potrebbe essere necessario uno strumento che consenta di accedere a Ravelry per effettuare l’accesso e autorizzare l’account. Serve solo durante questa fase; al termine puoi tornare alla connessione abituale.
 
@@ -66,7 +66,7 @@ Il secondo pulsante in alto a sinistra di Home, con un’icona a fumetti, apre �
 
 ### Scoprire
 
-Scopri i modelli Ravelry curati e i progetti della comunità approvati. Sfoglia i punti salienti nel banner e tre consigli in primo piano, cambia canale per più progetti e trascina verso il basso per aggiornare. Tocca un'immagine per altre foto o apri una scheda per visualizzare i dettagli pubblici, aggiungerla ai preferiti o mettere mi piace. Gli articoli Ravelry possono aprire la loro fonte o essere importati. I progetti della comunità possono essere importati come nuove copie locali insieme alle foto, alle note di progetto, ai grafici di lavoro a maglia e ai grafici all'uncinetto che l'editore ha esplicitamente selezionato. Nelle schede Ravelry, un’icona della carta di credito in alto a destra sulla copertina a sinistra indica i modelli a pagamento, mentre un regalo indica quelli gratuiti; se l’informazione non è disponibile, non compare alcuna icona.
+Scopri i modelli Ravelry curati e i progetti della comunità approvati. Sfoglia i punti salienti nel banner e tre consigli in primo piano, cambia canale per più progetti e trascina verso il basso per aggiornare. Tocca un'immagine per altre foto o apri una scheda per visualizzare i dettagli pubblici, aggiungerla ai preferiti o mettere mi piace. Gli articoli Ravelry possono aprire la loro fonte o essere importati. I progetti della comunità possono essere importati come nuove copie locali insieme alle foto, alle note di lavoro a maglia, ai grafici di lavoro a maglia e ai grafici all'uncinetto che l'editore ha esplicitamente selezionato. Nelle schede Ravelry, un’icona della carta di credito in alto a destra sulla copertina a sinistra indica i modelli a pagamento, mentre un regalo indica quelli gratuiti; se l’informazione non è disponibile, non compare alcuna icona.
 
 Su iPad e quando iPhone Duo è aperto, il banner superiore mantiene un’altezza massima sia in verticale sia in orizzontale; i tre consigli restano centrati entro una larghezza massima, così il contenuto non diventa eccessivamente grande sugli schermi ampi. I margini ai lati dei tre consigli vengono riempiti con uno sfondo sfocato basato sulla copertina del primo consiglio.
 
@@ -110,7 +110,7 @@ I dettagli di una strategia mostrano esempi, limiti, prezzo effettivo dell’App
 
 Usa il menu Altro in alto a destra di Discover per aprire Preferiti, Mi piace e I miei invii, o scegli un progetto locale dall'elenco dei progetti esistenti da pubblicare. Il menu Dettagli del progetto Altro fornisce anche una scorciatoia Pubblica per scoprire. L'editor elenca i campi pubblici e le risorse condivisibili; la prima foto selezionata diventa la copertina e possono essere incluse fino a sei foto. Un'anteprima finale della scheda viene visualizzata prima dell'invio. La voce di pubblicazione è disponibile per tutti, mentre l'invio di un progetto per la revisione richiede l'iscrizione. Viene visualizzato in un canale selezionato solo dopo l'approvazione dell'amministratore. I contenuti selezionati vengono caricati sul database pubblico CloudKit; sono esclusi i contatori, l'inventario dei filati, l'avanzamento privato e le bozze dei modelli. La navigazione in Discover non richiede l'autorizzazione Ravelry; il flusso di connessione esistente viene utilizzato solo per i contenuti dell'account Ravelry o le importazioni di Ravelry.
 
-Solo nella scheda di stato In corso di Home, una scheda di progetto mostra un menu di scelta rapida di risorse nel suo angolo in alto a destra quando ha collegato Note di progetto, bozze di modelli, grafici di lavoro a maglia o grafici all'uncinetto. Le schede Tutti e altri stati non mostrano questa scorciatoia. Le note del progetto appaiono prima come azioni dirette; le bozze del modello, i grafici del lavoro a maglia e i grafici all'uncinetto rimangono raggruppati in sottomenu collassati. Seleziona un nome di risorsa per aprirlo.
+Solo nella scheda di stato In corso di Home, una scheda di progetto mostra un menu di scelta rapida di risorse nel suo angolo in alto a destra quando ha collegato Note di lavoro a maglia, bozze di modelli, grafici di lavoro a maglia o grafici all'uncinetto. Le schede Tutti e altri stati non mostrano questa scorciatoia. Le note di lavoro a maglia appaiono prima come azioni dirette; le bozze del modello, i grafici del lavoro a maglia e i grafici all'uncinetto rimangono raggruppati in sottomenu collassati. Seleziona un nome di risorsa per aprirlo.
 
 ### Filato
 
@@ -122,7 +122,7 @@ Tocca un punto qualsiasi della scheda riepilogativa in alto oppure scegli Panora
 
 ### Strumenti
 
-Gli strumenti contengono grafici a maglia, grafici all'uncinetto, contatori, note di progetto, strumenti di colore, librerie di simboli e calcolatrici. Gli elementi creati qui possono essere successivamente collegati a un progetto.
+Gli strumenti contengono grafici a maglia, grafici all'uncinetto, contatori, note di lavoro a maglia, strumenti di colore, librerie di simboli e calcolatrici. Gli elementi creati qui possono essere successivamente collegati a un progetto.
 
 ### Impostazioni
 
@@ -183,7 +183,7 @@ Un progetto può memorizzare:
 - Tipo di mestiere, tipo di progetto, stato e informazioni sulla copertina.
 - Filato collegato e importi di utilizzo.
 - Uno o più contatori principali.
-- Note di progetto, grafici a maglia e grafici all'uncinetto.
+- Note di lavoro a maglia, grafici a maglia e grafici all'uncinetto.
 - Tecniche e simboli consigliati effettivamente utilizzati dai grafici collegati.
 
 ### Continua a lavorare
@@ -203,7 +203,7 @@ I membri possono esportare un progetto insieme a filati collegati, contatori, gr
 <a id="counter"></a>
 ### Tempo trascorso
 
-Il contatore per maglieria, le note del progetto, l'editor di grafici per maglieria e l'editor di grafici all'uncinetto includono ciascuno una voce Timer. Avvialo manualmente. L'espulsione del foglio del timer non lo ferma, mentre lascia il modulo o l'invio dell'app in background si ferma e salva la sessione. Solo un timer può funzionare alla volta; l'avvio di un altro termina prima la sessione precedente.
+Il contatore per maglieria, le note di lavoro a maglia, l'editor di grafici per maglieria e l'editor di grafici all'uncinetto includono ciascuno una voce Timer. Avvialo manualmente. L'espulsione del foglio del timer non lo ferma, mentre lascia il modulo o l'invio dell'app in background si ferma e salva la sessione. Solo un timer può funzionare alla volta; l'avvio di un altro termina prima la sessione precedente.
 
 Quando un modulo viene aperto da un progetto, la sessione viene assegnata automaticamente a quel progetto. Una risorsa aperta da sola mantiene una cronologia di sole risorse e non viene assegnata retroattivamente. Nei dettagli del progetto, Note e tempo mostra il totale, la ripartizione del modulo e le sessioni recenti; scorri una sessione per eliminare un record errato. Le sessioni completate sono incluse nelle esportazioni `.lineopus`.
 
@@ -228,7 +228,7 @@ Salva la regola di conteggio corrente come attività del piano e aggiungi sezion
 Ogni contatore supporta tre modalità di visualizzazione:
 
 - **Grafico a maglia**: collega un grafico a griglia in-app e facoltativamente segui automaticamente la riga corrente.
-- **Note del progetto**: collega un PDF o una nota immagine in modalità di sola lettura e ricorda la pagina corrente del contatore.
+- **Note di lavoro a maglia**: collega un PDF o una nota immagine in modalità di sola lettura e ricorda la pagina corrente del contatore.
 - **Istruzioni di testo**: salva i passaggi scritti e regola le dimensioni del testo.
 
 ### Collaborazione Apple Watch
@@ -268,14 +268,14 @@ Nelle versioni Debug, posiziona e fissa pannelli chiusi validi in 3D, scegli una
 
 L’esportazione regola separatamente griglia e Tips espansi, numerati o nascosti. Il salvataggio mantiene tracciati aperti, note, ordine e foglio. Ogni documento ripristina vista, strumento, selezione e confronto confermato senza rieseguire comandi o ripristinare Annulla. Elenchi e file condividono l’ultima anteprima completa salvata con successo, non l’ultimo dettaglio ingrandito o vuoto. I dati precedenti leggibili sono protetti e quelli ignoti non vengono sovrascritti da un documento vuoto.
 
-Durante la beta le strategie integrate sono gratuite: gilet base, pull con spalla scesa e pezzo vuoto. Le strategie candidate (raglan, cardigan, sprone rotondo/quadrato, manica a giro, sbieco) sono nascoste; i progetti esistenti restano apribili ma non creabili dal catalogo. Strategie locali/importate, modelli personali e strumenti di creazione restano per i membri. La preparazione è gratuita; la creazione di schemi e contatori verifica l’abbonamento. L’esportazione di immagine e PDF tecnico è gratuita. Preset multipli e import/export di pacchetti restano per i membri.
+Durante la beta le strategie integrate sono gratuite: gilet base, pull con spalla scesa e pezzo vuoto. Le strategie candidate (raglan, cardigan, sprone rotondo/quadrato, manica a giro, sbieco) sono nascoste; i progetti esistenti restano apribili ma non creabili dal catalogo. Le strategie locali/importate possono essere sbloccate singolarmente senza abbonamento, oppure usate con un abbonamento attivo; i modelli personali e gli strumenti di creazione restano per i membri. La preparazione è gratuita; la creazione di schemi e contatori verifica l’abbonamento. L’esportazione di immagine e PDF tecnico è gratuita. Preset multipli e import/export di pacchetti restano per i membri.
 
 Nelle versioni Debug, le anteprime 3D valide possono essere salvate con un progetto e ripristinate se il modello, il corpo e le condizioni di simulazione corrispondono ancora. Le modifiche ai dati richiedono una nuova simulazione; i risultati non riusciti o incompleti non sovrascrivono l’ultima anteprima valida salvata.
 
 <a id="knitting-chart"></a>
 ## Grafici di lavoro a maglia
 
-Gli utenti gratuiti possono creare fino a 3 grafici a maglia. Dopo aver raggiunto 3, la creazione o l'importazione di un altro grafico richiede un abbonamento; i grafici esistenti rimangono disponibili per l'apertura e la modifica. La regola di adesione esistente per le grandi tele per maglieria è invariata.
+Gli utenti gratuiti possono creare fino a 5 grafici a maglia. Dopo aver raggiunto 5, la creazione o l'importazione di un altro grafico richiede un abbonamento; i grafici esistenti rimangono disponibili per l'apertura e la modifica. La regola di adesione esistente per le grandi tele per maglieria è invariata.
 
 L'editor del grafico a maglia memorizza i colori e i simboli del punto nelle celle della griglia. È adatto per grafici a punti, colori intrecciati, punto croce e pixel art.
 
@@ -345,7 +345,7 @@ Le opzioni di esportazione includono immagini e file di progetto modificabili; u
 
 I diagrammi all’uncinetto integrati in Scopri includono istruzioni passo dopo passo. Nell’editor uncinetto, apri Istruzioni per seguire il modello. Usa Precedente e Successivo per passare da un passaggio all’altro oppure seleziona Vai al diagramma per vedere i simboli del passaggio corrente. Puoi anche toccare un simbolo del diagramma per trovare il passaggio associato. La lettura delle istruzioni è indipendente dai contatori del progetto e non ne modifica i valori. Apri Tutti i passaggi per modificarli. Durante la modifica, tocca o trascina per selezionare gli elementi del diagramma, quindi scegli Completa collegamento. Le note già presenti nei vecchi diagrammi restano consultabili. Se i punti e la disposizione di un diagramma integrato già salvato coincidono con l’originale, quando apri le istruzioni vengono caricati anche i passaggi integrati.
 
-Gli utenti gratuiti possono creare fino a 3 grafici all'uncinetto. Dopo aver raggiunto 3, la creazione o l'importazione di un altro grafico richiede un abbonamento, mentre i grafici esistenti rimangono disponibili per l'apertura e la modifica.
+Gli utenti gratuiti possono creare fino a 5 grafici all'uncinetto. Dopo aver raggiunto 5, la creazione o l'importazione di un altro grafico richiede un abbonamento, mentre i grafici esistenti rimangono disponibili per l'apertura e la modifica.
 
 L'editor all'uncinetto utilizza una tela libera e non è limitato alla griglia del lavoro a maglia.
 
@@ -404,9 +404,9 @@ Annullare o tornare indietro non modifica la tela; tocca «Applica» per conferm
 Ogni modifica effettiva richiede un solo Annulla o Ripeti. Annullare un selettore o un’operazione senza modifiche non aggiunge passaggi. I risultati sono salvati con il progetto e usano l’esportazione PNG/PDF esistente.
 
 <a id="knitting-notes"></a>
-## Note del progetto
+## Note di lavoro a maglia
 
-Project Notes importa PDF o modelli di immagini e sovrappone elementi di pagina modificabili senza riscrivere il PDF originale.
+Note di lavoro a maglia importa PDF o modelli di immagini e sovrappone elementi di pagina modificabili senza riscrivere il PDF originale.
 
 - Crea note da Fotocamera, Foto o File.
 - Ingrandisci, cambia pagina, usa le miniature e aggiungi tag di pagina.
@@ -415,7 +415,7 @@ Project Notes importa PDF o modelli di immagini e sovrappone elementi di pagina 
 - Usa i contatori ausiliari all'interno di una nota.
 - Collega le note a un progetto o a un contatore.
 
-Project Notes ha una propria guida dettagliata. Seleziona "Note di progetto" nel centro assistenza.
+Note di lavoro a maglia ha una propria guida dettagliata. Seleziona "Note di lavoro a maglia" nel centro assistenza.
 
 <a id="other-tools"></a>
 ## Altri strumenti
@@ -447,7 +447,7 @@ La scheda del backup automatico mostra l'ora di salvataggio locale, il dispositi
 
 Per usare un backup completo V3, aggiorna entrambi i dispositivi alla stessa versione dell'app. Le versioni precedenti leggono solo `kv.db` e `PDFAssets/`, non possono ripristinare i dati di progettazione del modello e rifiutano i pacchetti `.lineopus` V2.
 - `.pxproj` o formati di progetto di lavoro a maglia: grafici di lavoro a maglia modificabili.
-- PDF/immagini: fonti per le note del progetto o l'output di condivisione.
+- PDF/immagini: fonti per le note di lavoro a maglia o l'output di condivisione.
 - Yarn CSV V2: l'esportazione batch crea una cartella contenente un manifesto di versione, una tabella di filato, una tabella dei componenti, una tabella di immagini e file di immagini. Le intestazioni includono sia nomi localizzati che ID di campo stabili, quindi i pacchetti possono essere modificati e importati in tutte le lingue. L'importazione convalida il pacchetto completo prima di scrivere qualsiasi record. I file legacy `line_list.csv` non sono più supportati.
 
 Un pacchetto di progetto completo non sostituisce un backup completo della libreria e un backup completo non è destinato alla condivisione di un progetto.
@@ -457,7 +457,7 @@ Un pacchetto di progetto completo non sostituisce un backup completo della libre
 
 La navigazione di base e l'accesso ai contenuti esistenti rimangono disponibili ove possibile. Il trasferimento in batch, i pacchetti di progetto completi, le indennità di creazione più elevate e alcune azioni di modifica professionali richiedono l'iscrizione. Il messaggio mostrato al punto di utilizzo è l'attuale fonte di verità.
 
-Dopo aver cambiato dispositivo o reinstallato l'app, apri la pagina dell'iscrizione in Impostazioni e usa Ripristina acquisti.
+I nuovi utenti possono ricevere una prova completa di 7 giorni quando creano il primo progetto. Nessun addebito automatico; al termine l’app torna alla versione gratuita. Dopo aver cambiato dispositivo o reinstallato l'app, apri la pagina dell'iscrizione in Impostazioni e usa Ripristina acquisti.
 
 <a id="settings-help"></a>
 ## Impostazioni e aiuto

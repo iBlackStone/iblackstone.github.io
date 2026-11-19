@@ -55,7 +55,7 @@ Persona e riferimenti sceglie misure, immagini e copie indipendenti della base. 
 <a id="membership"></a>
 ## Versione gratuita e abbonamento
 
-Durante la beta le strategie integrate sono gratuite: gilet base, pull con spalla scesa e pezzo vuoto. Le strategie candidate (raglan, cardigan, sprone rotondo/quadrato, manica a giro, sbieco) sono nascoste; i progetti esistenti restano apribili ma non creabili dal catalogo. Strategie locali/importate, modelli personali e strumenti di creazione restano per i membri. La preparazione è gratuita; la creazione di schemi e contatori verifica l’abbonamento. L’esportazione di immagine e PDF tecnico è gratuita. Preset multipli e import/export di pacchetti restano per i membri.
+Durante la beta le strategie integrate sono gratuite: gilet base, pull con spalla scesa e pezzo vuoto. Le strategie candidate (raglan, cardigan, sprone rotondo/quadrato, manica a giro, sbieco) sono nascoste; i progetti esistenti restano apribili ma non creabili dal catalogo. Le strategie locali/importate possono essere sbloccate singolarmente senza abbonamento, oppure usate con un abbonamento attivo; i modelli personali e gli strumenti di creazione restano per i membri. La preparazione è gratuita; la creazione di schemi e contatori verifica l’abbonamento. L’esportazione di immagine e PDF tecnico è gratuita. Preset multipli e import/export di pacchetti restano per i membri.
 
 
 <a id="evidence"></a>

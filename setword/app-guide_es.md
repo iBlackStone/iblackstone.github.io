@@ -19,7 +19,7 @@ Knit & Crochet te ayuda a organizar hilos, gestionar proyectos de tejido, realiz
 - [Knitting chart area operations](#knitting-chart-area-operations)
 - [Crochet charts](#crochet-chart)
 - [Operaciones de área de ganchillo](#crochet-area-operations)
-- [Project Notes](#knitting-notes)
+- [Notas de tejido](#knitting-notes)
 - [Other tools](#other-tools)
 - [Import, export, and sync](#data-transfer)
 - [Membership](#membership)
@@ -32,7 +32,7 @@ Knit & Crochet te ayuda a organizar hilos, gestionar proyectos de tejido, realiz
 1. Abra el proyecto del tutorial integrado en Inicio para ver cómo funcionan juntos los proyectos, contadores, gráficos y notas.
 2. Agregue registros de hilo con fotos, especificaciones, stock e información de precios.
 3. Crea un proyecto y adjunta el hilo que planeas usar.
-4. Agregue contadores y vincule tablas de tejido, tablas de crochet o notas del proyecto.
+4. Agregue contadores y vincule tablas de tejido, tablas de crochet o notas de tejido.
 5. Regrese a la tarjeta del proyecto actual en Inicio cuando desee continuar.
 
 Cuando la biblioteca de proyectos local está vacía, Knit & Crochet instala un proyecto de tutorial incluido. Esta instalación no requiere membresía y no utiliza la asignación gratuita para proyectos personales. Si lo eliminas, Knit & Crochet no lo recreará repetidamente.
@@ -48,9 +48,9 @@ Desliza hacia abajo en Inicio para actualizar los proyectos locales y sus asocia
 
 Cuando Ravelry está conectado, el encabezado Inicio puede mostrar grandes recomendaciones de patrones libres basadas en proyectos almacenados en este dispositivo. Desliza o espera la siguiente imagen. Toque para elegir Vista previa de imagen, Ver detalles de Ravelry o Importar. La tarjeta del proyecto actual sigue siendo la alternativa cuando Ravelry está desconectado, no está disponible o no tiene un resultado adecuado.
 
-Inicio rápido agrupa destinos en Ravelry, Dibujo de patrones, Notas del proyecto, Tejido, Ganchillo, Hilo, Proyectos, Puntadas y Ayuda. Dibujo de patrones, Notas de proyecto, Tejido y Ganchillo colocan los archivos inmediatamente después de Nuevo o Importar, mantienen las herramientas de soporte en el medio y mueven la Lista clásica al final. La ayuda recopila la guía de la aplicación, la guía de la tabla de tejido, la guía de la tabla de crochet, la guía de notas del proyecto, la guía de redacción de patrones, la guía del contador de tejido, el simulador de muestras y comentarios; la guía correspondiente también está disponible dentro de cada módulo compatible. Los módulos se desplazan horizontalmente y revelan sus acciones en el grupo redondeado a continuación; el puntero superior marca el módulo activo. Selecciónelo nuevamente o use Contraer para ocultar el grupo.
+Inicio rápido agrupa destinos en Ravelry, Dibujo de patrones, Notas de tejido, Tejido, Ganchillo, Hilo, Proyectos, Puntadas y Ayuda. Dibujo de patrones, Notas de tejido, Tejido y Ganchillo colocan los archivos inmediatamente después de Nuevo o Importar, mantienen las herramientas de soporte en el medio y mueven la Lista clásica al final. La ayuda recopila la guía de la aplicación, la guía de la tabla de tejido, la guía de la tabla de crochet, la guía de notas de tejido, la guía de redacción de patrones, la guía del contador de tejido, el simulador de muestras y comentarios; la guía correspondiente también está disponible dentro de cada módulo compatible. Los módulos se desplazan horizontalmente y revelan sus acciones en el grupo redondeado a continuación; el puntero superior marca el módulo activo. Selecciónelo nuevamente o use Contraer para ocultar el grupo.
 
-Ravelry en el Inicio rápido de la pantalla de inicio ofrece Importar, Biblioteca, Buscar patrones, Favoritos y Cuenta. La búsqueda incluye todos los patrones de forma predeterminada; puedes filtrar los gratuitos o de pago, la técnica, la categoría y el idioma, y elegir el orden. Toca un patrón para ver una vista previa, añadirlo a favoritos o eliminarlo de ellos, o consultar su ficha oficial en Ravelry. Los favoritos se comparten con Discover y se guardan en la app; no se añaden a tus favoritos de Ravelry. Solo los patrones gratuitos con un PDF accesible se pueden importar directamente desde la búsqueda. Para los contenidos alojados en sitios externos, descarga el archivo por tu cuenta y utiliza la importación de archivos. Los patrones de pago se pueden añadir a favoritos y se puede consultar su fuente; cualquier compra la realizas tú en Ravelry. Los patrones ya comprados con permiso de descarga en tu Biblioteca siguen pudiéndose importar desde ella.
+Ravelry en el Inicio rápido de la pantalla de inicio ofrece Importar, Biblioteca, Buscar patrones, Favoritos y Cuenta. La búsqueda incluye todos los patrones de forma predeterminada; puedes filtrar los gratuitos o de pago, la técnica, la categoría y el idioma, y elegir el orden. Toca un patrón para ver una vista previa, añadirlo a favoritos o eliminarlo de ellos, o consultar su ficha oficial en Ravelry. Los favoritos se comparten con Discover y se guardan en la app; no se añaden a tus favoritos de Ravelry. Solo los patrones gratuitos con un PDF accesible se pueden importar directamente desde la búsqueda. Para los contenidos alojados en sitios externos, descarga el archivo por tu cuenta y utiliza la importación de archivos. Los patrones de pago se pueden añadir a favoritos y se puede consultar su fuente; cualquier compra la realizas tú en Ravelry. Los patrones ya comprados con permiso de descarga en tu Biblioteca siguen pudiéndose importar desde ella. Los patrones ya importados muestran la insignia «Importado» y la primera opción del menú abre directamente las notas de tejido asociadas; la nota creada al importar también se ofrece justo después. Cuando la página de confirmación detecta un PDF descargable, también puedes elegir «Crear solo notas de tejido» para omitir el proyecto y las fotos y abrir el lector directamente.
 
 Cuando la app está en chino simplificado o tradicional, la página de cuenta de Ravelry muestra este aviso de red: En China continental, es posible que necesites una herramienta que permita acceder a Ravelry para iniciar sesión y autorizar tu cuenta. Solo se necesita durante ese paso; después puedes volver a tu conexión habitual.
 
@@ -68,7 +68,7 @@ El segundo botón de la parte superior izquierda de Inicio, con un icono de boca
 
 ### Descubrir
 
-Discover presenta patrones seleccionados de Ravelry y proyectos comunitarios aprobados. Explore los aspectos más destacados del banner y las tres recomendaciones destacadas, cambie de canal para ver más proyectos y baje para actualizar. Toque una imagen para ver más fotos o abra una tarjeta para ver los detalles públicos, marcarla como favorita o darle me gusta. Los artículos de Ravelry pueden abrir su código fuente o importarse. Los proyectos comunitarios se pueden importar como nuevas copias locales junto con las fotografías, notas del proyecto, diagramas de tejido y diagramas de crochet que el editor seleccionó explícitamente. En las tarjetas de Ravelry, una tarjeta bancaria en la esquina superior derecha de la portada izquierda indica un patrón de pago y un regalo indica uno gratuito; si se desconoce esta información, no aparece ningún distintivo.
+Discover presenta patrones seleccionados de Ravelry y proyectos comunitarios aprobados. Explore los aspectos más destacados del banner y las tres recomendaciones destacadas, cambie de canal para ver más proyectos y baje para actualizar. Toque una imagen para ver más fotos o abra una tarjeta para ver los detalles públicos, marcarla como favorita o darle me gusta. Los artículos de Ravelry pueden abrir su código fuente o importarse. Los proyectos comunitarios se pueden importar como nuevas copias locales junto con las fotografías, notas de tejido, diagramas de tejido y diagramas de crochet que el editor seleccionó explícitamente. En las tarjetas de Ravelry, una tarjeta bancaria en la esquina superior derecha de la portada izquierda indica un patrón de pago y un regalo indica uno gratuito; si se desconoce esta información, no aparece ningún distintivo.
 
 En el iPad y cuando el iPhone Duo está desplegado, el banner superior mantiene una altura máxima tanto en vertical como en horizontal; las tres recomendaciones se mantienen centradas dentro de un ancho máximo para que el contenido no crezca demasiado en pantallas anchas. Los márgenes a ambos lados de las tres recomendaciones se rellenan con un fondo desenfocado basado en la portada de la primera recomendación.
 
@@ -112,7 +112,7 @@ La ficha de una estrategia muestra ejemplos, límites, el precio real de App Sto
 
 Utilice el menú Más superior derecho de Discover para abrir Favoritos, Me gusta y Mis envíos, o elija un proyecto local de la lista de proyectos existentes para publicar. El menú Más de detalles del proyecto también proporciona un acceso directo Publicar para descubrir. El editor enumera campos públicos y recursos que se pueden compartir; la primera foto seleccionada se convierte en portada y se pueden incluir hasta seis fotos. Aparece una vista previa final de la tarjeta antes del envío. La entrada de publicación está disponible para todos, mientras que enviar un proyecto para su revisión requiere membresía. Aparece en un canal seleccionado solo después de la aprobación del administrador. El contenido seleccionado se carga en la base de datos pública de CloudKit; Se excluyen los contadores, el inventario de hilados, el progreso privado y los borradores de patrones. Navegar por Discover no requiere autorización de Ravelry; el flujo de conexión existente se usa solo para el contenido de la cuenta de Ravelry o las importaciones de Ravelry.
 
-Solo en la pestaña de estado En progreso de Inicio, una tarjeta de proyecto muestra un menú de acceso directo a recursos en su esquina superior derecha cuando ha vinculado Notas del proyecto, borradores de patrones, tablas de tejido o tablas de crochet. Las pestañas Todo y otros estados no muestran este acceso directo. Las Notas del Proyecto aparecen primero como acciones directas; Los borradores de patrones, las tablas de tejido y las tablas de crochet permanecen agrupadas en submenús contraídos. Seleccione un nombre de recurso para abrirlo.
+Solo en la pestaña de estado En progreso de Inicio, una tarjeta de proyecto muestra un menú de acceso directo a recursos en su esquina superior derecha cuando ha vinculado Notas de tejido, borradores de patrones, tablas de tejido o tablas de crochet. Las pestañas Todo y otros estados no muestran este acceso directo. Las Notas de tejido aparecen primero como acciones directas; Los borradores de patrones, las tablas de tejido y las tablas de crochet permanecen agrupadas en submenús contraídos. Seleccione un nombre de recurso para abrirlo.
 
 ### Hilo
 
@@ -124,7 +124,7 @@ Toque cualquier parte de la tarjeta de resumen superior o elija Resumen de inven
 
 ### Herramientas
 
-Las herramientas contienen tablas de tejido, tablas de crochet, contadores, notas del proyecto, herramientas de color, bibliotecas de símbolos y calculadoras. Los elementos creados aquí se pueden vincular más tarde a un proyecto.
+Las herramientas contienen tablas de tejido, tablas de crochet, contadores, notas de tejido, herramientas de color, bibliotecas de símbolos y calculadoras. Los elementos creados aquí se pueden vincular más tarde a un proyecto.
 
 ### Ajustes
 
@@ -185,7 +185,7 @@ Un proyecto puede almacenar:
 - Tipo de embarcación, tipo de proyecto, estado e información de cobertura.
 - Hilo vinculado y cantidades de uso.
 - Uno o más contadores principales.
-- Notas del proyecto, tablas de tejido y tablas de crochet.
+- Notas de tejido, tablas de tejido y tablas de crochet.
 - Técnicas recomendadas y símbolos realmente utilizados por los gráficos vinculados.
 
 ### Continuar trabajando
@@ -205,7 +205,7 @@ Los miembros pueden exportar un proyecto junto con hilos vinculados, contadores,
 <a id="counter"></a>
 ### tiempo invertido
 
-El contador de tejido, las notas del proyecto, el editor de gráficos de tejido y el editor de gráficos de crochet incluyen cada uno una entrada de Temporizador. Inícielo manualmente. Cerrar la hoja del temporizador no la detiene, mientras que salir del módulo o enviar la aplicación a segundo plano detiene y guarda la sesión. Sólo se puede ejecutar un temporizador a la vez; iniciar otra finaliza primero la sesión anterior.
+El contador de tejido, las notas de tejido, el editor de gráficos de tejido y el editor de gráficos de crochet incluyen cada uno una entrada de Temporizador. Inícielo manualmente. Cerrar la hoja del temporizador no la detiene, mientras que salir del módulo o enviar la aplicación a segundo plano detiene y guarda la sesión. Sólo se puede ejecutar un temporizador a la vez; iniciar otra finaliza primero la sesión anterior.
 
 Cuando se abre un módulo desde un proyecto, la sesión se asigna a ese proyecto automáticamente. Un recurso abierto por sí solo mantiene un historial de solo recursos y no se asigna retroactivamente. En los detalles del proyecto, Notes & Time muestra el total, el desglose del módulo y las sesiones recientes; pase una sesión para eliminar un registro incorrecto. Las sesiones completadas se incluyen en las exportaciones `.lineopus`.
 
@@ -230,7 +230,7 @@ Guarde la regla de conteo actual como una tarea del plan y agregue secciones pos
 Cada contador admite tres modos de visualización:
 
 - **Tabla de tejido**: vincula una tabla de cuadrícula en la aplicación y, opcionalmente, sigue la fila actual automáticamente.
-- **Notas del proyecto**: vincula un PDF o una nota de imagen en modo de solo lectura y recuerda la página actual del contador.
+- **Notas de tejido**: vincula un PDF o una nota de imagen en modo de solo lectura y recuerda la página actual del contador.
 - **Instrucciones de texto**: guarde los pasos escritos y ajuste el tamaño del texto.
 
 ### Colaboración con Apple Watch
@@ -270,14 +270,14 @@ En las versiones Debug, coloca y fija piezas cerradas válidas en 3D, elige un t
 
 Exportar diseño controla por separado cuadrícula y Tips expandidos, numerados u ocultos. Guardar conserva líneas abiertas, notas, orden y papel. Cada documento restaura vista, herramienta, selección y comparación confirmada sin repetir órdenes ni recuperar Deshacer. Registros y archivos comparten la última vista completa guardada con éxito, no el último zoom o espacio vacío. Se protegen los datos antiguos legibles; los desconocidos no se sobrescriben con un documento vacío.
 
-Durante la beta, las estrategias integradas son gratuitas: chaleco básico, jersey de hombro caído y pieza en blanco. Las estrategias candidatas (raglán, chaqueta, canesú redondo/cuadrado, manga montada, bies) están ocultas; los proyectos existentes se abren, pero no se crean desde el catálogo. Estrategias locales/importadas, plantillas y herramientas de autor siguen siendo para miembros. La preparación es gratuita; crear gráficos y contadores comprueba la suscripción. Exportar la imagen y el PDF de ficha técnica es gratis. Los ajustes múltiples y la importación/exportación de paquetes siguen siendo para miembros.
+Durante la beta, las estrategias integradas son gratuitas: chaleco básico, jersey de hombro caído y pieza en blanco. Las estrategias candidatas (raglán, chaqueta, canesú redondo/cuadrado, manga montada, bies) están ocultas; los proyectos existentes se abren, pero no se crean desde el catálogo. Las estrategias locales/importadas se pueden desbloquear individualmente sin membresía, o usar con una membresía activa; las plantillas y las herramientas de autor siguen siendo para miembros. La preparación es gratuita; crear gráficos y contadores comprueba la suscripción. Exportar la imagen y el PDF de ficha técnica es gratis. Los ajustes múltiples y la importación/exportación de paquetes siguen siendo para miembros.
 
 En las versiones Debug, las vistas previas 3D válidas se pueden guardar con el proyecto y restaurar si el patrón, el cuerpo y las condiciones de simulación siguen coincidiendo. Los cambios en los datos requieren una nueva simulación; los resultados fallidos o incompletos no sobrescriben la última vista previa válida guardada.
 
 <a id="knitting-chart"></a>
 ## Tablas de tejido
 
-Los usuarios gratuitos pueden crear hasta 3 tablas de tejido. Después de llegar a 3, crear o importar otro gráfico requiere una suscripción; Los gráficos existentes permanecen disponibles para abrir y editar. La regla de membresía existente para lienzos de tejido grandes no ha cambiado.
+Los usuarios gratuitos pueden crear hasta 5 tablas de tejido. Después de llegar a 5, crear o importar otro gráfico requiere una suscripción; Los gráficos existentes permanecen disponibles para abrir y editar. La regla de membresía existente para lienzos de tejido grandes no ha cambiado.
 
 El editor de gráficos de tejido almacena colores y símbolos de puntadas en celdas de la cuadrícula. Es adecuado para diagramas de puntadas, trabajos en color trenzados, punto de cruz y pixel art.
 
@@ -347,7 +347,7 @@ Las opciones de exportación incluyen imágenes y archivos de proyecto editables
 
 Los diagramas de crochet integrados de Descubrir incluyen instrucciones paso a paso. En el editor de crochet, abre Instrucciones para seguir el patrón. Usa Anterior y Siguiente para recorrer los pasos, o selecciona Ver diagrama para consultar los símbolos del paso actual. También puedes tocar un símbolo del diagrama para encontrar el paso relacionado. La lectura de las instrucciones es independiente de los contadores del proyecto y no cambia sus valores. Abre Todos los pasos para editarlos. Durante la edición, toca o arrastra para seleccionar los elementos del diagrama y, después, elige Finalizar vínculo. Las notas existentes en los diagramas antiguos siguen disponibles para leer. Si los puntos y la disposición de un diagrama integrado guardado coinciden con el original, al abrir las instrucciones también se cargan sus pasos.
 
-Los usuarios gratuitos pueden crear hasta 3 diagramas de crochet. Después de llegar a 3, crear o importar otro gráfico requiere una suscripción, mientras que los gráficos existentes permanecen disponibles para abrir y editar.
+Los usuarios gratuitos pueden crear hasta 5 diagramas de crochet. Después de llegar a 5, crear o importar otro gráfico requiere una suscripción, mientras que los gráficos existentes permanecen disponibles para abrir y editar.
 
 El editor de crochet utiliza un lienzo gratuito y no se limita a la cuadrícula de tejido.
 
@@ -406,9 +406,9 @@ Cancelar o volver no cambia el lienzo; toca «Aplicar» para confirmar la operac
 Cada cambio efectivo ocupa un único paso de Deshacer o Rehacer. Cancelar un selector o realizar una operación sin cambios no añade pasos. Los resultados se guardan con el proyecto y usan la exportación PNG/PDF existente.
 
 <a id="knitting-notes"></a>
-## Notas del proyecto
+## Notas de tejido
 
-Project Notes importa PDF o patrones de imágenes y superpone elementos de página editables sin reescribir el PDF original.
+Notas de tejido importa PDF o patrones de imágenes y superpone elementos de página editables sin reescribir el PDF original.
 
 - Cree notas desde Cámara, Fotos o Archivos.
 - Haga zoom, cambie páginas, use miniaturas y agregue etiquetas de página.
@@ -417,7 +417,7 @@ Project Notes importa PDF o patrones de imágenes y superpone elementos de pági
 - Utilice contadores auxiliares dentro de una nota.
 - Vincula notas a un proyecto o contador.
 
-Project Notes tiene su propia guía detallada. Seleccione "Notas del proyecto" en el centro de ayuda.
+Notas de tejido tiene su propia guía detallada. Seleccione "Notas de tejido" en el centro de ayuda.
 
 <a id="other-tools"></a>
 ## Otras herramientas
@@ -449,7 +449,7 @@ La tarjeta de copia automática muestra la hora de guardado local, el dispositiv
 
 Para usar una copia de seguridad completa V3, actualice ambos dispositivos a la misma versión de la aplicación. Las versiones antiguas solo leen `kv.db` y `PDFAssets/`, no pueden restaurar los datos de diseño de patrones y rechazan los paquetes `.lineopus` V2.
 - Formatos `.pxproj` o proyectos de tejido: esquemas de tejido editables.
-- PDF/imágenes: fuentes para notas del proyecto o para compartir resultados.
+- PDF/imágenes: fuentes para notas de tejido o para compartir resultados.
 - Yarn CSV V2: la exportación por lotes crea una carpeta que contiene un manifiesto de versión, una tabla de hilos, una tabla de componentes, una tabla de imágenes y archivos de imágenes. Los encabezados incluyen nombres localizados e ID de campos estables, por lo que los paquetes se pueden editar e importar en varios idiomas. Import valida el paquete completo antes de escribir cualquier registro. Los archivos heredados `line_list.csv` ya no son compatibles.
 
 Un paquete de proyecto completo no reemplaza una copia de seguridad completa de la biblioteca, y una copia de seguridad completa no está diseñada para compartir un proyecto.
@@ -459,7 +459,7 @@ Un paquete de proyecto completo no reemplaza una copia de seguridad completa de 
 
 La navegación básica y el acceso al contenido existente permanecen disponibles siempre que sea posible. La transferencia por lotes, los paquetes completos de proyectos, mayores asignaciones de creación y algunas acciones de edición profesional requieren membresía. El mensaje mostrado en el punto de uso es la fuente actual de verdad.
 
-Después de cambiar de dispositivo o reinstalar la aplicación, abra la página de membresía en Configuración y use Restaurar compras.
+Los nuevos usuarios pueden recibir una prueba completa de 7 días al crear su primer proyecto. No hay cargo automático; al terminar, la app vuelve a la versión gratuita. Después de cambiar de dispositivo o reinstalar la aplicación, abra la página de membresía en Configuración y use Restaurar compras.
 
 <a id="settings-help"></a>
 ## Configuraciones y ayuda

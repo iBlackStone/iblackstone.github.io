@@ -76,7 +76,7 @@ Touchez **Pages** dans la barre inférieure pour afficher les miniatures :
 - Touchez `...` sur la miniature sélectionnée pour ajouter, modifier ou supprimer son étiquette.
 - Chaque page ne peut avoir qu’une seule étiquette.
 
-Les utilisateurs gratuits peuvent créer jusqu’à deux étiquettes. Les étiquettes existantes restent modifiables et supprimables.
+Les utilisateurs gratuits peuvent créer jusqu’à trois étiquettes. Les étiquettes existantes restent modifiables et supprimables.
 
 ## Ajouter des composants
 
@@ -164,7 +164,7 @@ La création de nouveaux pinceaux est réservée aux membres. Les pinceaux par d
 
 ## Temps consacré
 
-Le Chronomètre de la barre inférieure est indépendant des compteurs de rangs. Après son démarrage manuel, fermer la feuille ne l’arrête pas ; quitter les Notes de projet ou passer l’App en arrière-plan l’arrête et l’enregistre. Une note ouverte depuis un projet lui attribue la session, tandis qu’une note autonome conserve son propre historique.
+Le Chronomètre de la barre inférieure est indépendant des compteurs de rangs. Après son démarrage manuel, fermer la feuille ne l’arrête pas ; quitter les Notes de tricot ou passer l’App en arrière-plan l’arrête et l’enregistre. Une note ouverte depuis un projet lui attribue la session, tandis qu’une note autonome conserve son propre historique.
 
 ## Compteurs
 

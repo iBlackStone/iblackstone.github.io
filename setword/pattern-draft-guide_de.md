@@ -55,7 +55,7 @@ Person und Referenzen bietet Maße, Bilder und unabhängige Grundschnittkopien. 
 <a id="membership"></a>
 ## Kostenlose Version und Mitgliedschaft
 
-Während der Beta sind alle integrierten Strategien kostenlos: Basisweste, Drop-Shoulder-Pullover und leeres Schnittteil. Kandidatenstrategien (Raglan, Cardigan, Rund-/Eckpasse, eingesetzter Ärmel, Bias) sind vorübergehend ausgeblendet; bestehende Projekte bleiben offen, können aber nicht aus dem Katalog neu erstellt werden. Lokale/importierte Strategien, eigene Vorlagen und Autorenwerkzeuge bleiben Mitgliedsfunktionen. Die Vorbereitung ist kostenlos; beim Erstellen von Schriften und Zählern wird die Mitgliedschaft geprüft. Designbild- und Tech-Pack-PDF-Export sind kostenlos. Mehrere Voreinstellungen sowie Paketimport/-export bleiben Mitgliedsfunktionen.
+Während der Beta sind alle integrierten Strategien kostenlos: Basisweste, Drop-Shoulder-Pullover und leeres Schnittteil. Kandidatenstrategien (Raglan, Cardigan, Rund-/Eckpasse, eingesetzter Ärmel, Bias) sind vorübergehend ausgeblendet; bestehende Projekte bleiben offen, können aber nicht aus dem Katalog neu erstellt werden. Lokale/importierte Strategien können ohne Mitgliedschaft einzeln freigeschaltet oder mit einer aktiven Mitgliedschaft genutzt werden; eigene Vorlagen und Autorenwerkzeuge bleiben Mitgliedsfunktionen. Die Vorbereitung ist kostenlos; beim Erstellen von Schriften und Zählern wird die Mitgliedschaft geprüft. Designbild- und Tech-Pack-PDF-Export sind kostenlos. Mehrere Voreinstellungen sowie Paketimport/-export bleiben Mitgliedsfunktionen.
 
 
 <a id="evidence"></a>

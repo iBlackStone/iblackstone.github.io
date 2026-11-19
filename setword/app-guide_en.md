@@ -19,7 +19,7 @@ Knit & Crochet helps you organize yarn, manage knitting projects, track progress
 - [Knitting chart area operations](#knitting-chart-area-operations)
 - [Crochet charts](#crochet-chart)
 - [Crochet area operations](#crochet-area-operations)
-- [Project Notes](#knitting-notes)
+- [Knitting Notes](#knitting-notes)
 - [Other tools](#other-tools)
 - [Import, export, and sync](#data-transfer)
 - [Membership](#membership)
@@ -32,7 +32,7 @@ Knit & Crochet helps you organize yarn, manage knitting projects, track progress
 1. Open the built-in tutorial project on Home to see how projects, counters, charts, and notes work together.
 2. Add yarn records with photos, specifications, stock, and price information.
 3. Create a project and attach the yarn you plan to use.
-4. Add counters and link knitting charts, crochet charts, or Project Notes.
+4. Add counters and link knitting charts, crochet charts, or Knitting Notes.
 5. Return to the current-project card on Home whenever you want to continue.
 
 When the local project library is empty, Knit & Crochet installs one bundled tutorial project. This installation does not require membership and does not use the free personal-project allowance. If you delete it, Knit & Crochet will not recreate it repeatedly.
@@ -46,9 +46,9 @@ Home is the project workspace. The header shows the current project and its next
 
 Pull down on Home to refresh local projects and resource relationships without making a network request, while keeping the current filters and sorting.
 
-Quick Start groups destinations under Ravelry, Pattern Drafting, Project Notes, Knitting, Crochet, Yarn, Projects, Stitches, and Help. Pattern Drafting, Project Notes, Knitting, and Crochet place Files immediately after New or Import, keep supporting tools in the middle, and move the classic List to the end. Help collects the app guide, knitting chart guide, crochet chart guide, Project Notes guide, Pattern Drafting guide, knitting counter guide, swatch simulator, and feedback; the matching guide is also available inside each supported module. Modules scroll horizontally and reveal their actions in the rounded group below; the top pointer marks the active module. Select it again or use Collapse to hide the group.
+Quick Start groups destinations under Ravelry, Pattern Drafting, Knitting Notes, Knitting, Crochet, Yarn, Projects, Stitches, and Help. Pattern Drafting, Knitting Notes, Knitting, and Crochet place Files immediately after New or Import, keep supporting tools in the middle, and move the classic List to the end. Help collects the app guide, knitting chart guide, crochet chart guide, Knitting Notes guide, Pattern Drafting guide, knitting counter guide, swatch simulator, and feedback; the matching guide is also available inside each supported module. Modules scroll horizontally and reveal their actions in the rounded group below; the top pointer marks the active module. Select it again or use Collapse to hide the group.
 
-Ravelry in Home’s Quick Start provides Import, Library, Pattern Search, Favorites, and Account. Pattern Search includes all patterns by default; filter by free or paid, craft, category, and language, and choose a sort order. Tap a pattern to preview it, add or remove a favorite, or view its official Ravelry details. Favorites are shared with Discover and saved in the app; they are not added to your Ravelry favorites. Direct import from search is available only for free patterns with an accessible PDF. For externally hosted content, download the file yourself and use file import. Paid patterns can be favorited and their source viewed; any purchase is completed by you on Ravelry. Purchased patterns with download access in your Library can still be imported from Library.
+Ravelry in Home’s Quick Start provides Import, Library, Pattern Search, Favorites, and Account. Pattern Search includes all patterns by default; filter by free or paid, craft, category, and language, and choose a sort order. Tap a pattern to preview it, add or remove a favorite, or view its official Ravelry details. Favorites are shared with Discover and saved in the app; they are not added to your Ravelry favorites. Direct import from search is available only for free patterns with an accessible PDF. For externally hosted content, download the file yourself and use file import. Paid patterns can be favorited and their source viewed; any purchase is completed by you on Ravelry. Purchased patterns with download access in your Library can still be imported from Library. Patterns you already imported show an Imported badge, and the first menu item opens the linked knitting note; a note created during import is also offered right after it finishes. When the confirmation page finds a downloadable PDF, you can also choose Create Knitting Note Only to skip the project and photos and open the reader directly.
 
 When the app uses Simplified or Traditional Chinese, the Ravelry account page shows this network tip: In mainland China, you may need a tool that enables access to Ravelry to sign in and authorize your account. It is only needed during sign-in and authorization; afterward, you can return to your usual network connection.
 
@@ -66,7 +66,7 @@ The second button at the top-left of Home uses a speech-bubble icon and opens �
 
 ### Discover
 
-Discover presents curated Ravelry patterns and approved community projects. Browse highlights in the banner and three featured recommendations, switch channels for more projects, and pull down to refresh. Tap an image for more photos, or open a card to view public details, favorite it, or like it. Ravelry items can open their source or be imported. Community projects can be imported as new local copies together with the photos, Project Notes, knitting charts, and crochet charts that the publisher explicitly selected. On Ravelry cards, a credit card icon at the top-right of the left-hand cover marks paid patterns, and a gift icon marks free patterns; no badge appears when availability is unknown.
+Discover presents curated Ravelry patterns and approved community projects. Browse highlights in the banner and three featured recommendations, switch channels for more projects, and pull down to refresh. Tap an image for more photos, or open a card to view public details, favorite it, or like it. Ravelry items can open their source or be imported. Community projects can be imported as new local copies together with the photos, Knitting Notes, knitting charts, and crochet charts that the publisher explicitly selected. On Ravelry cards, a credit card icon at the top-right of the left-hand cover marks paid patterns, and a gift icon marks free patterns; no badge appears when availability is unknown.
 
 On iPad and when an iPhone Duo is unfolded, the top banner keeps a maximum height in both orientations, while the three featured recommendations stay within a centered maximum width so content does not grow too large on wide screens. The side margins around the three featured recommendations use a blurred background based on the cover of the first recommendation.
 
@@ -110,7 +110,7 @@ Drafting-strategy details show examples, capability limits, the actual App Store
 
 Use Discover's upper-right More menu to open Favorites, Likes, and My Submissions, or choose a local project from the existing-project list to publish. The project detail More menu also provides a Publish to Discover shortcut. The editor lists public fields and shareable resources; the first selected photo becomes the cover and up to six photos can be included. A final card preview appears before submission. The publishing entry is available to everyone, while sending a project for review requires membership. It appears in a selected channel only after administrator approval. Selected content is uploaded to the public CloudKit database; counters, yarn inventory, private progress, and pattern drafts are excluded. Browsing Discover does not require Ravelry authorization; the existing connection flow is used only for Ravelry account content or Ravelry imports.
 
-Only on Home's In Progress state tab, a project card shows a resource shortcut menu in its upper-right corner when it has linked Project Notes, pattern drafts, knitting charts, or crochet charts. The All and other state tabs do not show this shortcut. Project Notes appear as direct actions first; pattern drafts, knitting charts, and crochet charts remain grouped in collapsed submenus. Select a resource name to open it.
+Only on Home's In Progress state tab, a project card shows a resource shortcut menu in its upper-right corner when it has linked Knitting Notes, pattern drafts, knitting charts, or crochet charts. The All and other state tabs do not show this shortcut. Knitting Notes appear as direct actions first; pattern drafts, knitting charts, and crochet charts remain grouped in collapsed submenus. Select a resource name to open it.
 
 ### Yarn
 
@@ -122,7 +122,7 @@ Tap anywhere on the header summary card, or choose Inventory Overview from the M
 
 ### Tools
 
-Tools contains knitting charts, crochet charts, counters, Project Notes, color tools, symbol libraries, and calculators. Items created here can later be linked to a project.
+Tools contains knitting charts, crochet charts, counters, Knitting Notes, color tools, symbol libraries, and calculators. Items created here can later be linked to a project.
 
 ### Settings
 
@@ -183,7 +183,7 @@ A project can store:
 - Craft type, project type, status, and cover information.
 - Linked yarn and usage amounts.
 - One or more main counters.
-- Project Notes, knitting charts, and crochet charts.
+- Knitting Notes, knitting charts, and crochet charts.
 - Recommended techniques and symbols actually used by linked charts.
 
 ### Continue working
@@ -203,7 +203,7 @@ Members can export a project together with linked yarn, counters, charts, PDFs, 
 <a id="counter"></a>
 ### Time spent
 
-The knitting counter, project notes, knitting chart editor, and crochet chart editor each include a Timer entry. Start it manually. Dismissing the timer sheet does not stop it, while leaving the module or sending the app to the background stops and saves the session. Only one timer can run at a time; starting another ends the previous session first.
+The knitting counter, Knitting Notes, knitting chart editor, and crochet chart editor each include a Timer entry. Start it manually. Dismissing the timer sheet does not stop it, while leaving the module or sending the app to the background stops and saves the session. Only one timer can run at a time; starting another ends the previous session first.
 
 When a module is opened from a project, the session is assigned to that project automatically. A resource opened on its own keeps a resource-only history and is not assigned retroactively. In project details, Notes & Time shows the total, module breakdown, and recent sessions; swipe a session to delete an incorrect record. Completed sessions are included in `.lineopus` exports.
 
@@ -228,14 +228,14 @@ Save the current counting rule as a plan task and add later sections. Applying t
 Each counter supports three display modes:
 
 - **Knitting chart**: link an in-app grid chart and optionally follow the current row automatically.
-- **Project Notes**: link a PDF or image note in read-only mode and remember the counter's current page.
+- **Knitting Notes**: link a PDF or image note in read-only mode and remember the counter's current page.
 - **Text instructions**: save written steps and adjust text size.
 
 ### Apple Watch collaboration
 
 On the iPhone’s Settings tab, find **Apple Watch collaboration** below **Notifications** in **Preferences** to choose the default watch gesture. On an existing counter page, tap the watch icon in the upper right to start collaboration for the current tab, switch collaboration to this counter, end collaboration, or open Apple Watch settings. While the watch can still reach the iPhone, you can keep using the same linked counter with the iPhone app in the background, for example while watching a video. If the connection drops, the watch displays the last confirmed count.
 
-Collaboration settings are separate for counters, knitting charts, notes and crochet charts. Counters, knitting charts, crochet charts and knitting notes support independent double-tap actions. In Project Notes, open a counter’s More menu or touch and hold the counter, then choose Link with Apple Watch. A watch icon marks the linked counter. You can switch targets from the watch menu at the top right. Watch controls only the selected counter. Turning pages, hiding the panel or switching to another app keeps counting available while connected. Leaving the reader pauses collaboration. Return to the same note to resume. You can add or subtract repeatedly on Apple Watch. Predictable counts update immediately, and the pending count appears below. iPhone saves and confirms actions in order. Actions pause at a step that needs confirmation on iPhone and resume afterward. Check unconfirmed actions if you change targets or counting settings. In a knitting chart, enter counting mode and enable the row marker to show a watch button beside More at the top right. Manually start or switch the target to move one row at a time. The chart is saved before binding. Watch shows the chart name, row number and total rows, and stops at the range boundary. Leaving counting mode, disabling the row marker or leaving the editor pauses collaboration; the bound chart keeps its watch entry. Reopen the same chart in counting mode to resume. Switching to another app to watch a video keeps the target available while connected. Full saves briefly pause operations and resume automatically. Changing row count or row origin requires rebinding. In a crochet chart, choose Link with Apple Watch from one counter’s More menu to bind only that counter. The top-right watch menu also lists targets and checks the current one. A small watch mark remains visible on the linked counter, including compact mode. Tapping other counters, renaming, reordering, paging or hiding the panel never changes the target. Switching to a video app keeps counting available while connected. Incrementing past a positive maximum wraps to zero; subtraction stops at zero. Reset keeps the binding; deleting the target ends it without selecting another. Leaving the editor or editing a counter pauses collaboration; returning to the same chart resumes it. Binding saves first, full saves briefly pause operations, and crochet gestures have their own preference. Count haptic feedback under Watch feedback is on by default and can be turned off. This preference is independent of projects and controls vibrations after successful button or gesture counts. It syncs when the watch is connected.
+Collaboration settings are separate for counters, knitting charts, notes and crochet charts. Counters, knitting charts, crochet charts and knitting notes support independent double-tap actions. In Knitting Notes, open a counter’s More menu or touch and hold the counter, then choose Link with Apple Watch. A watch icon marks the linked counter. You can switch targets from the watch menu at the top right. Watch controls only the selected counter. Turning pages, hiding the panel or switching to another app keeps counting available while connected. Leaving the reader pauses collaboration. Return to the same note to resume. You can add or subtract repeatedly on Apple Watch. Predictable counts update immediately, and the pending count appears below. iPhone saves and confirms actions in order. Actions pause at a step that needs confirmation on iPhone and resume afterward. Check unconfirmed actions if you change targets or counting settings. In a knitting chart, enter counting mode and enable the row marker to show a watch button beside More at the top right. Manually start or switch the target to move one row at a time. The chart is saved before binding. Watch shows the chart name, row number and total rows, and stops at the range boundary. Leaving counting mode, disabling the row marker or leaving the editor pauses collaboration; the bound chart keeps its watch entry. Reopen the same chart in counting mode to resume. Switching to another app to watch a video keeps the target available while connected. Full saves briefly pause operations and resume automatically. Changing row count or row origin requires rebinding. In a crochet chart, choose Link with Apple Watch from one counter’s More menu to bind only that counter. The top-right watch menu also lists targets and checks the current one. A small watch mark remains visible on the linked counter, including compact mode. Tapping other counters, renaming, reordering, paging or hiding the panel never changes the target. Switching to a video app keeps counting available while connected. Incrementing past a positive maximum wraps to zero; subtraction stops at zero. Reset keeps the binding; deleting the target ends it without selecting another. Leaving the editor or editing a counter pauses collaboration; returning to the same chart resumes it. Binding saves first, full saves briefly pause operations, and crochet gestures have their own preference. Count haptic feedback under Watch feedback is on by default and can be turned off. This preference is independent of projects and controls vibrations after successful button or gesture counts. It syncs when the watch is connected.
 
 <a id="pattern-drafting"></a>
 ## Smart Pattern Drafting
@@ -268,14 +268,14 @@ In Debug builds, you can place and pin valid closed panels in 3D, choose a refer
 
 More → Export Design independently controls grids and expanded, numbered or hidden Tips. Saves retain open paths, annotations, stacking and paper. Each document restores its viewport, tool, selection and confirmed comparison without replaying commands or restoring Undo history. Pattern Records and Files share the latest successfully saved full-design preview, independent of the last zoomed or blank viewport. Readable older documents retain identity, geometry, notes and plans; unknown data is not overwritten with a blank project.
 
-Built-in strategies are free during Beta: Basic Vest, Basic Drop-Shoulder Pullover and Blank Custom Piece. Candidate strategies (raglan, cardigan, round/square yoke, fitted set-in and bias) are temporarily hidden; existing projects still open but cannot be created from the catalog. Local/imported strategies, My Templates and authoring tools still require membership. Generation Prep is free; formal charts and counters check membership. Design-image and tech-pack PDF exports are free. Multiple presets and strategy-package import/export remain membership features.
+Built-in strategies are free during Beta: Basic Vest, Basic Drop-Shoulder Pullover and Blank Custom Piece. Candidate strategies (raglan, cardigan, round/square yoke, fitted set-in and bias) are temporarily hidden; existing projects still open but cannot be created from the catalog. Local/imported strategies can be unlocked individually without membership, or used with an active membership; My Templates and authoring tools still require membership. Generation Prep is free; formal charts and counters check membership. Design-image and tech-pack PDF exports are free. Multiple presets and strategy-package import/export remain membership features.
 
 In Debug builds, valid 3D previews can be saved with a project and restored when the pattern, body and simulation conditions still match. Input changes require a new simulation; failed or unfinished results do not overwrite the last saved valid preview.
 
 <a id="knitting-chart"></a>
 ## Knitting charts
 
-Free users can create up to 3 knitting charts. After reaching 3, creating or importing another chart requires a subscription; existing charts remain available to open and edit. The existing membership rule for large knitting canvases is unchanged.
+Free users can create up to 5 knitting charts. After reaching 5, creating or importing another chart requires a subscription; existing charts remain available to open and edit. The existing membership rule for large knitting canvases is unchanged.
 
 The knitting chart editor stores colors and stitch symbols in grid cells. It is suitable for stitch charts, stranded colorwork, cross-stitch, and pixel art.
 
@@ -345,7 +345,7 @@ Export options include images and editable project files; use project files for 
 
 Built-in crochet charts in Discover come with step-by-step instructions. In the crochet editor, open Instructions to read the pattern. Use Previous and Next to move between steps, or select Locate chart to see the symbols for the current step. You can also tap a chart symbol to find its related step. Reading instructions is separate from the project counters and never changes their counts. Open All steps to edit the steps. In a step, choose Link chart elements, then tap or drag to select chart elements, then choose Finish linking. Existing project notes in older charts remain readable. When a saved built-in chart still matches the original stitches and layout, opening Instructions also loads its built-in steps.
 
-Free users can create up to 3 crochet charts. After reaching 3, creating or importing another chart requires a subscription, while existing charts remain available to open and edit.
+Free users can create up to 5 crochet charts. After reaching 5, creating or importing another chart requires a subscription, while existing charts remain available to open and edit.
 
 The crochet editor uses a free canvas and is not restricted to the knitting grid.
 
@@ -404,9 +404,9 @@ Canceling or returning leaves the canvas unchanged; tap “Apply” to commit th
 Each actual change takes one Undo or Redo. Canceling a picker and unchanged operations add no undo step. Results are saved with the project and use the existing PNG/PDF export.
 
 <a id="knitting-notes"></a>
-## Project Notes
+## Knitting Notes
 
-Project Notes imports PDF or image patterns and overlays editable page elements without rewriting the original PDF.
+Knitting Notes imports PDF or image patterns and overlays editable page elements without rewriting the original PDF.
 
 - Create notes from Camera, Photos, or Files.
 - Zoom, change pages, use thumbnails, and add page tags.
@@ -415,7 +415,7 @@ Project Notes imports PDF or image patterns and overlays editable page elements 
 - Use auxiliary counters inside a note.
 - Link notes to a project or counter.
 
-Project Notes has its own detailed guide. Select “Project Notes” in the help center.
+Knitting Notes has its own detailed guide. Select “Knitting Notes” in the help center.
 
 <a id="other-tools"></a>
 ## Other tools
@@ -445,7 +445,7 @@ The Automatic Backup card shows the local save time, source device, and sync sta
 
 Use the same app version on both devices when using a complete V3 backup. Older app versions can read only `kv.db` and `PDFAssets/`, cannot restore Pattern Draft data, and reject V2 `.lineopus` packages.
 - `.pxproj` or knitting-project formats: editable knitting charts.
-- PDF/images: sources for Project Notes or sharing output.
+- PDF/images: sources for Knitting Notes or sharing output.
 - Yarn CSV V2: batch export creates a folder containing a version manifest, yarn table, component table, image table, and image files. Headers include both localized names and stable field IDs, so packages can be edited and imported across languages. Import validates the complete package before writing any records. Legacy `line_list.csv` files are no longer supported.
 
 A complete project package is not a replacement for a full-library backup, and a full backup is not intended for sharing one project.
@@ -454,6 +454,8 @@ A complete project package is not a replacement for a full-library backup, and a
 ## Membership
 
 Basic browsing and access to existing content remain available where possible. Batch transfer, complete project packages, higher creation allowances, and some professional editing actions require membership. The message shown at the point of use is the current source of truth.
+
+New users can receive a 7-day full-access trial when they first create a project. It does not auto-charge and returns to the free version when it ends.
 
 After changing devices or reinstalling the app, open the membership page in Settings and use Restore Purchases.
 

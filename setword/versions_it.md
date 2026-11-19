@@ -8,6 +8,15 @@ lang: it
 
 > Per suggerire nuove funzionalità, contatta lo sviluppatore su Xiaohongshu dal fondo della pagina dei feedback.
 
+### v2.1.12
+
+- I nuovi utenti possono iniziare una prova completa di 7 giorni quando creano il primo progetto, oppure richiederla dalla pagina dell’abbonamento. Prima della scadenza arriva un promemoria; dopo, i progetti e le note esistenti restano disponibili per la visualizzazione e la modifica
+- Gli utenti gratuiti possono creare fino a 5 schemi a maglia, 5 all’uncinetto e 3 etichette di pagina nelle note di lavoro
+- Ricerca, filtri e calendario dell’inventario filati, oltre all’eliminazione dei contatori e al cambio modalità di conteggio, ora sono gratuiti
+- Le strategie modello locali/importate possono essere sbloccate singolarmente senza abbonamento; le strategie integrate restano gratuite
+- La pagina dell’abbonamento mostra più chiaramente il risparmio annuale; gli avvisi compaiono dal basso invece di dialoghi ripetuti
+- I membri permanenti e gli abbonati esistenti mantengono vantaggi, scadenze e ripristino degli acquisti
+
 ### v2.1.11
 
 - Tutte le strategie di cartamodello integrate sono gratuite. Le strategie candidate sono temporaneamente nascoste; i nuovi progetti offrono gilet base, maglia con spalla scesa e pezzo vuoto.
@@ -105,10 +114,10 @@ Editor di modelli a maglia
 - Il modulo delle impostazioni è stato aggiornato per supportare più opzioni di backup dei dati;
 
 ### V1.9.2~1.9.4
-- Aggiunto un progetto tutorial integrato per progetti di apprendimento, contatori, grafici e note di progetto.
+- Aggiunto un progetto tutorial integrato per progetti di apprendimento, contatori, grafici e note di lavoro a maglia.
 - Aggiunta l'importazione e l'esportazione di pacchetti di progetto completi, inclusi filati, grafici, PDF e immagini.
 - Creazione migliorata di grafici a maglia assistita da immagini e calibrazione della griglia PDF.
-- Flussi di lavoro avanzati di lavoro a maglia, uncinetto, contatore e Note di progetto con guide multilingue.
+- Flussi di lavoro avanzati di lavoro a maglia, uncinetto, contatore e Note di lavoro a maglia con guide multilingue.
 - Risolti molteplici problemi di importazione, visualizzazione e stabilità.
 
 ### V1.8.9 ~ 1.9.1

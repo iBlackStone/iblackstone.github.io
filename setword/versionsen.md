@@ -8,6 +8,15 @@ lang: en
 
 > For feature suggestions, visit the bottom of the feedback page to contact the developer on Xiaohongshu.
 
+### v2.1.12
+
+- New users can start a 7-day full-access trial when they create their first project, or claim it from the membership page. A reminder appears before it ends; existing projects and notes remain available to view and edit afterward
+- Free users can create up to 5 knitting charts, 5 crochet charts, and 3 page labels in knitting notes
+- Yarn inventory search, filters, and calendar, plus counter deletion and count-mode switching, are now free
+- Local/imported pattern strategies can be unlocked individually without a membership; built-in strategies remain free
+- The membership page shows annual savings more clearly, and membership prompts appear as lighter bottom sheets instead of repeated alerts
+- Existing permanent members and subscribers keep their benefits, expiration dates, and purchase restoration
+
 ### v2.1.11
 
 - All built-in pattern strategies are now free. Candidate strategies are temporarily hidden; new projects offer the basic vest, drop-shoulder pullover and blank piece.
@@ -105,10 +114,10 @@ Knitting Pattern Editor
 - The settings module has been upgraded to support multiple data backup options;
 
 ### v1.9.2~1.9.4
-- Added a built-in tutorial project for learning projects, counters, charts, and Project Notes.
+- Added a built-in tutorial project for learning projects, counters, charts, and Knitting Notes.
 - Added complete project package import and export, including yarn, charts, PDFs, and images.
 - Improved image-assisted knitting chart creation and PDF grid calibration.
-- Enhanced knitting, crochet, counter, and Project Notes workflows with multilingual guides.
+- Enhanced knitting, crochet, counter, and Knitting Notes workflows with multilingual guides.
 - Fixed multiple import, display, and stability issues.
 
 ### v1.8.9 ~ 1.9.1

@@ -19,7 +19,7 @@ Knit & Crochet hilft Ihnen, Garne zu organisieren, Strickprojekte zu verwalten, 
 - [Knitting chart area operations](#knitting-chart-area-operations)
 - [Crochet charts](#crochet-chart)
 - [Häkelbereich bearbeiten](#crochet-area-operations)
-- [Project Notes](#knitting-notes)
+- [Stricknotizen](#knitting-notes)
 - [Other tools](#other-tools)
 - [Import, export, and sync](#data-transfer)
 - [Membership](#membership)
@@ -32,7 +32,7 @@ Knit & Crochet hilft Ihnen, Garne zu organisieren, Strickprojekte zu verwalten, 
 1. Öffnen Sie das integrierte Tutorial-Projekt auf Home, um zu sehen, wie Projekte, Zähler, Diagramme und Notizen zusammenarbeiten.
 2. Fügen Sie Garndatensätze mit Fotos, Spezifikationen, Lagerbestand und Preisinformationen hinzu.
 3. Erstellen Sie ein Projekt und hängen Sie das Garn an, das Sie verwenden wollen.
-4. Fügen Sie Zähler hinzu und verknüpfen Sie Strickdiagramme, Häkeldiagramme oder Projektnotizen.
+4. Fügen Sie Zähler hinzu und verknüpfen Sie Strickdiagramme, Häkeldiagramme oder Stricknotizen.
 5. Kehren Sie zur aktuellen Projektkarte auf Home zurück, wann immer Sie fortfahren möchten.
 
 Wenn die lokale Projektbibliothek leer ist, installiert Knit & Crochet ein gebündeltes Tutorial-Projekt. Diese Installation erfordert keine Mitgliedschaft und nutzt nicht die kostenlose persönliche Projektzulage. Wenn Sie es löschen, wird Knit & Crochet es nicht wiederholt neu erstellen.
@@ -46,9 +46,9 @@ Zuhause ist der Projektarbeitsplatz. Die Kopfzeile zeigt das aktuelle Projekt un
 
 Auf der Startseite können Sie nach unten ziehen, um lokale Projekte und Ressourcenverknüpfungen zu aktualisieren, ohne eine Netzwerkanfrage zu senden; die aktuellen Filter und die Sortierung bleiben erhalten.
 
-Schnellstart gruppiert Ziele unter Ravelry, Pattern Drafting, Project Notes, Knitting, Crochet, Yarn, Projects, Stitches und Help. Musterentwurf, Projektnotizen, Stricken und Häkeln platzieren Dateien unmittelbar nach Neu oder Import, halten Sie unterstützende Werkzeuge in der Mitte und verschieben Sie die klassische Liste an das Ende. Die Hilfe sammelt den App-Leitfaden, den Strickdiagramm-Leitfaden, den Häkeldiagramm-Leitfaden, den Projektnotiz-Leitfaden, den Leitfaden zum Musterentwurf, den Strickzähler-Leitfaden, den Mustersimulator und das Feedback; der Matching-Leitfaden ist auch in jedem unterstützten Modul verfügbar. Module scrollen horizontal und zeigen ihre Aktionen in der abgerundeten Gruppe unten an; der obere Zeiger markiert das aktive Modul. Wählen Sie es erneut aus oder verwenden Sie Collapse, um die Gruppe auszublenden.
+Schnellstart gruppiert Ziele unter Ravelry, Pattern Drafting, Stricknotizen, Knitting, Crochet, Yarn, Projects, Stitches und Help. Musterentwurf, Stricknotizen, Stricken und Häkeln platzieren Dateien unmittelbar nach Neu oder Import, halten Sie unterstützende Werkzeuge in der Mitte und verschieben Sie die klassische Liste an das Ende. Die Hilfe sammelt den App-Leitfaden, den Strickdiagramm-Leitfaden, den Häkeldiagramm-Leitfaden, den Stricknotizen-Leitfaden, den Leitfaden zum Musterentwurf, den Strickzähler-Leitfaden, den Mustersimulator und das Feedback; der Matching-Leitfaden ist auch in jedem unterstützten Modul verfügbar. Module scrollen horizontal und zeigen ihre Aktionen in der abgerundeten Gruppe unten an; der obere Zeiger markiert das aktive Modul. Wählen Sie es erneut aus oder verwenden Sie Collapse, um die Gruppe auszublenden.
 
-Ravelry im Schnellstart der Startseite bietet Importieren, Bibliothek, Anleitungssuche, Favoriten und Konto. Die Suche umfasst standardmäßig alle Anleitungen; Sie können nach kostenlos oder kostenpflichtig, Technik, Kategorie und Sprache filtern sowie die Sortierung wählen. Tippen Sie auf eine Anleitung, um eine Vorschau anzuzeigen, sie als Favorit zu speichern oder zu entfernen oder die offiziellen Details auf Ravelry zu öffnen. Die Favoriten werden gemeinsam mit Discover in der App gespeichert; sie werden nicht zu Ihren Ravelry-Favoriten hinzugefügt. Direkt aus der Suche lassen sich nur kostenlose Anleitungen mit einer zugänglichen PDF importieren. Laden Sie Inhalte auf externen Websites selbst herunter und verwenden Sie anschließend den Dateiimport. Kostenpflichtige Anleitungen können als Favoriten gespeichert und ihre Quellen geöffnet werden; einen Kauf führen Sie selbst auf Ravelry durch. Bereits gekaufte Anleitungen mit Downloadberechtigung in Ihrer Bibliothek lassen sich weiterhin aus der Bibliothek importieren.
+Ravelry im Schnellstart der Startseite bietet Importieren, Bibliothek, Anleitungssuche, Favoriten und Konto. Die Suche umfasst standardmäßig alle Anleitungen; Sie können nach kostenlos oder kostenpflichtig, Technik, Kategorie und Sprache filtern sowie die Sortierung wählen. Tippen Sie auf eine Anleitung, um eine Vorschau anzuzeigen, sie als Favorit zu speichern oder zu entfernen oder die offiziellen Details auf Ravelry zu öffnen. Die Favoriten werden gemeinsam mit Discover in der App gespeichert; sie werden nicht zu Ihren Ravelry-Favoriten hinzugefügt. Direkt aus der Suche lassen sich nur kostenlose Anleitungen mit einer zugänglichen PDF importieren. Laden Sie Inhalte auf externen Websites selbst herunter und verwenden Sie anschließend den Dateiimport. Kostenpflichtige Anleitungen können als Favoriten gespeichert und ihre Quellen geöffnet werden; einen Kauf führen Sie selbst auf Ravelry durch. Bereits gekaufte Anleitungen mit Downloadberechtigung in Ihrer Bibliothek lassen sich weiterhin aus der Bibliothek importieren. Bereits importierte Anleitungen zeigen ein „Importiert“-Abzeichen, und der erste Menüeintrag öffnet direkt die zugehörigen Stricknotizen; die beim Import erstellte Notiz wird anschließend ebenfalls angeboten. Wenn die Bestätigungsseite ein herunterladbares PDF findet, kannst du auch „Nur Stricknotizen erstellen“ wählen, um Projekt und Fotos zu überspringen und den Reader direkt zu öffnen.
 
 Wenn die App vereinfachtes oder traditionelles Chinesisch verwendet, zeigt die Ravelry-Kontoseite diesen Netzwerkhinweis: In Festlandchina ist für die Anmeldung und Kontofreigabe bei Ravelry möglicherweise ein Hilfsmittel für den Netzwerkzugang nötig. Es wird nur während dieses Schritts benötigt; danach können Sie wieder Ihre gewohnte Verbindung nutzen.
 
@@ -66,7 +66,7 @@ Die zweite Schaltfläche oben links auf Home mit dem Sprechblasensymbol öffnet 
 
 ### Entdecken
 
-Discover präsentiert kuratierte Ravelry-Muster und genehmigte Community-Projekte. Durchsuchen Sie die Highlights im Banner und die drei vorgestellten Empfehlungen, wechseln Sie den Kanal für weitere Projekte und ziehen Sie sie nach unten, um sie zu aktualisieren. Tippe auf ein Bild, um weitere Fotos zu sehen, oder öffne eine Karte, um öffentliche Details anzuzeigen, sie als Favoriten zu markieren oder zu liken. Ravelry-Artikel können ihre Quelle öffnen oder importiert werden. Community-Projekte können als neue lokale Kopien zusammen mit den Fotos, Projektnotizen, Strickdiagrammen und Häkeldiagrammen importiert werden, die der Herausgeber ausdrücklich ausgewählt hat. Auf Ravelry-Karten kennzeichnet eine Kreditkarte oben rechts auf dem linken Titelbild kostenpflichtige Anleitungen; ein Geschenk steht für kostenlose Anleitungen. Bei unbekanntem Status erscheint kein Symbol.
+Discover präsentiert kuratierte Ravelry-Muster und genehmigte Community-Projekte. Durchsuchen Sie die Highlights im Banner und die drei vorgestellten Empfehlungen, wechseln Sie den Kanal für weitere Projekte und ziehen Sie sie nach unten, um sie zu aktualisieren. Tippe auf ein Bild, um weitere Fotos zu sehen, oder öffne eine Karte, um öffentliche Details anzuzeigen, sie als Favoriten zu markieren oder zu liken. Ravelry-Artikel können ihre Quelle öffnen oder importiert werden. Community-Projekte können als neue lokale Kopien zusammen mit den Fotos, Stricknotizen, Strickdiagrammen und Häkeldiagrammen importiert werden, die der Herausgeber ausdrücklich ausgewählt hat. Auf Ravelry-Karten kennzeichnet eine Kreditkarte oben rechts auf dem linken Titelbild kostenpflichtige Anleitungen; ein Geschenk steht für kostenlose Anleitungen. Bei unbekanntem Status erscheint kein Symbol.
 
 Auf dem iPad und bei aufgeklapptem iPhone Duo hat das obere Banner sowohl im Hoch- als auch im Querformat eine maximale Höhe; die drei Empfehlungen bleiben innerhalb einer zentrierten maximalen Breite, damit der Inhalt auf breiten Bildschirmen nicht zu groß wird. Der Leerraum neben den drei Empfehlungen wird mit einem verschwommenen Hintergrund auf Basis des Titelbilds der ersten Empfehlung gefüllt.
 
@@ -110,7 +110,7 @@ Die Details einer Schnittstrategie zeigen Beispiele, Leistungsgrenzen, den tats�
 
 Verwenden Sie das Menü "Mehr" oben rechts von Discover, um Favoriten, Likes und "Meine Einsendungen" zu öffnen, oder wählen Sie ein lokales Projekt aus der Liste der vorhandenen Projekte aus, das Sie veröffentlichen möchten. Das Menü "Projektdetails" Mehr" bietet auch eine Verknüpfung zum Veröffentlichen in Discover. Der Editor listet öffentliche Felder und gemeinsam teilbare Ressourcen auf; das erste ausgewählte Foto wird zum Cover und bis zu sechs Fotos können aufgenommen werden. Vor der Einreichung wird eine letzte Kartenvorschau angezeigt. Der Veröffentlichungseintrag ist für alle verfügbar, während die Übermittlung eines Projekts zur Überprüfung eine Mitgliedschaft erfordert. Es wird in einem ausgewählten Kanal nur nach Genehmigung des Administrators angezeigt. Ausgewählte Inhalte werden in die öffentliche CloudKit-Datenbank hochgeladen; Zähler, Garnbestand, privater Fortschritt und Musterentwürfe sind ausgeschlossen. Das Durchsuchen von Discover erfordert keine Ravelry-Autorisierung; der vorhandene Verbindungsfluss wird nur für Ravelry-Kontoinhalte oder Ravelry-Importe verwendet.
 
-Nur auf der Registerkarte "In Bearbeitung" von Home zeigt eine Projektkarte ein Ressourcen-Verknüpfungsmenü in der oberen rechten Ecke an, wenn sie Projektnotizen, Musterentwürfe, Strickdiagramme oder Häkeldiagramme verknüpft hat. Die Registerkarten "Alle" und andere Status" zeigen diese Verknüpfung nicht an. Projektnotizen erscheinen zuerst als direkte Aktionen; Musterentwürfe, Strickdiagramme und Häkeldiagramme bleiben in zusammengeklappten Untermenüs gruppiert. Wählen Sie einen Ressourcennamen aus, um ihn zu öffnen.
+Nur auf der Registerkarte "In Bearbeitung" von Home zeigt eine Projektkarte ein Ressourcen-Verknüpfungsmenü in der oberen rechten Ecke an, wenn sie Stricknotizen, Musterentwürfe, Strickdiagramme oder Häkeldiagramme verknüpft hat. Die Registerkarten "Alle" und andere Status" zeigen diese Verknüpfung nicht an. Stricknotizen erscheinen zuerst als direkte Aktionen; Musterentwürfe, Strickdiagramme und Häkeldiagramme bleiben in zusammengeklappten Untermenüs gruppiert. Wählen Sie einen Ressourcennamen aus, um ihn zu öffnen.
 
 ### Garn
 
@@ -122,7 +122,7 @@ Tippen Sie auf eine beliebige Stelle der Zusammenfassung im Kopf oder wählen Si
 
 ### Werkzeuge
 
-Werkzeuge enthält Strickdiagramme, Häkeldiagramme, Zähler, Projektnotizen, Farbwerkzeuge, Symbolbibliotheken und Taschenrechner. Hier erstellte Elemente können später mit einem Projekt verknüpft werden.
+Werkzeuge enthält Strickdiagramme, Häkeldiagramme, Zähler, Stricknotizen, Farbwerkzeuge, Symbolbibliotheken und Taschenrechner. Hier erstellte Elemente können später mit einem Projekt verknüpft werden.
 
 ### Einstellungen
 
@@ -183,7 +183,7 @@ Ein Projekt kann Folgendes speichern:
 - Art des Handwerks, Art des Projekts, Status und Abdeckungsinformationen.
 - Verknüpfte Garn- und Nutzungsmengen.
 - Ein oder mehrere Hauptzähler.
-- Projektnotizen, Strickdiagramme und Häkeldiagramme.
+- Stricknotizen, Strickdiagramme und Häkeldiagramme.
 - Empfohlene Techniken und Symbole, die tatsächlich von verknüpften Diagrammen verwendet werden.
 
 ### Weiterarbeiten
@@ -203,7 +203,7 @@ Mitglieder können ein Projekt zusammen mit verknüpften Garnen, Zählern, Diagr
 <a id="counter"></a>
 ### Zeit verbracht
 
-Der Strickzähler, die Projektnotizen, der Strickdiagramm-Editor und der Häkeldiagramm-Editor enthalten jeweils einen Timer-Eintrag. Starten Sie es manuell. Das Verlassen des Timer-Blatts stoppt es nicht, während das Verlassen des Moduls oder das Senden der App in den Hintergrund stoppt und die Sitzung wird gespeichert. Es kann jeweils nur ein Timer ausgeführt werden; das Starten eines anderen beendet zuerst die vorherige Sitzung.
+Der Strickzähler, die Stricknotizen, der Strickdiagramm-Editor und der Häkeldiagramm-Editor enthalten jeweils einen Timer-Eintrag. Starten Sie es manuell. Das Verlassen des Timer-Blatts stoppt es nicht, während das Verlassen des Moduls oder das Senden der App in den Hintergrund stoppt und die Sitzung wird gespeichert. Es kann jeweils nur ein Timer ausgeführt werden; das Starten eines anderen beendet zuerst die vorherige Sitzung.
 
 Wenn ein Modul von einem Projekt aus geöffnet wird, wird die Sitzung diesem Projekt automatisch zugewiesen. Eine Ressource, die von selbst geöffnet wird, verfügt über einen reinen Ressourcenverlauf und wird nicht rückwirkend zugewiesen. In den Projektdetails werden in Notes & Time die Gesamtsumme, die Modulaufschlüsselung und die letzten Sitzungen angezeigt. Wischen Sie eine Sitzung, um einen falschen Datensatz zu löschen. Abgeschlossene Sitzungen sind in `.lineopus`-Exporten enthalten.
 
@@ -228,7 +228,7 @@ Speichern Sie die aktuelle Zählregel als Planaufgabe und fügen Sie spätere Ab
 Jeder Zähler unterstützt drei Anzeigemodi:
 
 - **Strichdiagramm**: Verknüpfen Sie ein In-App-Rasterdiagramm und folgen Sie optional automatisch der aktuellen Zeile.
-- **Projektnotizen**: Verknüpfen Sie eine PDF- oder Bildnotiz im schreibgeschützten Modus und merken Sie sich die aktuelle Seite des Zählers.
+- **Stricknotizen**: Verknüpfen Sie eine PDF- oder Bildnotiz im schreibgeschützten Modus und merken Sie sich die aktuelle Seite des Zählers.
 - **Textanweisungen**: Schriftliche Schritte speichern und die Textgröße anpassen.
 
 ### Apple-Watch-Zusammenarbeit
@@ -268,14 +268,14 @@ In Debug-Builds kannst du gültige geschlossene Strickteile in 3D platzieren und
 
 Export stellt Gitter und ausgeklappte, nummerierte oder verborgene Tips separat ein. Speichern erhält offene Pfade, Beschriftungen, Reihenfolge und Papier. Jedes Dokument stellt Ansicht, Werkzeug, Auswahl und bestätigten Vergleich wieder her, ohne Befehle oder Rückgängig-Verlauf zu wiederholen. Schnitt- und Dateiliste teilen die zuletzt erfolgreich gespeicherte Gesamtvorschau, unabhängig vom letzten Zoom oder Leerbereich. Lesbare Altdaten bleiben erhalten; Unbekanntes wird nicht leer überschrieben.
 
-Während der Beta sind alle integrierten Strategien kostenlos: Basisweste, Drop-Shoulder-Pullover und leeres Schnittteil. Kandidatenstrategien (Raglan, Cardigan, Rund-/Eckpasse, eingesetzter Ärmel, Bias) sind vorübergehend ausgeblendet; bestehende Projekte bleiben offen, können aber nicht aus dem Katalog neu erstellt werden. Lokale/importierte Strategien, eigene Vorlagen und Autorenwerkzeuge bleiben Mitgliedsfunktionen. Die Vorbereitung ist kostenlos; beim Erstellen von Schriften und Zählern wird die Mitgliedschaft geprüft. Designbild- und Tech-Pack-PDF-Export sind kostenlos. Mehrere Voreinstellungen sowie Paketimport/-export bleiben Mitgliedsfunktionen.
+Während der Beta sind alle integrierten Strategien kostenlos: Basisweste, Drop-Shoulder-Pullover und leeres Schnittteil. Kandidatenstrategien (Raglan, Cardigan, Rund-/Eckpasse, eingesetzter Ärmel, Bias) sind vorübergehend ausgeblendet; bestehende Projekte bleiben offen, können aber nicht aus dem Katalog neu erstellt werden. Lokale/importierte Strategien können ohne Mitgliedschaft einzeln freigeschaltet oder mit einer aktiven Mitgliedschaft genutzt werden; eigene Vorlagen und Autorenwerkzeuge bleiben Mitgliedsfunktionen. Die Vorbereitung ist kostenlos; beim Erstellen von Schriften und Zählern wird die Mitgliedschaft geprüft. Designbild- und Tech-Pack-PDF-Export sind kostenlos. Mehrere Voreinstellungen sowie Paketimport/-export bleiben Mitgliedsfunktionen.
 
 In Debug-Builds können gültige 3D-Vorschauen mit einem Projekt gespeichert und wiederhergestellt werden, wenn Schnitt, Körper und Simulationsbedingungen weiterhin übereinstimmen. Geänderte Eingaben erfordern eine neue Simulation; fehlgeschlagene oder unvollständige Ergebnisse überschreiben die zuletzt gespeicherte gültige Vorschau nicht.
 
 <a id="knitting-chart"></a>
 ## Strickdiagramme
 
-Kostenlose Benutzer können bis zu 3 Strickdiagramme erstellen. Nach Erreichen von 3 erfordert das Erstellen oder Importieren eines weiteren Diagramms ein Abonnement; vorhandene Diagramme können weiterhin geöffnet und bearbeitet werden. Die bestehende Mitgliedschaftsregel für große Strickleinwände bleibt unverändert.
+Kostenlose Benutzer können bis zu 5 Strickdiagramme erstellen. Nach Erreichen von 5 erfordert das Erstellen oder Importieren eines weiteren Diagramms ein Abonnement; vorhandene Diagramme können weiterhin geöffnet und bearbeitet werden. Die bestehende Mitgliedschaftsregel für große Strickleinwände bleibt unverändert.
 
 Der Strickdiagrammeditor speichert Farben und Stichsymbole in Rasterzellen. Es eignet sich für Stichdiagramme, Strangfärbung, Kreuzstich und Pixelkunst.
 
@@ -345,7 +345,7 @@ Zu den Exportoptionen gehören Bilder und bearbeitbare Projektdateien; verwenden
 
 In Entdecken enthalten die integrierten Häkeldiagramme eine Schritt-für-Schritt-Anleitung. Öffne im Häkel-Editor die Anleitung, um die Arbeitsschritte zu lesen. Mit Zurück und Weiter wechselst du zwischen den Schritten; über Diagramm anzeigen siehst du die Symbole des aktuellen Schritts. Du kannst auch ein Symbol im Diagramm antippen, um den zugehörigen Schritt zu finden. Das Lesen der Anleitung ist unabhängig von den Projektzählern und ändert deren Werte nicht. Unter Alle Schritte kannst du die Schritte bearbeiten. Tippe oder ziehe beim Bearbeiten, um Diagrammelemente auszuwählen, und wähle anschließend Verknüpfung abschließen. Vorhandene Notizen in älteren Diagrammen bleiben lesbar. Wenn Maschen und Anordnung eines bereits gespeicherten integrierten Diagramms dem Original entsprechen, werden beim Öffnen der Anleitung auch dessen Schritte geladen.
 
-Kostenlose Benutzer können bis zu 3 Häkeldiagramme erstellen. Nach Erreichen von 3 erfordert das Erstellen oder Importieren eines weiteren Diagramms ein Abonnement, während vorhandene Diagramme zum Öffnen und Bearbeiten verfügbar sind.
+Kostenlose Benutzer können bis zu 5 Häkeldiagramme erstellen. Nach Erreichen von 5 erfordert das Erstellen oder Importieren eines weiteren Diagramms ein Abonnement, während vorhandene Diagramme zum Öffnen und Bearbeiten verfügbar sind.
 
 Der Häkeleditor verwendet eine kostenlose Leinwand und ist nicht auf das Strickraster beschränkt.
 
@@ -404,9 +404,9 @@ Abbrechen oder Zurückkehren ändert die Zeichenfläche nicht; klicken Sie auf �
 Jede tatsächliche Änderung benötigt nur einen Schritt zum Rückgängigmachen oder Wiederholen. Abgebrochene Auswahl und unveränderte Aktionen erzeugen keinen Schritt. Ergebnisse werden im Projekt gespeichert und verwenden den vorhandenen PNG/PDF-Export.
 
 <a id="knitting-notes"></a>
-## Projektnotizen
+## Stricknotizen
 
-Project Notes importiert PDF- oder Bildmuster und überlagert bearbeitbare Seitenelemente, ohne das Original-PDF neu zu schreiben.
+Stricknotizen importiert PDF- oder Bildmuster und überlagert bearbeitbare Seitenelemente, ohne das Original-PDF neu zu schreiben.
 
 - Erstellen Sie Notizen aus Kamera, Fotos oder Dateien.
 - Zoomen Sie, ändern Sie Seiten, verwenden Sie Miniaturansichten und fügen Sie Seiten-Tags hinzu.
@@ -415,7 +415,7 @@ Project Notes importiert PDF- oder Bildmuster und überlagert bearbeitbare Seite
 - Verwenden Sie Hilfszähler in einer Notiz.
 - Verknüpfen Sie Notizen mit einem Projekt oder Zähler.
 
-Projektnotizen haben einen eigenen detaillierten Leitfaden. Wählen Sie im Hilfecenter "Projektnotizen".
+Stricknotizen haben einen eigenen detaillierten Leitfaden. Wählen Sie im Hilfecenter "Stricknotizen".
 
 <a id="other-tools"></a>
 ## Andere Werkzeuge
@@ -447,7 +447,7 @@ Die Karte für das automatische Backup zeigt lokale Speicherzeit, Quellgerät un
 
 Verwenden Sie für ein vollständiges V3-Backup auf beiden Geräten dieselbe App-Version. Ältere Versionen können nur `kv.db` und `PDFAssets/` lesen, keine Pattern-Daten wiederherstellen und lehnen V2-`.lineopus`-Pakete ab.
 - `.pxproj` oder Strickprojektformate: editierbare Strickdiagramme.
-- PDF/Bilder: Quellen für Projektnotizen oder Freigabeausgaben.
+- PDF/Bilder: Quellen für Stricknotizen oder Freigabeausgaben.
 - Yarn CSV V2: Batch-Export erstellt einen Ordner mit einem Versionsmanifest, einer Garntabelle, einer Komponententabelle, einer Bildtabelle und Bilddateien. Die Kopfzeilen enthalten sowohl lokalisierte Namen als auch stabile Feld-IDs, so dass Pakete sprachübergreifend bearbeitet und importiert werden können. Import validiert das komplette Paket, bevor Datensätze geschrieben werden. Legacy-Dateien `line_list.csv` werden nicht mehr unterstützt.
 
 Ein vollständiges Projektpaket ist kein Ersatz für ein vollständiges Bibliotheks-Backup, und ein vollständiges Backup ist nicht für die gemeinsame Nutzung eines Projekts gedacht.
@@ -457,7 +457,7 @@ Ein vollständiges Projektpaket ist kein Ersatz für ein vollständiges Biblioth
 
 Grundlegendes Surfen und Zugriff auf bestehende Inhalte bleiben nach Möglichkeit verfügbar. Stapelübertragung, vollständige Projektpakete, höhere Erstellungszulagen und einige professionelle Bearbeitungsaktionen erfordern eine Mitgliedschaft. Die Botschaft, die am Punkt der Verwendung angezeigt wird, ist die aktuelle Quelle der Wahrheit.
 
-Nachdem Sie die Geräte gewechselt oder die App neu installiert haben, öffnen Sie die Mitgliedschaftsseite in den Einstellungen und verwenden Sie "Käufe wiederherstellen".
+Neue Benutzer erhalten beim Erstellen des ersten Projekts eine 7-tägige Vollzugriffs-Testphase. Es erfolgt keine automatische Abbuchung; nach Ablauf kehrt die App zur kostenlosen Version zurück. Nachdem Sie die Geräte gewechselt oder die App neu installiert haben, öffnen Sie die Mitgliedschaftsseite in den Einstellungen und verwenden Sie "Käufe wiederherstellen".
 
 <a id="settings-help"></a>
 ## Einstellungen und Hilfe

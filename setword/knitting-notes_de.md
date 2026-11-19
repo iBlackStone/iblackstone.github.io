@@ -3,7 +3,7 @@ Titel: Stricknotizen Hilfe
 lang: de
 ---
 
-Mit Knitting Notes können Sie PDF-Muster importieren und lesen und dann Lineale, Text, Bilder, Informationsnadeln, Pinselstriche und Zähler hinzufügen. Das Hinzufügen von Seitenelementen oder Zeichnungen ändert das Original-PDF nicht direkt.
+Mit Stricknotizen können Sie PDF-Muster importieren und lesen und dann Lineale, Text, Bilder, Informationsnadeln, Pinselstriche und Zähler hinzufügen. Das Hinzufügen von Seitenelementen oder Zeichnungen ändert das Original-PDF nicht direkt.
 
 ## Schnelle Navigation
 
@@ -28,7 +28,7 @@ Mit Knitting Notes können Sie PDF-Muster importieren und lesen und dann Lineale
 3. Die importierte Datei wird in der Projektliste "Stricknotizen" angezeigt.
 4. Tippen Sie auf das Projekt, um mit Ihrer vorherigen Leseposition und Ihrem Bearbeitungsstatus fortzufahren.
 
-Kostenlose Benutzer können bis zu einem Knitting Notes-Projekt erstellen. Das Löschen eines Projekts kann nicht rückgängig gemacht werden, also bestätigen Sie zuerst, dass Sie es nicht mehr benötigen.
+Kostenlose Benutzer können bis zu einem Stricknotizen-Projekt erstellen. Das Löschen eines Projekts kann nicht rückgängig gemacht werden, also bestätigen Sie zuerst, dass Sie es nicht mehr benötigen.
 
 ## Editor-Layout
 
@@ -76,7 +76,7 @@ Tippen Sie auf **Seiten**, um das Miniaturansichtsfeld zu öffnen:
 - Tippen Sie auf `...` auf der ausgewählten Miniaturansicht, um ein Label hinzuzufügen, zu bearbeiten oder zu löschen.
 - Jede Seite kann ein Etikett haben.
 
-Kostenlose Benutzer können bis zu zwei Seitenbeschriftungen erstellen. Vorhandene Etiketten können weiterhin bearbeitet oder gelöscht werden.
+Kostenlose Benutzer können bis zu drei Seitenbeschriftungen erstellen. Vorhandene Etiketten können weiterhin bearbeitet oder gelöscht werden.
 
 ## Seitenkomponenten hinzufügen
 
@@ -164,11 +164,11 @@ Das Hinzufügen neuer Pinselvoreinstellungen erfordert eine Mitgliedschaft. Stan
 
 ## Zeit verbracht
 
-Der untere Timer ist getrennt von den Zeilenzählern. Nachdem Sie es manuell gestartet haben, hält das Verwerfen des Blattes es am Laufen; das Verlassen von Projektnotizen oder das Senden der App in den Hintergrund stoppt und speichert es. Notizen, die von einem Projekt geöffnet wurden, weisen diesem Projekt die Sitzung zu, während eigenständige Notizen einen Verlauf nur mit Notizen beibehalten.
+Der untere Timer ist getrennt von den Zeilenzählern. Nachdem Sie es manuell gestartet haben, hält das Verwerfen des Blattes es am Laufen; das Verlassen von Stricknotizen oder das Senden der App in den Hintergrund stoppt und speichert es. Notizen, die von einem Projekt geöffnet wurden, weisen diesem Projekt die Sitzung zu, während eigenständige Notizen einen Verlauf nur mit Notizen beibehalten.
 
 ## Zähler
 
-Jedes Knitting Notes-Projekt enthält mindestens einen Zähler.
+Jedes Stricknotizen-Projekt enthält mindestens einen Zähler.
 
 - Tippen Sie auf die Zahl, um 1 hinzuzufügen.
 - Tippen Sie auf `-`, um 1 zu subtrahieren.
@@ -199,8 +199,8 @@ Kostenlose Benutzer können bis zu drei Zähler verwenden.
 Das untere Menü **Mehr** enthält freigegebene Einstellungen:
 
 - **Standardfarbe** wirkt sich auf Komponenten aus, die später hinzugefügt werden.
-- **Brush Manager** verwaltet Pinselvoreinstellungen, die von allen Knitting Notes-Projekten geteilt werden.
-- **Ruler Manager** verwaltet Lineal-Voreinstellungen, die von allen Knitting Notes-Projekten gemeinsam genutzt werden.
+- **Brush Manager** verwaltet Pinselvoreinstellungen, die von allen Stricknotizen-Projekten geteilt werden.
+- **Ruler Manager** verwaltet Lineal-Voreinstellungen, die von allen Stricknotizen-Projekten gemeinsam genutzt werden.
 
 Das Ändern einer freigegebenen Voreinstellung ändert nicht automatisch Komponenten oder Striche, die bereits hinzugefügt wurden.
 
@@ -213,7 +213,7 @@ Das Ändern einer freigegebenen Voreinstellung ändert nicht automatisch Kompone
 
 ## iCloud und mehrere Geräte
 
-Knitting Notes-Backups enthalten die Projektdatenbank, PDF-Dateien und PDF-bezogene Bildressourcen. Das vollständige Projekt wird erst auf einem anderen Gerät angezeigt, nachdem die iCloud-Synchronisierung oder Wiederherstellung der App abgeschlossen ist.
+Stricknotizen-Backups enthalten die Projektdatenbank, PDF-Dateien und PDF-bezogene Bildressourcen. Das vollständige Projekt wird erst auf einem anderen Gerät angezeigt, nachdem die iCloud-Synchronisierung oder Wiederherstellung der App abgeschlossen ist.
 
 Bitte beachten Sie:
 

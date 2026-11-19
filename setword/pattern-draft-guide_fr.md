@@ -55,7 +55,7 @@ Personne et références choisit mesures, images et copies indépendantes du gab
 <a id="membership"></a>
 ## Version gratuite et abonnement
 
-Pendant la bêta, les stratégies intégrées sont gratuites : gilet de base, pull à épaules tombantes et pièce vierge. Les stratégies candidates (raglan, gilet, empiècement rond/carré, manche montée, biais) sont masquées ; les projets existants restent ouvrables, sans création depuis le catalogue. Stratégies locales/importées, modèles personnels et outils de création restent réservés aux membres. La préparation est gratuite ; la création des grilles et compteurs vérifie l’abonnement. L’export de l’image et du PDF de fiche technique est gratuit. Les préréglages multiples et l’import/export de paquets restent réservés.
+Pendant la bêta, les stratégies intégrées sont gratuites : gilet de base, pull à épaules tombantes et pièce vierge. Les stratégies candidates (raglan, gilet, empiècement rond/carré, manche montée, biais) sont masquées ; les projets existants restent ouvrables, sans création depuis le catalogue. Les stratégies locales/importées peuvent être débloquées individuellement sans abonnement, ou utilisées avec un abonnement actif ; les modèles personnels et les outils de création restent réservés aux membres. La préparation est gratuite ; la création des grilles et compteurs vérifie l’abonnement. L’export de l’image et du PDF de fiche technique est gratuit. Les préréglages multiples et l’import/export de paquets restent réservés.
 
 
 <a id="evidence"></a>

@@ -9,6 +9,15 @@ lang: de
 
 > Für Funktionsvorschläge können Sie den Entwickler über Xiaohongshu am Ende der Feedback-Seite kontaktieren.
 
+### v2.1.12
+
+- Neue Benutzer können beim Erstellen des ersten Projekts eine 7-tägige Vollzugriffs-Testphase starten oder sie auf der Mitgliedschaftsseite anfordern. Vor Ablauf erscheint eine Erinnerung; danach bleiben bestehende Projekte und Notizen weiterhin les- und bearbeitbar
+- Kostenlose Benutzer können bis zu 5 Strickdiagramme, 5 Häkel-Diagramme und 3 Seitenbeschriftungen in Stricknotizen erstellen
+- Suche, Filter und Kalender der Garnverwaltung sowie das Löschen von Zählern und das Umschalten des Zählmodus sind jetzt kostenlos
+- Lokale/importierte Schnittmusterstrategien können einzeln freigeschaltet werden, ohne Mitgliedschaft; integrierte Strategien bleiben kostenlos
+- Die Mitgliedschaftsseite zeigt die Jahresersparnis klarer; Hinweise erscheinen von unten statt als wiederholte Dialoge
+- Bestehende Dauer- und Abonnementsmitglieder behalten ihre Vorteile, Laufzeiten und die Wiederherstellung von Käufen
+
 ### v2.1.11
 
 - Alle integrierten Schnittstrategien sind jetzt kostenlos. Kandidatenstrategien sind vorübergehend ausgeblendet; neue Projekte bieten Basisweste, Drop-Shoulder-Pullover und leeres Schnittteil.
@@ -155,13 +164,13 @@ Strickmustereditor
 
 ### V1.9.2~1.9.4
 
-- Ein integriertes Tutorial-Projekt für Lernprojekte, Zähler, Diagramme und Projektnotizen hinzugefügt.
+- Ein integriertes Tutorial-Projekt für Lernprojekte, Zähler, Diagramme und Stricknotizen hinzugefügt.
 
 - Vollständiger Projektpaketimport und -export hinzugefügt, einschließlich Garn, Diagrammen, PDFs und Bildern.
 
 - Verbesserte bildgestützte Strickdiagrammerstellung und PDF-Rasterkalibrierung.
 
-- Verbesserte Strick-, Häkel-, Zähler- und Projektnotiz-Workflows mit mehrsprachigen Anleitungen.
+- Verbesserte Strick-, Häkel-, Zähler- und Stricknotiz-Workflows mit mehrsprachigen Anleitungen.
 
 - Mehrere Import-, Anzeige- und Stabilitätsprobleme wurden behoben.
 

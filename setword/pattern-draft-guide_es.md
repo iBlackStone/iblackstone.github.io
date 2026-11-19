@@ -55,7 +55,7 @@ Persona y referencias permite elegir medidas, imágenes y copias independientes 
 <a id="membership"></a>
 ## Versión gratuita y membresía.
 
-Durante la beta, las estrategias integradas son gratuitas: chaleco básico, jersey de hombro caído y pieza en blanco. Las estrategias candidatas (raglán, chaqueta, canesú redondo/cuadrado, manga montada, bies) están ocultas; los proyectos existentes se abren, pero no se crean desde el catálogo. Estrategias locales/importadas, plantillas y herramientas de autor siguen siendo para miembros. La preparación es gratuita; crear gráficos y contadores comprueba la suscripción. Exportar la imagen y el PDF de ficha técnica es gratis. Los ajustes múltiples y la importación/exportación de paquetes siguen siendo para miembros.
+Durante la beta, las estrategias integradas son gratuitas: chaleco básico, jersey de hombro caído y pieza en blanco. Las estrategias candidatas (raglán, chaqueta, canesú redondo/cuadrado, manga montada, bies) están ocultas; los proyectos existentes se abren, pero no se crean desde el catálogo. Las estrategias locales/importadas se pueden desbloquear individualmente sin membresía, o usar con una membresía activa; las plantillas y las herramientas de autor siguen siendo para miembros. La preparación es gratuita; crear gráficos y contadores comprueba la suscripción. Exportar la imagen y el PDF de ficha técnica es gratis. Los ajustes múltiples y la importación/exportación de paquetes siguen siendo para miembros.
 
 
 <a id="evidence"></a>
